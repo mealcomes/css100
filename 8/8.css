@@ -1,0 +1,54 @@
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+  background: #000;
+  color: #fff;
+  filter: contrast(200);
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.ball-1 {
+  position: relative;
+  width: 45px;
+  height: 45px;
+  background: #fff;
+  border-radius: 50%;
+  animation: rotate 3s linear infinite;
+  transform-origin: 22.5px 0;
+  filter: blur(10px);
+}
+
+.ball-2 {
+  position: relative;
+  width: 45px;
+  height: 45px;
+  background: #fff;
+  border-radius: 50%;
+  transform-origin: 22.5px 45px;
+  animation: rotate 3s linear infinite;
+  filter: blur(10px);
+}
+
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,702 @@
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+  background: #4C4C4C;
+  color: #fff;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 250px;
+  height: 250px;
+  border-radius: 100%;
+  background-color: #242424;
+  box-shadow: 0 0 0 10px #3A3A3A;
+}
+.center .spin {
+  position: absolute;
+  width: 240px;
+  height: 240px;
+  top: 50%;
+  left: 50%;
+  border-radius: 100%;
+  transform: translate(-50%, -50%);
+}
+.center .spin circle {
+  stroke-width: 3px;
+  fill: transparent;
+  cx: 50%;
+  cy: 50%;
+  r: 49%;
+  stroke: #e44545;
+  stroke-dasharray: 753;
+  stroke-dashoffset: 753;
+  transform: rotate(-90deg);
+  transform-origin: center;
+  animation: bar 4s linear infinite forwards;
+}
+.center .point-set-1 {
+  position: absolute;
+  top: 14px;
+  left: calc(50% - 1px);
+}
+.center .point-set-1 .point-1 {
+  position: absolute;
+  transform-origin: 1px 111px;
+  width: 2px;
+  height: 2px;
+  border-radius: 100%;
+  background-color: white;
+  transform: rotate(0deg);
+}
+.center .point-set-1 .point-2 {
+  position: absolute;
+  transform-origin: 1px 111px;
+  width: 2px;
+  height: 2px;
+  border-radius: 100%;
+  background-color: white;
+  transform: rotate(6deg);
+}
+.center .point-set-1 .point-3 {
+  position: absolute;
+  transform-origin: 1px 111px;
+  width: 2px;
+  height: 2px;
+  border-radius: 100%;
+  background-color: white;
+  transform: rotate(12deg);
+}
+.center .point-set-1 .point-4 {
+  position: absolute;
+  transform-origin: 1px 111px;
+  width: 2px;
+  height: 2px;
+  border-radius: 100%;
+  background-color: white;
+  transform: rotate(18deg);
+}
+.center .point-set-1 .point-5 {
+  position: absolute;
+  transform-origin: 1px 111px;
+  width: 2px;
+  height: 2px;
+  border-radius: 100%;
+  background-color: white;
+  transform: rotate(24deg);
+}
+.center .point-set-1 .point-6 {
+  position: absolute;
+  transform-origin: 1px 111px;
+  width: 2px;
+  height: 2px;
+  border-radius: 100%;
+  background-color: white;
+  transform: rotate(30deg);
+}
+.center .point-set-1 .point-7 {
+  position: absolute;
+  transform-origin: 1px 111px;
+  width: 2px;
+  height: 2px;
+  border-radius: 100%;
+  background-color: white;
+  transform: rotate(36deg);
+}
+.center .point-set-1 .point-8 {
+  position: absolute;
+  transform-origin: 1px 111px;
+  width: 2px;
+  height: 2px;
+  border-radius: 100%;
+  background-color: white;
+  transform: rotate(42deg);
+}
+.center .point-set-1 .point-9 {
+  position: absolute;
+  transform-origin: 1px 111px;
+  width: 2px;
+  height: 2px;
+  border-radius: 100%;
+  background-color: white;
+  transform: rotate(48deg);
+}
+.center .point-set-1 .point-10 {
+  position: absolute;
+  transform-origin: 1px 111px;
+  width: 2px;
+  height: 2px;
+  border-radius: 100%;
+  background-color: white;
+  transform: rotate(54deg);
+}
+.center .point-set-1 .point-11 {
+  position: absolute;
+  transform-origin: 1px 111px;
+  width: 2px;
+  height: 2px;
+  border-radius: 100%;
+  background-color: white;
+  transform: rotate(60deg);
+}
+.center .point-set-1 .point-12 {
+  position: absolute;
+  transform-origin: 1px 111px;
+  width: 2px;
+  height: 2px;
+  border-radius: 100%;
+  background-color: white;
+  transform: rotate(66deg);
+}
+.center .point-set-1 .point-13 {
+  position: absolute;
+  transform-origin: 1px 111px;
+  width: 2px;
+  height: 2px;
+  border-radius: 100%;
+  background-color: white;
+  transform: rotate(72deg);
+}
+.center .point-set-1 .point-14 {
+  position: absolute;
+  transform-origin: 1px 111px;
+  width: 2px;
+  height: 2px;
+  border-radius: 100%;
+  background-color: white;
+  transform: rotate(78deg);
+}
+.center .point-set-1 .point-15 {
+  position: absolute;
+  transform-origin: 1px 111px;
+  width: 2px;
+  height: 2px;
+  border-radius: 100%;
+  background-color: white;
+  transform: rotate(84deg);
+}
+.center .point-set-2 {
+  position: absolute;
+  top: calc(50% - 1px);
+  right: 16px;
+}
+.center .point-set-2 .point-1 {
+  position: absolute;
+  transform-origin: -109px 1px;
+  width: 2px;
+  height: 2px;
+  border-radius: 100%;
+  background-color: white;
+  transform: rotate(0deg);
+}
+.center .point-set-2 .point-2 {
+  position: absolute;
+  transform-origin: -109px 1px;
+  width: 2px;
+  height: 2px;
+  border-radius: 100%;
+  background-color: white;
+  transform: rotate(6deg);
+}
+.center .point-set-2 .point-3 {
+  position: absolute;
+  transform-origin: -109px 1px;
+  width: 2px;
+  height: 2px;
+  border-radius: 100%;
+  background-color: white;
+  transform: rotate(12deg);
+}
+.center .point-set-2 .point-4 {
+  position: absolute;
+  transform-origin: -109px 1px;
+  width: 2px;
+  height: 2px;
+  border-radius: 100%;
+  background-color: white;
+  transform: rotate(18deg);
+}
+.center .point-set-2 .point-5 {
+  position: absolute;
+  transform-origin: -109px 1px;
+  width: 2px;
+  height: 2px;
+  border-radius: 100%;
+  background-color: white;
+  transform: rotate(24deg);
+}
+.center .point-set-2 .point-6 {
+  position: absolute;
+  transform-origin: -109px 1px;
+  width: 2px;
+  height: 2px;
+  border-radius: 100%;
+  background-color: white;
+  transform: rotate(30deg);
+}
+.center .point-set-2 .point-7 {
+  position: absolute;
+  transform-origin: -109px 1px;
+  width: 2px;
+  height: 2px;
+  border-radius: 100%;
+  background-color: white;
+  transform: rotate(36deg);
+}
+.center .point-set-2 .point-8 {
+  position: absolute;
+  transform-origin: -109px 1px;
+  width: 2px;
+  height: 2px;
+  border-radius: 100%;
+  background-color: white;
+  transform: rotate(42deg);
+}
+.center .point-set-2 .point-9 {
+  position: absolute;
+  transform-origin: -109px 1px;
+  width: 2px;
+  height: 2px;
+  border-radius: 100%;
+  background-color: white;
+  transform: rotate(48deg);
+}
+.center .point-set-2 .point-10 {
+  position: absolute;
+  transform-origin: -109px 1px;
+  width: 2px;
+  height: 2px;
+  border-radius: 100%;
+  background-color: white;
+  transform: rotate(54deg);
+}
+.center .point-set-2 .point-11 {
+  position: absolute;
+  transform-origin: -109px 1px;
+  width: 2px;
+  height: 2px;
+  border-radius: 100%;
+  background-color: white;
+  transform: rotate(60deg);
+}
+.center .point-set-2 .point-12 {
+  position: absolute;
+  transform-origin: -109px 1px;
+  width: 2px;
+  height: 2px;
+  border-radius: 100%;
+  background-color: white;
+  transform: rotate(66deg);
+}
+.center .point-set-2 .point-13 {
+  position: absolute;
+  transform-origin: -109px 1px;
+  width: 2px;
+  height: 2px;
+  border-radius: 100%;
+  background-color: white;
+  transform: rotate(72deg);
+}
+.center .point-set-2 .point-14 {
+  position: absolute;
+  transform-origin: -109px 1px;
+  width: 2px;
+  height: 2px;
+  border-radius: 100%;
+  background-color: white;
+  transform: rotate(78deg);
+}
+.center .point-set-2 .point-15 {
+  position: absolute;
+  transform-origin: -109px 1px;
+  width: 2px;
+  height: 2px;
+  border-radius: 100%;
+  background-color: white;
+  transform: rotate(84deg);
+}
+.center .point-set-3 {
+  position: absolute;
+  bottom: 16px;
+  left: calc(50% - 1px);
+}
+.center .point-set-3 .point-1 {
+  position: absolute;
+  transform-origin: 1px -109px;
+  width: 2px;
+  height: 2px;
+  border-radius: 100%;
+  background-color: white;
+  transform: rotate(0deg);
+}
+.center .point-set-3 .point-2 {
+  position: absolute;
+  transform-origin: 1px -109px;
+  width: 2px;
+  height: 2px;
+  border-radius: 100%;
+  background-color: white;
+  transform: rotate(6deg);
+}
+.center .point-set-3 .point-3 {
+  position: absolute;
+  transform-origin: 1px -109px;
+  width: 2px;
+  height: 2px;
+  border-radius: 100%;
+  background-color: white;
+  transform: rotate(12deg);
+}
+.center .point-set-3 .point-4 {
+  position: absolute;
+  transform-origin: 1px -109px;
+  width: 2px;
+  height: 2px;
+  border-radius: 100%;
+  background-color: white;
+  transform: rotate(18deg);
+}
+.center .point-set-3 .point-5 {
+  position: absolute;
+  transform-origin: 1px -109px;
+  width: 2px;
+  height: 2px;
+  border-radius: 100%;
+  background-color: white;
+  transform: rotate(24deg);
+}
+.center .point-set-3 .point-6 {
+  position: absolute;
+  transform-origin: 1px -109px;
+  width: 2px;
+  height: 2px;
+  border-radius: 100%;
+  background-color: white;
+  transform: rotate(30deg);
+}
+.center .point-set-3 .point-7 {
+  position: absolute;
+  transform-origin: 1px -109px;
+  width: 2px;
+  height: 2px;
+  border-radius: 100%;
+  background-color: white;
+  transform: rotate(36deg);
+}
+.center .point-set-3 .point-8 {
+  position: absolute;
+  transform-origin: 1px -109px;
+  width: 2px;
+  height: 2px;
+  border-radius: 100%;
+  background-color: white;
+  transform: rotate(42deg);
+}
+.center .point-set-3 .point-9 {
+  position: absolute;
+  transform-origin: 1px -109px;
+  width: 2px;
+  height: 2px;
+  border-radius: 100%;
+  background-color: white;
+  transform: rotate(48deg);
+}
+.center .point-set-3 .point-10 {
+  position: absolute;
+  transform-origin: 1px -109px;
+  width: 2px;
+  height: 2px;
+  border-radius: 100%;
+  background-color: white;
+  transform: rotate(54deg);
+}
+.center .point-set-3 .point-11 {
+  position: absolute;
+  transform-origin: 1px -109px;
+  width: 2px;
+  height: 2px;
+  border-radius: 100%;
+  background-color: white;
+  transform: rotate(60deg);
+}
+.center .point-set-3 .point-12 {
+  position: absolute;
+  transform-origin: 1px -109px;
+  width: 2px;
+  height: 2px;
+  border-radius: 100%;
+  background-color: white;
+  transform: rotate(66deg);
+}
+.center .point-set-3 .point-13 {
+  position: absolute;
+  transform-origin: 1px -109px;
+  width: 2px;
+  height: 2px;
+  border-radius: 100%;
+  background-color: white;
+  transform: rotate(72deg);
+}
+.center .point-set-3 .point-14 {
+  position: absolute;
+  transform-origin: 1px -109px;
+  width: 2px;
+  height: 2px;
+  border-radius: 100%;
+  background-color: white;
+  transform: rotate(78deg);
+}
+.center .point-set-3 .point-15 {
+  position: absolute;
+  transform-origin: 1px -109px;
+  width: 2px;
+  height: 2px;
+  border-radius: 100%;
+  background-color: white;
+  transform: rotate(84deg);
+}
+.center .point-set-4 {
+  position: absolute;
+  top: calc(50% - 1px);
+  left: 14px;
+}
+.center .point-set-4 .point-1 {
+  position: absolute;
+  transform-origin: 111px 1px;
+  width: 2px;
+  height: 2px;
+  border-radius: 100%;
+  background-color: white;
+  transform: rotate(0deg);
+}
+.center .point-set-4 .point-2 {
+  position: absolute;
+  transform-origin: 111px 1px;
+  width: 2px;
+  height: 2px;
+  border-radius: 100%;
+  background-color: white;
+  transform: rotate(6deg);
+}
+.center .point-set-4 .point-3 {
+  position: absolute;
+  transform-origin: 111px 1px;
+  width: 2px;
+  height: 2px;
+  border-radius: 100%;
+  background-color: white;
+  transform: rotate(12deg);
+}
+.center .point-set-4 .point-4 {
+  position: absolute;
+  transform-origin: 111px 1px;
+  width: 2px;
+  height: 2px;
+  border-radius: 100%;
+  background-color: white;
+  transform: rotate(18deg);
+}
+.center .point-set-4 .point-5 {
+  position: absolute;
+  transform-origin: 111px 1px;
+  width: 2px;
+  height: 2px;
+  border-radius: 100%;
+  background-color: white;
+  transform: rotate(24deg);
+}
+.center .point-set-4 .point-6 {
+  position: absolute;
+  transform-origin: 111px 1px;
+  width: 2px;
+  height: 2px;
+  border-radius: 100%;
+  background-color: white;
+  transform: rotate(30deg);
+}
+.center .point-set-4 .point-7 {
+  position: absolute;
+  transform-origin: 111px 1px;
+  width: 2px;
+  height: 2px;
+  border-radius: 100%;
+  background-color: white;
+  transform: rotate(36deg);
+}
+.center .point-set-4 .point-8 {
+  position: absolute;
+  transform-origin: 111px 1px;
+  width: 2px;
+  height: 2px;
+  border-radius: 100%;
+  background-color: white;
+  transform: rotate(42deg);
+}
+.center .point-set-4 .point-9 {
+  position: absolute;
+  transform-origin: 111px 1px;
+  width: 2px;
+  height: 2px;
+  border-radius: 100%;
+  background-color: white;
+  transform: rotate(48deg);
+}
+.center .point-set-4 .point-10 {
+  position: absolute;
+  transform-origin: 111px 1px;
+  width: 2px;
+  height: 2px;
+  border-radius: 100%;
+  background-color: white;
+  transform: rotate(54deg);
+}
+.center .point-set-4 .point-11 {
+  position: absolute;
+  transform-origin: 111px 1px;
+  width: 2px;
+  height: 2px;
+  border-radius: 100%;
+  background-color: white;
+  transform: rotate(60deg);
+}
+.center .point-set-4 .point-12 {
+  position: absolute;
+  transform-origin: 111px 1px;
+  width: 2px;
+  height: 2px;
+  border-radius: 100%;
+  background-color: white;
+  transform: rotate(66deg);
+}
+.center .point-set-4 .point-13 {
+  position: absolute;
+  transform-origin: 111px 1px;
+  width: 2px;
+  height: 2px;
+  border-radius: 100%;
+  background-color: white;
+  transform: rotate(72deg);
+}
+.center .point-set-4 .point-14 {
+  position: absolute;
+  transform-origin: 111px 1px;
+  width: 2px;
+  height: 2px;
+  border-radius: 100%;
+  background-color: white;
+  transform: rotate(78deg);
+}
+.center .point-set-4 .point-15 {
+  position: absolute;
+  transform-origin: 111px 1px;
+  width: 2px;
+  height: 2px;
+  border-radius: 100%;
+  background-color: white;
+  transform: rotate(84deg);
+}
+.center .info {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 100px;
+  width: 100px;
+  transform: translate(-50%, -50%);
+}
+.center .date {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  text-transform: uppercase;
+  text-wrap: nowrap;
+  font-size: 12px;
+}
+.center .time {
+  position: absolute;
+  width: 100%;
+  top: 10px;
+  font-size: 40px;
+  font-weight: 500;
+}
+.center .beat {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  width: 30px;
+  height: 20px;
+  font-size: 12px;
+}
+.center .beat .heart {
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  left: 5px;
+  top: calc(50% - 2.8px);
+  background-color: red;
+  transform: rotate(45deg);
+  animation: beat 1s ease-in-out infinite;
+}
+.center .beat .heart::after {
+  content: "";
+  position: absolute;
+  top: -3.5px;
+  left: 0;
+  width: 7px;
+  height: 7px;
+  border-radius: 100%;
+  background-color: red;
+}
+.center .beat .heart::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -3.5px;
+  width: 7px;
+  height: 7px;
+  border-radius: 100%;
+  background-color: red;
+}
+.center .beat .count {
+  position: absolute;
+  right: 0;
+  line-height: 20px;
+}
+.center .energy {
+  position: absolute;
+  top: 60px;
+  right: 0;
+  height: 20px;
+  line-height: 20px;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+@keyframes bar {
+  0% {
+    stroke-dashoffset: 753;
+  }
+  50% {
+    stroke-dashoffset: 0;
+  }
+  100% {
+    stroke-dashoffset: -753;
+  }
+}
+@keyframes beat {
+  0% {
+    transform: scale(1) rotate(45deg);
+  }
+  30% {
+    transform: scale(0.7) rotate(45deg);
+  }
+}/*# sourceMappingURL=10.css.map */

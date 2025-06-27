@@ -1,0 +1,285 @@
+.frame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -200px;
+    border-radius: 5px;
+    box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+    background: #46A6DA;
+    color: #fff;
+    overflow: hidden;
+}
+
+
+.circle,
+.octagon {
+    position: absolute;
+    top: calc(50% - 50px);
+    left: calc(50% - 50px);
+    height: 100px;
+    width: 100px;
+    fill: #fff;
+}
+
+.triangle {
+    position: absolute;
+    top: calc(50% - 45px);
+    left: calc(50% - 53px);
+    width: 106px;
+    height: 90px;
+    fill: #fff;
+    transform: scale(0);
+    animation: triangle 5s ease-in-out infinite;
+}
+
+.octagon {
+    transform: scale(0);
+    animation: octagon 5s ease-in-out infinite;
+}
+
+.circle {
+    transform: translateY(-250px);
+    transform-origin: 50% 50%;
+    animation: circle 5s ease-in-out infinite;
+}
+
+.circle-ring {
+    position: absolute;
+    top: calc(50% - 83px);
+    left: calc(50% - 83px);
+    height: 160px;
+    width: 160px;
+    border-radius: 100%;
+    border: white solid 3px;
+    animation: circle-ring 5s ease-in-out infinite;
+}
+
+.sparkle {
+    position: absolute;
+    width: 35px;
+    height: 5px;
+    border-radius: 5px;
+    background-color: #E4F2FA;
+}
+
+.octa-sparkles {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    top: calc(50% - 125px);
+    left: calc(50% - 125px);
+    animation: octagon-sparkle 5s ease-in-out infinite;
+
+    .sparkle {
+        top: 122.5px;
+        box-shadow: 215px 0px #BCDFF2;
+        transform-origin: 125px 50%;
+    }
+
+    .s2 {
+        transform: rotate(45deg);
+    }
+
+    .s3 {
+        transform: rotate(90deg);
+    }
+
+    .s4 {
+        transform: rotate(-45deg);
+    }
+}
+
+.triangle-sparkles {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    top: calc(50% - 125px);
+    left: calc(50% - 125px);
+    animation: triangle-sparkle 5s ease-in-out infinite;
+
+    .sparkle {
+        width: 5px;
+        height: 35px;
+        top: 14px;
+        left: 122.5px;
+        transform-origin: 50% 125px;
+    }
+
+    .s2 {
+        transform: rotate(120deg);
+    }
+
+    .s3 {
+        transform: rotate(-120deg);
+    }
+}
+
+@keyframes circle {
+    6% {
+        transform: translateY(50px) scaleY(0.9);
+    }
+
+    10% {
+        transform: translateY(-40px) scaleY(1.1);
+    }
+
+    15% {
+        transform: translateY(10px) scaleY(0.9);
+    }
+
+    17%,
+    20% {
+        transform: translateY(0) scaleY(1);
+    }
+
+    25% {
+        transform: scale(1.2);
+    }
+
+    32%,
+    73% {
+        transform: scale(0);
+    }
+
+    77% {
+        transform: scale(1.2);
+    }
+
+    81% {
+        transform: scale(0.9);
+    }
+
+    83%,
+    85% {
+        transform: scale(1);
+    }
+
+    89% {
+        transform: translateY(-30px) scale(1);
+    }
+
+    97%,
+    100% {
+        transform: translateY(250px) scale(1);
+        ;
+    }
+}
+
+@keyframes circle-ring {
+
+    0%,
+    73% {
+        transform: scale(0);
+        opacity: 1;
+    }
+
+    77% {
+        transform: scale(1);
+    }
+
+    79%,
+    100% {
+        transform: scale(1);
+        opacity: 0;
+    }
+}
+
+@keyframes octagon {
+
+    0%,
+    32% {
+        transform: scale(0) rotate(22.5deg);
+    }
+
+    37% {
+        transform: scale(1.2) rotate(22.5deg);
+    }
+
+    39% {
+        transform: scale(0.9) rotate(22.5deg);
+    }
+
+    41%,
+    43% {
+        transform: scale(1) rotate(22.5deg);
+    }
+
+    47% {
+        transform: scale(1.2) rotate(22.5deg);
+    }
+
+    51% {
+        transform: scale(0) rotate(22.5deg);
+    }
+}
+
+@keyframes octagon-sparkle {
+
+    0%,
+    32% {
+        transform: scale(0);
+        opacity: 1;
+    }
+
+    37% {
+        transform: scale(1);
+    }
+
+    39%,
+    100% {
+        transform: scale(1);
+        opacity: 0;
+    }
+
+}
+
+@keyframes triangle {
+
+    0%,
+    51% {
+        transform: scale(0);
+    }
+
+    55% {
+        transform: scale(1.2);
+    }
+
+    59% {
+        transform: scale(0.9);
+    }
+
+    61%,
+    65% {
+        transform: scale(1);
+    }
+
+    69% {
+        transform: scale(1.2);
+    }
+
+    73% {
+        transform: scale(0);
+    }
+}
+
+@keyframes triangle-sparkle {
+
+    0%,
+    51% {
+        transform: scale(0);
+        opacity: 1;
+    }
+
+    55% {
+        transform: scale(1);
+    }
+
+    57%,
+    100% {
+        transform: scale(1);
+        opacity: 0;
+    }
+}

@@ -1,0 +1,231 @@
+.frame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -200px;
+    border-radius: 2px;
+    box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+    background: #4C4C4C;
+    color: #fff;
+}
+
+$point-d: 2px;
+$heart-w: 7px;
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    background-color: #242424;
+    box-shadow: 0 0 0 10px #3A3A3A;
+
+    .spin {
+        position: absolute;
+        width: 240px;
+        height: 240px;
+        top: 50%;
+        left: 50%;
+        border-radius: 100%;
+        transform: translate(-50%, -50%);
+
+        circle {
+            stroke-width: 3px;
+            fill: transparent;
+            cx: 50%;
+            cy: 50%;
+            r: 49%;
+            stroke: #e44545;
+            stroke-dasharray: 753;
+            stroke-dashoffset: 753;
+            transform: rotate(-90deg);
+            transform-origin: center;
+            animation: bar 4s linear infinite forwards;
+        }
+    }
+
+    .point-set-1 {
+        position: absolute;
+        top: calc(15px - $point-d / 2);
+        left: calc(50% - $point-d / 2);
+
+        @for $i from 1 through 15 {
+            .point-#{$i} {
+                position: absolute;
+                transform-origin: $point-d / 2 calc(110px + $point-d / 2);
+                width: $point-d;
+                height: $point-d;
+                border-radius: 100%;
+                background-color: white;
+                transform: rotate(#{6*($i - 1)}deg);
+            }
+        }
+    }
+
+    .point-set-2 {
+        position: absolute;
+        top: calc(50% - $point-d / 2);
+        right: calc(15px + $point-d / 2);
+
+        @for $i from 1 through 15 {
+            .point-#{$i} {
+                position: absolute;
+                transform-origin: calc(-110px + $point-d / 2) $point-d / 2;
+                width: $point-d;
+                height: $point-d;
+                border-radius: 100%;
+                background-color: white;
+                transform: rotate(#{6*($i - 1)}deg);
+            }
+        }
+    }
+
+    .point-set-3 {
+        position: absolute;
+        bottom: calc(15px + $point-d / 2);
+        left: calc(50% - $point-d / 2);
+
+        @for $i from 1 through 15 {
+            .point-#{$i} {
+                position: absolute;
+                transform-origin: $point-d / 2 calc(-110px + $point-d / 2);
+                width: $point-d;
+                height: $point-d;
+                border-radius: 100%;
+                background-color: white;
+                transform: rotate(#{6*($i - 1)}deg);
+            }
+        }
+    }
+
+    .point-set-4 {
+        position: absolute;
+        top: calc(50% - $point-d / 2);
+        left: calc(15px - $point-d / 2);
+
+        @for $i from 1 through 15 {
+            .point-#{$i} {
+                position: absolute;
+                transform-origin: calc(110px + $point-d / 2) $point-d / 2;
+                width: $point-d;
+                height: $point-d;
+                border-radius: 100%;
+                background-color: white;
+                transform: rotate(#{6*($i - 1)}deg);
+            }
+        }
+    }
+
+    .info {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        height: 100px;
+        width: 100px;
+        transform: translate(-50%, -50%);
+    }
+
+    .date {
+        position: absolute;
+        width: 100%;
+        top: 0;
+        text-transform: uppercase;
+        text-wrap: nowrap;
+        font-size: 12px;
+    }
+
+    .time {
+        position: absolute;
+        width: 100%;
+        top: 10px;
+        font-size: 40px;
+        font-weight: 500;
+    }
+
+    .beat {
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 30px;
+        height: 20px;
+        font-size: 12px;
+
+        .heart {
+            position: absolute;
+            width: $heart-w;
+            height: $heart-w;
+            left: 5px;
+            top: calc(50% - $heart-w * 0.40);
+            background-color: red;
+            transform: rotate(45deg);
+            animation: beat 1s ease-in-out infinite;
+
+            &::after {
+                content: '';
+                position: absolute;
+                top: calc($heart-w / 2 * -1);
+                left: 0;
+                width: $heart-w;
+                height: $heart-w;
+                border-radius: 100%;
+                background-color: red;
+            }
+
+            &::before {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: calc($heart-w / 2 * -1);
+                width: $heart-w;
+                height: $heart-w;
+                border-radius: 100%;
+                background-color: red;
+            }
+        }
+
+        .count {
+            position: absolute;
+            right: 0;
+            line-height: 20px;
+        }
+    }
+
+    .energy {
+        position: absolute;
+        top: 60px;
+        right: 0;
+        height: 20px;
+        line-height: 20px;
+        font-size: 12px;
+        text-transform: uppercase;
+    }
+}
+
+@keyframes bar {
+    0% {
+        stroke-dashoffset: 753;
+    }
+
+    50% {
+        stroke-dashoffset: 0;
+    }
+
+    100% {
+        stroke-dashoffset: -753;
+    }
+}
+
+@keyframes beat {
+    0% {
+        transform: scale(1) rotate(45deg);
+    }
+    30% {
+        transform: scale(0.7) rotate(45deg);
+    }
+}

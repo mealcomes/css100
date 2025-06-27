@@ -1,0 +1,38 @@
+.frame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -200px;
+    border-radius: 5px;
+    box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+    background: #2C3E50;
+    color: #000;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    .icon {
+        position: absolute;
+        transform: translate3d(0, 0, 0);
+        fill: none;
+        stroke-width: 2px;
+        stroke: #ecf0f1;
+        stroke-linecap: square;
+        stroke-dasharray: 325 325;
+
+        &.mail {
+            width: 120px;
+            height: 70px;
+            stroke-dashoffset: 0;
+            transition: stroke-dashoffset 1s ease-in-out;
+        }
+
+    }
+}

@@ -1,0 +1,123 @@
+.frame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -200px;
+    border-radius: 5px;
+    box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.center {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+
+    input[type='radio'] {
+        display: none;
+    }
+
+    .circle {
+        position: absolute;
+        box-sizing: border-box;
+        width: 50px;
+        height: 50px;
+        top: 175px;
+        border: 2px solid #fff;
+        border-radius: 50%;
+        cursor: pointer;
+        transition: all 1s ease;
+        z-index: 2;
+    }
+
+    #c1 {
+        left: 100px;
+    }
+
+    #c2 {
+        left: 175px;
+    }
+
+    #c3 {
+        left: 250px;
+    }
+
+    #check-1:checked {
+        ~.active {
+            transform: translateX(0px);
+        }
+
+        ~.bg {
+            transform: translateX(0px);
+        }
+    }
+
+    #check-2:checked {
+        ~.active {
+            transform: translateX(75px);
+        }
+
+        ~.bg {
+            transform: translateX(-400px);
+        }
+    }
+
+    #check-3:checked {
+        ~.active {
+            transform: translateX(150px);
+        }
+
+        ~.bg {
+            transform: translateX(-800px);
+        }
+    }
+
+    .active {
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        background-color: white;
+        border-radius: 100%;
+        left: 105px;
+        top: 180px;
+        transition: all .7s ease-in-out;
+        z-index: 2;
+    }
+
+    .bg {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 1200px;
+        height: 400px;
+        transition: all .7s ease-in-out;
+        transform: translateX(0);
+        z-index: 1;
+
+        .color {
+            position: absolute;
+            width: 400px;
+            height: 400px;
+            top: 0;
+        }
+
+        .first {
+            background-color: #9B59B6;
+            left: 0;
+        }
+
+        .second {
+            background-color: #3498DB;
+            left: 400px;
+        }
+
+        .third {
+            background-color: #1ABC9C;
+            left: 800px;
+        }
+    }
+}
