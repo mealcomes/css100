@@ -1,0 +1,169 @@
+.frame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -200px;
+    border-radius: 5px;
+    box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+    background: #243A47;
+    color: #fff;
+}
+
+.title {
+    position: absolute;
+    width: 150px;
+    top: 50px;
+    left: calc(50% - 75px);
+    text-transform: uppercase;
+    text-align: center;
+
+    .top {
+        font-size: 18px;
+        font-weight: 200;
+    }
+
+    .bottom {
+        font-size: 25px;
+        font-weight: 500;
+    }
+}
+
+.kcal {
+    position: absolute;
+    height: 110px;
+    width: 110px;
+    top: 140px;
+    left: calc(50% - 55px);
+
+    svg {
+        height: 110px;
+        width: 110px;
+        fill: none;
+    }
+
+    .kcal-ring-bg {
+        stroke-width: 10px;
+        stroke: #1B2A33;
+    }
+
+    .kcal-ring {
+        height: 110px;
+        width: 110px;
+        stroke: #27E1AE;
+        stroke-width: 10px;
+        stroke-linecap: round;
+        stroke-dasharray: 314 314;
+        stroke-dashoffset: 314;
+        transform: rotate(-90deg);
+        transform-origin: 50% 50%;
+        animation: kcal 1.5s ease-in-out forwards;
+    }
+
+    .txt {
+        .data {
+            font-size: 25px;
+        }
+
+        .label {
+            font-size: 14px;
+        }
+    }
+}
+
+.steps {
+    position: absolute;
+    height: 86px;
+    width: 86px;
+    top: 270px;
+    left: calc(50% - 120px);
+
+    svg {
+        height: 86px;
+        width: 86px;
+        fill: none;
+    }
+
+    .steps-ring-bg {
+        stroke-width: 6px;
+        stroke: #1B2A33;
+    }
+
+    .steps-ring {
+        height: 86px;
+        width: 86px;
+        stroke: #5CE1EC;
+        stroke-width: 6px;
+        stroke-linecap: round;
+        stroke-dasharray: 251 251;
+        stroke-dashoffset: 251;
+        transform: rotate(-90deg);
+        transform-origin: 50% 50%;
+        animation: steps 1.5s ease-in-out forwards;
+    }
+}
+
+.km {
+    position: absolute;
+    height: 86px;
+    width: 86px;
+    top: 270px;
+    right: calc(50% - 120px);
+
+    svg {
+        height: 86px;
+        width: 86px;
+        fill: none;
+    }
+
+    .km-ring-bg {
+        stroke-width: 6px;
+        stroke: #1B2A33;
+    }
+
+    .km-ring {
+        height: 86px;
+        width: 86px;
+        stroke: #5CE1EC;
+        stroke-width: 6px;
+        stroke-linecap: round;
+        stroke-dasharray: 251 251;
+        stroke-dashoffset: 251;
+        transform: rotate(-90deg);
+        transform-origin: 50% 50%;
+        animation: km 1.5s ease-in-out forwards;
+    }
+}
+
+.txt {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+    .label {
+        font-size: 12px;
+        color: #646A79;
+    }
+}
+
+@keyframes kcal {
+    to {
+        stroke-dashoffset: 50;
+    }
+}
+
+@keyframes steps {
+    to {
+        stroke-dashoffset: 80;
+    }
+}
+
+@keyframes km {
+    to {
+        stroke-dashoffset: 150;
+    }
+}
