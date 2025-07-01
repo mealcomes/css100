@@ -1,0 +1,158 @@
+.frame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -200px;
+    border-radius: 5px;
+    box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+    background: #57D895;
+    color: #fff;
+}
+
+
+
+.hidden {
+    display: none;
+
+    &:checked {
+        ~.button {
+            animation:
+                button .5s ease-in-out forwards,
+                button-fill .5s ease-in-out 1.5s forwards;
+
+            &::after {
+                animation: button-after 1s ease-in-out 1.5s forwards;
+            }
+
+            img {
+                animation: img .5s ease-in-out 1.5s forwards;
+            }
+        }
+
+        ~.circle {
+            animation: circle 1s ease-in-out .5s;
+        }
+    }
+}
+
+.button {
+    position: absolute;
+    box-sizing: border-box;
+    width: 240px;
+    height: 60px;
+    top: calc(50% - 32px);
+    left: calc(50% - 122px);
+    text-align: center;
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 60px;
+    border-radius: 30px;
+    border: #fff solid 2px;
+    transition: all .2s ease-in-out;
+    transform-origin: 50% 50%;
+    user-select: none;
+    cursor: pointer;
+
+    img {
+        position: absolute;
+        top: calc(50% - 12px);
+        left: calc(50% - 13.5px);
+        opacity: 0;
+    }
+
+    &:hover {
+        background-color: #37BE77;
+    }
+
+    &::after {
+        content: '';
+        position: absolute;
+        top: -2px;
+        left: -2px;
+        box-sizing: border-box;
+        width: 60px;
+        height: 60px;
+        border-radius: 100%;
+        border: #fff solid 2px;
+        opacity: 0;
+    }
+}
+
+.circle {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: calc(50% - 32px);
+    left: calc(50% - 32px);
+    fill: none;
+    border-radius: 30px;
+    stroke: #fff;
+    stroke-width: 2px;
+    stroke-dasharray: 189 189;
+    stroke-dashoffset: 189;
+    stroke-linecap: round;
+    pointer-events: none;
+    transform: rotate(-90deg);
+}
+
+@keyframes button {
+    0% {
+        width: 240px;
+        color: #fff;
+        left: calc(50% - 122px);
+    }
+
+    50% {
+        color: transparent;
+    }
+
+    100% {
+        width: 60px;
+        color: transparent;
+        background-color: transparent;
+        left: calc(50% - 32px);
+        border-color: #45B078;
+    }
+}
+
+@keyframes circle {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes button-after {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(2);
+        opacity: 0;
+    }
+}
+
+@keyframes button-fill {
+    0% {
+        background: transparent;
+        border-color: #fff;
+    }
+
+    100% {
+        background: #fff;
+    }
+}
+
+@keyframes img {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
