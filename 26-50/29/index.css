@@ -1,0 +1,210 @@
+.frame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -200px;
+    border-radius: 5px;
+    box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+    background-color: #5CA4EA;
+}
+
+.searchfield {
+    position: absolute;
+    height: 40px;
+    width: 200px;
+    top: calc(50% - 30px);
+    left: calc(50% - 120px);
+    outline: none;
+    box-sizing: border-box;
+    padding: 10px 10px;
+    font-size: 14px;
+    font-weight: 600;
+    background: #fff;
+    color: #4D8DCB;
+    border-radius: 0;
+    border: none;
+}
+
+.searchfield::placeholder {
+    color: #6B7280;
+    opacity: 1;
+}
+
+.searchfield::-webkit-input-placeholder {
+    color: #6B7280;
+}
+
+.searchfield::-moz-placeholder {
+    color: #6B7280;
+    opacity: 1;
+}
+
+.searchfield:-ms-input-placeholder {
+    color: #6B7280;
+}
+
+.searchfield::-ms-input-placeholder {
+    color: #6B7280;
+}
+
+.button {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: calc(50% - 30px);
+    right: calc(50% - 120px);
+    border: none;
+    background-color: #fff;
+    padding: 0 0;
+}
+
+.button:hover .search-icon .search-circle {
+    border-color: #b2daff;
+}
+
+.button:hover .search-icon .search-circle::after {
+    background-color: #b2daff;
+}
+
+.button .search-icon {
+    position: relative;
+    font-size: 21px;
+    color: #5CA4EA;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    width: 40px;
+    height: 100%;
+    margin: auto 0;
+}
+
+.button .search-icon .search-circle {
+    position: absolute;
+    box-sizing: border-box;
+    left: 50%;
+    top: 50%;
+    margin-left: -20%;
+    margin-top: -20%;
+    height: 35%;
+    width: 35%;
+    background-color: transparent;
+    border: #5CA4EA solid 3px;
+    border-radius: 50%;
+}
+
+.button .search-icon .search-circle::after {
+    content: "";
+    width: 8px;
+    height: 4px;
+    background-color: #5CA4EA;
+    position: absolute;
+    left: 80%;
+    top: 100%;
+    border-radius: 3px;
+    transform: rotate(45deg);
+}
+
+.suggestions {
+    position: absolute;
+    width: 240px;
+    max-height: 0;
+    background-color: white;
+    top: calc(50% + 10px);
+    left: calc(50% - 120px);
+    margin: 0;
+    padding-left: 0;
+    box-sizing: border-box;
+    border-top: #5CA4EA solid 1px;
+    overflow: auto;
+    transition: opacity 0.3s ease-in, max-height 0.3s ease-in;
+    opacity: 0;
+}
+
+.suggestions::-webkit-scrollbar {
+    display: none;
+}
+
+.suggestions.active {
+    opacity: 1;
+    max-height: 160px;
+}
+
+.suggestions li {
+    list-style: none;
+    padding: 10px;
+    font-size: 13px;
+    cursor: pointer;
+    color: #6E6E6E;
+}
+
+.suggestions li:nth-child(1).active {
+    animation: li-appear 0.3s ease-in-out backwards;
+    animation-delay: 0s;
+}
+
+.suggestions li:nth-child(2).active {
+    animation: li-appear 0.3s ease-in-out backwards;
+    animation-delay: 0.1s;
+}
+
+.suggestions li:nth-child(3).active {
+    animation: li-appear 0.3s ease-in-out backwards;
+    animation-delay: 0.2s;
+}
+
+.suggestions li:nth-child(4).active {
+    animation: li-appear 0.3s ease-in-out backwards;
+    animation-delay: 0.3s;
+}
+
+.suggestions li:nth-child(5).active {
+    animation: li-appear 0.3s ease-in-out backwards;
+    animation-delay: 0.4s;
+}
+
+.suggestions li:nth-child(6).active {
+    animation: li-appear 0.3s ease-in-out backwards;
+    animation-delay: 0.5s;
+}
+
+.suggestions li:nth-child(7).active {
+    animation: li-appear 0.3s ease-in-out backwards;
+    animation-delay: 0.6s;
+}
+
+.suggestions li:nth-child(8).active {
+    animation: li-appear 0.3s ease-in-out backwards;
+    animation-delay: 0.7s;
+}
+
+.suggestions li:nth-child(9).active {
+    animation: li-appear 0.3s ease-in-out backwards;
+    animation-delay: 0.8s;
+}
+
+.suggestions li:nth-child(10).active {
+    animation: li-appear 0.3s ease-in-out backwards;
+    animation-delay: 0.9s;
+}
+
+.suggestions li b {
+    word-break: break-word;
+}
+
+.suggestions li:hover {
+    background-color: #ECECEC;
+}
+
+@keyframes li-appear {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,156 @@
+.frame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -200px;
+    border-radius: 5px;
+    box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+    background: linear-gradient(to top right, #FDA231, #FDC931);
+}
+
+.card {
+    position: absolute;
+    width: 240px;
+    height: 280px;
+    top: calc(50% - 140px);
+    left: calc(50% - 120px);
+    border-radius: 3px;
+    box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+.time {
+    position: absolute;
+    width: 100%;
+    height: 79px;
+    top: 0;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 10px 0;
+
+    .week {
+        margin-top: 5px;
+        font-size: 20px;
+        font-weight: 500;
+        color: #456A7A;
+    }
+
+    .date {
+        font-size: 13px;
+        color: #497282;
+    }
+
+}
+
+.line {
+    position: absolute;
+    height: 1px;
+    width: 180px;
+    background-color: #D4DCE0;
+    top: 79px;
+    left: calc(50% - 90px);
+}
+
+.list {
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    bottom: 0;
+
+    ul {
+        font-size: 12px;
+        line-height: 18px;
+        text-align: center;
+        padding: 0 30px;
+
+        li {
+            position: relative;
+            display: block;
+            margin: 25.6px 0;
+            height: 18px;
+
+            input[type='checkbox'] {
+                display: none;
+
+                &:checked {
+                    ~.button {
+                        transform: scale(1.3);
+                        opacity: 0;
+                        transition: all .5s ease-in-out;
+                    }
+
+                    ~svg {
+                        stroke-dashoffset: 0;
+                        transition: stroke-dashoffset .5s ease-in-out .4s;
+                    }
+
+                    ~.text {
+                        color: #CFD4D9;
+                    }
+                }
+            }
+
+            .text {
+                position: absolute;
+                left: 0;
+                font-size: 13px;
+                color: #647C8B;
+                cursor: pointer;
+                transition: color .2s ease-in-out;
+            }
+
+            .button {
+                position: absolute;
+                right: 0;
+                width: 12px;
+                height: 12px;
+                border-radius: 100%;
+                border: #497383 solid 1px;
+                margin: 2px 0;
+                cursor: pointer;
+                transition: all .5s ease-in-out .4s;
+            }
+
+            svg {
+                position: absolute;
+                right: 0;
+                fill: none;
+                width: 14px;
+                height: 9px;
+                top: calc(50% - 4.5px);
+                stroke: #CAD4D9;
+                stroke-dasharray: 18 18;
+                stroke-dashoffset: 18;
+                pointer-events: none;
+                transition: stroke-dashoffset .5s ease-in-out;
+            }
+        }
+    }
+}
+
+@keyframes disappear {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(1.2);
+        opacity: 0;
+    }
+}
+
+@keyframes appear {
+    0% {
+        transform: scale(1.2);
+        opacity: 0;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}

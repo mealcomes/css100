@@ -1,0 +1,60 @@
+.frame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -200px;
+    border-radius: 5px;
+    box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+    background-color: #16A085;
+}
+
+.circle {
+    position: absolute;
+    box-sizing: border-box;
+    height: 10px;
+    width: 10px;
+    border: white solid 1px;
+    border-radius: 100%;
+    top: calc(50%);
+    left: calc(50% - 5px);
+    animation: circle 3s ease-in-out infinite;
+}
+
+.center {
+    position: absolute;
+    top: calc(50% - 32.5px);
+    left: calc(50% - 200px);
+
+    .line {
+        fill: none;
+        stroke: white;
+        stroke-width: 3px;
+        stroke-linecap: round;
+        stroke-dasharray: 40 590;
+        stroke-dashoffset: 630;
+        animation: line 3s linear infinite;
+    }
+}
+
+@keyframes line {
+    from {
+        stroke-dashoffset: 630;
+    }
+    to {
+        stroke-dashoffset: 40;
+    }
+}
+
+@keyframes circle {
+    0%,40% {
+        transform: scale(0);
+        opacity: 1;
+    }
+    60%,100% {
+        transform: scale(3);
+        opacity: 0;
+    }
+}
