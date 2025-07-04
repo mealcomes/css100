@@ -1,0 +1,241 @@
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 5px;
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+  background-color: #4C4BA2;
+}
+
+.ball-1 {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  top: 30px;
+  left: calc(50% - 6px + 50px);
+  background-color: white;
+  border-radius: 100%;
+  animation: move 0.5084745763s ease-in-out alternate infinite;
+}
+
+.ball-2 {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  top: 47.26px;
+  left: calc(50% - 6px + 50px);
+  background-color: white;
+  border-radius: 100%;
+  animation: move 0.5172413793s ease-in-out alternate infinite;
+}
+
+.ball-3 {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  top: 64.52px;
+  left: calc(50% - 6px + 50px);
+  background-color: white;
+  border-radius: 100%;
+  animation: move 0.5263157895s ease-in-out alternate infinite;
+}
+
+.ball-4 {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  top: 81.78px;
+  left: calc(50% - 6px + 50px);
+  background-color: white;
+  border-radius: 100%;
+  animation: move 0.5357142857s ease-in-out alternate infinite;
+}
+
+.ball-5 {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  top: 99.04px;
+  left: calc(50% - 6px + 50px);
+  background-color: white;
+  border-radius: 100%;
+  animation: move 0.5454545455s ease-in-out alternate infinite;
+}
+
+.ball-6 {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  top: 116.3px;
+  left: calc(50% - 6px + 50px);
+  background-color: white;
+  border-radius: 100%;
+  animation: move 0.5555555556s ease-in-out alternate infinite;
+}
+
+.ball-7 {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  top: 133.56px;
+  left: calc(50% - 6px + 50px);
+  background-color: white;
+  border-radius: 100%;
+  animation: move 0.5660377358s ease-in-out alternate infinite;
+}
+
+.ball-8 {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  top: 150.82px;
+  left: calc(50% - 6px + 50px);
+  background-color: white;
+  border-radius: 100%;
+  animation: move 0.5769230769s ease-in-out alternate infinite;
+}
+
+.ball-9 {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  top: 168.08px;
+  left: calc(50% - 6px + 50px);
+  background-color: white;
+  border-radius: 100%;
+  animation: move 0.5882352941s ease-in-out alternate infinite;
+}
+
+.ball-10 {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  top: 185.34px;
+  left: calc(50% - 6px + 50px);
+  background-color: white;
+  border-radius: 100%;
+  animation: move 0.6s ease-in-out alternate infinite;
+}
+
+.ball-11 {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  top: 202.6px;
+  left: calc(50% - 6px + 50px);
+  background-color: white;
+  border-radius: 100%;
+  animation: move 0.612244898s ease-in-out alternate infinite;
+}
+
+.ball-12 {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  top: 219.86px;
+  left: calc(50% - 6px + 50px);
+  background-color: white;
+  border-radius: 100%;
+  animation: move 0.625s ease-in-out alternate infinite;
+}
+
+.ball-13 {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  top: 237.12px;
+  left: calc(50% - 6px + 50px);
+  background-color: white;
+  border-radius: 100%;
+  animation: move 0.6382978723s ease-in-out alternate infinite;
+}
+
+.ball-14 {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  top: 254.38px;
+  left: calc(50% - 6px + 50px);
+  background-color: white;
+  border-radius: 100%;
+  animation: move 0.652173913s ease-in-out alternate infinite;
+}
+
+.ball-15 {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  top: 271.64px;
+  left: calc(50% - 6px + 50px);
+  background-color: white;
+  border-radius: 100%;
+  animation: move 0.6666666667s ease-in-out alternate infinite;
+}
+
+.ball-16 {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  top: 288.9px;
+  left: calc(50% - 6px + 50px);
+  background-color: white;
+  border-radius: 100%;
+  animation: move 0.6818181818s ease-in-out alternate infinite;
+}
+
+.ball-17 {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  top: 306.16px;
+  left: calc(50% - 6px + 50px);
+  background-color: white;
+  border-radius: 100%;
+  animation: move 0.6976744186s ease-in-out alternate infinite;
+}
+
+.ball-18 {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  top: 323.42px;
+  left: calc(50% - 6px + 50px);
+  background-color: white;
+  border-radius: 100%;
+  animation: move 0.7142857143s ease-in-out alternate infinite;
+}
+
+.ball-19 {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  top: 340.68px;
+  left: calc(50% - 6px + 50px);
+  background-color: white;
+  border-radius: 100%;
+  animation: move 0.7317073171s ease-in-out alternate infinite;
+}
+
+.ball-20 {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  top: 357.94px;
+  left: calc(50% - 6px + 50px);
+  background-color: white;
+  border-radius: 100%;
+  animation: move 0.75s ease-in-out alternate infinite;
+}
+
+@keyframes move {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100px);
+  }
+}/*# sourceMappingURL=index.css.map */

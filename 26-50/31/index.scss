@@ -1,0 +1,37 @@
+.frame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -200px;
+    border-radius: 5px;
+    box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+    background-color: #4C4BA2;
+}
+
+$d: 12px;
+$move-dis: 100px;
+
+@for $i from 1 through 20  {
+    .ball-#{$i} {
+        position: absolute;
+        width: $d;
+        height: $d;
+        top: 30 + 17.26 * ($i - 1) + px;
+        left: calc(50% - $d / 2 + $move-dis / 2);
+        background-color: white;
+        border-radius: 100%;
+        animation: move 30 / (60 - $i) + s ease-in-out alternate infinite;
+    }
+}
+
+@keyframes move {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-$move-dis);
+    }
+}
