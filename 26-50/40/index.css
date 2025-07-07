@@ -1,0 +1,97 @@
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 5px;
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+}
+
+.pic {
+  position: absolute;
+  cursor: pointer;
+  width: 126.6px;
+  height: 126.6px;
+  transition: all 0.3s ease-in-out;
+}
+.pic img {
+  width: 126.6px;
+  height: 126.6px;
+  opacity: 1;
+  transition: opacity 0.3s linear;
+}
+.pic.pic-1 {
+  transform-origin: 0% 0%;
+  top: 0px;
+  left: 0px;
+}
+.pic.pic-2 {
+  transform-origin: 50% 0%;
+  top: 0px;
+  left: 136.6px;
+}
+.pic.pic-3 {
+  transform-origin: 100% 0%;
+  top: 0px;
+  left: 273.2px;
+}
+.pic.pic-4 {
+  transform-origin: 0% 50%;
+  top: 136.6px;
+  left: 0px;
+}
+.pic.pic-5 {
+  transform-origin: 50% 50%;
+  top: 136.6px;
+  left: 136.6px;
+}
+.pic.pic-6 {
+  transform-origin: 100% 50%;
+  top: 136.6px;
+  left: 273.2px;
+}
+.pic.pic-7 {
+  transform-origin: 0% 100%;
+  top: 273.2px;
+  left: 0px;
+}
+.pic.pic-8 {
+  transform-origin: 50% 100%;
+  top: 273.2px;
+  left: 136.6px;
+}
+.pic.pic-9 {
+  transform-origin: 100% 100%;
+  top: 273.2px;
+  left: 273.2px;
+}
+.pic.active {
+  animation: big 0.3s linear both;
+}
+.pic.inactive {
+  animation: small 0.3s linear backwards;
+}
+
+@keyframes big {
+  0% {
+    transform: scale(1);
+    z-index: 1;
+  }
+  100% {
+    transform: scale(3.16);
+    z-index: 1;
+  }
+}
+@keyframes small {
+  0% {
+    transform: scale(3.16);
+    z-index: 1;
+  }
+  100% {
+    transform: scale(1);
+    z-index: 1;
+  }
+}/*# sourceMappingURL=index.css.map */

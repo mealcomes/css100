@@ -1,0 +1,117 @@
+@import url(https://100dayscss.com/codepen/css/font-awesome.min.css);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400);
+
+
+.frame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -200px;
+    border-radius: 5px;
+    box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+    background-color: #2B3642;
+}
+
+.center {
+    position: absolute;
+    width: 300px;
+    height: 240px;
+    background-color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    input[type='radio'] {
+        display: none;
+    }
+
+    .top {
+        position: absolute;
+        width: 100%;
+        height: 40px;
+        background-color: #3D4D5E;
+    }
+
+    .tab {
+        position: relative;
+        float: left;
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        line-height: 40px;
+        color: #8398AD;
+        cursor: pointer;
+        font-size: 14px;
+        transition:
+            background-color .3s ease-in-out,
+            color .3s ease-in-out;
+
+        &:hover {
+            color: #fff;
+        }
+
+        &.search {
+            float: right;
+        }
+    }
+
+    .content {
+        position: absolute;
+        width: 300px;
+        height: 200px;
+        box-sizing: border-box;
+        padding: 20px 20px;
+        top: 40px;
+        left: 0;
+        color: #416C7A;
+
+        .page {
+            position: absolute;
+            width: 260px;
+            height: 160px;
+            opacity: 0;
+            pointer-events: none;
+            transition: all .3s ease-in;
+            transform: translateY(3px);
+
+            p {
+                margin: 0;
+            }
+
+            .paragraph {
+                margin: 20px 0;
+
+                span {
+                    height: 4px;
+                    background-color: #E9E9E9;
+                    display: block;
+                    margin: 6px 0;
+                }
+            }
+        }
+    }
+
+    input[type="radio"]:checked+.tab {
+        background: #5DA2ED;
+        color: #fff;
+    }
+
+    #dashboard:checked {
+        ~.content .dashboard {
+            animation: appear .5s ease-in-out both;
+        }
+    }
+
+    #dashboard:checked~.content .dashboard,
+    #comments:checked~.content .comments,
+    #notifications:checked~.content .notifications,
+    #settings:checked~.content .settings {
+        pointer-events: all;
+        opacity: 1;
+        transform: translateY(0);
+        transition: all .5s ease-out .4s;
+    }
+}

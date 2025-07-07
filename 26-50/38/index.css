@@ -1,0 +1,43 @@
+.frame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -200px;
+    border-radius: 5px;
+    box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+    background-color: #9B59B6;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.logo {
+    position: absolute;
+    width: 70px;
+    height: 80px;
+    top: calc(50% - 40px);
+    left: calc(50% - 35px);
+    transition: all .7s ease-in-out;
+}
+
+.white {
+    fill: #fff;
+}
+
+.purple {
+    fill: #9B59B6;
+}
+
+.small {
+    transform: scale(0);
+}
+
+.normal {
+    transform: scale(1);
+}
+
+.big {
+    transform: scale(8);
+}

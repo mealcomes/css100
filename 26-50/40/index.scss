@@ -1,0 +1,85 @@
+.frame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -200px;
+    border-radius: 5px;
+    box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+}
+
+$rows: 3;
+$columns: 3;
+$length: 126.6px;
+$space: 10px;
+
+.pic {
+    position: absolute;
+    cursor: pointer;
+    width: $length;
+    height: $length;
+    transition: all .3s ease-in-out;
+
+    img {
+        width: $length;
+        height: $length;
+        opacity: 1;
+        transition: opacity .3s linear;
+    }
+
+    $row: 1;
+    $column: 1;
+
+    @for $i from 1 through ($rows * $columns) {
+        @if ($row * $columns) < $i {
+            $row: $row + 1;
+        }
+
+        $column: $i - (($row - 1) * $columns);
+        $top: (
+            $row - 1) / ($rows - 1) * 100%;
+        $left: (
+            $column - 1) / ($columns - 1) * 100%;
+
+        &.pic-#{$i} {
+            transform-origin: $left $top;
+            top: ($row - 1) * ($length + $space
+            );
+        left: ($column - 1) * ($length + $space);
+    }
+}
+
+&.active {
+    animation: big .3s linear both;
+}
+
+&.inactive {
+    animation: small .3s linear backwards;
+}
+}
+
+@keyframes big {
+    0% {
+        transform: scale(1);
+        z-index: 1;
+    }
+
+    100% {
+        transform: scale(3.16);
+        z-index: 1;
+    }
+}
+
+@keyframes small {
+    0% {
+        transform: scale(3.16);
+        z-index: 1;
+    }
+
+    100% {
+        transform: scale(1);
+        z-index: 1;
+    }
+}
