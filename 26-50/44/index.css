@@ -1,0 +1,270 @@
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 5px;
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+  background-color: #222222;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 200px;
+  height: 200px;
+  transform: translate(-50%, -50%);
+}
+
+.square-1 {
+  --b: 200px;
+  position: absolute;
+  box-sizing: border-box;
+  border: solid 1px rgba(255, 255, 255, 0.3);
+  width: var(--b);
+  height: var(--b);
+  left: calc(50% - var(--b) / 2);
+  top: calc(50% - var(--b) / 2);
+  animation: 2s rotate 0s ease-in-out infinite alternate;
+}
+
+.square-2 {
+  --b: 190px;
+  position: absolute;
+  box-sizing: border-box;
+  border: solid 1px rgba(255, 255, 255, 0.3);
+  width: var(--b);
+  height: var(--b);
+  left: calc(50% - var(--b) / 2);
+  top: calc(50% - var(--b) / 2);
+  animation: 2s rotate 0.02s ease-in-out infinite alternate;
+}
+
+.square-3 {
+  --b: 180px;
+  position: absolute;
+  box-sizing: border-box;
+  border: solid 1px rgba(255, 255, 255, 0.3);
+  width: var(--b);
+  height: var(--b);
+  left: calc(50% - var(--b) / 2);
+  top: calc(50% - var(--b) / 2);
+  animation: 2s rotate 0.04s ease-in-out infinite alternate;
+}
+
+.square-4 {
+  --b: 170px;
+  position: absolute;
+  box-sizing: border-box;
+  border: solid 1px rgba(255, 255, 255, 0.3);
+  width: var(--b);
+  height: var(--b);
+  left: calc(50% - var(--b) / 2);
+  top: calc(50% - var(--b) / 2);
+  animation: 2s rotate 0.06s ease-in-out infinite alternate;
+}
+
+.square-5 {
+  --b: 160px;
+  position: absolute;
+  box-sizing: border-box;
+  border: solid 1px rgba(255, 255, 255, 0.3);
+  width: var(--b);
+  height: var(--b);
+  left: calc(50% - var(--b) / 2);
+  top: calc(50% - var(--b) / 2);
+  animation: 2s rotate 0.08s ease-in-out infinite alternate;
+}
+
+.square-6 {
+  --b: 150px;
+  position: absolute;
+  box-sizing: border-box;
+  border: solid 1px rgba(255, 255, 255, 0.3);
+  width: var(--b);
+  height: var(--b);
+  left: calc(50% - var(--b) / 2);
+  top: calc(50% - var(--b) / 2);
+  animation: 2s rotate 0.1s ease-in-out infinite alternate;
+}
+
+.square-7 {
+  --b: 140px;
+  position: absolute;
+  box-sizing: border-box;
+  border: solid 1px rgba(255, 255, 255, 0.3);
+  width: var(--b);
+  height: var(--b);
+  left: calc(50% - var(--b) / 2);
+  top: calc(50% - var(--b) / 2);
+  animation: 2s rotate 0.12s ease-in-out infinite alternate;
+}
+
+.square-8 {
+  --b: 130px;
+  position: absolute;
+  box-sizing: border-box;
+  border: solid 1px rgba(255, 255, 255, 0.3);
+  width: var(--b);
+  height: var(--b);
+  left: calc(50% - var(--b) / 2);
+  top: calc(50% - var(--b) / 2);
+  animation: 2s rotate 0.14s ease-in-out infinite alternate;
+}
+
+.square-9 {
+  --b: 120px;
+  position: absolute;
+  box-sizing: border-box;
+  border: solid 1px rgba(255, 255, 255, 0.3);
+  width: var(--b);
+  height: var(--b);
+  left: calc(50% - var(--b) / 2);
+  top: calc(50% - var(--b) / 2);
+  animation: 2s rotate 0.16s ease-in-out infinite alternate;
+}
+
+.square-10 {
+  --b: 110px;
+  position: absolute;
+  box-sizing: border-box;
+  border: solid 1px rgba(255, 255, 255, 0.3);
+  width: var(--b);
+  height: var(--b);
+  left: calc(50% - var(--b) / 2);
+  top: calc(50% - var(--b) / 2);
+  animation: 2s rotate 0.18s ease-in-out infinite alternate;
+}
+
+.square-11 {
+  --b: 100px;
+  position: absolute;
+  box-sizing: border-box;
+  border: solid 1px rgba(255, 255, 255, 0.3);
+  width: var(--b);
+  height: var(--b);
+  left: calc(50% - var(--b) / 2);
+  top: calc(50% - var(--b) / 2);
+  animation: 2s rotate 0.2s ease-in-out infinite alternate;
+}
+
+.square-12 {
+  --b: 90px;
+  position: absolute;
+  box-sizing: border-box;
+  border: solid 1px rgba(255, 255, 255, 0.3);
+  width: var(--b);
+  height: var(--b);
+  left: calc(50% - var(--b) / 2);
+  top: calc(50% - var(--b) / 2);
+  animation: 2s rotate 0.22s ease-in-out infinite alternate;
+}
+
+.square-13 {
+  --b: 80px;
+  position: absolute;
+  box-sizing: border-box;
+  border: solid 1px rgba(255, 255, 255, 0.3);
+  width: var(--b);
+  height: var(--b);
+  left: calc(50% - var(--b) / 2);
+  top: calc(50% - var(--b) / 2);
+  animation: 2s rotate 0.24s ease-in-out infinite alternate;
+}
+
+.square-14 {
+  --b: 70px;
+  position: absolute;
+  box-sizing: border-box;
+  border: solid 1px rgba(255, 255, 255, 0.3);
+  width: var(--b);
+  height: var(--b);
+  left: calc(50% - var(--b) / 2);
+  top: calc(50% - var(--b) / 2);
+  animation: 2s rotate 0.26s ease-in-out infinite alternate;
+}
+
+.square-15 {
+  --b: 60px;
+  position: absolute;
+  box-sizing: border-box;
+  border: solid 1px rgba(255, 255, 255, 0.3);
+  width: var(--b);
+  height: var(--b);
+  left: calc(50% - var(--b) / 2);
+  top: calc(50% - var(--b) / 2);
+  animation: 2s rotate 0.28s ease-in-out infinite alternate;
+}
+
+.square-16 {
+  --b: 50px;
+  position: absolute;
+  box-sizing: border-box;
+  border: solid 1px rgba(255, 255, 255, 0.3);
+  width: var(--b);
+  height: var(--b);
+  left: calc(50% - var(--b) / 2);
+  top: calc(50% - var(--b) / 2);
+  animation: 2s rotate 0.3s ease-in-out infinite alternate;
+}
+
+.square-17 {
+  --b: 40px;
+  position: absolute;
+  box-sizing: border-box;
+  border: solid 1px rgba(255, 255, 255, 0.3);
+  width: var(--b);
+  height: var(--b);
+  left: calc(50% - var(--b) / 2);
+  top: calc(50% - var(--b) / 2);
+  animation: 2s rotate 0.32s ease-in-out infinite alternate;
+}
+
+.square-18 {
+  --b: 30px;
+  position: absolute;
+  box-sizing: border-box;
+  border: solid 1px rgba(255, 255, 255, 0.3);
+  width: var(--b);
+  height: var(--b);
+  left: calc(50% - var(--b) / 2);
+  top: calc(50% - var(--b) / 2);
+  animation: 2s rotate 0.34s ease-in-out infinite alternate;
+}
+
+.square-19 {
+  --b: 20px;
+  position: absolute;
+  box-sizing: border-box;
+  border: solid 1px rgba(255, 255, 255, 0.3);
+  width: var(--b);
+  height: var(--b);
+  left: calc(50% - var(--b) / 2);
+  top: calc(50% - var(--b) / 2);
+  animation: 2s rotate 0.36s ease-in-out infinite alternate;
+}
+
+.square-20 {
+  --b: 10px;
+  position: absolute;
+  box-sizing: border-box;
+  border: solid 1px rgba(255, 255, 255, 0.3);
+  width: var(--b);
+  height: var(--b);
+  left: calc(50% - var(--b) / 2);
+  top: calc(50% - var(--b) / 2);
+  animation: 2s rotate 0.38s ease-in-out infinite alternate;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}/*# sourceMappingURL=index.css.map */

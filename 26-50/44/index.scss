@@ -1,0 +1,45 @@
+.frame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -200px;
+    border-radius: 5px;
+    box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+    background-color: #222222;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 200px;
+    height: 200px;
+    transform: translate(-50%, -50%);
+}
+
+@for $i from 1 through 20 {
+    .square-#{$i} {
+        --b: #{(200 - ($i - 1) * 10)}px;
+        position: absolute;
+        box-sizing: border-box;
+        border: solid 1px rgba($color: #ffffff, $alpha: 0.3);
+        width: var(--b);
+        height: var(--b);
+        left: calc(50% - var(--b) / 2);
+        top: calc(50% - var(--b) / 2);
+        animation: 2s rotate #{0.02 * ($i - 1)}s ease-in-out infinite alternate;
+    }
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

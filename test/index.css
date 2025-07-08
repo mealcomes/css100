@@ -18,21 +18,12 @@
     left: 50%;
     transform: translate(-50%, -50%);
 
-    .icon {
+    .star {
         position: absolute;
-        transform: translate3d(0, 0, 0);
-        fill: none;
-        stroke-width: 2px;
-        stroke: #ecf0f1;
-        stroke-linecap: square;
-        stroke-dasharray: 325 325;
-
-        &.mail {
-            width: 120px;
-            height: 70px;
-            stroke-dashoffset: 0;
-            transition: stroke-dashoffset 1s ease-in-out;
-        }
-
+        width: 10px;
+        height: 10px;
+        background-color: white;
+        border-radius: 100%;
+        box-shadow: 50px 50px #fff;
     }
 }

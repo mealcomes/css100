@@ -1,0 +1,59 @@
+.frame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -200px;
+    border-radius: 5px;
+    box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+    background-color: #5CA4EA;
+}
+
+.button {
+    position: absolute;
+    width: 180px;
+    height: 60px;
+    left: calc(50% - 90px);
+    top: calc(50% - 30px);
+    cursor: pointer;
+    transition: background-color .5s ease-in;
+
+    &:hover {
+        background-color: #4F95DA;
+
+        .border .hl-line {
+            stroke-dashoffset: -480;
+        }
+    }
+
+    span {
+        position: absolute;
+        width: 180px;
+        height: 60px;
+        line-height: 60px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #fff;
+        font-size: 18px;
+        font-weight: 300;
+        transition: background-color .5s ease-in;
+        pointer-events: none;
+    }
+
+    .border {
+        fill: none;
+
+        .bg-line {
+            stroke: #91C9FF;
+        }
+
+        .hl-line {
+            stroke: #fff;
+            stroke-dasharray: 20 480;
+            stroke-dashoffset: 20;
+            transition: all .7s ease-in;
+        }
+    }
+}

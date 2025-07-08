@@ -1,0 +1,80 @@
+.frame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -200px;
+    border-radius: 5px;
+    box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+}
+
+.center {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    background: linear-gradient(to right top, #69B2C1, #254F5F);
+    overflow: hidden;
+
+    .star {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        border-radius: 100%;
+        background-color: #fff;
+    }
+
+    @for $i from 1 through 300 {
+        .star-#{$i} {
+            top: random(300) + px;
+            left: random(300) + px;
+            animation: ((random(20)+20)/10)+s flicker (random(20)/-10)+s infinite;
+        }
+    }
+
+    .shooting-star {
+        position: absolute;
+        width: 2px;
+        height: 80px;
+        background: linear-gradient(to bottom, #315F70, #fff);
+        border-radius: 1px;
+        transform: rotate(-60deg);
+        clip-path: polygon(50% 0, 100% 100%, 0 100%);
+    }
+
+    @for $i from 1 through 6 {
+        .shooting-star-#{$i} {
+            top: - random(80) + px;
+            left: - random(80) + px;
+            animation: (random(6) + 1)+s shooting-star (random(600)/10)+s infinite;
+        }
+    }
+}
+
+@keyframes flicker {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.3;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes shooting-star {
+    0% {
+        transform: translate(0, 0) rotate(-60deg);
+    }
+    100% {
+        transform: translate(346px, 200px) rotate(-60deg);
+    }
+}

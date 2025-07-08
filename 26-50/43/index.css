@@ -1,0 +1,83 @@
+.frame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -200px;
+    border-radius: 5px;
+    box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+    background-color: #404556;
+}
+
+.light {
+    position: absolute;
+    height: 150px;
+    width: 80px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    .circle {
+        position: absolute;
+        width: 81px;
+        height: 81px;
+        left: calc(50% - 40.5px);
+        top: 0;
+        border-radius: 100%;
+        pointer-events: none;
+        background-color: #FFF35C;
+        box-shadow: 0 0 50px 10px #FFF35C;
+        transition:
+            box-shadow .5s ease-in-out,
+            background-color .5s ease-in-out;
+    }
+
+    .bulb {
+        width: 80px;
+        height: 100px;
+        fill: #FFF35C;
+        transition: fill .5s ease-in-out;
+
+        &:hover {
+            fill: #8C8F99;
+
+            ~.circle {
+                background-color: #8C8F99;
+                box-shadow: 0 0 #8C8F99;
+            }
+        }
+    }
+
+    .bottom-1 {
+        position: absolute;
+        top: 104px;
+        left: calc(50% - 15px);
+        width: 30px;
+        height: 6px;
+        background-color: #E5E5E5;
+        border-radius: 10px;
+    }
+
+    .bottom-2 {
+        position: absolute;
+        top: 114px;
+        left: calc(50% - 15px);
+        width: 30px;
+        height: 6px;
+        background-color: #E5E5E5;
+        border-radius: 10px;
+    }
+
+    .bottom-3 {
+        position: absolute;
+        top: 124px;
+        left: calc(50% - 15px);
+        width: 30px;
+        height: 10px;
+        background-color: #E5E5E5;
+        clip-path: path("M0 0 L8 8 Q10 10 12 10 L18 10 Q20 10 22 8 L30 0 Z");
+    }
+
+}
