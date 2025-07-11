@@ -1,0 +1,1656 @@
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 5px;
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+  background-color: #2C3E50;
+}
+
+.trigger {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  float: left;
+  background: none;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.ball {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 0;
+  top: 0;
+  background-color: #2ECC71;
+  border-radius: 100%;
+  pointer-events: none;
+  transform: translate3d(190px, 190px, 0);
+  transition: all 0.3s ease-in;
+}
+.ball::after {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  box-sizing: border-box;
+  border-radius: 100%;
+  border: solid 1px #2ECC71;
+  animation: ring 1.3s cubic-bezier(0.224, 0.987, 0.597, 1.001) infinite;
+}
+
+.trigger-1:hover ~ .ball {
+  transform: translate3d(0px, 0px, 0);
+}
+
+.trigger-2:hover ~ .ball {
+  transform: translate3d(20px, 0px, 0);
+}
+
+.trigger-3:hover ~ .ball {
+  transform: translate3d(40px, 0px, 0);
+}
+
+.trigger-4:hover ~ .ball {
+  transform: translate3d(60px, 0px, 0);
+}
+
+.trigger-5:hover ~ .ball {
+  transform: translate3d(80px, 0px, 0);
+}
+
+.trigger-6:hover ~ .ball {
+  transform: translate3d(100px, 0px, 0);
+}
+
+.trigger-7:hover ~ .ball {
+  transform: translate3d(120px, 0px, 0);
+}
+
+.trigger-8:hover ~ .ball {
+  transform: translate3d(140px, 0px, 0);
+}
+
+.trigger-9:hover ~ .ball {
+  transform: translate3d(160px, 0px, 0);
+}
+
+.trigger-10:hover ~ .ball {
+  transform: translate3d(180px, 0px, 0);
+}
+
+.trigger-11:hover ~ .ball {
+  transform: translate3d(200px, 0px, 0);
+}
+
+.trigger-12:hover ~ .ball {
+  transform: translate3d(220px, 0px, 0);
+}
+
+.trigger-13:hover ~ .ball {
+  transform: translate3d(240px, 0px, 0);
+}
+
+.trigger-14:hover ~ .ball {
+  transform: translate3d(260px, 0px, 0);
+}
+
+.trigger-15:hover ~ .ball {
+  transform: translate3d(280px, 0px, 0);
+}
+
+.trigger-16:hover ~ .ball {
+  transform: translate3d(300px, 0px, 0);
+}
+
+.trigger-17:hover ~ .ball {
+  transform: translate3d(320px, 0px, 0);
+}
+
+.trigger-18:hover ~ .ball {
+  transform: translate3d(340px, 0px, 0);
+}
+
+.trigger-19:hover ~ .ball {
+  transform: translate3d(360px, 0px, 0);
+}
+
+.trigger-20:hover ~ .ball {
+  transform: translate3d(380px, 0px, 0);
+}
+
+.trigger-21:hover ~ .ball {
+  transform: translate3d(0px, 20px, 0);
+}
+
+.trigger-22:hover ~ .ball {
+  transform: translate3d(20px, 20px, 0);
+}
+
+.trigger-23:hover ~ .ball {
+  transform: translate3d(40px, 20px, 0);
+}
+
+.trigger-24:hover ~ .ball {
+  transform: translate3d(60px, 20px, 0);
+}
+
+.trigger-25:hover ~ .ball {
+  transform: translate3d(80px, 20px, 0);
+}
+
+.trigger-26:hover ~ .ball {
+  transform: translate3d(100px, 20px, 0);
+}
+
+.trigger-27:hover ~ .ball {
+  transform: translate3d(120px, 20px, 0);
+}
+
+.trigger-28:hover ~ .ball {
+  transform: translate3d(140px, 20px, 0);
+}
+
+.trigger-29:hover ~ .ball {
+  transform: translate3d(160px, 20px, 0);
+}
+
+.trigger-30:hover ~ .ball {
+  transform: translate3d(180px, 20px, 0);
+}
+
+.trigger-31:hover ~ .ball {
+  transform: translate3d(200px, 20px, 0);
+}
+
+.trigger-32:hover ~ .ball {
+  transform: translate3d(220px, 20px, 0);
+}
+
+.trigger-33:hover ~ .ball {
+  transform: translate3d(240px, 20px, 0);
+}
+
+.trigger-34:hover ~ .ball {
+  transform: translate3d(260px, 20px, 0);
+}
+
+.trigger-35:hover ~ .ball {
+  transform: translate3d(280px, 20px, 0);
+}
+
+.trigger-36:hover ~ .ball {
+  transform: translate3d(300px, 20px, 0);
+}
+
+.trigger-37:hover ~ .ball {
+  transform: translate3d(320px, 20px, 0);
+}
+
+.trigger-38:hover ~ .ball {
+  transform: translate3d(340px, 20px, 0);
+}
+
+.trigger-39:hover ~ .ball {
+  transform: translate3d(360px, 20px, 0);
+}
+
+.trigger-40:hover ~ .ball {
+  transform: translate3d(380px, 20px, 0);
+}
+
+.trigger-41:hover ~ .ball {
+  transform: translate3d(0px, 40px, 0);
+}
+
+.trigger-42:hover ~ .ball {
+  transform: translate3d(20px, 40px, 0);
+}
+
+.trigger-43:hover ~ .ball {
+  transform: translate3d(40px, 40px, 0);
+}
+
+.trigger-44:hover ~ .ball {
+  transform: translate3d(60px, 40px, 0);
+}
+
+.trigger-45:hover ~ .ball {
+  transform: translate3d(80px, 40px, 0);
+}
+
+.trigger-46:hover ~ .ball {
+  transform: translate3d(100px, 40px, 0);
+}
+
+.trigger-47:hover ~ .ball {
+  transform: translate3d(120px, 40px, 0);
+}
+
+.trigger-48:hover ~ .ball {
+  transform: translate3d(140px, 40px, 0);
+}
+
+.trigger-49:hover ~ .ball {
+  transform: translate3d(160px, 40px, 0);
+}
+
+.trigger-50:hover ~ .ball {
+  transform: translate3d(180px, 40px, 0);
+}
+
+.trigger-51:hover ~ .ball {
+  transform: translate3d(200px, 40px, 0);
+}
+
+.trigger-52:hover ~ .ball {
+  transform: translate3d(220px, 40px, 0);
+}
+
+.trigger-53:hover ~ .ball {
+  transform: translate3d(240px, 40px, 0);
+}
+
+.trigger-54:hover ~ .ball {
+  transform: translate3d(260px, 40px, 0);
+}
+
+.trigger-55:hover ~ .ball {
+  transform: translate3d(280px, 40px, 0);
+}
+
+.trigger-56:hover ~ .ball {
+  transform: translate3d(300px, 40px, 0);
+}
+
+.trigger-57:hover ~ .ball {
+  transform: translate3d(320px, 40px, 0);
+}
+
+.trigger-58:hover ~ .ball {
+  transform: translate3d(340px, 40px, 0);
+}
+
+.trigger-59:hover ~ .ball {
+  transform: translate3d(360px, 40px, 0);
+}
+
+.trigger-60:hover ~ .ball {
+  transform: translate3d(380px, 40px, 0);
+}
+
+.trigger-61:hover ~ .ball {
+  transform: translate3d(0px, 60px, 0);
+}
+
+.trigger-62:hover ~ .ball {
+  transform: translate3d(20px, 60px, 0);
+}
+
+.trigger-63:hover ~ .ball {
+  transform: translate3d(40px, 60px, 0);
+}
+
+.trigger-64:hover ~ .ball {
+  transform: translate3d(60px, 60px, 0);
+}
+
+.trigger-65:hover ~ .ball {
+  transform: translate3d(80px, 60px, 0);
+}
+
+.trigger-66:hover ~ .ball {
+  transform: translate3d(100px, 60px, 0);
+}
+
+.trigger-67:hover ~ .ball {
+  transform: translate3d(120px, 60px, 0);
+}
+
+.trigger-68:hover ~ .ball {
+  transform: translate3d(140px, 60px, 0);
+}
+
+.trigger-69:hover ~ .ball {
+  transform: translate3d(160px, 60px, 0);
+}
+
+.trigger-70:hover ~ .ball {
+  transform: translate3d(180px, 60px, 0);
+}
+
+.trigger-71:hover ~ .ball {
+  transform: translate3d(200px, 60px, 0);
+}
+
+.trigger-72:hover ~ .ball {
+  transform: translate3d(220px, 60px, 0);
+}
+
+.trigger-73:hover ~ .ball {
+  transform: translate3d(240px, 60px, 0);
+}
+
+.trigger-74:hover ~ .ball {
+  transform: translate3d(260px, 60px, 0);
+}
+
+.trigger-75:hover ~ .ball {
+  transform: translate3d(280px, 60px, 0);
+}
+
+.trigger-76:hover ~ .ball {
+  transform: translate3d(300px, 60px, 0);
+}
+
+.trigger-77:hover ~ .ball {
+  transform: translate3d(320px, 60px, 0);
+}
+
+.trigger-78:hover ~ .ball {
+  transform: translate3d(340px, 60px, 0);
+}
+
+.trigger-79:hover ~ .ball {
+  transform: translate3d(360px, 60px, 0);
+}
+
+.trigger-80:hover ~ .ball {
+  transform: translate3d(380px, 60px, 0);
+}
+
+.trigger-81:hover ~ .ball {
+  transform: translate3d(0px, 80px, 0);
+}
+
+.trigger-82:hover ~ .ball {
+  transform: translate3d(20px, 80px, 0);
+}
+
+.trigger-83:hover ~ .ball {
+  transform: translate3d(40px, 80px, 0);
+}
+
+.trigger-84:hover ~ .ball {
+  transform: translate3d(60px, 80px, 0);
+}
+
+.trigger-85:hover ~ .ball {
+  transform: translate3d(80px, 80px, 0);
+}
+
+.trigger-86:hover ~ .ball {
+  transform: translate3d(100px, 80px, 0);
+}
+
+.trigger-87:hover ~ .ball {
+  transform: translate3d(120px, 80px, 0);
+}
+
+.trigger-88:hover ~ .ball {
+  transform: translate3d(140px, 80px, 0);
+}
+
+.trigger-89:hover ~ .ball {
+  transform: translate3d(160px, 80px, 0);
+}
+
+.trigger-90:hover ~ .ball {
+  transform: translate3d(180px, 80px, 0);
+}
+
+.trigger-91:hover ~ .ball {
+  transform: translate3d(200px, 80px, 0);
+}
+
+.trigger-92:hover ~ .ball {
+  transform: translate3d(220px, 80px, 0);
+}
+
+.trigger-93:hover ~ .ball {
+  transform: translate3d(240px, 80px, 0);
+}
+
+.trigger-94:hover ~ .ball {
+  transform: translate3d(260px, 80px, 0);
+}
+
+.trigger-95:hover ~ .ball {
+  transform: translate3d(280px, 80px, 0);
+}
+
+.trigger-96:hover ~ .ball {
+  transform: translate3d(300px, 80px, 0);
+}
+
+.trigger-97:hover ~ .ball {
+  transform: translate3d(320px, 80px, 0);
+}
+
+.trigger-98:hover ~ .ball {
+  transform: translate3d(340px, 80px, 0);
+}
+
+.trigger-99:hover ~ .ball {
+  transform: translate3d(360px, 80px, 0);
+}
+
+.trigger-100:hover ~ .ball {
+  transform: translate3d(380px, 80px, 0);
+}
+
+.trigger-101:hover ~ .ball {
+  transform: translate3d(0px, 100px, 0);
+}
+
+.trigger-102:hover ~ .ball {
+  transform: translate3d(20px, 100px, 0);
+}
+
+.trigger-103:hover ~ .ball {
+  transform: translate3d(40px, 100px, 0);
+}
+
+.trigger-104:hover ~ .ball {
+  transform: translate3d(60px, 100px, 0);
+}
+
+.trigger-105:hover ~ .ball {
+  transform: translate3d(80px, 100px, 0);
+}
+
+.trigger-106:hover ~ .ball {
+  transform: translate3d(100px, 100px, 0);
+}
+
+.trigger-107:hover ~ .ball {
+  transform: translate3d(120px, 100px, 0);
+}
+
+.trigger-108:hover ~ .ball {
+  transform: translate3d(140px, 100px, 0);
+}
+
+.trigger-109:hover ~ .ball {
+  transform: translate3d(160px, 100px, 0);
+}
+
+.trigger-110:hover ~ .ball {
+  transform: translate3d(180px, 100px, 0);
+}
+
+.trigger-111:hover ~ .ball {
+  transform: translate3d(200px, 100px, 0);
+}
+
+.trigger-112:hover ~ .ball {
+  transform: translate3d(220px, 100px, 0);
+}
+
+.trigger-113:hover ~ .ball {
+  transform: translate3d(240px, 100px, 0);
+}
+
+.trigger-114:hover ~ .ball {
+  transform: translate3d(260px, 100px, 0);
+}
+
+.trigger-115:hover ~ .ball {
+  transform: translate3d(280px, 100px, 0);
+}
+
+.trigger-116:hover ~ .ball {
+  transform: translate3d(300px, 100px, 0);
+}
+
+.trigger-117:hover ~ .ball {
+  transform: translate3d(320px, 100px, 0);
+}
+
+.trigger-118:hover ~ .ball {
+  transform: translate3d(340px, 100px, 0);
+}
+
+.trigger-119:hover ~ .ball {
+  transform: translate3d(360px, 100px, 0);
+}
+
+.trigger-120:hover ~ .ball {
+  transform: translate3d(380px, 100px, 0);
+}
+
+.trigger-121:hover ~ .ball {
+  transform: translate3d(0px, 120px, 0);
+}
+
+.trigger-122:hover ~ .ball {
+  transform: translate3d(20px, 120px, 0);
+}
+
+.trigger-123:hover ~ .ball {
+  transform: translate3d(40px, 120px, 0);
+}
+
+.trigger-124:hover ~ .ball {
+  transform: translate3d(60px, 120px, 0);
+}
+
+.trigger-125:hover ~ .ball {
+  transform: translate3d(80px, 120px, 0);
+}
+
+.trigger-126:hover ~ .ball {
+  transform: translate3d(100px, 120px, 0);
+}
+
+.trigger-127:hover ~ .ball {
+  transform: translate3d(120px, 120px, 0);
+}
+
+.trigger-128:hover ~ .ball {
+  transform: translate3d(140px, 120px, 0);
+}
+
+.trigger-129:hover ~ .ball {
+  transform: translate3d(160px, 120px, 0);
+}
+
+.trigger-130:hover ~ .ball {
+  transform: translate3d(180px, 120px, 0);
+}
+
+.trigger-131:hover ~ .ball {
+  transform: translate3d(200px, 120px, 0);
+}
+
+.trigger-132:hover ~ .ball {
+  transform: translate3d(220px, 120px, 0);
+}
+
+.trigger-133:hover ~ .ball {
+  transform: translate3d(240px, 120px, 0);
+}
+
+.trigger-134:hover ~ .ball {
+  transform: translate3d(260px, 120px, 0);
+}
+
+.trigger-135:hover ~ .ball {
+  transform: translate3d(280px, 120px, 0);
+}
+
+.trigger-136:hover ~ .ball {
+  transform: translate3d(300px, 120px, 0);
+}
+
+.trigger-137:hover ~ .ball {
+  transform: translate3d(320px, 120px, 0);
+}
+
+.trigger-138:hover ~ .ball {
+  transform: translate3d(340px, 120px, 0);
+}
+
+.trigger-139:hover ~ .ball {
+  transform: translate3d(360px, 120px, 0);
+}
+
+.trigger-140:hover ~ .ball {
+  transform: translate3d(380px, 120px, 0);
+}
+
+.trigger-141:hover ~ .ball {
+  transform: translate3d(0px, 140px, 0);
+}
+
+.trigger-142:hover ~ .ball {
+  transform: translate3d(20px, 140px, 0);
+}
+
+.trigger-143:hover ~ .ball {
+  transform: translate3d(40px, 140px, 0);
+}
+
+.trigger-144:hover ~ .ball {
+  transform: translate3d(60px, 140px, 0);
+}
+
+.trigger-145:hover ~ .ball {
+  transform: translate3d(80px, 140px, 0);
+}
+
+.trigger-146:hover ~ .ball {
+  transform: translate3d(100px, 140px, 0);
+}
+
+.trigger-147:hover ~ .ball {
+  transform: translate3d(120px, 140px, 0);
+}
+
+.trigger-148:hover ~ .ball {
+  transform: translate3d(140px, 140px, 0);
+}
+
+.trigger-149:hover ~ .ball {
+  transform: translate3d(160px, 140px, 0);
+}
+
+.trigger-150:hover ~ .ball {
+  transform: translate3d(180px, 140px, 0);
+}
+
+.trigger-151:hover ~ .ball {
+  transform: translate3d(200px, 140px, 0);
+}
+
+.trigger-152:hover ~ .ball {
+  transform: translate3d(220px, 140px, 0);
+}
+
+.trigger-153:hover ~ .ball {
+  transform: translate3d(240px, 140px, 0);
+}
+
+.trigger-154:hover ~ .ball {
+  transform: translate3d(260px, 140px, 0);
+}
+
+.trigger-155:hover ~ .ball {
+  transform: translate3d(280px, 140px, 0);
+}
+
+.trigger-156:hover ~ .ball {
+  transform: translate3d(300px, 140px, 0);
+}
+
+.trigger-157:hover ~ .ball {
+  transform: translate3d(320px, 140px, 0);
+}
+
+.trigger-158:hover ~ .ball {
+  transform: translate3d(340px, 140px, 0);
+}
+
+.trigger-159:hover ~ .ball {
+  transform: translate3d(360px, 140px, 0);
+}
+
+.trigger-160:hover ~ .ball {
+  transform: translate3d(380px, 140px, 0);
+}
+
+.trigger-161:hover ~ .ball {
+  transform: translate3d(0px, 160px, 0);
+}
+
+.trigger-162:hover ~ .ball {
+  transform: translate3d(20px, 160px, 0);
+}
+
+.trigger-163:hover ~ .ball {
+  transform: translate3d(40px, 160px, 0);
+}
+
+.trigger-164:hover ~ .ball {
+  transform: translate3d(60px, 160px, 0);
+}
+
+.trigger-165:hover ~ .ball {
+  transform: translate3d(80px, 160px, 0);
+}
+
+.trigger-166:hover ~ .ball {
+  transform: translate3d(100px, 160px, 0);
+}
+
+.trigger-167:hover ~ .ball {
+  transform: translate3d(120px, 160px, 0);
+}
+
+.trigger-168:hover ~ .ball {
+  transform: translate3d(140px, 160px, 0);
+}
+
+.trigger-169:hover ~ .ball {
+  transform: translate3d(160px, 160px, 0);
+}
+
+.trigger-170:hover ~ .ball {
+  transform: translate3d(180px, 160px, 0);
+}
+
+.trigger-171:hover ~ .ball {
+  transform: translate3d(200px, 160px, 0);
+}
+
+.trigger-172:hover ~ .ball {
+  transform: translate3d(220px, 160px, 0);
+}
+
+.trigger-173:hover ~ .ball {
+  transform: translate3d(240px, 160px, 0);
+}
+
+.trigger-174:hover ~ .ball {
+  transform: translate3d(260px, 160px, 0);
+}
+
+.trigger-175:hover ~ .ball {
+  transform: translate3d(280px, 160px, 0);
+}
+
+.trigger-176:hover ~ .ball {
+  transform: translate3d(300px, 160px, 0);
+}
+
+.trigger-177:hover ~ .ball {
+  transform: translate3d(320px, 160px, 0);
+}
+
+.trigger-178:hover ~ .ball {
+  transform: translate3d(340px, 160px, 0);
+}
+
+.trigger-179:hover ~ .ball {
+  transform: translate3d(360px, 160px, 0);
+}
+
+.trigger-180:hover ~ .ball {
+  transform: translate3d(380px, 160px, 0);
+}
+
+.trigger-181:hover ~ .ball {
+  transform: translate3d(0px, 180px, 0);
+}
+
+.trigger-182:hover ~ .ball {
+  transform: translate3d(20px, 180px, 0);
+}
+
+.trigger-183:hover ~ .ball {
+  transform: translate3d(40px, 180px, 0);
+}
+
+.trigger-184:hover ~ .ball {
+  transform: translate3d(60px, 180px, 0);
+}
+
+.trigger-185:hover ~ .ball {
+  transform: translate3d(80px, 180px, 0);
+}
+
+.trigger-186:hover ~ .ball {
+  transform: translate3d(100px, 180px, 0);
+}
+
+.trigger-187:hover ~ .ball {
+  transform: translate3d(120px, 180px, 0);
+}
+
+.trigger-188:hover ~ .ball {
+  transform: translate3d(140px, 180px, 0);
+}
+
+.trigger-189:hover ~ .ball {
+  transform: translate3d(160px, 180px, 0);
+}
+
+.trigger-190:hover ~ .ball {
+  transform: translate3d(180px, 180px, 0);
+}
+
+.trigger-191:hover ~ .ball {
+  transform: translate3d(200px, 180px, 0);
+}
+
+.trigger-192:hover ~ .ball {
+  transform: translate3d(220px, 180px, 0);
+}
+
+.trigger-193:hover ~ .ball {
+  transform: translate3d(240px, 180px, 0);
+}
+
+.trigger-194:hover ~ .ball {
+  transform: translate3d(260px, 180px, 0);
+}
+
+.trigger-195:hover ~ .ball {
+  transform: translate3d(280px, 180px, 0);
+}
+
+.trigger-196:hover ~ .ball {
+  transform: translate3d(300px, 180px, 0);
+}
+
+.trigger-197:hover ~ .ball {
+  transform: translate3d(320px, 180px, 0);
+}
+
+.trigger-198:hover ~ .ball {
+  transform: translate3d(340px, 180px, 0);
+}
+
+.trigger-199:hover ~ .ball {
+  transform: translate3d(360px, 180px, 0);
+}
+
+.trigger-200:hover ~ .ball {
+  transform: translate3d(380px, 180px, 0);
+}
+
+.trigger-201:hover ~ .ball {
+  transform: translate3d(0px, 200px, 0);
+}
+
+.trigger-202:hover ~ .ball {
+  transform: translate3d(20px, 200px, 0);
+}
+
+.trigger-203:hover ~ .ball {
+  transform: translate3d(40px, 200px, 0);
+}
+
+.trigger-204:hover ~ .ball {
+  transform: translate3d(60px, 200px, 0);
+}
+
+.trigger-205:hover ~ .ball {
+  transform: translate3d(80px, 200px, 0);
+}
+
+.trigger-206:hover ~ .ball {
+  transform: translate3d(100px, 200px, 0);
+}
+
+.trigger-207:hover ~ .ball {
+  transform: translate3d(120px, 200px, 0);
+}
+
+.trigger-208:hover ~ .ball {
+  transform: translate3d(140px, 200px, 0);
+}
+
+.trigger-209:hover ~ .ball {
+  transform: translate3d(160px, 200px, 0);
+}
+
+.trigger-210:hover ~ .ball {
+  transform: translate3d(180px, 200px, 0);
+}
+
+.trigger-211:hover ~ .ball {
+  transform: translate3d(200px, 200px, 0);
+}
+
+.trigger-212:hover ~ .ball {
+  transform: translate3d(220px, 200px, 0);
+}
+
+.trigger-213:hover ~ .ball {
+  transform: translate3d(240px, 200px, 0);
+}
+
+.trigger-214:hover ~ .ball {
+  transform: translate3d(260px, 200px, 0);
+}
+
+.trigger-215:hover ~ .ball {
+  transform: translate3d(280px, 200px, 0);
+}
+
+.trigger-216:hover ~ .ball {
+  transform: translate3d(300px, 200px, 0);
+}
+
+.trigger-217:hover ~ .ball {
+  transform: translate3d(320px, 200px, 0);
+}
+
+.trigger-218:hover ~ .ball {
+  transform: translate3d(340px, 200px, 0);
+}
+
+.trigger-219:hover ~ .ball {
+  transform: translate3d(360px, 200px, 0);
+}
+
+.trigger-220:hover ~ .ball {
+  transform: translate3d(380px, 200px, 0);
+}
+
+.trigger-221:hover ~ .ball {
+  transform: translate3d(0px, 220px, 0);
+}
+
+.trigger-222:hover ~ .ball {
+  transform: translate3d(20px, 220px, 0);
+}
+
+.trigger-223:hover ~ .ball {
+  transform: translate3d(40px, 220px, 0);
+}
+
+.trigger-224:hover ~ .ball {
+  transform: translate3d(60px, 220px, 0);
+}
+
+.trigger-225:hover ~ .ball {
+  transform: translate3d(80px, 220px, 0);
+}
+
+.trigger-226:hover ~ .ball {
+  transform: translate3d(100px, 220px, 0);
+}
+
+.trigger-227:hover ~ .ball {
+  transform: translate3d(120px, 220px, 0);
+}
+
+.trigger-228:hover ~ .ball {
+  transform: translate3d(140px, 220px, 0);
+}
+
+.trigger-229:hover ~ .ball {
+  transform: translate3d(160px, 220px, 0);
+}
+
+.trigger-230:hover ~ .ball {
+  transform: translate3d(180px, 220px, 0);
+}
+
+.trigger-231:hover ~ .ball {
+  transform: translate3d(200px, 220px, 0);
+}
+
+.trigger-232:hover ~ .ball {
+  transform: translate3d(220px, 220px, 0);
+}
+
+.trigger-233:hover ~ .ball {
+  transform: translate3d(240px, 220px, 0);
+}
+
+.trigger-234:hover ~ .ball {
+  transform: translate3d(260px, 220px, 0);
+}
+
+.trigger-235:hover ~ .ball {
+  transform: translate3d(280px, 220px, 0);
+}
+
+.trigger-236:hover ~ .ball {
+  transform: translate3d(300px, 220px, 0);
+}
+
+.trigger-237:hover ~ .ball {
+  transform: translate3d(320px, 220px, 0);
+}
+
+.trigger-238:hover ~ .ball {
+  transform: translate3d(340px, 220px, 0);
+}
+
+.trigger-239:hover ~ .ball {
+  transform: translate3d(360px, 220px, 0);
+}
+
+.trigger-240:hover ~ .ball {
+  transform: translate3d(380px, 220px, 0);
+}
+
+.trigger-241:hover ~ .ball {
+  transform: translate3d(0px, 240px, 0);
+}
+
+.trigger-242:hover ~ .ball {
+  transform: translate3d(20px, 240px, 0);
+}
+
+.trigger-243:hover ~ .ball {
+  transform: translate3d(40px, 240px, 0);
+}
+
+.trigger-244:hover ~ .ball {
+  transform: translate3d(60px, 240px, 0);
+}
+
+.trigger-245:hover ~ .ball {
+  transform: translate3d(80px, 240px, 0);
+}
+
+.trigger-246:hover ~ .ball {
+  transform: translate3d(100px, 240px, 0);
+}
+
+.trigger-247:hover ~ .ball {
+  transform: translate3d(120px, 240px, 0);
+}
+
+.trigger-248:hover ~ .ball {
+  transform: translate3d(140px, 240px, 0);
+}
+
+.trigger-249:hover ~ .ball {
+  transform: translate3d(160px, 240px, 0);
+}
+
+.trigger-250:hover ~ .ball {
+  transform: translate3d(180px, 240px, 0);
+}
+
+.trigger-251:hover ~ .ball {
+  transform: translate3d(200px, 240px, 0);
+}
+
+.trigger-252:hover ~ .ball {
+  transform: translate3d(220px, 240px, 0);
+}
+
+.trigger-253:hover ~ .ball {
+  transform: translate3d(240px, 240px, 0);
+}
+
+.trigger-254:hover ~ .ball {
+  transform: translate3d(260px, 240px, 0);
+}
+
+.trigger-255:hover ~ .ball {
+  transform: translate3d(280px, 240px, 0);
+}
+
+.trigger-256:hover ~ .ball {
+  transform: translate3d(300px, 240px, 0);
+}
+
+.trigger-257:hover ~ .ball {
+  transform: translate3d(320px, 240px, 0);
+}
+
+.trigger-258:hover ~ .ball {
+  transform: translate3d(340px, 240px, 0);
+}
+
+.trigger-259:hover ~ .ball {
+  transform: translate3d(360px, 240px, 0);
+}
+
+.trigger-260:hover ~ .ball {
+  transform: translate3d(380px, 240px, 0);
+}
+
+.trigger-261:hover ~ .ball {
+  transform: translate3d(0px, 260px, 0);
+}
+
+.trigger-262:hover ~ .ball {
+  transform: translate3d(20px, 260px, 0);
+}
+
+.trigger-263:hover ~ .ball {
+  transform: translate3d(40px, 260px, 0);
+}
+
+.trigger-264:hover ~ .ball {
+  transform: translate3d(60px, 260px, 0);
+}
+
+.trigger-265:hover ~ .ball {
+  transform: translate3d(80px, 260px, 0);
+}
+
+.trigger-266:hover ~ .ball {
+  transform: translate3d(100px, 260px, 0);
+}
+
+.trigger-267:hover ~ .ball {
+  transform: translate3d(120px, 260px, 0);
+}
+
+.trigger-268:hover ~ .ball {
+  transform: translate3d(140px, 260px, 0);
+}
+
+.trigger-269:hover ~ .ball {
+  transform: translate3d(160px, 260px, 0);
+}
+
+.trigger-270:hover ~ .ball {
+  transform: translate3d(180px, 260px, 0);
+}
+
+.trigger-271:hover ~ .ball {
+  transform: translate3d(200px, 260px, 0);
+}
+
+.trigger-272:hover ~ .ball {
+  transform: translate3d(220px, 260px, 0);
+}
+
+.trigger-273:hover ~ .ball {
+  transform: translate3d(240px, 260px, 0);
+}
+
+.trigger-274:hover ~ .ball {
+  transform: translate3d(260px, 260px, 0);
+}
+
+.trigger-275:hover ~ .ball {
+  transform: translate3d(280px, 260px, 0);
+}
+
+.trigger-276:hover ~ .ball {
+  transform: translate3d(300px, 260px, 0);
+}
+
+.trigger-277:hover ~ .ball {
+  transform: translate3d(320px, 260px, 0);
+}
+
+.trigger-278:hover ~ .ball {
+  transform: translate3d(340px, 260px, 0);
+}
+
+.trigger-279:hover ~ .ball {
+  transform: translate3d(360px, 260px, 0);
+}
+
+.trigger-280:hover ~ .ball {
+  transform: translate3d(380px, 260px, 0);
+}
+
+.trigger-281:hover ~ .ball {
+  transform: translate3d(0px, 280px, 0);
+}
+
+.trigger-282:hover ~ .ball {
+  transform: translate3d(20px, 280px, 0);
+}
+
+.trigger-283:hover ~ .ball {
+  transform: translate3d(40px, 280px, 0);
+}
+
+.trigger-284:hover ~ .ball {
+  transform: translate3d(60px, 280px, 0);
+}
+
+.trigger-285:hover ~ .ball {
+  transform: translate3d(80px, 280px, 0);
+}
+
+.trigger-286:hover ~ .ball {
+  transform: translate3d(100px, 280px, 0);
+}
+
+.trigger-287:hover ~ .ball {
+  transform: translate3d(120px, 280px, 0);
+}
+
+.trigger-288:hover ~ .ball {
+  transform: translate3d(140px, 280px, 0);
+}
+
+.trigger-289:hover ~ .ball {
+  transform: translate3d(160px, 280px, 0);
+}
+
+.trigger-290:hover ~ .ball {
+  transform: translate3d(180px, 280px, 0);
+}
+
+.trigger-291:hover ~ .ball {
+  transform: translate3d(200px, 280px, 0);
+}
+
+.trigger-292:hover ~ .ball {
+  transform: translate3d(220px, 280px, 0);
+}
+
+.trigger-293:hover ~ .ball {
+  transform: translate3d(240px, 280px, 0);
+}
+
+.trigger-294:hover ~ .ball {
+  transform: translate3d(260px, 280px, 0);
+}
+
+.trigger-295:hover ~ .ball {
+  transform: translate3d(280px, 280px, 0);
+}
+
+.trigger-296:hover ~ .ball {
+  transform: translate3d(300px, 280px, 0);
+}
+
+.trigger-297:hover ~ .ball {
+  transform: translate3d(320px, 280px, 0);
+}
+
+.trigger-298:hover ~ .ball {
+  transform: translate3d(340px, 280px, 0);
+}
+
+.trigger-299:hover ~ .ball {
+  transform: translate3d(360px, 280px, 0);
+}
+
+.trigger-300:hover ~ .ball {
+  transform: translate3d(380px, 280px, 0);
+}
+
+.trigger-301:hover ~ .ball {
+  transform: translate3d(0px, 300px, 0);
+}
+
+.trigger-302:hover ~ .ball {
+  transform: translate3d(20px, 300px, 0);
+}
+
+.trigger-303:hover ~ .ball {
+  transform: translate3d(40px, 300px, 0);
+}
+
+.trigger-304:hover ~ .ball {
+  transform: translate3d(60px, 300px, 0);
+}
+
+.trigger-305:hover ~ .ball {
+  transform: translate3d(80px, 300px, 0);
+}
+
+.trigger-306:hover ~ .ball {
+  transform: translate3d(100px, 300px, 0);
+}
+
+.trigger-307:hover ~ .ball {
+  transform: translate3d(120px, 300px, 0);
+}
+
+.trigger-308:hover ~ .ball {
+  transform: translate3d(140px, 300px, 0);
+}
+
+.trigger-309:hover ~ .ball {
+  transform: translate3d(160px, 300px, 0);
+}
+
+.trigger-310:hover ~ .ball {
+  transform: translate3d(180px, 300px, 0);
+}
+
+.trigger-311:hover ~ .ball {
+  transform: translate3d(200px, 300px, 0);
+}
+
+.trigger-312:hover ~ .ball {
+  transform: translate3d(220px, 300px, 0);
+}
+
+.trigger-313:hover ~ .ball {
+  transform: translate3d(240px, 300px, 0);
+}
+
+.trigger-314:hover ~ .ball {
+  transform: translate3d(260px, 300px, 0);
+}
+
+.trigger-315:hover ~ .ball {
+  transform: translate3d(280px, 300px, 0);
+}
+
+.trigger-316:hover ~ .ball {
+  transform: translate3d(300px, 300px, 0);
+}
+
+.trigger-317:hover ~ .ball {
+  transform: translate3d(320px, 300px, 0);
+}
+
+.trigger-318:hover ~ .ball {
+  transform: translate3d(340px, 300px, 0);
+}
+
+.trigger-319:hover ~ .ball {
+  transform: translate3d(360px, 300px, 0);
+}
+
+.trigger-320:hover ~ .ball {
+  transform: translate3d(380px, 300px, 0);
+}
+
+.trigger-321:hover ~ .ball {
+  transform: translate3d(0px, 320px, 0);
+}
+
+.trigger-322:hover ~ .ball {
+  transform: translate3d(20px, 320px, 0);
+}
+
+.trigger-323:hover ~ .ball {
+  transform: translate3d(40px, 320px, 0);
+}
+
+.trigger-324:hover ~ .ball {
+  transform: translate3d(60px, 320px, 0);
+}
+
+.trigger-325:hover ~ .ball {
+  transform: translate3d(80px, 320px, 0);
+}
+
+.trigger-326:hover ~ .ball {
+  transform: translate3d(100px, 320px, 0);
+}
+
+.trigger-327:hover ~ .ball {
+  transform: translate3d(120px, 320px, 0);
+}
+
+.trigger-328:hover ~ .ball {
+  transform: translate3d(140px, 320px, 0);
+}
+
+.trigger-329:hover ~ .ball {
+  transform: translate3d(160px, 320px, 0);
+}
+
+.trigger-330:hover ~ .ball {
+  transform: translate3d(180px, 320px, 0);
+}
+
+.trigger-331:hover ~ .ball {
+  transform: translate3d(200px, 320px, 0);
+}
+
+.trigger-332:hover ~ .ball {
+  transform: translate3d(220px, 320px, 0);
+}
+
+.trigger-333:hover ~ .ball {
+  transform: translate3d(240px, 320px, 0);
+}
+
+.trigger-334:hover ~ .ball {
+  transform: translate3d(260px, 320px, 0);
+}
+
+.trigger-335:hover ~ .ball {
+  transform: translate3d(280px, 320px, 0);
+}
+
+.trigger-336:hover ~ .ball {
+  transform: translate3d(300px, 320px, 0);
+}
+
+.trigger-337:hover ~ .ball {
+  transform: translate3d(320px, 320px, 0);
+}
+
+.trigger-338:hover ~ .ball {
+  transform: translate3d(340px, 320px, 0);
+}
+
+.trigger-339:hover ~ .ball {
+  transform: translate3d(360px, 320px, 0);
+}
+
+.trigger-340:hover ~ .ball {
+  transform: translate3d(380px, 320px, 0);
+}
+
+.trigger-341:hover ~ .ball {
+  transform: translate3d(0px, 340px, 0);
+}
+
+.trigger-342:hover ~ .ball {
+  transform: translate3d(20px, 340px, 0);
+}
+
+.trigger-343:hover ~ .ball {
+  transform: translate3d(40px, 340px, 0);
+}
+
+.trigger-344:hover ~ .ball {
+  transform: translate3d(60px, 340px, 0);
+}
+
+.trigger-345:hover ~ .ball {
+  transform: translate3d(80px, 340px, 0);
+}
+
+.trigger-346:hover ~ .ball {
+  transform: translate3d(100px, 340px, 0);
+}
+
+.trigger-347:hover ~ .ball {
+  transform: translate3d(120px, 340px, 0);
+}
+
+.trigger-348:hover ~ .ball {
+  transform: translate3d(140px, 340px, 0);
+}
+
+.trigger-349:hover ~ .ball {
+  transform: translate3d(160px, 340px, 0);
+}
+
+.trigger-350:hover ~ .ball {
+  transform: translate3d(180px, 340px, 0);
+}
+
+.trigger-351:hover ~ .ball {
+  transform: translate3d(200px, 340px, 0);
+}
+
+.trigger-352:hover ~ .ball {
+  transform: translate3d(220px, 340px, 0);
+}
+
+.trigger-353:hover ~ .ball {
+  transform: translate3d(240px, 340px, 0);
+}
+
+.trigger-354:hover ~ .ball {
+  transform: translate3d(260px, 340px, 0);
+}
+
+.trigger-355:hover ~ .ball {
+  transform: translate3d(280px, 340px, 0);
+}
+
+.trigger-356:hover ~ .ball {
+  transform: translate3d(300px, 340px, 0);
+}
+
+.trigger-357:hover ~ .ball {
+  transform: translate3d(320px, 340px, 0);
+}
+
+.trigger-358:hover ~ .ball {
+  transform: translate3d(340px, 340px, 0);
+}
+
+.trigger-359:hover ~ .ball {
+  transform: translate3d(360px, 340px, 0);
+}
+
+.trigger-360:hover ~ .ball {
+  transform: translate3d(380px, 340px, 0);
+}
+
+.trigger-361:hover ~ .ball {
+  transform: translate3d(0px, 360px, 0);
+}
+
+.trigger-362:hover ~ .ball {
+  transform: translate3d(20px, 360px, 0);
+}
+
+.trigger-363:hover ~ .ball {
+  transform: translate3d(40px, 360px, 0);
+}
+
+.trigger-364:hover ~ .ball {
+  transform: translate3d(60px, 360px, 0);
+}
+
+.trigger-365:hover ~ .ball {
+  transform: translate3d(80px, 360px, 0);
+}
+
+.trigger-366:hover ~ .ball {
+  transform: translate3d(100px, 360px, 0);
+}
+
+.trigger-367:hover ~ .ball {
+  transform: translate3d(120px, 360px, 0);
+}
+
+.trigger-368:hover ~ .ball {
+  transform: translate3d(140px, 360px, 0);
+}
+
+.trigger-369:hover ~ .ball {
+  transform: translate3d(160px, 360px, 0);
+}
+
+.trigger-370:hover ~ .ball {
+  transform: translate3d(180px, 360px, 0);
+}
+
+.trigger-371:hover ~ .ball {
+  transform: translate3d(200px, 360px, 0);
+}
+
+.trigger-372:hover ~ .ball {
+  transform: translate3d(220px, 360px, 0);
+}
+
+.trigger-373:hover ~ .ball {
+  transform: translate3d(240px, 360px, 0);
+}
+
+.trigger-374:hover ~ .ball {
+  transform: translate3d(260px, 360px, 0);
+}
+
+.trigger-375:hover ~ .ball {
+  transform: translate3d(280px, 360px, 0);
+}
+
+.trigger-376:hover ~ .ball {
+  transform: translate3d(300px, 360px, 0);
+}
+
+.trigger-377:hover ~ .ball {
+  transform: translate3d(320px, 360px, 0);
+}
+
+.trigger-378:hover ~ .ball {
+  transform: translate3d(340px, 360px, 0);
+}
+
+.trigger-379:hover ~ .ball {
+  transform: translate3d(360px, 360px, 0);
+}
+
+.trigger-380:hover ~ .ball {
+  transform: translate3d(380px, 360px, 0);
+}
+
+.trigger-381:hover ~ .ball {
+  transform: translate3d(0px, 380px, 0);
+}
+
+.trigger-382:hover ~ .ball {
+  transform: translate3d(20px, 380px, 0);
+}
+
+.trigger-383:hover ~ .ball {
+  transform: translate3d(40px, 380px, 0);
+}
+
+.trigger-384:hover ~ .ball {
+  transform: translate3d(60px, 380px, 0);
+}
+
+.trigger-385:hover ~ .ball {
+  transform: translate3d(80px, 380px, 0);
+}
+
+.trigger-386:hover ~ .ball {
+  transform: translate3d(100px, 380px, 0);
+}
+
+.trigger-387:hover ~ .ball {
+  transform: translate3d(120px, 380px, 0);
+}
+
+.trigger-388:hover ~ .ball {
+  transform: translate3d(140px, 380px, 0);
+}
+
+.trigger-389:hover ~ .ball {
+  transform: translate3d(160px, 380px, 0);
+}
+
+.trigger-390:hover ~ .ball {
+  transform: translate3d(180px, 380px, 0);
+}
+
+.trigger-391:hover ~ .ball {
+  transform: translate3d(200px, 380px, 0);
+}
+
+.trigger-392:hover ~ .ball {
+  transform: translate3d(220px, 380px, 0);
+}
+
+.trigger-393:hover ~ .ball {
+  transform: translate3d(240px, 380px, 0);
+}
+
+.trigger-394:hover ~ .ball {
+  transform: translate3d(260px, 380px, 0);
+}
+
+.trigger-395:hover ~ .ball {
+  transform: translate3d(280px, 380px, 0);
+}
+
+.trigger-396:hover ~ .ball {
+  transform: translate3d(300px, 380px, 0);
+}
+
+.trigger-397:hover ~ .ball {
+  transform: translate3d(320px, 380px, 0);
+}
+
+.trigger-398:hover ~ .ball {
+  transform: translate3d(340px, 380px, 0);
+}
+
+.trigger-399:hover ~ .ball {
+  transform: translate3d(360px, 380px, 0);
+}
+
+.trigger-400:hover ~ .ball {
+  transform: translate3d(380px, 380px, 0);
+}
+
+@keyframes ring {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1.6);
+    opacity: 0;
+  }
+}/*# sourceMappingURL=index.css.map */

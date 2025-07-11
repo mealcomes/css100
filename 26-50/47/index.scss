@@ -1,0 +1,37 @@
+.frame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -200px;
+    border-radius: 5px;
+    box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+}
+
+.grid {
+    width: 20px;
+    height: 20px;
+    box-sizing: border-box;
+    float: left;
+
+    input[type='checkbox'] {
+        display: none;
+    }
+
+    .tab {
+        display: block;
+        background-color: #DE4738;
+        border: 1px #E24E3F solid;
+        width: 20px;
+        height: 20px;
+        font-size: 10px;
+        cursor: pointer;
+    }
+
+    input[type='checkbox']:checked+.tab {
+        background-color: #fff;
+        border: none;
+    }
+}

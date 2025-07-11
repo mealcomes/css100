@@ -1,0 +1,805 @@
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 5px;
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+  background-color: #27AE60;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 200px;
+  height: 200px;
+  transform: translate(-50%, -50%);
+}
+
+.ring {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  left: 0;
+  top: 0;
+}
+.ring .dot {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: #fff;
+}
+
+.ring-1 {
+  opacity: 0.95;
+  transform: rotate(0deg) scale(1);
+  animation: inOut-1 6s ease-in-out infinite alternate;
+}
+.ring-1 .dot-1 {
+  transform-origin: 100px 100px;
+  transform: rotate(0deg);
+}
+
+.ring-1 {
+  opacity: 0.95;
+  transform: rotate(0deg) scale(1);
+  animation: inOut-1 6s ease-in-out infinite alternate;
+}
+.ring-1 .dot-2 {
+  transform-origin: 100px 100px;
+  transform: rotate(30deg);
+}
+
+.ring-1 {
+  opacity: 0.95;
+  transform: rotate(0deg) scale(1);
+  animation: inOut-1 6s ease-in-out infinite alternate;
+}
+.ring-1 .dot-3 {
+  transform-origin: 100px 100px;
+  transform: rotate(60deg);
+}
+
+.ring-1 {
+  opacity: 0.95;
+  transform: rotate(0deg) scale(1);
+  animation: inOut-1 6s ease-in-out infinite alternate;
+}
+.ring-1 .dot-4 {
+  transform-origin: 100px 100px;
+  transform: rotate(90deg);
+}
+
+.ring-1 {
+  opacity: 0.95;
+  transform: rotate(0deg) scale(1);
+  animation: inOut-1 6s ease-in-out infinite alternate;
+}
+.ring-1 .dot-5 {
+  transform-origin: 100px 100px;
+  transform: rotate(120deg);
+}
+
+.ring-1 {
+  opacity: 0.95;
+  transform: rotate(0deg) scale(1);
+  animation: inOut-1 6s ease-in-out infinite alternate;
+}
+.ring-1 .dot-6 {
+  transform-origin: 100px 100px;
+  transform: rotate(150deg);
+}
+
+.ring-1 {
+  opacity: 0.95;
+  transform: rotate(0deg) scale(1);
+  animation: inOut-1 6s ease-in-out infinite alternate;
+}
+.ring-1 .dot-7 {
+  transform-origin: 100px 100px;
+  transform: rotate(180deg);
+}
+
+.ring-1 {
+  opacity: 0.95;
+  transform: rotate(0deg) scale(1);
+  animation: inOut-1 6s ease-in-out infinite alternate;
+}
+.ring-1 .dot-8 {
+  transform-origin: 100px 100px;
+  transform: rotate(210deg);
+}
+
+.ring-1 {
+  opacity: 0.95;
+  transform: rotate(0deg) scale(1);
+  animation: inOut-1 6s ease-in-out infinite alternate;
+}
+.ring-1 .dot-9 {
+  transform-origin: 100px 100px;
+  transform: rotate(240deg);
+}
+
+.ring-1 {
+  opacity: 0.95;
+  transform: rotate(0deg) scale(1);
+  animation: inOut-1 6s ease-in-out infinite alternate;
+}
+.ring-1 .dot-10 {
+  transform-origin: 100px 100px;
+  transform: rotate(270deg);
+}
+
+.ring-1 {
+  opacity: 0.95;
+  transform: rotate(0deg) scale(1);
+  animation: inOut-1 6s ease-in-out infinite alternate;
+}
+.ring-1 .dot-11 {
+  transform-origin: 100px 100px;
+  transform: rotate(300deg);
+}
+
+.ring-1 {
+  opacity: 0.95;
+  transform: rotate(0deg) scale(1);
+  animation: inOut-1 6s ease-in-out infinite alternate;
+}
+.ring-1 .dot-12 {
+  transform-origin: 100px 100px;
+  transform: rotate(330deg);
+}
+
+.ring-2 {
+  opacity: 0.9;
+  transform: rotate(5deg) scale(0.95);
+  animation: inOut-2 6s ease-in-out infinite alternate;
+}
+.ring-2 .dot-1 {
+  transform-origin: 100px 100px;
+  transform: rotate(0deg);
+}
+
+.ring-2 {
+  opacity: 0.9;
+  transform: rotate(5deg) scale(0.95);
+  animation: inOut-2 6s ease-in-out infinite alternate;
+}
+.ring-2 .dot-2 {
+  transform-origin: 100px 100px;
+  transform: rotate(30deg);
+}
+
+.ring-2 {
+  opacity: 0.9;
+  transform: rotate(5deg) scale(0.95);
+  animation: inOut-2 6s ease-in-out infinite alternate;
+}
+.ring-2 .dot-3 {
+  transform-origin: 100px 100px;
+  transform: rotate(60deg);
+}
+
+.ring-2 {
+  opacity: 0.9;
+  transform: rotate(5deg) scale(0.95);
+  animation: inOut-2 6s ease-in-out infinite alternate;
+}
+.ring-2 .dot-4 {
+  transform-origin: 100px 100px;
+  transform: rotate(90deg);
+}
+
+.ring-2 {
+  opacity: 0.9;
+  transform: rotate(5deg) scale(0.95);
+  animation: inOut-2 6s ease-in-out infinite alternate;
+}
+.ring-2 .dot-5 {
+  transform-origin: 100px 100px;
+  transform: rotate(120deg);
+}
+
+.ring-2 {
+  opacity: 0.9;
+  transform: rotate(5deg) scale(0.95);
+  animation: inOut-2 6s ease-in-out infinite alternate;
+}
+.ring-2 .dot-6 {
+  transform-origin: 100px 100px;
+  transform: rotate(150deg);
+}
+
+.ring-2 {
+  opacity: 0.9;
+  transform: rotate(5deg) scale(0.95);
+  animation: inOut-2 6s ease-in-out infinite alternate;
+}
+.ring-2 .dot-7 {
+  transform-origin: 100px 100px;
+  transform: rotate(180deg);
+}
+
+.ring-2 {
+  opacity: 0.9;
+  transform: rotate(5deg) scale(0.95);
+  animation: inOut-2 6s ease-in-out infinite alternate;
+}
+.ring-2 .dot-8 {
+  transform-origin: 100px 100px;
+  transform: rotate(210deg);
+}
+
+.ring-2 {
+  opacity: 0.9;
+  transform: rotate(5deg) scale(0.95);
+  animation: inOut-2 6s ease-in-out infinite alternate;
+}
+.ring-2 .dot-9 {
+  transform-origin: 100px 100px;
+  transform: rotate(240deg);
+}
+
+.ring-2 {
+  opacity: 0.9;
+  transform: rotate(5deg) scale(0.95);
+  animation: inOut-2 6s ease-in-out infinite alternate;
+}
+.ring-2 .dot-10 {
+  transform-origin: 100px 100px;
+  transform: rotate(270deg);
+}
+
+.ring-2 {
+  opacity: 0.9;
+  transform: rotate(5deg) scale(0.95);
+  animation: inOut-2 6s ease-in-out infinite alternate;
+}
+.ring-2 .dot-11 {
+  transform-origin: 100px 100px;
+  transform: rotate(300deg);
+}
+
+.ring-2 {
+  opacity: 0.9;
+  transform: rotate(5deg) scale(0.95);
+  animation: inOut-2 6s ease-in-out infinite alternate;
+}
+.ring-2 .dot-12 {
+  transform-origin: 100px 100px;
+  transform: rotate(330deg);
+}
+
+.ring-3 {
+  opacity: 0.85;
+  transform: rotate(10deg) scale(0.9);
+  animation: inOut-3 6s ease-in-out infinite alternate;
+}
+.ring-3 .dot-1 {
+  transform-origin: 100px 100px;
+  transform: rotate(0deg);
+}
+
+.ring-3 {
+  opacity: 0.85;
+  transform: rotate(10deg) scale(0.9);
+  animation: inOut-3 6s ease-in-out infinite alternate;
+}
+.ring-3 .dot-2 {
+  transform-origin: 100px 100px;
+  transform: rotate(30deg);
+}
+
+.ring-3 {
+  opacity: 0.85;
+  transform: rotate(10deg) scale(0.9);
+  animation: inOut-3 6s ease-in-out infinite alternate;
+}
+.ring-3 .dot-3 {
+  transform-origin: 100px 100px;
+  transform: rotate(60deg);
+}
+
+.ring-3 {
+  opacity: 0.85;
+  transform: rotate(10deg) scale(0.9);
+  animation: inOut-3 6s ease-in-out infinite alternate;
+}
+.ring-3 .dot-4 {
+  transform-origin: 100px 100px;
+  transform: rotate(90deg);
+}
+
+.ring-3 {
+  opacity: 0.85;
+  transform: rotate(10deg) scale(0.9);
+  animation: inOut-3 6s ease-in-out infinite alternate;
+}
+.ring-3 .dot-5 {
+  transform-origin: 100px 100px;
+  transform: rotate(120deg);
+}
+
+.ring-3 {
+  opacity: 0.85;
+  transform: rotate(10deg) scale(0.9);
+  animation: inOut-3 6s ease-in-out infinite alternate;
+}
+.ring-3 .dot-6 {
+  transform-origin: 100px 100px;
+  transform: rotate(150deg);
+}
+
+.ring-3 {
+  opacity: 0.85;
+  transform: rotate(10deg) scale(0.9);
+  animation: inOut-3 6s ease-in-out infinite alternate;
+}
+.ring-3 .dot-7 {
+  transform-origin: 100px 100px;
+  transform: rotate(180deg);
+}
+
+.ring-3 {
+  opacity: 0.85;
+  transform: rotate(10deg) scale(0.9);
+  animation: inOut-3 6s ease-in-out infinite alternate;
+}
+.ring-3 .dot-8 {
+  transform-origin: 100px 100px;
+  transform: rotate(210deg);
+}
+
+.ring-3 {
+  opacity: 0.85;
+  transform: rotate(10deg) scale(0.9);
+  animation: inOut-3 6s ease-in-out infinite alternate;
+}
+.ring-3 .dot-9 {
+  transform-origin: 100px 100px;
+  transform: rotate(240deg);
+}
+
+.ring-3 {
+  opacity: 0.85;
+  transform: rotate(10deg) scale(0.9);
+  animation: inOut-3 6s ease-in-out infinite alternate;
+}
+.ring-3 .dot-10 {
+  transform-origin: 100px 100px;
+  transform: rotate(270deg);
+}
+
+.ring-3 {
+  opacity: 0.85;
+  transform: rotate(10deg) scale(0.9);
+  animation: inOut-3 6s ease-in-out infinite alternate;
+}
+.ring-3 .dot-11 {
+  transform-origin: 100px 100px;
+  transform: rotate(300deg);
+}
+
+.ring-3 {
+  opacity: 0.85;
+  transform: rotate(10deg) scale(0.9);
+  animation: inOut-3 6s ease-in-out infinite alternate;
+}
+.ring-3 .dot-12 {
+  transform-origin: 100px 100px;
+  transform: rotate(330deg);
+}
+
+.ring-4 {
+  opacity: 0.8;
+  transform: rotate(15deg) scale(0.85);
+  animation: inOut-4 6s ease-in-out infinite alternate;
+}
+.ring-4 .dot-1 {
+  transform-origin: 100px 100px;
+  transform: rotate(0deg);
+}
+
+.ring-4 {
+  opacity: 0.8;
+  transform: rotate(15deg) scale(0.85);
+  animation: inOut-4 6s ease-in-out infinite alternate;
+}
+.ring-4 .dot-2 {
+  transform-origin: 100px 100px;
+  transform: rotate(30deg);
+}
+
+.ring-4 {
+  opacity: 0.8;
+  transform: rotate(15deg) scale(0.85);
+  animation: inOut-4 6s ease-in-out infinite alternate;
+}
+.ring-4 .dot-3 {
+  transform-origin: 100px 100px;
+  transform: rotate(60deg);
+}
+
+.ring-4 {
+  opacity: 0.8;
+  transform: rotate(15deg) scale(0.85);
+  animation: inOut-4 6s ease-in-out infinite alternate;
+}
+.ring-4 .dot-4 {
+  transform-origin: 100px 100px;
+  transform: rotate(90deg);
+}
+
+.ring-4 {
+  opacity: 0.8;
+  transform: rotate(15deg) scale(0.85);
+  animation: inOut-4 6s ease-in-out infinite alternate;
+}
+.ring-4 .dot-5 {
+  transform-origin: 100px 100px;
+  transform: rotate(120deg);
+}
+
+.ring-4 {
+  opacity: 0.8;
+  transform: rotate(15deg) scale(0.85);
+  animation: inOut-4 6s ease-in-out infinite alternate;
+}
+.ring-4 .dot-6 {
+  transform-origin: 100px 100px;
+  transform: rotate(150deg);
+}
+
+.ring-4 {
+  opacity: 0.8;
+  transform: rotate(15deg) scale(0.85);
+  animation: inOut-4 6s ease-in-out infinite alternate;
+}
+.ring-4 .dot-7 {
+  transform-origin: 100px 100px;
+  transform: rotate(180deg);
+}
+
+.ring-4 {
+  opacity: 0.8;
+  transform: rotate(15deg) scale(0.85);
+  animation: inOut-4 6s ease-in-out infinite alternate;
+}
+.ring-4 .dot-8 {
+  transform-origin: 100px 100px;
+  transform: rotate(210deg);
+}
+
+.ring-4 {
+  opacity: 0.8;
+  transform: rotate(15deg) scale(0.85);
+  animation: inOut-4 6s ease-in-out infinite alternate;
+}
+.ring-4 .dot-9 {
+  transform-origin: 100px 100px;
+  transform: rotate(240deg);
+}
+
+.ring-4 {
+  opacity: 0.8;
+  transform: rotate(15deg) scale(0.85);
+  animation: inOut-4 6s ease-in-out infinite alternate;
+}
+.ring-4 .dot-10 {
+  transform-origin: 100px 100px;
+  transform: rotate(270deg);
+}
+
+.ring-4 {
+  opacity: 0.8;
+  transform: rotate(15deg) scale(0.85);
+  animation: inOut-4 6s ease-in-out infinite alternate;
+}
+.ring-4 .dot-11 {
+  transform-origin: 100px 100px;
+  transform: rotate(300deg);
+}
+
+.ring-4 {
+  opacity: 0.8;
+  transform: rotate(15deg) scale(0.85);
+  animation: inOut-4 6s ease-in-out infinite alternate;
+}
+.ring-4 .dot-12 {
+  transform-origin: 100px 100px;
+  transform: rotate(330deg);
+}
+
+.ring-5 {
+  opacity: 0.75;
+  transform: rotate(20deg) scale(0.8);
+  animation: inOut-5 6s ease-in-out infinite alternate;
+}
+.ring-5 .dot-1 {
+  transform-origin: 100px 100px;
+  transform: rotate(0deg);
+}
+
+.ring-5 {
+  opacity: 0.75;
+  transform: rotate(20deg) scale(0.8);
+  animation: inOut-5 6s ease-in-out infinite alternate;
+}
+.ring-5 .dot-2 {
+  transform-origin: 100px 100px;
+  transform: rotate(30deg);
+}
+
+.ring-5 {
+  opacity: 0.75;
+  transform: rotate(20deg) scale(0.8);
+  animation: inOut-5 6s ease-in-out infinite alternate;
+}
+.ring-5 .dot-3 {
+  transform-origin: 100px 100px;
+  transform: rotate(60deg);
+}
+
+.ring-5 {
+  opacity: 0.75;
+  transform: rotate(20deg) scale(0.8);
+  animation: inOut-5 6s ease-in-out infinite alternate;
+}
+.ring-5 .dot-4 {
+  transform-origin: 100px 100px;
+  transform: rotate(90deg);
+}
+
+.ring-5 {
+  opacity: 0.75;
+  transform: rotate(20deg) scale(0.8);
+  animation: inOut-5 6s ease-in-out infinite alternate;
+}
+.ring-5 .dot-5 {
+  transform-origin: 100px 100px;
+  transform: rotate(120deg);
+}
+
+.ring-5 {
+  opacity: 0.75;
+  transform: rotate(20deg) scale(0.8);
+  animation: inOut-5 6s ease-in-out infinite alternate;
+}
+.ring-5 .dot-6 {
+  transform-origin: 100px 100px;
+  transform: rotate(150deg);
+}
+
+.ring-5 {
+  opacity: 0.75;
+  transform: rotate(20deg) scale(0.8);
+  animation: inOut-5 6s ease-in-out infinite alternate;
+}
+.ring-5 .dot-7 {
+  transform-origin: 100px 100px;
+  transform: rotate(180deg);
+}
+
+.ring-5 {
+  opacity: 0.75;
+  transform: rotate(20deg) scale(0.8);
+  animation: inOut-5 6s ease-in-out infinite alternate;
+}
+.ring-5 .dot-8 {
+  transform-origin: 100px 100px;
+  transform: rotate(210deg);
+}
+
+.ring-5 {
+  opacity: 0.75;
+  transform: rotate(20deg) scale(0.8);
+  animation: inOut-5 6s ease-in-out infinite alternate;
+}
+.ring-5 .dot-9 {
+  transform-origin: 100px 100px;
+  transform: rotate(240deg);
+}
+
+.ring-5 {
+  opacity: 0.75;
+  transform: rotate(20deg) scale(0.8);
+  animation: inOut-5 6s ease-in-out infinite alternate;
+}
+.ring-5 .dot-10 {
+  transform-origin: 100px 100px;
+  transform: rotate(270deg);
+}
+
+.ring-5 {
+  opacity: 0.75;
+  transform: rotate(20deg) scale(0.8);
+  animation: inOut-5 6s ease-in-out infinite alternate;
+}
+.ring-5 .dot-11 {
+  transform-origin: 100px 100px;
+  transform: rotate(300deg);
+}
+
+.ring-5 {
+  opacity: 0.75;
+  transform: rotate(20deg) scale(0.8);
+  animation: inOut-5 6s ease-in-out infinite alternate;
+}
+.ring-5 .dot-12 {
+  transform-origin: 100px 100px;
+  transform: rotate(330deg);
+}
+
+.ring-6 {
+  opacity: 0.7;
+  transform: rotate(25deg) scale(0.75);
+  animation: inOut-6 6s ease-in-out infinite alternate;
+}
+.ring-6 .dot-1 {
+  transform-origin: 100px 100px;
+  transform: rotate(0deg);
+}
+
+.ring-6 {
+  opacity: 0.7;
+  transform: rotate(25deg) scale(0.75);
+  animation: inOut-6 6s ease-in-out infinite alternate;
+}
+.ring-6 .dot-2 {
+  transform-origin: 100px 100px;
+  transform: rotate(30deg);
+}
+
+.ring-6 {
+  opacity: 0.7;
+  transform: rotate(25deg) scale(0.75);
+  animation: inOut-6 6s ease-in-out infinite alternate;
+}
+.ring-6 .dot-3 {
+  transform-origin: 100px 100px;
+  transform: rotate(60deg);
+}
+
+.ring-6 {
+  opacity: 0.7;
+  transform: rotate(25deg) scale(0.75);
+  animation: inOut-6 6s ease-in-out infinite alternate;
+}
+.ring-6 .dot-4 {
+  transform-origin: 100px 100px;
+  transform: rotate(90deg);
+}
+
+.ring-6 {
+  opacity: 0.7;
+  transform: rotate(25deg) scale(0.75);
+  animation: inOut-6 6s ease-in-out infinite alternate;
+}
+.ring-6 .dot-5 {
+  transform-origin: 100px 100px;
+  transform: rotate(120deg);
+}
+
+.ring-6 {
+  opacity: 0.7;
+  transform: rotate(25deg) scale(0.75);
+  animation: inOut-6 6s ease-in-out infinite alternate;
+}
+.ring-6 .dot-6 {
+  transform-origin: 100px 100px;
+  transform: rotate(150deg);
+}
+
+.ring-6 {
+  opacity: 0.7;
+  transform: rotate(25deg) scale(0.75);
+  animation: inOut-6 6s ease-in-out infinite alternate;
+}
+.ring-6 .dot-7 {
+  transform-origin: 100px 100px;
+  transform: rotate(180deg);
+}
+
+.ring-6 {
+  opacity: 0.7;
+  transform: rotate(25deg) scale(0.75);
+  animation: inOut-6 6s ease-in-out infinite alternate;
+}
+.ring-6 .dot-8 {
+  transform-origin: 100px 100px;
+  transform: rotate(210deg);
+}
+
+.ring-6 {
+  opacity: 0.7;
+  transform: rotate(25deg) scale(0.75);
+  animation: inOut-6 6s ease-in-out infinite alternate;
+}
+.ring-6 .dot-9 {
+  transform-origin: 100px 100px;
+  transform: rotate(240deg);
+}
+
+.ring-6 {
+  opacity: 0.7;
+  transform: rotate(25deg) scale(0.75);
+  animation: inOut-6 6s ease-in-out infinite alternate;
+}
+.ring-6 .dot-10 {
+  transform-origin: 100px 100px;
+  transform: rotate(270deg);
+}
+
+.ring-6 {
+  opacity: 0.7;
+  transform: rotate(25deg) scale(0.75);
+  animation: inOut-6 6s ease-in-out infinite alternate;
+}
+.ring-6 .dot-11 {
+  transform-origin: 100px 100px;
+  transform: rotate(300deg);
+}
+
+.ring-6 {
+  opacity: 0.7;
+  transform: rotate(25deg) scale(0.75);
+  animation: inOut-6 6s ease-in-out infinite alternate;
+}
+.ring-6 .dot-12 {
+  transform-origin: 100px 100px;
+  transform: rotate(330deg);
+}
+
+@keyframes inOut-1 {
+  0% {
+    transform: scale(1) rotate(0deg);
+  }
+  100% {
+    transform: scale(1) rotate(360deg);
+  }
+}
+@keyframes inOut-2 {
+  0% {
+    transform: scale(0.8571428571) rotate(5deg);
+  }
+  100% {
+    transform: scale(0.9545454545) rotate(370deg);
+  }
+}
+@keyframes inOut-3 {
+  0% {
+    transform: scale(0.7142857143) rotate(10deg);
+  }
+  100% {
+    transform: scale(0.9090909091) rotate(380deg);
+  }
+}
+@keyframes inOut-4 {
+  0% {
+    transform: scale(0.5714285714) rotate(15deg);
+  }
+  100% {
+    transform: scale(0.8636363636) rotate(390deg);
+  }
+}
+@keyframes inOut-5 {
+  0% {
+    transform: scale(0.4285714286) rotate(20deg);
+  }
+  100% {
+    transform: scale(0.8181818182) rotate(400deg);
+  }
+}
+@keyframes inOut-6 {
+  0% {
+    transform: scale(0.2857142857) rotate(25deg);
+  }
+  100% {
+    transform: scale(0.7727272727) rotate(410deg);
+  }
+}/*# sourceMappingURL=index.css.map */

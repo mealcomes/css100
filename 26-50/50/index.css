@@ -1,0 +1,78 @@
+.frame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -200px;
+    border-radius: 5px;
+    box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+    background-color: #8E44AD;
+}
+
+.egg {
+    position: absolute;
+    width: 90px;
+    height: 120px;
+    background-color: #fff;
+    left: calc(50% - 45px);
+    top: calc(50% - 60px);
+    border-radius:
+        50px 50px 50px 50px / 80px 80px 50px 50px;
+    transform-origin: 50% 100%;
+    animation: move 3s ease-in-out infinite;
+}
+
+@keyframes move {
+    0% {
+        transform: translate(0, -260px) scale(1, 1);
+    }
+
+    15%,
+    18% {
+        transform: translate(0, 50px) scale(1.1, 0.9);
+    }
+
+    25% {
+        transform: translate(0, -20px) scale(0.9, 1.05);
+    }
+
+    30% {
+        transform: translate(0, 10px) scale(1, 1);
+    }
+
+    35%,
+    40% {
+        transform: rotateZ(0) translate(0, 0) scale(1, 1);
+    }
+
+    45% {
+        transform: rotateZ(5deg) scale(1, 1);
+    }
+
+    50% {
+        transform: rotateZ(-5deg) scale(1, 1);
+    }
+
+    55% {
+        transform: rotateZ(5deg) scale(1, 1);
+    }
+
+    60%,
+    75% {
+        transform: rotateZ(0);
+    }
+
+    80% {
+        transform: translate(0, 10px);
+    }
+
+    90% {
+        transform: translate(0, -20px);
+    }
+
+    100% {
+        transform: translate(0, 260px);
+    }
+}

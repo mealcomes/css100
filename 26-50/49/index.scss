@@ -1,0 +1,80 @@
+.frame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -200px;
+    border-radius: 5px;
+    box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+    background-color: #2C3E50;
+}
+
+.trigger {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    float: left;
+    background: none;
+    opacity: 0;
+    cursor: pointer;
+}
+
+$ballLeft: 190px;
+$ballTop: 190px;
+
+.ball {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 0;
+    top: 0;
+    background-color: #2ECC71;
+    border-radius: 100%;
+    pointer-events: none;
+    transform: translate3d(190px, 190px, 0);
+    transition: all .3s ease-in;
+
+    &::after {
+        content: '';
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        box-sizing: border-box;
+        border-radius: 100%;
+        border: solid 1px #2ECC71;
+        animation: ring 1.3s cubic-bezier(0.224, 0.987, 0.597, 1.001) infinite;
+    }
+}
+
+$row: 1;
+$column: 1;
+
+@for $i from 1 through 400 {
+    $row: floor(($i - 1) / 20) + 1;
+    $column: $i - (($row - 1) * 20);
+
+    $left: ($column - 1) * 20px;
+    $top: ($row - 1) * 20px;
+
+    .trigger-#{$i} {
+        &:hover {
+            ~.ball {
+                transform: translate3d($left, $top, 0);
+            }
+        }
+    }
+}
+
+@keyframes ring {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(1.6);
+        opacity: 0;
+    }
+}
