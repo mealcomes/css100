@@ -1,0 +1,7751 @@
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 5px;
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+  background-color: #27AE60;
+}
+
+.ring-1 {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  left: calc(50% - 35px);
+  top: calc(50% - 35px);
+}
+.ring-1 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0s both alternate infinite;
+}
+.ring-1 .ball-1 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 35px;
+  transform: rotate(0deg);
+}
+.ring-1 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0s both alternate infinite;
+}
+.ring-1 .ball-2 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 35px;
+  transform: rotate(20deg);
+}
+.ring-1 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0s both alternate infinite;
+}
+.ring-1 .ball-3 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 35px;
+  transform: rotate(40deg);
+}
+.ring-1 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0s both alternate infinite;
+}
+.ring-1 .ball-4 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 35px;
+  transform: rotate(60deg);
+}
+.ring-1 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0s both alternate infinite;
+}
+.ring-1 .ball-5 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 35px;
+  transform: rotate(80deg);
+}
+.ring-1 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0s both alternate infinite;
+}
+.ring-1 .ball-6 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 35px;
+  transform: rotate(100deg);
+}
+.ring-1 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0s both alternate infinite;
+}
+.ring-1 .ball-7 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 35px;
+  transform: rotate(120deg);
+}
+.ring-1 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0s both alternate infinite;
+}
+.ring-1 .ball-8 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 35px;
+  transform: rotate(140deg);
+}
+.ring-1 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0s both alternate infinite;
+}
+.ring-1 .ball-9 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 35px;
+  transform: rotate(160deg);
+}
+.ring-1 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0s both alternate infinite;
+}
+.ring-1 .ball-10 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 35px;
+  transform: rotate(180deg);
+}
+.ring-1 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0s both alternate infinite;
+}
+.ring-1 .ball-11 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 35px;
+  transform: rotate(200deg);
+}
+.ring-1 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0s both alternate infinite;
+}
+.ring-1 .ball-12 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 35px;
+  transform: rotate(220deg);
+}
+.ring-1 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0s both alternate infinite;
+}
+.ring-1 .ball-13 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 35px;
+  transform: rotate(240deg);
+}
+.ring-1 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0s both alternate infinite;
+}
+.ring-1 .ball-14 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 35px;
+  transform: rotate(260deg);
+}
+.ring-1 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0s both alternate infinite;
+}
+.ring-1 .ball-15 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 35px;
+  transform: rotate(280deg);
+}
+.ring-1 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0s both alternate infinite;
+}
+.ring-1 .ball-16 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 35px;
+  transform: rotate(300deg);
+}
+.ring-1 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0s both alternate infinite;
+}
+.ring-1 .ball-17 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 35px;
+  transform: rotate(320deg);
+}
+.ring-1 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0s both alternate infinite;
+}
+.ring-1 .ball-18 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 35px;
+  transform: rotate(340deg);
+}
+
+.ring-2 {
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  left: calc(50% - 45px);
+  top: calc(50% - 45px);
+}
+.ring-2 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0.3s both alternate infinite;
+}
+.ring-2 .ball-1 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 45px;
+  transform: rotate(0deg);
+}
+.ring-2 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0.3s both alternate infinite;
+}
+.ring-2 .ball-2 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 45px;
+  transform: rotate(15deg);
+}
+.ring-2 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0.3s both alternate infinite;
+}
+.ring-2 .ball-3 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 45px;
+  transform: rotate(30deg);
+}
+.ring-2 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0.3s both alternate infinite;
+}
+.ring-2 .ball-4 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 45px;
+  transform: rotate(45deg);
+}
+.ring-2 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0.3s both alternate infinite;
+}
+.ring-2 .ball-5 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 45px;
+  transform: rotate(60deg);
+}
+.ring-2 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0.3s both alternate infinite;
+}
+.ring-2 .ball-6 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 45px;
+  transform: rotate(75deg);
+}
+.ring-2 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0.3s both alternate infinite;
+}
+.ring-2 .ball-7 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 45px;
+  transform: rotate(90deg);
+}
+.ring-2 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0.3s both alternate infinite;
+}
+.ring-2 .ball-8 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 45px;
+  transform: rotate(105deg);
+}
+.ring-2 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0.3s both alternate infinite;
+}
+.ring-2 .ball-9 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 45px;
+  transform: rotate(120deg);
+}
+.ring-2 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0.3s both alternate infinite;
+}
+.ring-2 .ball-10 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 45px;
+  transform: rotate(135deg);
+}
+.ring-2 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0.3s both alternate infinite;
+}
+.ring-2 .ball-11 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 45px;
+  transform: rotate(150deg);
+}
+.ring-2 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0.3s both alternate infinite;
+}
+.ring-2 .ball-12 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 45px;
+  transform: rotate(165deg);
+}
+.ring-2 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0.3s both alternate infinite;
+}
+.ring-2 .ball-13 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 45px;
+  transform: rotate(180deg);
+}
+.ring-2 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0.3s both alternate infinite;
+}
+.ring-2 .ball-14 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 45px;
+  transform: rotate(195deg);
+}
+.ring-2 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0.3s both alternate infinite;
+}
+.ring-2 .ball-15 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 45px;
+  transform: rotate(210deg);
+}
+.ring-2 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0.3s both alternate infinite;
+}
+.ring-2 .ball-16 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 45px;
+  transform: rotate(225deg);
+}
+.ring-2 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0.3s both alternate infinite;
+}
+.ring-2 .ball-17 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 45px;
+  transform: rotate(240deg);
+}
+.ring-2 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0.3s both alternate infinite;
+}
+.ring-2 .ball-18 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 45px;
+  transform: rotate(255deg);
+}
+.ring-2 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0.3s both alternate infinite;
+}
+.ring-2 .ball-19 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 45px;
+  transform: rotate(270deg);
+}
+.ring-2 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0.3s both alternate infinite;
+}
+.ring-2 .ball-20 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 45px;
+  transform: rotate(285deg);
+}
+.ring-2 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0.3s both alternate infinite;
+}
+.ring-2 .ball-21 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 45px;
+  transform: rotate(300deg);
+}
+.ring-2 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0.3s both alternate infinite;
+}
+.ring-2 .ball-22 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 45px;
+  transform: rotate(315deg);
+}
+.ring-2 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0.3s both alternate infinite;
+}
+.ring-2 .ball-23 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 45px;
+  transform: rotate(330deg);
+}
+.ring-2 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0.3s both alternate infinite;
+}
+.ring-2 .ball-24 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 45px;
+  transform: rotate(345deg);
+}
+
+.ring-3 {
+  position: absolute;
+  width: 110px;
+  height: 110px;
+  left: calc(50% - 55px);
+  top: calc(50% - 55px);
+}
+.ring-3 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0.6s both alternate infinite;
+}
+.ring-3 .ball-1 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 55px;
+  transform: rotate(0deg);
+}
+.ring-3 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0.6s both alternate infinite;
+}
+.ring-3 .ball-2 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 55px;
+  transform: rotate(12deg);
+}
+.ring-3 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0.6s both alternate infinite;
+}
+.ring-3 .ball-3 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 55px;
+  transform: rotate(24deg);
+}
+.ring-3 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0.6s both alternate infinite;
+}
+.ring-3 .ball-4 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 55px;
+  transform: rotate(36deg);
+}
+.ring-3 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0.6s both alternate infinite;
+}
+.ring-3 .ball-5 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 55px;
+  transform: rotate(48deg);
+}
+.ring-3 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0.6s both alternate infinite;
+}
+.ring-3 .ball-6 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 55px;
+  transform: rotate(60deg);
+}
+.ring-3 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0.6s both alternate infinite;
+}
+.ring-3 .ball-7 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 55px;
+  transform: rotate(72deg);
+}
+.ring-3 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0.6s both alternate infinite;
+}
+.ring-3 .ball-8 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 55px;
+  transform: rotate(84deg);
+}
+.ring-3 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0.6s both alternate infinite;
+}
+.ring-3 .ball-9 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 55px;
+  transform: rotate(96deg);
+}
+.ring-3 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0.6s both alternate infinite;
+}
+.ring-3 .ball-10 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 55px;
+  transform: rotate(108deg);
+}
+.ring-3 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0.6s both alternate infinite;
+}
+.ring-3 .ball-11 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 55px;
+  transform: rotate(120deg);
+}
+.ring-3 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0.6s both alternate infinite;
+}
+.ring-3 .ball-12 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 55px;
+  transform: rotate(132deg);
+}
+.ring-3 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0.6s both alternate infinite;
+}
+.ring-3 .ball-13 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 55px;
+  transform: rotate(144deg);
+}
+.ring-3 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0.6s both alternate infinite;
+}
+.ring-3 .ball-14 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 55px;
+  transform: rotate(156deg);
+}
+.ring-3 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0.6s both alternate infinite;
+}
+.ring-3 .ball-15 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 55px;
+  transform: rotate(168deg);
+}
+.ring-3 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0.6s both alternate infinite;
+}
+.ring-3 .ball-16 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 55px;
+  transform: rotate(180deg);
+}
+.ring-3 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0.6s both alternate infinite;
+}
+.ring-3 .ball-17 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 55px;
+  transform: rotate(192deg);
+}
+.ring-3 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0.6s both alternate infinite;
+}
+.ring-3 .ball-18 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 55px;
+  transform: rotate(204deg);
+}
+.ring-3 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0.6s both alternate infinite;
+}
+.ring-3 .ball-19 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 55px;
+  transform: rotate(216deg);
+}
+.ring-3 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0.6s both alternate infinite;
+}
+.ring-3 .ball-20 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 55px;
+  transform: rotate(228deg);
+}
+.ring-3 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0.6s both alternate infinite;
+}
+.ring-3 .ball-21 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 55px;
+  transform: rotate(240deg);
+}
+.ring-3 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0.6s both alternate infinite;
+}
+.ring-3 .ball-22 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 55px;
+  transform: rotate(252deg);
+}
+.ring-3 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0.6s both alternate infinite;
+}
+.ring-3 .ball-23 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 55px;
+  transform: rotate(264deg);
+}
+.ring-3 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0.6s both alternate infinite;
+}
+.ring-3 .ball-24 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 55px;
+  transform: rotate(276deg);
+}
+.ring-3 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0.6s both alternate infinite;
+}
+.ring-3 .ball-25 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 55px;
+  transform: rotate(288deg);
+}
+.ring-3 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0.6s both alternate infinite;
+}
+.ring-3 .ball-26 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 55px;
+  transform: rotate(300deg);
+}
+.ring-3 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0.6s both alternate infinite;
+}
+.ring-3 .ball-27 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 55px;
+  transform: rotate(312deg);
+}
+.ring-3 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0.6s both alternate infinite;
+}
+.ring-3 .ball-28 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 55px;
+  transform: rotate(324deg);
+}
+.ring-3 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0.6s both alternate infinite;
+}
+.ring-3 .ball-29 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 55px;
+  transform: rotate(336deg);
+}
+.ring-3 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0.6s both alternate infinite;
+}
+.ring-3 .ball-30 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 55px;
+  transform: rotate(348deg);
+}
+
+.ring-4 {
+  position: absolute;
+  width: 130px;
+  height: 130px;
+  left: calc(50% - 65px);
+  top: calc(50% - 65px);
+}
+.ring-4 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0.9s both alternate infinite;
+}
+.ring-4 .ball-1 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 65px;
+  transform: rotate(0deg);
+}
+.ring-4 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0.9s both alternate infinite;
+}
+.ring-4 .ball-2 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 65px;
+  transform: rotate(10deg);
+}
+.ring-4 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0.9s both alternate infinite;
+}
+.ring-4 .ball-3 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 65px;
+  transform: rotate(20deg);
+}
+.ring-4 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0.9s both alternate infinite;
+}
+.ring-4 .ball-4 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 65px;
+  transform: rotate(30deg);
+}
+.ring-4 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0.9s both alternate infinite;
+}
+.ring-4 .ball-5 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 65px;
+  transform: rotate(40deg);
+}
+.ring-4 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0.9s both alternate infinite;
+}
+.ring-4 .ball-6 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 65px;
+  transform: rotate(50deg);
+}
+.ring-4 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0.9s both alternate infinite;
+}
+.ring-4 .ball-7 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 65px;
+  transform: rotate(60deg);
+}
+.ring-4 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0.9s both alternate infinite;
+}
+.ring-4 .ball-8 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 65px;
+  transform: rotate(70deg);
+}
+.ring-4 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0.9s both alternate infinite;
+}
+.ring-4 .ball-9 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 65px;
+  transform: rotate(80deg);
+}
+.ring-4 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0.9s both alternate infinite;
+}
+.ring-4 .ball-10 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 65px;
+  transform: rotate(90deg);
+}
+.ring-4 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0.9s both alternate infinite;
+}
+.ring-4 .ball-11 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 65px;
+  transform: rotate(100deg);
+}
+.ring-4 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0.9s both alternate infinite;
+}
+.ring-4 .ball-12 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 65px;
+  transform: rotate(110deg);
+}
+.ring-4 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0.9s both alternate infinite;
+}
+.ring-4 .ball-13 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 65px;
+  transform: rotate(120deg);
+}
+.ring-4 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0.9s both alternate infinite;
+}
+.ring-4 .ball-14 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 65px;
+  transform: rotate(130deg);
+}
+.ring-4 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0.9s both alternate infinite;
+}
+.ring-4 .ball-15 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 65px;
+  transform: rotate(140deg);
+}
+.ring-4 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0.9s both alternate infinite;
+}
+.ring-4 .ball-16 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 65px;
+  transform: rotate(150deg);
+}
+.ring-4 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0.9s both alternate infinite;
+}
+.ring-4 .ball-17 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 65px;
+  transform: rotate(160deg);
+}
+.ring-4 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0.9s both alternate infinite;
+}
+.ring-4 .ball-18 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 65px;
+  transform: rotate(170deg);
+}
+.ring-4 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0.9s both alternate infinite;
+}
+.ring-4 .ball-19 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 65px;
+  transform: rotate(180deg);
+}
+.ring-4 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0.9s both alternate infinite;
+}
+.ring-4 .ball-20 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 65px;
+  transform: rotate(190deg);
+}
+.ring-4 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0.9s both alternate infinite;
+}
+.ring-4 .ball-21 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 65px;
+  transform: rotate(200deg);
+}
+.ring-4 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0.9s both alternate infinite;
+}
+.ring-4 .ball-22 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 65px;
+  transform: rotate(210deg);
+}
+.ring-4 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0.9s both alternate infinite;
+}
+.ring-4 .ball-23 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 65px;
+  transform: rotate(220deg);
+}
+.ring-4 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0.9s both alternate infinite;
+}
+.ring-4 .ball-24 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 65px;
+  transform: rotate(230deg);
+}
+.ring-4 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0.9s both alternate infinite;
+}
+.ring-4 .ball-25 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 65px;
+  transform: rotate(240deg);
+}
+.ring-4 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0.9s both alternate infinite;
+}
+.ring-4 .ball-26 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 65px;
+  transform: rotate(250deg);
+}
+.ring-4 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0.9s both alternate infinite;
+}
+.ring-4 .ball-27 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 65px;
+  transform: rotate(260deg);
+}
+.ring-4 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0.9s both alternate infinite;
+}
+.ring-4 .ball-28 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 65px;
+  transform: rotate(270deg);
+}
+.ring-4 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0.9s both alternate infinite;
+}
+.ring-4 .ball-29 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 65px;
+  transform: rotate(280deg);
+}
+.ring-4 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0.9s both alternate infinite;
+}
+.ring-4 .ball-30 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 65px;
+  transform: rotate(290deg);
+}
+.ring-4 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0.9s both alternate infinite;
+}
+.ring-4 .ball-31 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 65px;
+  transform: rotate(300deg);
+}
+.ring-4 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0.9s both alternate infinite;
+}
+.ring-4 .ball-32 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 65px;
+  transform: rotate(310deg);
+}
+.ring-4 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0.9s both alternate infinite;
+}
+.ring-4 .ball-33 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 65px;
+  transform: rotate(320deg);
+}
+.ring-4 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0.9s both alternate infinite;
+}
+.ring-4 .ball-34 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 65px;
+  transform: rotate(330deg);
+}
+.ring-4 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0.9s both alternate infinite;
+}
+.ring-4 .ball-35 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 65px;
+  transform: rotate(340deg);
+}
+.ring-4 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 0.9s both alternate infinite;
+}
+.ring-4 .ball-36 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 65px;
+  transform: rotate(350deg);
+}
+
+.ring-5 {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  left: calc(50% - 75px);
+  top: calc(50% - 75px);
+}
+.ring-5 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.2s both alternate infinite;
+}
+.ring-5 .ball-1 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 75px;
+  transform: rotate(0deg);
+}
+.ring-5 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.2s both alternate infinite;
+}
+.ring-5 .ball-2 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 75px;
+  transform: rotate(8.5714285714deg);
+}
+.ring-5 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.2s both alternate infinite;
+}
+.ring-5 .ball-3 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 75px;
+  transform: rotate(17.1428571429deg);
+}
+.ring-5 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.2s both alternate infinite;
+}
+.ring-5 .ball-4 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 75px;
+  transform: rotate(25.7142857143deg);
+}
+.ring-5 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.2s both alternate infinite;
+}
+.ring-5 .ball-5 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 75px;
+  transform: rotate(34.2857142857deg);
+}
+.ring-5 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.2s both alternate infinite;
+}
+.ring-5 .ball-6 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 75px;
+  transform: rotate(42.8571428571deg);
+}
+.ring-5 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.2s both alternate infinite;
+}
+.ring-5 .ball-7 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 75px;
+  transform: rotate(51.4285714286deg);
+}
+.ring-5 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.2s both alternate infinite;
+}
+.ring-5 .ball-8 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 75px;
+  transform: rotate(60deg);
+}
+.ring-5 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.2s both alternate infinite;
+}
+.ring-5 .ball-9 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 75px;
+  transform: rotate(68.5714285714deg);
+}
+.ring-5 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.2s both alternate infinite;
+}
+.ring-5 .ball-10 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 75px;
+  transform: rotate(77.1428571429deg);
+}
+.ring-5 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.2s both alternate infinite;
+}
+.ring-5 .ball-11 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 75px;
+  transform: rotate(85.7142857143deg);
+}
+.ring-5 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.2s both alternate infinite;
+}
+.ring-5 .ball-12 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 75px;
+  transform: rotate(94.2857142857deg);
+}
+.ring-5 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.2s both alternate infinite;
+}
+.ring-5 .ball-13 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 75px;
+  transform: rotate(102.8571428571deg);
+}
+.ring-5 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.2s both alternate infinite;
+}
+.ring-5 .ball-14 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 75px;
+  transform: rotate(111.4285714286deg);
+}
+.ring-5 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.2s both alternate infinite;
+}
+.ring-5 .ball-15 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 75px;
+  transform: rotate(120deg);
+}
+.ring-5 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.2s both alternate infinite;
+}
+.ring-5 .ball-16 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 75px;
+  transform: rotate(128.5714285714deg);
+}
+.ring-5 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.2s both alternate infinite;
+}
+.ring-5 .ball-17 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 75px;
+  transform: rotate(137.1428571429deg);
+}
+.ring-5 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.2s both alternate infinite;
+}
+.ring-5 .ball-18 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 75px;
+  transform: rotate(145.7142857143deg);
+}
+.ring-5 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.2s both alternate infinite;
+}
+.ring-5 .ball-19 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 75px;
+  transform: rotate(154.2857142857deg);
+}
+.ring-5 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.2s both alternate infinite;
+}
+.ring-5 .ball-20 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 75px;
+  transform: rotate(162.8571428571deg);
+}
+.ring-5 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.2s both alternate infinite;
+}
+.ring-5 .ball-21 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 75px;
+  transform: rotate(171.4285714286deg);
+}
+.ring-5 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.2s both alternate infinite;
+}
+.ring-5 .ball-22 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 75px;
+  transform: rotate(180deg);
+}
+.ring-5 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.2s both alternate infinite;
+}
+.ring-5 .ball-23 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 75px;
+  transform: rotate(188.5714285714deg);
+}
+.ring-5 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.2s both alternate infinite;
+}
+.ring-5 .ball-24 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 75px;
+  transform: rotate(197.1428571429deg);
+}
+.ring-5 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.2s both alternate infinite;
+}
+.ring-5 .ball-25 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 75px;
+  transform: rotate(205.7142857143deg);
+}
+.ring-5 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.2s both alternate infinite;
+}
+.ring-5 .ball-26 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 75px;
+  transform: rotate(214.2857142857deg);
+}
+.ring-5 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.2s both alternate infinite;
+}
+.ring-5 .ball-27 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 75px;
+  transform: rotate(222.8571428571deg);
+}
+.ring-5 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.2s both alternate infinite;
+}
+.ring-5 .ball-28 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 75px;
+  transform: rotate(231.4285714286deg);
+}
+.ring-5 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.2s both alternate infinite;
+}
+.ring-5 .ball-29 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 75px;
+  transform: rotate(240deg);
+}
+.ring-5 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.2s both alternate infinite;
+}
+.ring-5 .ball-30 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 75px;
+  transform: rotate(248.5714285714deg);
+}
+.ring-5 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.2s both alternate infinite;
+}
+.ring-5 .ball-31 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 75px;
+  transform: rotate(257.1428571429deg);
+}
+.ring-5 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.2s both alternate infinite;
+}
+.ring-5 .ball-32 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 75px;
+  transform: rotate(265.7142857143deg);
+}
+.ring-5 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.2s both alternate infinite;
+}
+.ring-5 .ball-33 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 75px;
+  transform: rotate(274.2857142857deg);
+}
+.ring-5 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.2s both alternate infinite;
+}
+.ring-5 .ball-34 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 75px;
+  transform: rotate(282.8571428571deg);
+}
+.ring-5 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.2s both alternate infinite;
+}
+.ring-5 .ball-35 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 75px;
+  transform: rotate(291.4285714286deg);
+}
+.ring-5 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.2s both alternate infinite;
+}
+.ring-5 .ball-36 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 75px;
+  transform: rotate(300deg);
+}
+.ring-5 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.2s both alternate infinite;
+}
+.ring-5 .ball-37 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 75px;
+  transform: rotate(308.5714285714deg);
+}
+.ring-5 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.2s both alternate infinite;
+}
+.ring-5 .ball-38 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 75px;
+  transform: rotate(317.1428571429deg);
+}
+.ring-5 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.2s both alternate infinite;
+}
+.ring-5 .ball-39 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 75px;
+  transform: rotate(325.7142857143deg);
+}
+.ring-5 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.2s both alternate infinite;
+}
+.ring-5 .ball-40 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 75px;
+  transform: rotate(334.2857142857deg);
+}
+.ring-5 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.2s both alternate infinite;
+}
+.ring-5 .ball-41 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 75px;
+  transform: rotate(342.8571428571deg);
+}
+.ring-5 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.2s both alternate infinite;
+}
+.ring-5 .ball-42 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 75px;
+  transform: rotate(351.4285714286deg);
+}
+
+.ring-6 {
+  position: absolute;
+  width: 170px;
+  height: 170px;
+  left: calc(50% - 85px);
+  top: calc(50% - 85px);
+}
+.ring-6 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.5s both alternate infinite;
+}
+.ring-6 .ball-1 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 85px;
+  transform: rotate(0deg);
+}
+.ring-6 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.5s both alternate infinite;
+}
+.ring-6 .ball-2 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 85px;
+  transform: rotate(7.5deg);
+}
+.ring-6 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.5s both alternate infinite;
+}
+.ring-6 .ball-3 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 85px;
+  transform: rotate(15deg);
+}
+.ring-6 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.5s both alternate infinite;
+}
+.ring-6 .ball-4 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 85px;
+  transform: rotate(22.5deg);
+}
+.ring-6 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.5s both alternate infinite;
+}
+.ring-6 .ball-5 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 85px;
+  transform: rotate(30deg);
+}
+.ring-6 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.5s both alternate infinite;
+}
+.ring-6 .ball-6 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 85px;
+  transform: rotate(37.5deg);
+}
+.ring-6 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.5s both alternate infinite;
+}
+.ring-6 .ball-7 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 85px;
+  transform: rotate(45deg);
+}
+.ring-6 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.5s both alternate infinite;
+}
+.ring-6 .ball-8 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 85px;
+  transform: rotate(52.5deg);
+}
+.ring-6 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.5s both alternate infinite;
+}
+.ring-6 .ball-9 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 85px;
+  transform: rotate(60deg);
+}
+.ring-6 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.5s both alternate infinite;
+}
+.ring-6 .ball-10 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 85px;
+  transform: rotate(67.5deg);
+}
+.ring-6 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.5s both alternate infinite;
+}
+.ring-6 .ball-11 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 85px;
+  transform: rotate(75deg);
+}
+.ring-6 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.5s both alternate infinite;
+}
+.ring-6 .ball-12 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 85px;
+  transform: rotate(82.5deg);
+}
+.ring-6 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.5s both alternate infinite;
+}
+.ring-6 .ball-13 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 85px;
+  transform: rotate(90deg);
+}
+.ring-6 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.5s both alternate infinite;
+}
+.ring-6 .ball-14 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 85px;
+  transform: rotate(97.5deg);
+}
+.ring-6 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.5s both alternate infinite;
+}
+.ring-6 .ball-15 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 85px;
+  transform: rotate(105deg);
+}
+.ring-6 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.5s both alternate infinite;
+}
+.ring-6 .ball-16 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 85px;
+  transform: rotate(112.5deg);
+}
+.ring-6 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.5s both alternate infinite;
+}
+.ring-6 .ball-17 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 85px;
+  transform: rotate(120deg);
+}
+.ring-6 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.5s both alternate infinite;
+}
+.ring-6 .ball-18 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 85px;
+  transform: rotate(127.5deg);
+}
+.ring-6 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.5s both alternate infinite;
+}
+.ring-6 .ball-19 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 85px;
+  transform: rotate(135deg);
+}
+.ring-6 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.5s both alternate infinite;
+}
+.ring-6 .ball-20 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 85px;
+  transform: rotate(142.5deg);
+}
+.ring-6 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.5s both alternate infinite;
+}
+.ring-6 .ball-21 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 85px;
+  transform: rotate(150deg);
+}
+.ring-6 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.5s both alternate infinite;
+}
+.ring-6 .ball-22 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 85px;
+  transform: rotate(157.5deg);
+}
+.ring-6 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.5s both alternate infinite;
+}
+.ring-6 .ball-23 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 85px;
+  transform: rotate(165deg);
+}
+.ring-6 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.5s both alternate infinite;
+}
+.ring-6 .ball-24 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 85px;
+  transform: rotate(172.5deg);
+}
+.ring-6 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.5s both alternate infinite;
+}
+.ring-6 .ball-25 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 85px;
+  transform: rotate(180deg);
+}
+.ring-6 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.5s both alternate infinite;
+}
+.ring-6 .ball-26 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 85px;
+  transform: rotate(187.5deg);
+}
+.ring-6 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.5s both alternate infinite;
+}
+.ring-6 .ball-27 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 85px;
+  transform: rotate(195deg);
+}
+.ring-6 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.5s both alternate infinite;
+}
+.ring-6 .ball-28 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 85px;
+  transform: rotate(202.5deg);
+}
+.ring-6 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.5s both alternate infinite;
+}
+.ring-6 .ball-29 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 85px;
+  transform: rotate(210deg);
+}
+.ring-6 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.5s both alternate infinite;
+}
+.ring-6 .ball-30 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 85px;
+  transform: rotate(217.5deg);
+}
+.ring-6 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.5s both alternate infinite;
+}
+.ring-6 .ball-31 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 85px;
+  transform: rotate(225deg);
+}
+.ring-6 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.5s both alternate infinite;
+}
+.ring-6 .ball-32 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 85px;
+  transform: rotate(232.5deg);
+}
+.ring-6 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.5s both alternate infinite;
+}
+.ring-6 .ball-33 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 85px;
+  transform: rotate(240deg);
+}
+.ring-6 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.5s both alternate infinite;
+}
+.ring-6 .ball-34 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 85px;
+  transform: rotate(247.5deg);
+}
+.ring-6 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.5s both alternate infinite;
+}
+.ring-6 .ball-35 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 85px;
+  transform: rotate(255deg);
+}
+.ring-6 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.5s both alternate infinite;
+}
+.ring-6 .ball-36 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 85px;
+  transform: rotate(262.5deg);
+}
+.ring-6 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.5s both alternate infinite;
+}
+.ring-6 .ball-37 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 85px;
+  transform: rotate(270deg);
+}
+.ring-6 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.5s both alternate infinite;
+}
+.ring-6 .ball-38 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 85px;
+  transform: rotate(277.5deg);
+}
+.ring-6 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.5s both alternate infinite;
+}
+.ring-6 .ball-39 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 85px;
+  transform: rotate(285deg);
+}
+.ring-6 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.5s both alternate infinite;
+}
+.ring-6 .ball-40 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 85px;
+  transform: rotate(292.5deg);
+}
+.ring-6 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.5s both alternate infinite;
+}
+.ring-6 .ball-41 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 85px;
+  transform: rotate(300deg);
+}
+.ring-6 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.5s both alternate infinite;
+}
+.ring-6 .ball-42 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 85px;
+  transform: rotate(307.5deg);
+}
+.ring-6 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.5s both alternate infinite;
+}
+.ring-6 .ball-43 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 85px;
+  transform: rotate(315deg);
+}
+.ring-6 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.5s both alternate infinite;
+}
+.ring-6 .ball-44 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 85px;
+  transform: rotate(322.5deg);
+}
+.ring-6 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.5s both alternate infinite;
+}
+.ring-6 .ball-45 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 85px;
+  transform: rotate(330deg);
+}
+.ring-6 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.5s both alternate infinite;
+}
+.ring-6 .ball-46 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 85px;
+  transform: rotate(337.5deg);
+}
+.ring-6 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.5s both alternate infinite;
+}
+.ring-6 .ball-47 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 85px;
+  transform: rotate(345deg);
+}
+.ring-6 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.5s both alternate infinite;
+}
+.ring-6 .ball-48 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 85px;
+  transform: rotate(352.5deg);
+}
+
+.ring-7 {
+  position: absolute;
+  width: 190px;
+  height: 190px;
+  left: calc(50% - 95px);
+  top: calc(50% - 95px);
+}
+.ring-7 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.8s both alternate infinite;
+}
+.ring-7 .ball-1 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 95px;
+  transform: rotate(0deg);
+}
+.ring-7 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.8s both alternate infinite;
+}
+.ring-7 .ball-2 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 95px;
+  transform: rotate(6.6666666667deg);
+}
+.ring-7 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.8s both alternate infinite;
+}
+.ring-7 .ball-3 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 95px;
+  transform: rotate(13.3333333333deg);
+}
+.ring-7 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.8s both alternate infinite;
+}
+.ring-7 .ball-4 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 95px;
+  transform: rotate(20deg);
+}
+.ring-7 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.8s both alternate infinite;
+}
+.ring-7 .ball-5 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 95px;
+  transform: rotate(26.6666666667deg);
+}
+.ring-7 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.8s both alternate infinite;
+}
+.ring-7 .ball-6 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 95px;
+  transform: rotate(33.3333333333deg);
+}
+.ring-7 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.8s both alternate infinite;
+}
+.ring-7 .ball-7 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 95px;
+  transform: rotate(40deg);
+}
+.ring-7 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.8s both alternate infinite;
+}
+.ring-7 .ball-8 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 95px;
+  transform: rotate(46.6666666667deg);
+}
+.ring-7 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.8s both alternate infinite;
+}
+.ring-7 .ball-9 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 95px;
+  transform: rotate(53.3333333333deg);
+}
+.ring-7 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.8s both alternate infinite;
+}
+.ring-7 .ball-10 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 95px;
+  transform: rotate(60deg);
+}
+.ring-7 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.8s both alternate infinite;
+}
+.ring-7 .ball-11 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 95px;
+  transform: rotate(66.6666666667deg);
+}
+.ring-7 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.8s both alternate infinite;
+}
+.ring-7 .ball-12 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 95px;
+  transform: rotate(73.3333333333deg);
+}
+.ring-7 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.8s both alternate infinite;
+}
+.ring-7 .ball-13 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 95px;
+  transform: rotate(80deg);
+}
+.ring-7 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.8s both alternate infinite;
+}
+.ring-7 .ball-14 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 95px;
+  transform: rotate(86.6666666667deg);
+}
+.ring-7 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.8s both alternate infinite;
+}
+.ring-7 .ball-15 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 95px;
+  transform: rotate(93.3333333333deg);
+}
+.ring-7 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.8s both alternate infinite;
+}
+.ring-7 .ball-16 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 95px;
+  transform: rotate(100deg);
+}
+.ring-7 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.8s both alternate infinite;
+}
+.ring-7 .ball-17 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 95px;
+  transform: rotate(106.6666666667deg);
+}
+.ring-7 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.8s both alternate infinite;
+}
+.ring-7 .ball-18 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 95px;
+  transform: rotate(113.3333333333deg);
+}
+.ring-7 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.8s both alternate infinite;
+}
+.ring-7 .ball-19 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 95px;
+  transform: rotate(120deg);
+}
+.ring-7 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.8s both alternate infinite;
+}
+.ring-7 .ball-20 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 95px;
+  transform: rotate(126.6666666667deg);
+}
+.ring-7 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.8s both alternate infinite;
+}
+.ring-7 .ball-21 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 95px;
+  transform: rotate(133.3333333333deg);
+}
+.ring-7 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.8s both alternate infinite;
+}
+.ring-7 .ball-22 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 95px;
+  transform: rotate(140deg);
+}
+.ring-7 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.8s both alternate infinite;
+}
+.ring-7 .ball-23 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 95px;
+  transform: rotate(146.6666666667deg);
+}
+.ring-7 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.8s both alternate infinite;
+}
+.ring-7 .ball-24 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 95px;
+  transform: rotate(153.3333333333deg);
+}
+.ring-7 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.8s both alternate infinite;
+}
+.ring-7 .ball-25 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 95px;
+  transform: rotate(160deg);
+}
+.ring-7 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.8s both alternate infinite;
+}
+.ring-7 .ball-26 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 95px;
+  transform: rotate(166.6666666667deg);
+}
+.ring-7 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.8s both alternate infinite;
+}
+.ring-7 .ball-27 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 95px;
+  transform: rotate(173.3333333333deg);
+}
+.ring-7 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.8s both alternate infinite;
+}
+.ring-7 .ball-28 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 95px;
+  transform: rotate(180deg);
+}
+.ring-7 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.8s both alternate infinite;
+}
+.ring-7 .ball-29 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 95px;
+  transform: rotate(186.6666666667deg);
+}
+.ring-7 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.8s both alternate infinite;
+}
+.ring-7 .ball-30 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 95px;
+  transform: rotate(193.3333333333deg);
+}
+.ring-7 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.8s both alternate infinite;
+}
+.ring-7 .ball-31 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 95px;
+  transform: rotate(200deg);
+}
+.ring-7 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.8s both alternate infinite;
+}
+.ring-7 .ball-32 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 95px;
+  transform: rotate(206.6666666667deg);
+}
+.ring-7 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.8s both alternate infinite;
+}
+.ring-7 .ball-33 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 95px;
+  transform: rotate(213.3333333333deg);
+}
+.ring-7 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.8s both alternate infinite;
+}
+.ring-7 .ball-34 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 95px;
+  transform: rotate(220deg);
+}
+.ring-7 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.8s both alternate infinite;
+}
+.ring-7 .ball-35 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 95px;
+  transform: rotate(226.6666666667deg);
+}
+.ring-7 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.8s both alternate infinite;
+}
+.ring-7 .ball-36 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 95px;
+  transform: rotate(233.3333333333deg);
+}
+.ring-7 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.8s both alternate infinite;
+}
+.ring-7 .ball-37 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 95px;
+  transform: rotate(240deg);
+}
+.ring-7 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.8s both alternate infinite;
+}
+.ring-7 .ball-38 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 95px;
+  transform: rotate(246.6666666667deg);
+}
+.ring-7 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.8s both alternate infinite;
+}
+.ring-7 .ball-39 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 95px;
+  transform: rotate(253.3333333333deg);
+}
+.ring-7 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.8s both alternate infinite;
+}
+.ring-7 .ball-40 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 95px;
+  transform: rotate(260deg);
+}
+.ring-7 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.8s both alternate infinite;
+}
+.ring-7 .ball-41 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 95px;
+  transform: rotate(266.6666666667deg);
+}
+.ring-7 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.8s both alternate infinite;
+}
+.ring-7 .ball-42 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 95px;
+  transform: rotate(273.3333333333deg);
+}
+.ring-7 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.8s both alternate infinite;
+}
+.ring-7 .ball-43 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 95px;
+  transform: rotate(280deg);
+}
+.ring-7 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.8s both alternate infinite;
+}
+.ring-7 .ball-44 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 95px;
+  transform: rotate(286.6666666667deg);
+}
+.ring-7 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.8s both alternate infinite;
+}
+.ring-7 .ball-45 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 95px;
+  transform: rotate(293.3333333333deg);
+}
+.ring-7 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.8s both alternate infinite;
+}
+.ring-7 .ball-46 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 95px;
+  transform: rotate(300deg);
+}
+.ring-7 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.8s both alternate infinite;
+}
+.ring-7 .ball-47 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 95px;
+  transform: rotate(306.6666666667deg);
+}
+.ring-7 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.8s both alternate infinite;
+}
+.ring-7 .ball-48 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 95px;
+  transform: rotate(313.3333333333deg);
+}
+.ring-7 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.8s both alternate infinite;
+}
+.ring-7 .ball-49 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 95px;
+  transform: rotate(320deg);
+}
+.ring-7 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.8s both alternate infinite;
+}
+.ring-7 .ball-50 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 95px;
+  transform: rotate(326.6666666667deg);
+}
+.ring-7 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.8s both alternate infinite;
+}
+.ring-7 .ball-51 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 95px;
+  transform: rotate(333.3333333333deg);
+}
+.ring-7 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.8s both alternate infinite;
+}
+.ring-7 .ball-52 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 95px;
+  transform: rotate(340deg);
+}
+.ring-7 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.8s both alternate infinite;
+}
+.ring-7 .ball-53 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 95px;
+  transform: rotate(346.6666666667deg);
+}
+.ring-7 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 1.8s both alternate infinite;
+}
+.ring-7 .ball-54 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 95px;
+  transform: rotate(353.3333333333deg);
+}
+
+.ring-8 {
+  position: absolute;
+  width: 210px;
+  height: 210px;
+  left: calc(50% - 105px);
+  top: calc(50% - 105px);
+}
+.ring-8 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.1s both alternate infinite;
+}
+.ring-8 .ball-1 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 105px;
+  transform: rotate(0deg);
+}
+.ring-8 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.1s both alternate infinite;
+}
+.ring-8 .ball-2 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 105px;
+  transform: rotate(6deg);
+}
+.ring-8 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.1s both alternate infinite;
+}
+.ring-8 .ball-3 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 105px;
+  transform: rotate(12deg);
+}
+.ring-8 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.1s both alternate infinite;
+}
+.ring-8 .ball-4 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 105px;
+  transform: rotate(18deg);
+}
+.ring-8 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.1s both alternate infinite;
+}
+.ring-8 .ball-5 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 105px;
+  transform: rotate(24deg);
+}
+.ring-8 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.1s both alternate infinite;
+}
+.ring-8 .ball-6 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 105px;
+  transform: rotate(30deg);
+}
+.ring-8 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.1s both alternate infinite;
+}
+.ring-8 .ball-7 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 105px;
+  transform: rotate(36deg);
+}
+.ring-8 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.1s both alternate infinite;
+}
+.ring-8 .ball-8 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 105px;
+  transform: rotate(42deg);
+}
+.ring-8 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.1s both alternate infinite;
+}
+.ring-8 .ball-9 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 105px;
+  transform: rotate(48deg);
+}
+.ring-8 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.1s both alternate infinite;
+}
+.ring-8 .ball-10 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 105px;
+  transform: rotate(54deg);
+}
+.ring-8 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.1s both alternate infinite;
+}
+.ring-8 .ball-11 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 105px;
+  transform: rotate(60deg);
+}
+.ring-8 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.1s both alternate infinite;
+}
+.ring-8 .ball-12 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 105px;
+  transform: rotate(66deg);
+}
+.ring-8 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.1s both alternate infinite;
+}
+.ring-8 .ball-13 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 105px;
+  transform: rotate(72deg);
+}
+.ring-8 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.1s both alternate infinite;
+}
+.ring-8 .ball-14 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 105px;
+  transform: rotate(78deg);
+}
+.ring-8 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.1s both alternate infinite;
+}
+.ring-8 .ball-15 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 105px;
+  transform: rotate(84deg);
+}
+.ring-8 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.1s both alternate infinite;
+}
+.ring-8 .ball-16 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 105px;
+  transform: rotate(90deg);
+}
+.ring-8 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.1s both alternate infinite;
+}
+.ring-8 .ball-17 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 105px;
+  transform: rotate(96deg);
+}
+.ring-8 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.1s both alternate infinite;
+}
+.ring-8 .ball-18 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 105px;
+  transform: rotate(102deg);
+}
+.ring-8 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.1s both alternate infinite;
+}
+.ring-8 .ball-19 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 105px;
+  transform: rotate(108deg);
+}
+.ring-8 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.1s both alternate infinite;
+}
+.ring-8 .ball-20 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 105px;
+  transform: rotate(114deg);
+}
+.ring-8 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.1s both alternate infinite;
+}
+.ring-8 .ball-21 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 105px;
+  transform: rotate(120deg);
+}
+.ring-8 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.1s both alternate infinite;
+}
+.ring-8 .ball-22 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 105px;
+  transform: rotate(126deg);
+}
+.ring-8 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.1s both alternate infinite;
+}
+.ring-8 .ball-23 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 105px;
+  transform: rotate(132deg);
+}
+.ring-8 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.1s both alternate infinite;
+}
+.ring-8 .ball-24 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 105px;
+  transform: rotate(138deg);
+}
+.ring-8 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.1s both alternate infinite;
+}
+.ring-8 .ball-25 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 105px;
+  transform: rotate(144deg);
+}
+.ring-8 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.1s both alternate infinite;
+}
+.ring-8 .ball-26 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 105px;
+  transform: rotate(150deg);
+}
+.ring-8 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.1s both alternate infinite;
+}
+.ring-8 .ball-27 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 105px;
+  transform: rotate(156deg);
+}
+.ring-8 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.1s both alternate infinite;
+}
+.ring-8 .ball-28 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 105px;
+  transform: rotate(162deg);
+}
+.ring-8 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.1s both alternate infinite;
+}
+.ring-8 .ball-29 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 105px;
+  transform: rotate(168deg);
+}
+.ring-8 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.1s both alternate infinite;
+}
+.ring-8 .ball-30 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 105px;
+  transform: rotate(174deg);
+}
+.ring-8 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.1s both alternate infinite;
+}
+.ring-8 .ball-31 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 105px;
+  transform: rotate(180deg);
+}
+.ring-8 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.1s both alternate infinite;
+}
+.ring-8 .ball-32 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 105px;
+  transform: rotate(186deg);
+}
+.ring-8 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.1s both alternate infinite;
+}
+.ring-8 .ball-33 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 105px;
+  transform: rotate(192deg);
+}
+.ring-8 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.1s both alternate infinite;
+}
+.ring-8 .ball-34 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 105px;
+  transform: rotate(198deg);
+}
+.ring-8 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.1s both alternate infinite;
+}
+.ring-8 .ball-35 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 105px;
+  transform: rotate(204deg);
+}
+.ring-8 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.1s both alternate infinite;
+}
+.ring-8 .ball-36 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 105px;
+  transform: rotate(210deg);
+}
+.ring-8 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.1s both alternate infinite;
+}
+.ring-8 .ball-37 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 105px;
+  transform: rotate(216deg);
+}
+.ring-8 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.1s both alternate infinite;
+}
+.ring-8 .ball-38 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 105px;
+  transform: rotate(222deg);
+}
+.ring-8 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.1s both alternate infinite;
+}
+.ring-8 .ball-39 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 105px;
+  transform: rotate(228deg);
+}
+.ring-8 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.1s both alternate infinite;
+}
+.ring-8 .ball-40 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 105px;
+  transform: rotate(234deg);
+}
+.ring-8 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.1s both alternate infinite;
+}
+.ring-8 .ball-41 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 105px;
+  transform: rotate(240deg);
+}
+.ring-8 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.1s both alternate infinite;
+}
+.ring-8 .ball-42 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 105px;
+  transform: rotate(246deg);
+}
+.ring-8 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.1s both alternate infinite;
+}
+.ring-8 .ball-43 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 105px;
+  transform: rotate(252deg);
+}
+.ring-8 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.1s both alternate infinite;
+}
+.ring-8 .ball-44 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 105px;
+  transform: rotate(258deg);
+}
+.ring-8 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.1s both alternate infinite;
+}
+.ring-8 .ball-45 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 105px;
+  transform: rotate(264deg);
+}
+.ring-8 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.1s both alternate infinite;
+}
+.ring-8 .ball-46 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 105px;
+  transform: rotate(270deg);
+}
+.ring-8 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.1s both alternate infinite;
+}
+.ring-8 .ball-47 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 105px;
+  transform: rotate(276deg);
+}
+.ring-8 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.1s both alternate infinite;
+}
+.ring-8 .ball-48 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 105px;
+  transform: rotate(282deg);
+}
+.ring-8 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.1s both alternate infinite;
+}
+.ring-8 .ball-49 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 105px;
+  transform: rotate(288deg);
+}
+.ring-8 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.1s both alternate infinite;
+}
+.ring-8 .ball-50 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 105px;
+  transform: rotate(294deg);
+}
+.ring-8 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.1s both alternate infinite;
+}
+.ring-8 .ball-51 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 105px;
+  transform: rotate(300deg);
+}
+.ring-8 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.1s both alternate infinite;
+}
+.ring-8 .ball-52 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 105px;
+  transform: rotate(306deg);
+}
+.ring-8 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.1s both alternate infinite;
+}
+.ring-8 .ball-53 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 105px;
+  transform: rotate(312deg);
+}
+.ring-8 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.1s both alternate infinite;
+}
+.ring-8 .ball-54 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 105px;
+  transform: rotate(318deg);
+}
+.ring-8 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.1s both alternate infinite;
+}
+.ring-8 .ball-55 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 105px;
+  transform: rotate(324deg);
+}
+.ring-8 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.1s both alternate infinite;
+}
+.ring-8 .ball-56 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 105px;
+  transform: rotate(330deg);
+}
+.ring-8 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.1s both alternate infinite;
+}
+.ring-8 .ball-57 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 105px;
+  transform: rotate(336deg);
+}
+.ring-8 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.1s both alternate infinite;
+}
+.ring-8 .ball-58 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 105px;
+  transform: rotate(342deg);
+}
+.ring-8 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.1s both alternate infinite;
+}
+.ring-8 .ball-59 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 105px;
+  transform: rotate(348deg);
+}
+.ring-8 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.1s both alternate infinite;
+}
+.ring-8 .ball-60 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 105px;
+  transform: rotate(354deg);
+}
+
+.ring-9 {
+  position: absolute;
+  width: 230px;
+  height: 230px;
+  left: calc(50% - 115px);
+  top: calc(50% - 115px);
+}
+.ring-9 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.4s both alternate infinite;
+}
+.ring-9 .ball-1 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 115px;
+  transform: rotate(0deg);
+}
+.ring-9 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.4s both alternate infinite;
+}
+.ring-9 .ball-2 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 115px;
+  transform: rotate(5.4545454545deg);
+}
+.ring-9 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.4s both alternate infinite;
+}
+.ring-9 .ball-3 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 115px;
+  transform: rotate(10.9090909091deg);
+}
+.ring-9 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.4s both alternate infinite;
+}
+.ring-9 .ball-4 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 115px;
+  transform: rotate(16.3636363636deg);
+}
+.ring-9 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.4s both alternate infinite;
+}
+.ring-9 .ball-5 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 115px;
+  transform: rotate(21.8181818182deg);
+}
+.ring-9 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.4s both alternate infinite;
+}
+.ring-9 .ball-6 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 115px;
+  transform: rotate(27.2727272727deg);
+}
+.ring-9 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.4s both alternate infinite;
+}
+.ring-9 .ball-7 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 115px;
+  transform: rotate(32.7272727273deg);
+}
+.ring-9 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.4s both alternate infinite;
+}
+.ring-9 .ball-8 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 115px;
+  transform: rotate(38.1818181818deg);
+}
+.ring-9 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.4s both alternate infinite;
+}
+.ring-9 .ball-9 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 115px;
+  transform: rotate(43.6363636364deg);
+}
+.ring-9 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.4s both alternate infinite;
+}
+.ring-9 .ball-10 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 115px;
+  transform: rotate(49.0909090909deg);
+}
+.ring-9 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.4s both alternate infinite;
+}
+.ring-9 .ball-11 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 115px;
+  transform: rotate(54.5454545455deg);
+}
+.ring-9 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.4s both alternate infinite;
+}
+.ring-9 .ball-12 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 115px;
+  transform: rotate(60deg);
+}
+.ring-9 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.4s both alternate infinite;
+}
+.ring-9 .ball-13 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 115px;
+  transform: rotate(65.4545454545deg);
+}
+.ring-9 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.4s both alternate infinite;
+}
+.ring-9 .ball-14 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 115px;
+  transform: rotate(70.9090909091deg);
+}
+.ring-9 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.4s both alternate infinite;
+}
+.ring-9 .ball-15 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 115px;
+  transform: rotate(76.3636363636deg);
+}
+.ring-9 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.4s both alternate infinite;
+}
+.ring-9 .ball-16 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 115px;
+  transform: rotate(81.8181818182deg);
+}
+.ring-9 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.4s both alternate infinite;
+}
+.ring-9 .ball-17 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 115px;
+  transform: rotate(87.2727272727deg);
+}
+.ring-9 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.4s both alternate infinite;
+}
+.ring-9 .ball-18 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 115px;
+  transform: rotate(92.7272727273deg);
+}
+.ring-9 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.4s both alternate infinite;
+}
+.ring-9 .ball-19 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 115px;
+  transform: rotate(98.1818181818deg);
+}
+.ring-9 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.4s both alternate infinite;
+}
+.ring-9 .ball-20 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 115px;
+  transform: rotate(103.6363636364deg);
+}
+.ring-9 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.4s both alternate infinite;
+}
+.ring-9 .ball-21 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 115px;
+  transform: rotate(109.0909090909deg);
+}
+.ring-9 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.4s both alternate infinite;
+}
+.ring-9 .ball-22 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 115px;
+  transform: rotate(114.5454545455deg);
+}
+.ring-9 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.4s both alternate infinite;
+}
+.ring-9 .ball-23 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 115px;
+  transform: rotate(120deg);
+}
+.ring-9 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.4s both alternate infinite;
+}
+.ring-9 .ball-24 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 115px;
+  transform: rotate(125.4545454545deg);
+}
+.ring-9 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.4s both alternate infinite;
+}
+.ring-9 .ball-25 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 115px;
+  transform: rotate(130.9090909091deg);
+}
+.ring-9 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.4s both alternate infinite;
+}
+.ring-9 .ball-26 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 115px;
+  transform: rotate(136.3636363636deg);
+}
+.ring-9 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.4s both alternate infinite;
+}
+.ring-9 .ball-27 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 115px;
+  transform: rotate(141.8181818182deg);
+}
+.ring-9 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.4s both alternate infinite;
+}
+.ring-9 .ball-28 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 115px;
+  transform: rotate(147.2727272727deg);
+}
+.ring-9 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.4s both alternate infinite;
+}
+.ring-9 .ball-29 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 115px;
+  transform: rotate(152.7272727273deg);
+}
+.ring-9 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.4s both alternate infinite;
+}
+.ring-9 .ball-30 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 115px;
+  transform: rotate(158.1818181818deg);
+}
+.ring-9 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.4s both alternate infinite;
+}
+.ring-9 .ball-31 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 115px;
+  transform: rotate(163.6363636364deg);
+}
+.ring-9 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.4s both alternate infinite;
+}
+.ring-9 .ball-32 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 115px;
+  transform: rotate(169.0909090909deg);
+}
+.ring-9 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.4s both alternate infinite;
+}
+.ring-9 .ball-33 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 115px;
+  transform: rotate(174.5454545455deg);
+}
+.ring-9 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.4s both alternate infinite;
+}
+.ring-9 .ball-34 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 115px;
+  transform: rotate(180deg);
+}
+.ring-9 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.4s both alternate infinite;
+}
+.ring-9 .ball-35 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 115px;
+  transform: rotate(185.4545454545deg);
+}
+.ring-9 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.4s both alternate infinite;
+}
+.ring-9 .ball-36 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 115px;
+  transform: rotate(190.9090909091deg);
+}
+.ring-9 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.4s both alternate infinite;
+}
+.ring-9 .ball-37 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 115px;
+  transform: rotate(196.3636363636deg);
+}
+.ring-9 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.4s both alternate infinite;
+}
+.ring-9 .ball-38 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 115px;
+  transform: rotate(201.8181818182deg);
+}
+.ring-9 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.4s both alternate infinite;
+}
+.ring-9 .ball-39 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 115px;
+  transform: rotate(207.2727272727deg);
+}
+.ring-9 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.4s both alternate infinite;
+}
+.ring-9 .ball-40 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 115px;
+  transform: rotate(212.7272727273deg);
+}
+.ring-9 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.4s both alternate infinite;
+}
+.ring-9 .ball-41 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 115px;
+  transform: rotate(218.1818181818deg);
+}
+.ring-9 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.4s both alternate infinite;
+}
+.ring-9 .ball-42 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 115px;
+  transform: rotate(223.6363636364deg);
+}
+.ring-9 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.4s both alternate infinite;
+}
+.ring-9 .ball-43 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 115px;
+  transform: rotate(229.0909090909deg);
+}
+.ring-9 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.4s both alternate infinite;
+}
+.ring-9 .ball-44 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 115px;
+  transform: rotate(234.5454545455deg);
+}
+.ring-9 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.4s both alternate infinite;
+}
+.ring-9 .ball-45 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 115px;
+  transform: rotate(240deg);
+}
+.ring-9 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.4s both alternate infinite;
+}
+.ring-9 .ball-46 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 115px;
+  transform: rotate(245.4545454545deg);
+}
+.ring-9 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.4s both alternate infinite;
+}
+.ring-9 .ball-47 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 115px;
+  transform: rotate(250.9090909091deg);
+}
+.ring-9 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.4s both alternate infinite;
+}
+.ring-9 .ball-48 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 115px;
+  transform: rotate(256.3636363636deg);
+}
+.ring-9 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.4s both alternate infinite;
+}
+.ring-9 .ball-49 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 115px;
+  transform: rotate(261.8181818182deg);
+}
+.ring-9 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.4s both alternate infinite;
+}
+.ring-9 .ball-50 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 115px;
+  transform: rotate(267.2727272727deg);
+}
+.ring-9 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.4s both alternate infinite;
+}
+.ring-9 .ball-51 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 115px;
+  transform: rotate(272.7272727273deg);
+}
+.ring-9 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.4s both alternate infinite;
+}
+.ring-9 .ball-52 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 115px;
+  transform: rotate(278.1818181818deg);
+}
+.ring-9 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.4s both alternate infinite;
+}
+.ring-9 .ball-53 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 115px;
+  transform: rotate(283.6363636364deg);
+}
+.ring-9 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.4s both alternate infinite;
+}
+.ring-9 .ball-54 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 115px;
+  transform: rotate(289.0909090909deg);
+}
+.ring-9 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.4s both alternate infinite;
+}
+.ring-9 .ball-55 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 115px;
+  transform: rotate(294.5454545455deg);
+}
+.ring-9 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.4s both alternate infinite;
+}
+.ring-9 .ball-56 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 115px;
+  transform: rotate(300deg);
+}
+.ring-9 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.4s both alternate infinite;
+}
+.ring-9 .ball-57 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 115px;
+  transform: rotate(305.4545454545deg);
+}
+.ring-9 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.4s both alternate infinite;
+}
+.ring-9 .ball-58 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 115px;
+  transform: rotate(310.9090909091deg);
+}
+.ring-9 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.4s both alternate infinite;
+}
+.ring-9 .ball-59 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 115px;
+  transform: rotate(316.3636363636deg);
+}
+.ring-9 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.4s both alternate infinite;
+}
+.ring-9 .ball-60 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 115px;
+  transform: rotate(321.8181818182deg);
+}
+.ring-9 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.4s both alternate infinite;
+}
+.ring-9 .ball-61 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 115px;
+  transform: rotate(327.2727272727deg);
+}
+.ring-9 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.4s both alternate infinite;
+}
+.ring-9 .ball-62 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 115px;
+  transform: rotate(332.7272727273deg);
+}
+.ring-9 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.4s both alternate infinite;
+}
+.ring-9 .ball-63 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 115px;
+  transform: rotate(338.1818181818deg);
+}
+.ring-9 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.4s both alternate infinite;
+}
+.ring-9 .ball-64 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 115px;
+  transform: rotate(343.6363636364deg);
+}
+.ring-9 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.4s both alternate infinite;
+}
+.ring-9 .ball-65 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 115px;
+  transform: rotate(349.0909090909deg);
+}
+.ring-9 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.4s both alternate infinite;
+}
+.ring-9 .ball-66 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 115px;
+  transform: rotate(354.5454545455deg);
+}
+
+.ring-10 {
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  left: calc(50% - 125px);
+  top: calc(50% - 125px);
+}
+.ring-10 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.7s both alternate infinite;
+}
+.ring-10 .ball-1 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 125px;
+  transform: rotate(0deg);
+}
+.ring-10 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.7s both alternate infinite;
+}
+.ring-10 .ball-2 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 125px;
+  transform: rotate(5deg);
+}
+.ring-10 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.7s both alternate infinite;
+}
+.ring-10 .ball-3 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 125px;
+  transform: rotate(10deg);
+}
+.ring-10 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.7s both alternate infinite;
+}
+.ring-10 .ball-4 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 125px;
+  transform: rotate(15deg);
+}
+.ring-10 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.7s both alternate infinite;
+}
+.ring-10 .ball-5 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 125px;
+  transform: rotate(20deg);
+}
+.ring-10 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.7s both alternate infinite;
+}
+.ring-10 .ball-6 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 125px;
+  transform: rotate(25deg);
+}
+.ring-10 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.7s both alternate infinite;
+}
+.ring-10 .ball-7 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 125px;
+  transform: rotate(30deg);
+}
+.ring-10 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.7s both alternate infinite;
+}
+.ring-10 .ball-8 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 125px;
+  transform: rotate(35deg);
+}
+.ring-10 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.7s both alternate infinite;
+}
+.ring-10 .ball-9 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 125px;
+  transform: rotate(40deg);
+}
+.ring-10 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.7s both alternate infinite;
+}
+.ring-10 .ball-10 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 125px;
+  transform: rotate(45deg);
+}
+.ring-10 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.7s both alternate infinite;
+}
+.ring-10 .ball-11 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 125px;
+  transform: rotate(50deg);
+}
+.ring-10 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.7s both alternate infinite;
+}
+.ring-10 .ball-12 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 125px;
+  transform: rotate(55deg);
+}
+.ring-10 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.7s both alternate infinite;
+}
+.ring-10 .ball-13 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 125px;
+  transform: rotate(60deg);
+}
+.ring-10 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.7s both alternate infinite;
+}
+.ring-10 .ball-14 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 125px;
+  transform: rotate(65deg);
+}
+.ring-10 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.7s both alternate infinite;
+}
+.ring-10 .ball-15 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 125px;
+  transform: rotate(70deg);
+}
+.ring-10 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.7s both alternate infinite;
+}
+.ring-10 .ball-16 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 125px;
+  transform: rotate(75deg);
+}
+.ring-10 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.7s both alternate infinite;
+}
+.ring-10 .ball-17 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 125px;
+  transform: rotate(80deg);
+}
+.ring-10 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.7s both alternate infinite;
+}
+.ring-10 .ball-18 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 125px;
+  transform: rotate(85deg);
+}
+.ring-10 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.7s both alternate infinite;
+}
+.ring-10 .ball-19 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 125px;
+  transform: rotate(90deg);
+}
+.ring-10 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.7s both alternate infinite;
+}
+.ring-10 .ball-20 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 125px;
+  transform: rotate(95deg);
+}
+.ring-10 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.7s both alternate infinite;
+}
+.ring-10 .ball-21 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 125px;
+  transform: rotate(100deg);
+}
+.ring-10 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.7s both alternate infinite;
+}
+.ring-10 .ball-22 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 125px;
+  transform: rotate(105deg);
+}
+.ring-10 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.7s both alternate infinite;
+}
+.ring-10 .ball-23 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 125px;
+  transform: rotate(110deg);
+}
+.ring-10 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.7s both alternate infinite;
+}
+.ring-10 .ball-24 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 125px;
+  transform: rotate(115deg);
+}
+.ring-10 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.7s both alternate infinite;
+}
+.ring-10 .ball-25 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 125px;
+  transform: rotate(120deg);
+}
+.ring-10 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.7s both alternate infinite;
+}
+.ring-10 .ball-26 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 125px;
+  transform: rotate(125deg);
+}
+.ring-10 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.7s both alternate infinite;
+}
+.ring-10 .ball-27 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 125px;
+  transform: rotate(130deg);
+}
+.ring-10 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.7s both alternate infinite;
+}
+.ring-10 .ball-28 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 125px;
+  transform: rotate(135deg);
+}
+.ring-10 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.7s both alternate infinite;
+}
+.ring-10 .ball-29 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 125px;
+  transform: rotate(140deg);
+}
+.ring-10 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.7s both alternate infinite;
+}
+.ring-10 .ball-30 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 125px;
+  transform: rotate(145deg);
+}
+.ring-10 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.7s both alternate infinite;
+}
+.ring-10 .ball-31 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 125px;
+  transform: rotate(150deg);
+}
+.ring-10 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.7s both alternate infinite;
+}
+.ring-10 .ball-32 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 125px;
+  transform: rotate(155deg);
+}
+.ring-10 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.7s both alternate infinite;
+}
+.ring-10 .ball-33 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 125px;
+  transform: rotate(160deg);
+}
+.ring-10 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.7s both alternate infinite;
+}
+.ring-10 .ball-34 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 125px;
+  transform: rotate(165deg);
+}
+.ring-10 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.7s both alternate infinite;
+}
+.ring-10 .ball-35 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 125px;
+  transform: rotate(170deg);
+}
+.ring-10 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.7s both alternate infinite;
+}
+.ring-10 .ball-36 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 125px;
+  transform: rotate(175deg);
+}
+.ring-10 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.7s both alternate infinite;
+}
+.ring-10 .ball-37 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 125px;
+  transform: rotate(180deg);
+}
+.ring-10 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.7s both alternate infinite;
+}
+.ring-10 .ball-38 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 125px;
+  transform: rotate(185deg);
+}
+.ring-10 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.7s both alternate infinite;
+}
+.ring-10 .ball-39 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 125px;
+  transform: rotate(190deg);
+}
+.ring-10 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.7s both alternate infinite;
+}
+.ring-10 .ball-40 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 125px;
+  transform: rotate(195deg);
+}
+.ring-10 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.7s both alternate infinite;
+}
+.ring-10 .ball-41 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 125px;
+  transform: rotate(200deg);
+}
+.ring-10 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.7s both alternate infinite;
+}
+.ring-10 .ball-42 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 125px;
+  transform: rotate(205deg);
+}
+.ring-10 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.7s both alternate infinite;
+}
+.ring-10 .ball-43 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 125px;
+  transform: rotate(210deg);
+}
+.ring-10 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.7s both alternate infinite;
+}
+.ring-10 .ball-44 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 125px;
+  transform: rotate(215deg);
+}
+.ring-10 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.7s both alternate infinite;
+}
+.ring-10 .ball-45 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 125px;
+  transform: rotate(220deg);
+}
+.ring-10 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.7s both alternate infinite;
+}
+.ring-10 .ball-46 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 125px;
+  transform: rotate(225deg);
+}
+.ring-10 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.7s both alternate infinite;
+}
+.ring-10 .ball-47 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 125px;
+  transform: rotate(230deg);
+}
+.ring-10 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.7s both alternate infinite;
+}
+.ring-10 .ball-48 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 125px;
+  transform: rotate(235deg);
+}
+.ring-10 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.7s both alternate infinite;
+}
+.ring-10 .ball-49 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 125px;
+  transform: rotate(240deg);
+}
+.ring-10 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.7s both alternate infinite;
+}
+.ring-10 .ball-50 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 125px;
+  transform: rotate(245deg);
+}
+.ring-10 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.7s both alternate infinite;
+}
+.ring-10 .ball-51 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 125px;
+  transform: rotate(250deg);
+}
+.ring-10 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.7s both alternate infinite;
+}
+.ring-10 .ball-52 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 125px;
+  transform: rotate(255deg);
+}
+.ring-10 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.7s both alternate infinite;
+}
+.ring-10 .ball-53 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 125px;
+  transform: rotate(260deg);
+}
+.ring-10 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.7s both alternate infinite;
+}
+.ring-10 .ball-54 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 125px;
+  transform: rotate(265deg);
+}
+.ring-10 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.7s both alternate infinite;
+}
+.ring-10 .ball-55 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 125px;
+  transform: rotate(270deg);
+}
+.ring-10 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.7s both alternate infinite;
+}
+.ring-10 .ball-56 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 125px;
+  transform: rotate(275deg);
+}
+.ring-10 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.7s both alternate infinite;
+}
+.ring-10 .ball-57 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 125px;
+  transform: rotate(280deg);
+}
+.ring-10 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.7s both alternate infinite;
+}
+.ring-10 .ball-58 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 125px;
+  transform: rotate(285deg);
+}
+.ring-10 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.7s both alternate infinite;
+}
+.ring-10 .ball-59 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 125px;
+  transform: rotate(290deg);
+}
+.ring-10 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.7s both alternate infinite;
+}
+.ring-10 .ball-60 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 125px;
+  transform: rotate(295deg);
+}
+.ring-10 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.7s both alternate infinite;
+}
+.ring-10 .ball-61 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 125px;
+  transform: rotate(300deg);
+}
+.ring-10 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.7s both alternate infinite;
+}
+.ring-10 .ball-62 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 125px;
+  transform: rotate(305deg);
+}
+.ring-10 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.7s both alternate infinite;
+}
+.ring-10 .ball-63 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 125px;
+  transform: rotate(310deg);
+}
+.ring-10 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.7s both alternate infinite;
+}
+.ring-10 .ball-64 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 125px;
+  transform: rotate(315deg);
+}
+.ring-10 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.7s both alternate infinite;
+}
+.ring-10 .ball-65 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 125px;
+  transform: rotate(320deg);
+}
+.ring-10 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.7s both alternate infinite;
+}
+.ring-10 .ball-66 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 125px;
+  transform: rotate(325deg);
+}
+.ring-10 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.7s both alternate infinite;
+}
+.ring-10 .ball-67 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 125px;
+  transform: rotate(330deg);
+}
+.ring-10 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.7s both alternate infinite;
+}
+.ring-10 .ball-68 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 125px;
+  transform: rotate(335deg);
+}
+.ring-10 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.7s both alternate infinite;
+}
+.ring-10 .ball-69 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 125px;
+  transform: rotate(340deg);
+}
+.ring-10 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.7s both alternate infinite;
+}
+.ring-10 .ball-70 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 125px;
+  transform: rotate(345deg);
+}
+.ring-10 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.7s both alternate infinite;
+}
+.ring-10 .ball-71 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 125px;
+  transform: rotate(350deg);
+}
+.ring-10 .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  animation: scale 2s linear 2.7s both alternate infinite;
+}
+.ring-10 .ball-72 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 4px);
+  border-radius: 100%;
+  transform-origin: 50% 125px;
+  transform: rotate(355deg);
+}
+
+@keyframes scale {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}/*# sourceMappingURL=index.css.map */

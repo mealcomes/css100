@@ -1,0 +1,55 @@
+.frame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -200px;
+    border-radius: 5px;
+    box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+    background-color: #27AE60;
+}
+
+@for $i from 1 through 10 {
+    .ring-#{$i} {
+        position: absolute;
+        width: 50 + 20 * $i + px;
+        height: 50 + 20 * $i + px;
+        left: calc(50% - #{((50 + 20 * $i) / 2) + px});
+        top: calc(50% - #{((50 + 20 * $i) / 2) + px});
+
+        $ballCnt: 12 + $i * 6;
+
+        @for $j from 1 through $ballCnt {
+            .fill {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                border-radius: 100%;
+                background-color: #fff;
+                animation: scale 2s linear 0.3*($i - 1)+s both alternate infinite;
+            }
+
+            .ball-#{$j} {
+                position: absolute;
+                width: 8px;
+                height: 8px;
+                left: calc(50% - 4px);
+                border-radius: 100%;
+                transform-origin: 50% ((50 + 20 * $i) / 2) + px;
+                transform: rotate(#{($j - 1) * (360 / $ballCnt) + deg});
+            }
+        }
+    }
+}
+
+@keyframes scale {
+    from {
+        transform: scale(0);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}

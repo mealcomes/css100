@@ -1,0 +1,143 @@
+.frame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -200px;
+    border-radius: 5px;
+    box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+    background-color: #2b4147;
+}
+
+.base {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: calc(50% - 100px);
+    top: calc(50% - 100px);
+    border-radius: 100%;
+    background: conic-gradient(
+        from 135deg,
+        #fff 89.8deg,
+        #6b2b93 90.2deg,
+        #C32D64 359.8deg,
+        #fff 359.8deg
+    );
+    box-sizing: border-box;
+    border: 20px solid #fff;
+    box-shadow: inset 3px 0 6px 1px rgba(0, 0, 0, 0.4),
+        3px 0 4px 1px rgba(0, 0, 0, 0.3);
+
+    .dial {
+        position: absolute;
+        width: 110px;
+        height: 110px;
+        left: calc(50% - 55px);
+        top: calc(50% - 55px);
+        border-radius: 100%;
+        box-shadow: 3px 0 6px 1px rgba(0, 0, 0, 0.3);
+        background-color: #fff;
+        cursor: pointer;
+
+        &:hover {
+            .outer {
+                transform: rotate(20deg);
+            }
+
+            .content {
+                .temp_room {
+                    transform: translateX(-35px) scale(0.5);
+                    opacity: 0;
+
+                    &.hover {
+                        transform: translateX(0) scale(1);
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+
+        .outer {
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            border-radius: 100%;
+            transition: all 0.5s linear;
+
+            .pointer {
+                position: absolute;
+                width: 1px;
+                height: 10px;
+                left: 16px;
+                top: 16px;
+                background-color: rgba(0, 0, 0, 0.5);
+                transform-origin: 50% 0;
+                transform: rotate(-45deg);
+            }
+        }
+
+        .content {
+            position: absolute;
+            width: 80px;
+            height: 80px;
+            left: calc(50% - 40px);
+            top: calc(50% - 40px);
+
+            span {
+                position: absolute;
+                top: 0;
+            }
+
+            .temp_outside,
+            .room {
+                position: absolute;
+                width: 100%;
+                height: 12px;
+                text-align: center;
+                font-size: 13px;
+                font-weight: 100;
+                color: #b0a3a3;
+                line-height: 12px;
+
+                span {
+                    font-size: 10px;
+                    line-height: 10px;
+                }
+            }
+
+            .temp_outside {
+                top: 0;
+            }
+
+            .room {
+                bottom: 0;
+            }
+
+            .temp_room {
+                position: absolute;
+                height: 50px;
+                width: 100%;
+                text-align: center;
+                top: 12px;
+                font-size: 45px;
+                color: #873183;
+                line-height: 50px;
+                transition: all 0.5s ease-in-out;
+                transform: translateX(0) scale(1);
+                opacity: 1;
+
+                span {
+                    font-size: 15px;
+                    line-height: 30px;
+                }
+
+                &.hover {
+                    transform: translateX(35px) scale(0.5);
+                    opacity: 0;
+                }
+            }
+        }
+    }
+}

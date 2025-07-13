@@ -1,0 +1,182 @@
+.frame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -200px;
+    border-radius: 5px;
+    box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+    background-color: #313C46;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 120px;
+    height: 100px;
+    transform: translate(-50%, -50%);
+}
+
+.counter {
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    left: calc(50% - 50px);
+    overflow: hidden;
+    background-color: #fff;
+    border-radius: 3px;
+
+    .number {
+        position: absolute;
+        width: 25px;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        color: #478BB8;
+        font-size: 28px;
+
+        span {
+            display: block;
+            height: 40px;
+        }
+
+        &.thousand {
+            left: 0;
+            animation: change 10000s infinite;
+        }
+
+        &.hundred {
+            left: 25px;
+            animation: change 1000s steps(1) infinite;
+        }
+
+        &.tenths {
+            left: 50px;
+            animation: change 100s steps(1) infinite;
+        }
+
+        &.units {
+            right: 0;
+            animation: change 10s steps(1) infinite;
+            transition: none;
+        }
+    }
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+#cb:checked {
+    ~.pause {
+        opacity: 0;
+        transform: scale(0);
+        pointer-events: none;
+    }
+
+    ~.start {
+        opacity: 1;
+        transform: scale(1);
+        pointer-events: all;
+    }
+
+    ~.counter {
+        .thousand,
+        .hundred,
+        .tenths,
+        .units {
+            animation-play-state: paused;
+        }
+    }
+}
+
+.control {
+    position: absolute;
+    height: 20px;
+    width: 16px;
+    left: calc(50% - 8px);
+    top: 60px;
+    opacity: 0;
+    transform: scale(0);
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+}
+
+.pause {
+    opacity: 1;
+    transform: scale(1);
+    pointer-events: all;
+
+    .line {
+        position: absolute;
+        width: 4px;
+        height: 20px;
+        background-color: #fff;
+
+        &.line-1 {
+            left: 0;
+        }
+
+        &.line-2 {
+            right: 0;
+        }
+    }
+}
+
+.start {
+    opacity: 0;
+    transform: scale(0);
+    pointer-events: none;
+    background-color: #fff;
+    clip-path: polygon(0 0, 100% 50%, 0 100%);
+}
+
+@keyframes change {
+
+    0% {
+        transform: translateY(0);
+    }
+
+    10% {
+        transform: translateY(-40px);
+    }
+
+    20% {
+        transform: translateY(-80px);
+    }
+
+    30% {
+        transform: translateY(-120px);
+    }
+
+    40% {
+        transform: translateY(-160px);
+    }
+
+    50% {
+        transform: translateY(-200px);
+    }
+
+    60% {
+        transform: translateY(-240px);
+    }
+
+    70% {
+        transform: translateY(-280px);
+    }
+
+    80% {
+        transform: translateY(-320px);
+    }
+
+    90% {
+        transform: translateY(-360px);
+    }
+
+    100% {
+        transform: translate(0);
+    }
+}

@@ -1,0 +1,97 @@
+.frame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -200px;
+    border-radius: 5px;
+    box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+    background-color: #263a4d;
+    overflow: hidden;
+}
+
+.wave {
+    position: absolute;
+    width: 500px;
+
+    @for $i from 1 through 10 {
+        .circle-#{$i} {
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            border-radius: 100%;
+            top: -25px;
+            &:nth-child(2n) {
+                left: ($i - 1) * 50px;
+            }
+            &:nth-child(2n - 1) {
+                left: ($i - 1) * 50px;
+            }
+        }
+    }
+}
+
+.back {
+    height: 120px;
+    background-color: #406384;
+    bottom: 80px;
+    animation: move 4s ease-in-out both alternate infinite;
+
+    @for $i from 1 through 10 {
+        .circle-#{$i} {
+            &:nth-child(2n) {
+                background-color: #406384;
+            }
+            &:nth-child(2n - 1) {
+                background-color: #263a4d;
+            }
+        }
+    }
+}
+
+.mid {
+    height: 100px;
+    background-color: #5d90bf;
+    bottom: 40px;
+    animation: move 4s ease-in-out both alternate-reverse infinite;
+
+    @for $i from 1 through 10 {
+        .circle-#{$i} {
+            &:nth-child(2n) {
+                background-color: #5d90bf;
+            }
+            &:nth-child(2n - 1) {
+                background-color: #406384;
+            }
+        }
+    }
+}
+
+.front {
+    height: 80px;
+    background-color: #7eb3e6;
+    bottom: 0;
+    animation: move 4s ease-in both alternate infinite;
+
+    @for $i from 1 through 10 {
+        .circle-#{$i} {
+            &:nth-child(2n) {
+                background-color: #7eb3e6;
+            }
+            &:nth-child(2n - 1) {
+                background-color: #5d90bf;
+            }
+        }
+    }
+}
+
+@keyframes move {
+    from {
+        transform: translateX(-30px);
+    }
+    to {
+        transform: translateX(0px);
+    }
+}

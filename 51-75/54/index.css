@@ -1,0 +1,358 @@
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 5px;
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+  background-color: #263a4d;
+  overflow: hidden;
+}
+
+.wave {
+  position: absolute;
+  width: 500px;
+}
+.wave .circle-1 {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  top: -25px;
+}
+.wave .circle-1:nth-child(2n) {
+  left: 0px;
+}
+.wave .circle-1:nth-child(2n-1) {
+  left: 0px;
+}
+.wave .circle-2 {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  top: -25px;
+}
+.wave .circle-2:nth-child(2n) {
+  left: 50px;
+}
+.wave .circle-2:nth-child(2n-1) {
+  left: 50px;
+}
+.wave .circle-3 {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  top: -25px;
+}
+.wave .circle-3:nth-child(2n) {
+  left: 100px;
+}
+.wave .circle-3:nth-child(2n-1) {
+  left: 100px;
+}
+.wave .circle-4 {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  top: -25px;
+}
+.wave .circle-4:nth-child(2n) {
+  left: 150px;
+}
+.wave .circle-4:nth-child(2n-1) {
+  left: 150px;
+}
+.wave .circle-5 {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  top: -25px;
+}
+.wave .circle-5:nth-child(2n) {
+  left: 200px;
+}
+.wave .circle-5:nth-child(2n-1) {
+  left: 200px;
+}
+.wave .circle-6 {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  top: -25px;
+}
+.wave .circle-6:nth-child(2n) {
+  left: 250px;
+}
+.wave .circle-6:nth-child(2n-1) {
+  left: 250px;
+}
+.wave .circle-7 {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  top: -25px;
+}
+.wave .circle-7:nth-child(2n) {
+  left: 300px;
+}
+.wave .circle-7:nth-child(2n-1) {
+  left: 300px;
+}
+.wave .circle-8 {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  top: -25px;
+}
+.wave .circle-8:nth-child(2n) {
+  left: 350px;
+}
+.wave .circle-8:nth-child(2n-1) {
+  left: 350px;
+}
+.wave .circle-9 {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  top: -25px;
+}
+.wave .circle-9:nth-child(2n) {
+  left: 400px;
+}
+.wave .circle-9:nth-child(2n-1) {
+  left: 400px;
+}
+.wave .circle-10 {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  top: -25px;
+}
+.wave .circle-10:nth-child(2n) {
+  left: 450px;
+}
+.wave .circle-10:nth-child(2n-1) {
+  left: 450px;
+}
+
+.back {
+  height: 120px;
+  background-color: #406384;
+  bottom: 80px;
+  animation: move 4s ease-in-out both alternate infinite;
+}
+.back .circle-1:nth-child(2n) {
+  background-color: #406384;
+}
+.back .circle-1:nth-child(2n-1) {
+  background-color: #263a4d;
+}
+.back .circle-2:nth-child(2n) {
+  background-color: #406384;
+}
+.back .circle-2:nth-child(2n-1) {
+  background-color: #263a4d;
+}
+.back .circle-3:nth-child(2n) {
+  background-color: #406384;
+}
+.back .circle-3:nth-child(2n-1) {
+  background-color: #263a4d;
+}
+.back .circle-4:nth-child(2n) {
+  background-color: #406384;
+}
+.back .circle-4:nth-child(2n-1) {
+  background-color: #263a4d;
+}
+.back .circle-5:nth-child(2n) {
+  background-color: #406384;
+}
+.back .circle-5:nth-child(2n-1) {
+  background-color: #263a4d;
+}
+.back .circle-6:nth-child(2n) {
+  background-color: #406384;
+}
+.back .circle-6:nth-child(2n-1) {
+  background-color: #263a4d;
+}
+.back .circle-7:nth-child(2n) {
+  background-color: #406384;
+}
+.back .circle-7:nth-child(2n-1) {
+  background-color: #263a4d;
+}
+.back .circle-8:nth-child(2n) {
+  background-color: #406384;
+}
+.back .circle-8:nth-child(2n-1) {
+  background-color: #263a4d;
+}
+.back .circle-9:nth-child(2n) {
+  background-color: #406384;
+}
+.back .circle-9:nth-child(2n-1) {
+  background-color: #263a4d;
+}
+.back .circle-10:nth-child(2n) {
+  background-color: #406384;
+}
+.back .circle-10:nth-child(2n-1) {
+  background-color: #263a4d;
+}
+
+.mid {
+  height: 100px;
+  background-color: #5d90bf;
+  bottom: 40px;
+  animation: move 4s ease-in-out both alternate-reverse infinite;
+}
+.mid .circle-1:nth-child(2n) {
+  background-color: #5d90bf;
+}
+.mid .circle-1:nth-child(2n-1) {
+  background-color: #406384;
+}
+.mid .circle-2:nth-child(2n) {
+  background-color: #5d90bf;
+}
+.mid .circle-2:nth-child(2n-1) {
+  background-color: #406384;
+}
+.mid .circle-3:nth-child(2n) {
+  background-color: #5d90bf;
+}
+.mid .circle-3:nth-child(2n-1) {
+  background-color: #406384;
+}
+.mid .circle-4:nth-child(2n) {
+  background-color: #5d90bf;
+}
+.mid .circle-4:nth-child(2n-1) {
+  background-color: #406384;
+}
+.mid .circle-5:nth-child(2n) {
+  background-color: #5d90bf;
+}
+.mid .circle-5:nth-child(2n-1) {
+  background-color: #406384;
+}
+.mid .circle-6:nth-child(2n) {
+  background-color: #5d90bf;
+}
+.mid .circle-6:nth-child(2n-1) {
+  background-color: #406384;
+}
+.mid .circle-7:nth-child(2n) {
+  background-color: #5d90bf;
+}
+.mid .circle-7:nth-child(2n-1) {
+  background-color: #406384;
+}
+.mid .circle-8:nth-child(2n) {
+  background-color: #5d90bf;
+}
+.mid .circle-8:nth-child(2n-1) {
+  background-color: #406384;
+}
+.mid .circle-9:nth-child(2n) {
+  background-color: #5d90bf;
+}
+.mid .circle-9:nth-child(2n-1) {
+  background-color: #406384;
+}
+.mid .circle-10:nth-child(2n) {
+  background-color: #5d90bf;
+}
+.mid .circle-10:nth-child(2n-1) {
+  background-color: #406384;
+}
+
+.front {
+  height: 80px;
+  background-color: #7eb3e6;
+  bottom: 0;
+  animation: move 4s ease-in both alternate infinite;
+}
+.front .circle-1:nth-child(2n) {
+  background-color: #7eb3e6;
+}
+.front .circle-1:nth-child(2n-1) {
+  background-color: #5d90bf;
+}
+.front .circle-2:nth-child(2n) {
+  background-color: #7eb3e6;
+}
+.front .circle-2:nth-child(2n-1) {
+  background-color: #5d90bf;
+}
+.front .circle-3:nth-child(2n) {
+  background-color: #7eb3e6;
+}
+.front .circle-3:nth-child(2n-1) {
+  background-color: #5d90bf;
+}
+.front .circle-4:nth-child(2n) {
+  background-color: #7eb3e6;
+}
+.front .circle-4:nth-child(2n-1) {
+  background-color: #5d90bf;
+}
+.front .circle-5:nth-child(2n) {
+  background-color: #7eb3e6;
+}
+.front .circle-5:nth-child(2n-1) {
+  background-color: #5d90bf;
+}
+.front .circle-6:nth-child(2n) {
+  background-color: #7eb3e6;
+}
+.front .circle-6:nth-child(2n-1) {
+  background-color: #5d90bf;
+}
+.front .circle-7:nth-child(2n) {
+  background-color: #7eb3e6;
+}
+.front .circle-7:nth-child(2n-1) {
+  background-color: #5d90bf;
+}
+.front .circle-8:nth-child(2n) {
+  background-color: #7eb3e6;
+}
+.front .circle-8:nth-child(2n-1) {
+  background-color: #5d90bf;
+}
+.front .circle-9:nth-child(2n) {
+  background-color: #7eb3e6;
+}
+.front .circle-9:nth-child(2n-1) {
+  background-color: #5d90bf;
+}
+.front .circle-10:nth-child(2n) {
+  background-color: #7eb3e6;
+}
+.front .circle-10:nth-child(2n-1) {
+  background-color: #5d90bf;
+}
+
+@keyframes move {
+  from {
+    transform: translateX(-30px);
+  }
+  to {
+    transform: translateX(0px);
+  }
+}/*# sourceMappingURL=index.css.map */
