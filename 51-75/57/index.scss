@@ -1,0 +1,141 @@
+.frame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -200px;
+    border-radius: 5px;
+    box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+    background-color: #2b3d4e;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    perspective: 1000px;
+}
+
+.ikosaeder {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    transform-style: preserve-3d;
+    transition: all 3s ease-in-out;
+    cursor: pointer;
+}
+.ikosaeder:hover {
+    transform: rotateX(-400deg) rotateY(-400deg);
+}
+.ikosaeder:hover .side {
+    opacity: 0.5;
+}
+.ikosaeder .side {
+    position: absolute;
+    width: 140px;
+    height: 121.2435565298px;
+    left: calc(50% - 70px);
+    top: calc(50% - 70px);
+    clip-path: polygon(0 100%, 100% 100%, 50% 0);
+    transform-origin: 50% 80.8290376865px;
+    background-color: #fff;
+    text-align: center;
+    line-height: 140px;
+    opacity: 1;
+    transition: opacity 3s ease-in-out;
+}
+.ikosaeder .side-1 {
+    transform: rotateZ(30deg) translateZ(105.8065839707px);
+    background-color: #fff;
+}
+.ikosaeder .side-2 {
+    transform: rotateZ(-30deg) rotateX(41.8deg) translateZ(105.8065839707px);
+    background-color: #e1e1e1;
+}
+.ikosaeder .side-3 {
+    transform: rotateZ(90deg) rotateX(41.8deg) translateZ(105.8065839707px);
+    background-color: #eeeeee;
+}
+.ikosaeder .side-4 {
+    transform: rotateZ(-150deg) rotateX(41.8deg) translateZ(105.8065839707px);
+    background-color: #eeeeee;
+}
+.ikosaeder .side-5 {
+    transform: rotateZ(-30deg) rotateX(41.8deg) rotateZ(-60deg) rotateX(41.8deg)
+        translateZ(105.8065839707px);
+    background-color: #ffffff;
+}
+.ikosaeder .side-6 {
+    transform: rotateZ(-30deg) rotateX(41.8deg) rotateZ(60deg) rotateX(41.8deg)
+        translateZ(105.8065839707px);
+    background-color: #eeeeee;
+}
+.ikosaeder .side-7 {
+    transform: rotateZ(90deg) rotateX(41.8deg) rotateZ(-60deg) rotateX(41.8deg)
+        translateZ(105.8065839707px);
+    background-color: #ffffff;
+}
+.ikosaeder .side-8 {
+    transform: rotateZ(90deg) rotateX(41.8deg) rotateZ(60deg) rotateX(41.8deg)
+        translateZ(105.8065839707px);
+    background-color: #e1e1e1;
+}
+.ikosaeder .side-9 {
+    transform: rotateZ(-150deg) rotateX(41.8deg) rotateZ(-60deg)
+        rotateX(41.8deg) translateZ(105.8065839707px);
+    background-color: #fff;
+}
+.ikosaeder .side-10 {
+    transform: rotateZ(-150deg) rotateX(41.8deg) rotateZ(60deg) rotateX(41.8deg)
+        translateZ(105.8065839707px);
+    background-color: #eeeeee;
+}
+.ikosaeder .side-11 {
+    transform: rotateZ(-30deg) translateZ(-105.8065839707px);
+    background-color: #fff;
+}
+.ikosaeder .side-12 {
+    transform: rotateZ(30deg) rotateX(-41.8deg) translateZ(-105.8065839707px);
+    background-color: #e1e1e1;
+}
+.ikosaeder .side-13 {
+    transform: rotateZ(-90deg) rotateX(-41.8deg) translateZ(-105.8065839707px);
+    background-color: #eeeeee;
+}
+.ikosaeder .side-14 {
+    transform: rotateZ(150deg) rotateX(-41.8deg) translateZ(-105.8065839707px);
+    background-color: #eeeeee;
+}
+.ikosaeder .side-15 {
+    transform: rotateZ(30deg) rotateX(-41.8deg) rotateZ(60deg) rotateX(-41.8deg)
+        translateZ(-105.8065839707px);
+    background-color: #ffffff;
+}
+.ikosaeder .side-16 {
+    transform: rotateZ(30deg) rotateX(-41.8deg) rotateZ(-60deg)
+        rotateX(-41.8deg) translateZ(-105.8065839707px);
+    background-color: #eeeeee;
+}
+.ikosaeder .side-17 {
+    transform: rotateZ(-90deg) rotateX(-41.8deg) rotateZ(60deg)
+        rotateX(-41.8deg) translateZ(-105.8065839707px);
+    background-color: #ffffff;
+}
+.ikosaeder .side-18 {
+    transform: rotateZ(-90deg) rotateX(-41.8deg) rotateZ(-60deg)
+        rotateX(-41.8deg) translateZ(-105.8065839707px);
+    background-color: #e1e1e1;
+}
+.ikosaeder .side-19 {
+    transform: rotateZ(150deg) rotateX(-41.8deg) rotateZ(60deg)
+        rotateX(-41.8deg) translateZ(-105.8065839707px);
+    background-color: #fff;
+}
+.ikosaeder .side-20 {
+    transform: rotateZ(150deg) rotateX(-41.8deg) rotateZ(-60deg)
+        rotateX(-41.8deg) translateZ(-105.8065839707px);
+    background-color: #eeeeee;
+} /*# sourceMappingURL=index.css.map */

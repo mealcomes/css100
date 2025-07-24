@@ -1,0 +1,80 @@
+.frame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -200px;
+    border-radius: 5px;
+    box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+}
+
+.center {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url('https://100dayscss.com/codepen/slice-image-1.jpg')
+        no-repeat center;
+    background-size: 400px 400px;
+    cursor: pointer;
+    overflow: hidden;
+
+    &:hover {
+        .text {
+            &.big {
+                transform: translateX(-40px);
+            }
+            &.small {
+                transform: translateX(40px);
+            }
+        }
+
+        .slice {
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
+
+    .text {
+        position: absolute;
+        color: white;
+        font-weight: 600;
+        text-transform: uppercase;
+        user-select: none;
+        transition: all 1s ease-in-out;
+
+        &.big {
+            top: 130px;
+            font-size: 60px;
+            left: 120px;
+            transform: translateX(0);
+        }
+
+        &.small {
+            top: 200px;
+            font-size: 40px;
+            left: 78px;
+            transform: translateX(0);
+        }
+    }
+
+    $e: -1;
+    @for $i from 1 through 8 {
+        .slice-#{$i} {
+            position: absolute;
+            width: 50px;
+            height: 400px;
+            background: url('https://100dayscss.com/codepen/slice-image-2.jpg')
+                center
+                no-repeat;
+            background-size: 800px 800px;
+            background-position: -#{($i - 1) * 50}px 0;
+            left: #{($i - 1) * 50}px;
+            transform: translateY(#{$e * 40}px);
+            transition: all 1s ease-in-out;
+            opacity: 0;
+        }
+        $e: -$e;
+    }
+}

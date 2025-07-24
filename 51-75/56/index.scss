@@ -1,0 +1,116 @@
+.frame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -200px;
+    border-radius: 5px;
+    box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+    background-color: #16a078;
+}
+
+.flower {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    top: calc(50% - 125px);
+    left: calc(50% - 125px);
+    animation: flower 7s ease infinite;
+    &:hover {
+        .leaf,
+        .center {
+            opacity: 0.3;
+        }
+    }
+
+    .leaf {
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        left: calc(50% - 40px);
+        top: calc(50% - 40px);
+        background-color: #fff;
+        border-radius: 0% 90%;
+        transition: opacity 0.3s ease;
+        opacity: 0.8;
+    }
+
+    @for $i from 1 through 16 {
+        .leaf-#{$i} {
+            transform: rotate(#{22.5 * $i + deg});
+            animation: leaf-#{$i} 7s ease both infinite;
+        }
+
+        @keyframes leaf-#{$i} {
+            0% {
+                transform: rotate(#{22.5 * $i + deg}) scale(0.6);
+                box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0);
+            }
+            #{5+(3 * $i) + '%'},
+            70% {
+                transform: rotate(#{22.5 * $i + deg}) translate(-35px, -35px);
+                box-shadow: -8px -8px 0px 1px rgba(0, 0, 0, 0.05);
+            }
+            100% {
+                transform: rotate(#{22.5 * $i + deg}) scale(0.6);
+                box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0);
+            }
+        }
+    }
+
+    .center {
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        left: calc(50% - 20px);
+        top: calc(50% - 20px);
+        border-radius: 100%;
+        background-color: #f4d03f;
+        animation: center 7s ease infinite;
+        transition: opacity 0.3s ease;
+    }
+}
+
+@keyframes flower {
+    0% {
+        transform: rotate(0);
+    }
+    45%,
+    55% {
+        transform: rotate(180deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes center {
+    0%,
+    10% {
+        transform: scale(0);
+    }
+
+    20% {
+        transform: scale(1.1);
+    }
+
+    28% {
+        transform: scale(0.95);
+    }
+
+    33%,
+    60% {
+        transform: scale(1);
+    }
+
+    65% {
+        transform: scale(1.1);
+    }
+
+    70%,
+    100% {
+        transform: scale(0);
+    }
+}

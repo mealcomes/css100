@@ -1,0 +1,40 @@
+.frame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -200px;
+    border-radius: 5px;
+    box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+    background-color: #34495e;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 60px;
+    cursor: pointer;
+    border-radius: 5px;
+    pointer-events: none;
+}
+.hover {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 400px;
+    height: 400px;
+    backdrop-filter: blur(5px);
+    background-color: rgb(255, 120, 1, 0.8);
+    pointer-events: none;
+    border-radius: 5px;
+    transform: translateY(-50%);
+}

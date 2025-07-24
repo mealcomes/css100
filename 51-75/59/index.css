@@ -1,0 +1,147 @@
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 5px;
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+}
+
+.center {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url("https://100dayscss.com/codepen/slice-image-1.jpg") no-repeat center;
+  background-size: 400px 400px;
+  cursor: pointer;
+  overflow: hidden;
+}
+.center:hover .text.big {
+  transform: translateX(-40px);
+}
+.center:hover .text.small {
+  transform: translateX(40px);
+}
+.center:hover .slice {
+  transform: translateY(0);
+  opacity: 1;
+}
+.center .text {
+  position: absolute;
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+  user-select: none;
+  transition: all 1s ease-in-out;
+}
+.center .text.big {
+  top: 130px;
+  font-size: 60px;
+  left: 120px;
+  transform: translateX(0);
+}
+.center .text.small {
+  top: 200px;
+  font-size: 40px;
+  left: 78px;
+  transform: translateX(0);
+}
+.center .slice-1 {
+  position: absolute;
+  width: 50px;
+  height: 400px;
+  background: url("https://100dayscss.com/codepen/slice-image-2.jpg") center no-repeat;
+  background-size: 800px 800px;
+  background-position: -0px 0;
+  left: 0px;
+  transform: translateY(-40px);
+  transition: all 1s ease-in-out;
+  opacity: 0;
+}
+.center .slice-2 {
+  position: absolute;
+  width: 50px;
+  height: 400px;
+  background: url("https://100dayscss.com/codepen/slice-image-2.jpg") center no-repeat;
+  background-size: 800px 800px;
+  background-position: -50px 0;
+  left: 50px;
+  transform: translateY(40px);
+  transition: all 1s ease-in-out;
+  opacity: 0;
+}
+.center .slice-3 {
+  position: absolute;
+  width: 50px;
+  height: 400px;
+  background: url("https://100dayscss.com/codepen/slice-image-2.jpg") center no-repeat;
+  background-size: 800px 800px;
+  background-position: -100px 0;
+  left: 100px;
+  transform: translateY(-40px);
+  transition: all 1s ease-in-out;
+  opacity: 0;
+}
+.center .slice-4 {
+  position: absolute;
+  width: 50px;
+  height: 400px;
+  background: url("https://100dayscss.com/codepen/slice-image-2.jpg") center no-repeat;
+  background-size: 800px 800px;
+  background-position: -150px 0;
+  left: 150px;
+  transform: translateY(40px);
+  transition: all 1s ease-in-out;
+  opacity: 0;
+}
+.center .slice-5 {
+  position: absolute;
+  width: 50px;
+  height: 400px;
+  background: url("https://100dayscss.com/codepen/slice-image-2.jpg") center no-repeat;
+  background-size: 800px 800px;
+  background-position: -200px 0;
+  left: 200px;
+  transform: translateY(-40px);
+  transition: all 1s ease-in-out;
+  opacity: 0;
+}
+.center .slice-6 {
+  position: absolute;
+  width: 50px;
+  height: 400px;
+  background: url("https://100dayscss.com/codepen/slice-image-2.jpg") center no-repeat;
+  background-size: 800px 800px;
+  background-position: -250px 0;
+  left: 250px;
+  transform: translateY(40px);
+  transition: all 1s ease-in-out;
+  opacity: 0;
+}
+.center .slice-7 {
+  position: absolute;
+  width: 50px;
+  height: 400px;
+  background: url("https://100dayscss.com/codepen/slice-image-2.jpg") center no-repeat;
+  background-size: 800px 800px;
+  background-position: -300px 0;
+  left: 300px;
+  transform: translateY(-40px);
+  transition: all 1s ease-in-out;
+  opacity: 0;
+}
+.center .slice-8 {
+  position: absolute;
+  width: 50px;
+  height: 400px;
+  background: url("https://100dayscss.com/codepen/slice-image-2.jpg") center no-repeat;
+  background-size: 800px 800px;
+  background-position: -350px 0;
+  left: 350px;
+  transform: translateY(40px);
+  transition: all 1s ease-in-out;
+  opacity: 0;
+}/*# sourceMappingURL=index.css.map */

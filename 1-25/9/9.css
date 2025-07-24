@@ -126,7 +126,7 @@
   height: 8px;
   border-radius: 50%;
   background: #7FC1F9;
-  animation: drop 0.8s linear 1.56s infinite;
+  animation: drop 0.9s linear 0.52s infinite;
   animation-fill-mode: both;
   transform-origin: 50% 100%;
 }
@@ -158,7 +158,7 @@
   opacity: 0.6;
   width: 6px;
   height: 6px;
-  animation: drop 1.4s linear 1.76s infinite;
+  animation: drop 1.4s linear 0.28s infinite;
   animation-fill-mode: both;
 }
 .drop-medium-1:before {
@@ -179,7 +179,7 @@
   opacity: 0.3;
   width: 4px;
   height: 4px;
-  animation: drop 2.1s linear 1.44s infinite;
+  animation: drop 2.1s linear 0.68s infinite;
   animation-fill-mode: both;
 }
 .drop-small-1:before {
@@ -204,7 +204,7 @@
   height: 8px;
   border-radius: 50%;
   background: #7FC1F9;
-  animation: drop 0.9s linear 1.96s infinite;
+  animation: drop 0.8s linear 0.84s infinite;
   animation-fill-mode: both;
   transform-origin: 50% 100%;
 }
@@ -236,7 +236,7 @@
   opacity: 0.6;
   width: 6px;
   height: 6px;
-  animation: drop 1.4s linear 1.28s infinite;
+  animation: drop 1.5s linear 0.88s infinite;
   animation-fill-mode: both;
 }
 .drop-medium-2:before {
@@ -257,7 +257,7 @@
   opacity: 0.3;
   width: 4px;
   height: 4px;
-  animation: drop 2s linear 1.24s infinite;
+  animation: drop 2.1s linear 1.2s infinite;
   animation-fill-mode: both;
 }
 .drop-small-2:before {
@@ -282,7 +282,7 @@
   height: 8px;
   border-radius: 50%;
   background: #7FC1F9;
-  animation: drop 0.9s linear 0.32s infinite;
+  animation: drop 0.9s linear 0.76s infinite;
   animation-fill-mode: both;
   transform-origin: 50% 100%;
 }
@@ -314,7 +314,7 @@
   opacity: 0.6;
   width: 6px;
   height: 6px;
-  animation: drop 1.5s linear 1.16s infinite;
+  animation: drop 1.5s linear 0.28s infinite;
   animation-fill-mode: both;
 }
 .drop-medium-3:before {
@@ -335,7 +335,7 @@
   opacity: 0.3;
   width: 4px;
   height: 4px;
-  animation: drop 2s linear 0.76s infinite;
+  animation: drop 2s linear 0.32s infinite;
   animation-fill-mode: both;
 }
 .drop-small-3:before {
@@ -360,7 +360,7 @@
   height: 8px;
   border-radius: 50%;
   background: #7FC1F9;
-  animation: drop 0.9s linear 0.32s infinite;
+  animation: drop 0.9s linear 1.36s infinite;
   animation-fill-mode: both;
   transform-origin: 50% 100%;
 }
@@ -392,7 +392,7 @@
   opacity: 0.6;
   width: 6px;
   height: 6px;
-  animation: drop 1.5s linear 0.88s infinite;
+  animation: drop 1.5s linear 0.4s infinite;
   animation-fill-mode: both;
 }
 .drop-medium-4:before {
@@ -413,7 +413,7 @@
   opacity: 0.3;
   width: 4px;
   height: 4px;
-  animation: drop 2.1s linear 0.88s infinite;
+  animation: drop 2s linear 1s infinite;
   animation-fill-mode: both;
 }
 .drop-small-4:before {
@@ -438,7 +438,7 @@
   height: 8px;
   border-radius: 50%;
   background: #7FC1F9;
-  animation: drop 0.9s linear 1s infinite;
+  animation: drop 0.8s linear 1.4s infinite;
   animation-fill-mode: both;
   transform-origin: 50% 100%;
 }
@@ -470,7 +470,7 @@
   opacity: 0.6;
   width: 6px;
   height: 6px;
-  animation: drop 1.5s linear 1.12s infinite;
+  animation: drop 1.5s linear 0.4s infinite;
   animation-fill-mode: both;
 }
 .drop-medium-5:before {
@@ -491,7 +491,7 @@
   opacity: 0.3;
   width: 4px;
   height: 4px;
-  animation: drop 2.1s linear 1.88s infinite;
+  animation: drop 2.1s linear 0.4s infinite;
   animation-fill-mode: both;
 }
 .drop-small-5:before {
@@ -516,7 +516,7 @@
   height: 8px;
   border-radius: 50%;
   background: #7FC1F9;
-  animation: drop 0.9s linear 1.88s infinite;
+  animation: drop 0.9s linear 1.2s infinite;
   animation-fill-mode: both;
   transform-origin: 50% 100%;
 }
@@ -548,7 +548,7 @@
   opacity: 0.6;
   width: 6px;
   height: 6px;
-  animation: drop 1.5s linear 0.4s infinite;
+  animation: drop 1.5s linear 0.88s infinite;
   animation-fill-mode: both;
 }
 .drop-medium-6:before {
@@ -569,7 +569,7 @@
   opacity: 0.3;
   width: 4px;
   height: 4px;
-  animation: drop 2.1s linear 0.32s infinite;
+  animation: drop 2.1s linear 1.84s infinite;
   animation-fill-mode: both;
 }
 .drop-small-6:before {
@@ -594,7 +594,7 @@
   height: 8px;
   border-radius: 50%;
   background: #7FC1F9;
-  animation: drop 0.8s linear 1.56s infinite;
+  animation: drop 0.8s linear 1.44s infinite;
   animation-fill-mode: both;
   transform-origin: 50% 100%;
 }
@@ -626,7 +626,7 @@
   opacity: 0.6;
   width: 6px;
   height: 6px;
-  animation: drop 1.4s linear 0.28s infinite;
+  animation: drop 1.5s linear 0.88s infinite;
   animation-fill-mode: both;
 }
 .drop-medium-7:before {
@@ -647,7 +647,7 @@
   opacity: 0.3;
   width: 4px;
   height: 4px;
-  animation: drop 2.1s linear 1.72s infinite;
+  animation: drop 2.1s linear 1s infinite;
   animation-fill-mode: both;
 }
 .drop-small-7:before {
@@ -672,7 +672,7 @@
   height: 8px;
   border-radius: 50%;
   background: #7FC1F9;
-  animation: drop 0.8s linear 0.96s infinite;
+  animation: drop 0.9s linear 1.72s infinite;
   animation-fill-mode: both;
   transform-origin: 50% 100%;
 }
@@ -704,7 +704,7 @@
   opacity: 0.6;
   width: 6px;
   height: 6px;
-  animation: drop 1.4s linear 1.84s infinite;
+  animation: drop 1.5s linear 0.24s infinite;
   animation-fill-mode: both;
 }
 .drop-medium-8:before {
@@ -725,7 +725,7 @@
   opacity: 0.3;
   width: 4px;
   height: 4px;
-  animation: drop 2.1s linear 1.28s infinite;
+  animation: drop 2.1s linear 0.04s infinite;
   animation-fill-mode: both;
 }
 .drop-small-8:before {
@@ -750,7 +750,7 @@
   height: 8px;
   border-radius: 50%;
   background: #7FC1F9;
-  animation: drop 0.9s linear 1.68s infinite;
+  animation: drop 0.9s linear 0.72s infinite;
   animation-fill-mode: both;
   transform-origin: 50% 100%;
 }
@@ -782,7 +782,7 @@
   opacity: 0.6;
   width: 6px;
   height: 6px;
-  animation: drop 1.5s linear 0.56s infinite;
+  animation: drop 1.5s linear 1.08s infinite;
   animation-fill-mode: both;
 }
 .drop-medium-9:before {
@@ -803,7 +803,7 @@
   opacity: 0.3;
   width: 4px;
   height: 4px;
-  animation: drop 2.1s linear 0.44s infinite;
+  animation: drop 2.1s linear 0.84s infinite;
   animation-fill-mode: both;
 }
 .drop-small-9:before {
@@ -828,7 +828,7 @@
   height: 8px;
   border-radius: 50%;
   background: #7FC1F9;
-  animation: drop 0.9s linear 0.88s infinite;
+  animation: drop 0.8s linear 2s infinite;
   animation-fill-mode: both;
   transform-origin: 50% 100%;
 }
@@ -860,7 +860,7 @@
   opacity: 0.6;
   width: 6px;
   height: 6px;
-  animation: drop 1.4s linear 0.56s infinite;
+  animation: drop 1.5s linear 0.96s infinite;
   animation-fill-mode: both;
 }
 .drop-medium-10:before {
@@ -881,7 +881,7 @@
   opacity: 0.3;
   width: 4px;
   height: 4px;
-  animation: drop 2s linear 0.52s infinite;
+  animation: drop 2s linear 1.88s infinite;
   animation-fill-mode: both;
 }
 .drop-small-10:before {

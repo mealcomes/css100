@@ -69,7 +69,7 @@
   width: 4px;
   background-color: #4B4841;
   border-radius: 3px;
-  animation: street 0.9s linear 0.7s infinite;
+  animation: street 0.9s linear 0.1s infinite;
 }
 .center .flip .front .street .stripe-2 {
   position: absolute;
@@ -79,7 +79,7 @@
   width: 6px;
   background-color: #4B4841;
   border-radius: 3px;
-  animation: street 0.9s linear 0.7s infinite;
+  animation: street 1s linear 0.8s infinite;
 }
 .center .flip .front .street .stripe-3 {
   position: absolute;
@@ -89,7 +89,7 @@
   width: 8px;
   background-color: #4B4841;
   border-radius: 3px;
-  animation: street 1s linear 0.9s infinite;
+  animation: street 1s linear 0.8s infinite;
 }
 .center .flip .front .street .stripe-4 {
   position: absolute;
@@ -99,7 +99,7 @@
   width: 10px;
   background-color: #4B4841;
   border-radius: 3px;
-  animation: street 1s linear 0.2s infinite;
+  animation: street 1s linear 0.9s infinite;
 }
 .center .flip .front .street .stripe-5 {
   position: absolute;
@@ -109,7 +109,7 @@
   width: 12px;
   background-color: #4B4841;
   border-radius: 3px;
-  animation: street 1s linear 1s infinite;
+  animation: street 1s linear 0.7s infinite;
 }
 .center .flip .front .street .stripe-6 {
   position: absolute;
@@ -119,7 +119,7 @@
   width: 14px;
   background-color: #4B4841;
   border-radius: 3px;
-  animation: street 1s linear 0.5s infinite;
+  animation: street 0.9s linear 0.4s infinite;
 }
 .center .flip .front .street .stripe-7 {
   position: absolute;
@@ -129,7 +129,7 @@
   width: 16px;
   background-color: #4B4841;
   border-radius: 3px;
-  animation: street 1s linear 0.4s infinite;
+  animation: street 0.9s linear 0.7s infinite;
 }
 .center .flip .front .street .stripe-8 {
   position: absolute;
@@ -139,7 +139,7 @@
   width: 18px;
   background-color: #4B4841;
   border-radius: 3px;
-  animation: street 1s linear 0.5s infinite;
+  animation: street 1s linear 1s infinite;
 }
 .center .flip .front .street .stripe-9 {
   position: absolute;
@@ -149,7 +149,7 @@
   width: 20px;
   background-color: #4B4841;
   border-radius: 3px;
-  animation: street 1s linear 0.7s infinite;
+  animation: street 0.9s linear 0.2s infinite;
 }
 .center .flip .back {
   z-index: 0;
@@ -177,90 +177,90 @@
   right: -25px;
   top: 0px;
   height: 3px;
-  width: 12.4px;
+  width: 14.5px;
   background-color: #4B4841;
   border-radius: 3px;
-  animation: cloud 0.7s linear 0.2s infinite;
+  animation: cloud 0.7s linear 0.5s infinite;
 }
 .center .flip .back .sky .cloud-2 {
   position: absolute;
   right: -25px;
   top: 14px;
   height: 3px;
-  width: 22.2px;
+  width: 23.1px;
   background-color: #4B4841;
   border-radius: 3px;
-  animation: cloud 0.7s linear 0.5s infinite;
+  animation: cloud 0.8s linear 0.8s infinite;
 }
 .center .flip .back .sky .cloud-3 {
   position: absolute;
   right: -25px;
   top: 28px;
   height: 3px;
-  width: 20.7px;
+  width: 17.7px;
   background-color: #4B4841;
   border-radius: 3px;
-  animation: cloud 0.7s linear 0.8s infinite;
+  animation: cloud 0.8s linear 0.4s infinite;
 }
 .center .flip .back .sky .cloud-4 {
   position: absolute;
   right: -25px;
   top: 42px;
   height: 3px;
-  width: 14.8px;
+  width: 24.9px;
   background-color: #4B4841;
   border-radius: 3px;
-  animation: cloud 0.7s linear 0.1s infinite;
+  animation: cloud 0.7s linear 0.3s infinite;
 }
 .center .flip .back .sky .cloud-5 {
   position: absolute;
   right: -25px;
   top: 56px;
   height: 3px;
-  width: 12.5px;
+  width: 19.5px;
   background-color: #4B4841;
   border-radius: 3px;
-  animation: cloud 0.8s linear 0.2s infinite;
+  animation: cloud 0.8s linear 0.5s infinite;
 }
 .center .flip .back .sky .cloud-6 {
   position: absolute;
   right: -25px;
   top: 70px;
   height: 3px;
-  width: 10.5px;
+  width: 21.2px;
   background-color: #4B4841;
   border-radius: 3px;
-  animation: cloud 0.7s linear 0.8s infinite;
+  animation: cloud 0.8s linear 0.1s infinite;
 }
 .center .flip .back .sky .cloud-7 {
   position: absolute;
   right: -25px;
   top: 84px;
   height: 3px;
-  width: 20.1px;
+  width: 15.8px;
   background-color: #4B4841;
   border-radius: 3px;
-  animation: cloud 0.8s linear 0.3s infinite;
+  animation: cloud 0.7s linear 0.6s infinite;
 }
 .center .flip .back .sky .cloud-8 {
   position: absolute;
   right: -25px;
   top: 98px;
   height: 3px;
-  width: 15.3px;
+  width: 23.9px;
   background-color: #4B4841;
   border-radius: 3px;
-  animation: cloud 0.8s linear 1s infinite;
+  animation: cloud 0.7s linear 0.1s infinite;
 }
 .center .flip .back .sky .cloud-9 {
   position: absolute;
   right: -25px;
   top: 112px;
   height: 3px;
-  width: 18.1px;
+  width: 17.9px;
   background-color: #4B4841;
   border-radius: 3px;
-  animation: cloud 0.8s linear 0.1s infinite;
+  animation: cloud 0.7s linear 0.8s infinite;
 }
 
 @keyframes street {

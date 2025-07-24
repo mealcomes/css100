@@ -1,0 +1,367 @@
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 5px;
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+  background-color: #16a078;
+}
+
+.flower {
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  top: calc(50% - 125px);
+  left: calc(50% - 125px);
+  animation: flower 7s ease infinite;
+}
+.flower:hover .leaf,
+.flower:hover .center {
+  opacity: 0.3;
+}
+.flower .leaf {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  left: calc(50% - 40px);
+  top: calc(50% - 40px);
+  background-color: #fff;
+  border-radius: 0% 90%;
+  transition: opacity 0.3s ease;
+  opacity: 0.8;
+}
+.flower .leaf-1 {
+  transform: rotate(22.5deg);
+  animation: leaf-1 7s ease both infinite;
+}
+@keyframes leaf-1 {
+  0% {
+    transform: rotate(22.5deg) scale(0.6);
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0);
+  }
+  8%, 70% {
+    transform: rotate(22.5deg) translate(-35px, -35px);
+    box-shadow: -8px -8px 0px 1px rgba(0, 0, 0, 0.05);
+  }
+  100% {
+    transform: rotate(22.5deg) scale(0.6);
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0);
+  }
+}
+.flower .leaf-2 {
+  transform: rotate(45deg);
+  animation: leaf-2 7s ease both infinite;
+}
+@keyframes leaf-2 {
+  0% {
+    transform: rotate(45deg) scale(0.6);
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0);
+  }
+  11%, 70% {
+    transform: rotate(45deg) translate(-35px, -35px);
+    box-shadow: -8px -8px 0px 1px rgba(0, 0, 0, 0.05);
+  }
+  100% {
+    transform: rotate(45deg) scale(0.6);
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0);
+  }
+}
+.flower .leaf-3 {
+  transform: rotate(67.5deg);
+  animation: leaf-3 7s ease both infinite;
+}
+@keyframes leaf-3 {
+  0% {
+    transform: rotate(67.5deg) scale(0.6);
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0);
+  }
+  14%, 70% {
+    transform: rotate(67.5deg) translate(-35px, -35px);
+    box-shadow: -8px -8px 0px 1px rgba(0, 0, 0, 0.05);
+  }
+  100% {
+    transform: rotate(67.5deg) scale(0.6);
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0);
+  }
+}
+.flower .leaf-4 {
+  transform: rotate(90deg);
+  animation: leaf-4 7s ease both infinite;
+}
+@keyframes leaf-4 {
+  0% {
+    transform: rotate(90deg) scale(0.6);
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0);
+  }
+  17%, 70% {
+    transform: rotate(90deg) translate(-35px, -35px);
+    box-shadow: -8px -8px 0px 1px rgba(0, 0, 0, 0.05);
+  }
+  100% {
+    transform: rotate(90deg) scale(0.6);
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0);
+  }
+}
+.flower .leaf-5 {
+  transform: rotate(112.5deg);
+  animation: leaf-5 7s ease both infinite;
+}
+@keyframes leaf-5 {
+  0% {
+    transform: rotate(112.5deg) scale(0.6);
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0);
+  }
+  20%, 70% {
+    transform: rotate(112.5deg) translate(-35px, -35px);
+    box-shadow: -8px -8px 0px 1px rgba(0, 0, 0, 0.05);
+  }
+  100% {
+    transform: rotate(112.5deg) scale(0.6);
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0);
+  }
+}
+.flower .leaf-6 {
+  transform: rotate(135deg);
+  animation: leaf-6 7s ease both infinite;
+}
+@keyframes leaf-6 {
+  0% {
+    transform: rotate(135deg) scale(0.6);
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0);
+  }
+  23%, 70% {
+    transform: rotate(135deg) translate(-35px, -35px);
+    box-shadow: -8px -8px 0px 1px rgba(0, 0, 0, 0.05);
+  }
+  100% {
+    transform: rotate(135deg) scale(0.6);
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0);
+  }
+}
+.flower .leaf-7 {
+  transform: rotate(157.5deg);
+  animation: leaf-7 7s ease both infinite;
+}
+@keyframes leaf-7 {
+  0% {
+    transform: rotate(157.5deg) scale(0.6);
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0);
+  }
+  26%, 70% {
+    transform: rotate(157.5deg) translate(-35px, -35px);
+    box-shadow: -8px -8px 0px 1px rgba(0, 0, 0, 0.05);
+  }
+  100% {
+    transform: rotate(157.5deg) scale(0.6);
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0);
+  }
+}
+.flower .leaf-8 {
+  transform: rotate(180deg);
+  animation: leaf-8 7s ease both infinite;
+}
+@keyframes leaf-8 {
+  0% {
+    transform: rotate(180deg) scale(0.6);
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0);
+  }
+  29%, 70% {
+    transform: rotate(180deg) translate(-35px, -35px);
+    box-shadow: -8px -8px 0px 1px rgba(0, 0, 0, 0.05);
+  }
+  100% {
+    transform: rotate(180deg) scale(0.6);
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0);
+  }
+}
+.flower .leaf-9 {
+  transform: rotate(202.5deg);
+  animation: leaf-9 7s ease both infinite;
+}
+@keyframes leaf-9 {
+  0% {
+    transform: rotate(202.5deg) scale(0.6);
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0);
+  }
+  32%, 70% {
+    transform: rotate(202.5deg) translate(-35px, -35px);
+    box-shadow: -8px -8px 0px 1px rgba(0, 0, 0, 0.05);
+  }
+  100% {
+    transform: rotate(202.5deg) scale(0.6);
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0);
+  }
+}
+.flower .leaf-10 {
+  transform: rotate(225deg);
+  animation: leaf-10 7s ease both infinite;
+}
+@keyframes leaf-10 {
+  0% {
+    transform: rotate(225deg) scale(0.6);
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0);
+  }
+  35%, 70% {
+    transform: rotate(225deg) translate(-35px, -35px);
+    box-shadow: -8px -8px 0px 1px rgba(0, 0, 0, 0.05);
+  }
+  100% {
+    transform: rotate(225deg) scale(0.6);
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0);
+  }
+}
+.flower .leaf-11 {
+  transform: rotate(247.5deg);
+  animation: leaf-11 7s ease both infinite;
+}
+@keyframes leaf-11 {
+  0% {
+    transform: rotate(247.5deg) scale(0.6);
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0);
+  }
+  38%, 70% {
+    transform: rotate(247.5deg) translate(-35px, -35px);
+    box-shadow: -8px -8px 0px 1px rgba(0, 0, 0, 0.05);
+  }
+  100% {
+    transform: rotate(247.5deg) scale(0.6);
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0);
+  }
+}
+.flower .leaf-12 {
+  transform: rotate(270deg);
+  animation: leaf-12 7s ease both infinite;
+}
+@keyframes leaf-12 {
+  0% {
+    transform: rotate(270deg) scale(0.6);
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0);
+  }
+  41%, 70% {
+    transform: rotate(270deg) translate(-35px, -35px);
+    box-shadow: -8px -8px 0px 1px rgba(0, 0, 0, 0.05);
+  }
+  100% {
+    transform: rotate(270deg) scale(0.6);
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0);
+  }
+}
+.flower .leaf-13 {
+  transform: rotate(292.5deg);
+  animation: leaf-13 7s ease both infinite;
+}
+@keyframes leaf-13 {
+  0% {
+    transform: rotate(292.5deg) scale(0.6);
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0);
+  }
+  44%, 70% {
+    transform: rotate(292.5deg) translate(-35px, -35px);
+    box-shadow: -8px -8px 0px 1px rgba(0, 0, 0, 0.05);
+  }
+  100% {
+    transform: rotate(292.5deg) scale(0.6);
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0);
+  }
+}
+.flower .leaf-14 {
+  transform: rotate(315deg);
+  animation: leaf-14 7s ease both infinite;
+}
+@keyframes leaf-14 {
+  0% {
+    transform: rotate(315deg) scale(0.6);
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0);
+  }
+  47%, 70% {
+    transform: rotate(315deg) translate(-35px, -35px);
+    box-shadow: -8px -8px 0px 1px rgba(0, 0, 0, 0.05);
+  }
+  100% {
+    transform: rotate(315deg) scale(0.6);
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0);
+  }
+}
+.flower .leaf-15 {
+  transform: rotate(337.5deg);
+  animation: leaf-15 7s ease both infinite;
+}
+@keyframes leaf-15 {
+  0% {
+    transform: rotate(337.5deg) scale(0.6);
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0);
+  }
+  50%, 70% {
+    transform: rotate(337.5deg) translate(-35px, -35px);
+    box-shadow: -8px -8px 0px 1px rgba(0, 0, 0, 0.05);
+  }
+  100% {
+    transform: rotate(337.5deg) scale(0.6);
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0);
+  }
+}
+.flower .leaf-16 {
+  transform: rotate(360deg);
+  animation: leaf-16 7s ease both infinite;
+}
+@keyframes leaf-16 {
+  0% {
+    transform: rotate(360deg) scale(0.6);
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0);
+  }
+  53%, 70% {
+    transform: rotate(360deg) translate(-35px, -35px);
+    box-shadow: -8px -8px 0px 1px rgba(0, 0, 0, 0.05);
+  }
+  100% {
+    transform: rotate(360deg) scale(0.6);
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0);
+  }
+}
+.flower .center {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: calc(50% - 20px);
+  top: calc(50% - 20px);
+  border-radius: 100%;
+  background-color: #f4d03f;
+  animation: center 7s ease infinite;
+  transition: opacity 0.3s ease;
+}
+
+@keyframes flower {
+  0% {
+    transform: rotate(0);
+  }
+  45%, 55% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes center {
+  0%, 10% {
+    transform: scale(0);
+  }
+  20% {
+    transform: scale(1.1);
+  }
+  28% {
+    transform: scale(0.95);
+  }
+  33%, 60% {
+    transform: scale(1);
+  }
+  65% {
+    transform: scale(1.1);
+  }
+  70%, 100% {
+    transform: scale(0);
+  }
+}/*# sourceMappingURL=index.css.map */
