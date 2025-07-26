@@ -1,0 +1,347 @@
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 5px;
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+  background-color: #1f91dd;
+}
+
+.square {
+  position: absolute;
+  width: 320px;
+  height: 320px;
+  left: 40px;
+  top: 40px;
+  box-sizing: border-box;
+  border: #fff solid 2px;
+}
+
+.square-1 {
+  animation: ellipse-1 5s ease-in-out infinite;
+}
+
+@keyframes ellipse-1 {
+  0% {
+    transform: rotate(0);
+    border-radius: 0;
+  }
+  60% {
+    transform: rotate(350deg) scaleX(0.2);
+    border-radius: 100%;
+  }
+  100% {
+    transform: rotate(360deg) scaleX(1);
+    border-radius: 0;
+  }
+}
+.square-2 {
+  animation: ellipse-2 5s ease-in-out infinite;
+}
+
+@keyframes ellipse-2 {
+  0% {
+    transform: rotate(0);
+    border-radius: 0;
+  }
+  60% {
+    transform: rotate(360deg) scaleX(0.2);
+    border-radius: 100%;
+  }
+  100% {
+    transform: rotate(360deg) scaleX(1);
+    border-radius: 0;
+  }
+}
+.square-3 {
+  animation: ellipse-3 5s ease-in-out infinite;
+}
+
+@keyframes ellipse-3 {
+  0% {
+    transform: rotate(0);
+    border-radius: 0;
+  }
+  60% {
+    transform: rotate(370deg) scaleX(0.2);
+    border-radius: 100%;
+  }
+  100% {
+    transform: rotate(360deg) scaleX(1);
+    border-radius: 0;
+  }
+}
+.square-4 {
+  animation: ellipse-4 5s ease-in-out infinite;
+}
+
+@keyframes ellipse-4 {
+  0% {
+    transform: rotate(0);
+    border-radius: 0;
+  }
+  60% {
+    transform: rotate(380deg) scaleX(0.2);
+    border-radius: 100%;
+  }
+  100% {
+    transform: rotate(360deg) scaleX(1);
+    border-radius: 0;
+  }
+}
+.square-5 {
+  animation: ellipse-5 5s ease-in-out infinite;
+}
+
+@keyframes ellipse-5 {
+  0% {
+    transform: rotate(0);
+    border-radius: 0;
+  }
+  60% {
+    transform: rotate(390deg) scaleX(0.2);
+    border-radius: 100%;
+  }
+  100% {
+    transform: rotate(360deg) scaleX(1);
+    border-radius: 0;
+  }
+}
+.square-6 {
+  animation: ellipse-6 5s ease-in-out infinite;
+}
+
+@keyframes ellipse-6 {
+  0% {
+    transform: rotate(0);
+    border-radius: 0;
+  }
+  60% {
+    transform: rotate(400deg) scaleX(0.2);
+    border-radius: 100%;
+  }
+  100% {
+    transform: rotate(360deg) scaleX(1);
+    border-radius: 0;
+  }
+}
+.square-7 {
+  animation: ellipse-7 5s ease-in-out infinite;
+}
+
+@keyframes ellipse-7 {
+  0% {
+    transform: rotate(0);
+    border-radius: 0;
+  }
+  60% {
+    transform: rotate(410deg) scaleX(0.2);
+    border-radius: 100%;
+  }
+  100% {
+    transform: rotate(360deg) scaleX(1);
+    border-radius: 0;
+  }
+}
+.square-8 {
+  animation: ellipse-8 5s ease-in-out infinite;
+}
+
+@keyframes ellipse-8 {
+  0% {
+    transform: rotate(0);
+    border-radius: 0;
+  }
+  60% {
+    transform: rotate(420deg) scaleX(0.2);
+    border-radius: 100%;
+  }
+  100% {
+    transform: rotate(360deg) scaleX(1);
+    border-radius: 0;
+  }
+}
+.square-9 {
+  animation: ellipse-9 5s ease-in-out infinite;
+}
+
+@keyframes ellipse-9 {
+  0% {
+    transform: rotate(0);
+    border-radius: 0;
+  }
+  60% {
+    transform: rotate(430deg) scaleX(0.2);
+    border-radius: 100%;
+  }
+  100% {
+    transform: rotate(360deg) scaleX(1);
+    border-radius: 0;
+  }
+}
+.square-10 {
+  animation: ellipse-10 5s ease-in-out infinite;
+}
+
+@keyframes ellipse-10 {
+  0% {
+    transform: rotate(0);
+    border-radius: 0;
+  }
+  60% {
+    transform: rotate(440deg) scaleX(0.2);
+    border-radius: 100%;
+  }
+  100% {
+    transform: rotate(360deg) scaleX(1);
+    border-radius: 0;
+  }
+}
+.square-11 {
+  animation: ellipse-11 5s ease-in-out infinite;
+}
+
+@keyframes ellipse-11 {
+  0% {
+    transform: rotate(0);
+    border-radius: 0;
+  }
+  60% {
+    transform: rotate(450deg) scaleX(0.2);
+    border-radius: 100%;
+  }
+  100% {
+    transform: rotate(360deg) scaleX(1);
+    border-radius: 0;
+  }
+}
+.square-12 {
+  animation: ellipse-12 5s ease-in-out infinite;
+}
+
+@keyframes ellipse-12 {
+  0% {
+    transform: rotate(0);
+    border-radius: 0;
+  }
+  60% {
+    transform: rotate(460deg) scaleX(0.2);
+    border-radius: 100%;
+  }
+  100% {
+    transform: rotate(360deg) scaleX(1);
+    border-radius: 0;
+  }
+}
+.square-13 {
+  animation: ellipse-13 5s ease-in-out infinite;
+}
+
+@keyframes ellipse-13 {
+  0% {
+    transform: rotate(0);
+    border-radius: 0;
+  }
+  60% {
+    transform: rotate(470deg) scaleX(0.2);
+    border-radius: 100%;
+  }
+  100% {
+    transform: rotate(360deg) scaleX(1);
+    border-radius: 0;
+  }
+}
+.square-14 {
+  animation: ellipse-14 5s ease-in-out infinite;
+}
+
+@keyframes ellipse-14 {
+  0% {
+    transform: rotate(0);
+    border-radius: 0;
+  }
+  60% {
+    transform: rotate(480deg) scaleX(0.2);
+    border-radius: 100%;
+  }
+  100% {
+    transform: rotate(360deg) scaleX(1);
+    border-radius: 0;
+  }
+}
+.square-15 {
+  animation: ellipse-15 5s ease-in-out infinite;
+}
+
+@keyframes ellipse-15 {
+  0% {
+    transform: rotate(0);
+    border-radius: 0;
+  }
+  60% {
+    transform: rotate(490deg) scaleX(0.2);
+    border-radius: 100%;
+  }
+  100% {
+    transform: rotate(360deg) scaleX(1);
+    border-radius: 0;
+  }
+}
+.square-16 {
+  animation: ellipse-16 5s ease-in-out infinite;
+}
+
+@keyframes ellipse-16 {
+  0% {
+    transform: rotate(0);
+    border-radius: 0;
+  }
+  60% {
+    transform: rotate(500deg) scaleX(0.2);
+    border-radius: 100%;
+  }
+  100% {
+    transform: rotate(360deg) scaleX(1);
+    border-radius: 0;
+  }
+}
+.square-17 {
+  animation: ellipse-17 5s ease-in-out infinite;
+}
+
+@keyframes ellipse-17 {
+  0% {
+    transform: rotate(0);
+    border-radius: 0;
+  }
+  60% {
+    transform: rotate(510deg) scaleX(0.2);
+    border-radius: 100%;
+  }
+  100% {
+    transform: rotate(360deg) scaleX(1);
+    border-radius: 0;
+  }
+}
+.square-18 {
+  animation: ellipse-18 5s ease-in-out infinite;
+}
+
+@keyframes ellipse-18 {
+  0% {
+    transform: rotate(0);
+    border-radius: 0;
+  }
+  60% {
+    transform: rotate(520deg) scaleX(0.2);
+    border-radius: 100%;
+  }
+  100% {
+    transform: rotate(360deg) scaleX(1);
+    border-radius: 0;
+  }
+}/*# sourceMappingURL=index.css.map */

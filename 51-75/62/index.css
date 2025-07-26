@@ -1,0 +1,279 @@
+.frame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -200px;
+    border-radius: 5px;
+    box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+    background-color: #e9edef;
+}
+
+.choice {
+    position: absolute;
+    height: 160px;
+    width: 110px;
+    background-color: #ffffff;
+    border-radius: 3px;
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.1);
+    top: 30px;
+    text-align: center;
+    overflow: hidden;
+    cursor: pointer;
+    transform: scale(1);
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+        transform: scale(1.1);
+        .title {
+            background-color: #27a6d2;
+        }
+        .content {
+            color: #27a6d2;
+        }
+    }
+
+    .title {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 35px;
+        background-color: #7dd0ed;
+        color: white;
+        line-height: 35px;
+        text-transform: capitalize;
+        font-size: 14px;
+        font-weight: 500;
+        transition: background-color 0.3s ease-in-out;
+    }
+
+    .content {
+        position: absolute;
+        top: 35px;
+        width: 100%;
+        height: 125px;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+        transition: color 0.3s ease-in-out;
+
+        .set {
+            .price {
+                font-size: 30px;
+                font-weight: 600;
+            }
+            .rate {
+                font-size: 13px;
+            }
+        }
+
+        .line {
+            height: 30px;
+            span {
+                display: block;
+                height: 4px;
+                background-color: #e4e4e4;
+                margin: 0 auto 5px auto;
+            }
+        }
+    }
+
+    &.basic {
+        left: 20px;
+
+        &:hover {
+            ~ .info .users {
+                &::before {
+                    content: '10 users';
+                }
+                .sum-line .fact-line {
+                    width: 10%;
+                }
+            }
+            ~ .info .memory {
+                &::before {
+                    content: '40 GB';
+                }
+                .sum-line .fact-line {
+                    width: 20%;
+                }
+            }
+            ~ .info .project {
+                &::before {
+                    content: '5 project';
+                }
+                .sum-line .fact-line {
+                    width: 10%;
+                }
+            }
+        }
+    }
+
+    &.pro {
+        left: 145px;
+
+        &:hover {
+            ~ .info .users {
+                &::before {
+                    content: '40 users';
+                }
+                .sum-line .fact-line {
+                    width: 40%;
+                }
+            }
+            ~ .info .memory {
+                &::before {
+                    content: '120 GB';
+                }
+                .sum-line .fact-line {
+                    width: 60%;
+                }
+            }
+            ~ .info .project {
+                &::before {
+                    content: '25 project';
+                }
+                .sum-line .fact-line {
+                    width: 50%;
+                }
+            }
+        }
+    }
+
+    &.premium {
+        right: 20px;
+        &:hover {
+            ~ .info .users {
+                &::before {
+                    content: '100 users';
+                }
+                .sum-line .fact-line {
+                    width: 100%;
+                }
+            }
+            ~ .info .memory {
+                &::before {
+                    content: '200 GB';
+                }
+                .sum-line .fact-line {
+                    width: 100%;
+                }
+            }
+            ~ .info .project {
+                &::before {
+                    content: '50 project';
+                }
+                .sum-line .fact-line {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+.info {
+    position: absolute;
+    width: 380px;
+    height: 160px;
+    bottom: 20px;
+    left: 10px;
+    background-color: #fff;
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.1);
+    padding: 5px 15px;
+    box-sizing: border-box;
+
+    .item {
+        position: relative;
+        height: 50px;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 10px 0;
+        font-size: 13px;
+        text-transform: capitalize;
+
+        .fact {
+            position: absolute;
+            left: 0;
+        }
+
+        .sum {
+            position: absolute;
+            right: 0;
+        }
+
+        .sum-line {
+            position: absolute;
+            width: 100%;
+            height: 10px;
+            background-color: #e9edef;
+            bottom: 10px;
+            border-radius: 10px;
+
+            .fact-line {
+                position: absolute;
+                height: 10px;
+                background-color: #7dd0ed;
+                border-radius: 10px;
+                transition: width 0.3s ease-in-out;
+            }
+        }
+
+        &.users {
+            &::before {
+                content: '5 users';
+                position: absolute;
+                left: 0;
+            }
+
+            &::after {
+                content: '100 users';
+                position: absolute;
+                right: 0;
+            }
+
+            .sum-line .fact-line {
+                width: 5%;
+            }
+        }
+
+        &.memory {
+            &::before {
+                content: '20 GB';
+                position: absolute;
+                left: 0;
+            }
+
+            &::after {
+                content: '200 GB';
+                position: absolute;
+                right: 0;
+            }
+
+            .sum-line .fact-line {
+                width: 10%;
+            }
+        }
+
+        &.project {
+            &::before {
+                content: '1 project';
+                position: absolute;
+                left: 0;
+            }
+
+            &::after {
+                content: '50 project';
+                position: absolute;
+                right: 0;
+            }
+
+            .sum-line .fact-line {
+                width: 2%;
+            }
+        }
+    }
+}

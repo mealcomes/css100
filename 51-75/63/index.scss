@@ -1,0 +1,40 @@
+.frame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -200px;
+    border-radius: 5px;
+    box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+    background-color: #27ae60;
+    overflow: hidden;
+}
+
+.circle {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    border: 5px dotted #fff;
+    transform: scale(0.1);
+}
+
+@for $i from 1 through 50 {
+    .circle-#{$i} {
+        animation: tunnel 10s linear #{-0.2 * $i}s both infinite;
+    }
+}
+
+@keyframes tunnel {
+    0% {
+        transform: scale(0.1) translate(-300px, -300px);
+        opacity: 0.4;
+    }
+    100% {
+        transform: scale(3) translate(0px, 0px);
+        opacity: 1;
+    }
+}

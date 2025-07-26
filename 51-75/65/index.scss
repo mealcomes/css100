@@ -1,0 +1,42 @@
+.frame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -200px;
+    border-radius: 5px;
+    box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+    background-color: #1f91dd;
+}
+
+.square {
+    position: absolute;
+    width: 320px;
+    height: 320px;
+    left: 40px;
+    top: 40px;
+    box-sizing: border-box;
+    border: #fff solid 2px;
+}
+
+@for $i from 1 through 18 {
+    .square-#{$i} {
+        animation: ellipse-#{$i} 5s ease-in-out infinite;
+    }
+    @keyframes ellipse-#{$i} {
+        0% {
+            transform: rotate(0);
+            border-radius: 0;
+        }
+        60% {
+            transform: rotate(#{360 + ($i / 2 - 1) * 20}deg) scaleX(0.2);
+            border-radius: 100%;
+        }
+        100% {
+            transform: rotate(360deg) scaleX(1);
+            border-radius: 0;
+        }
+    }
+}
