@@ -1,0 +1,292 @@
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 5px;
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+  background-color: #5a717b;
+  overflow: hidden;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 40px;
+  height: 40px;
+  transform: translate(-50%, -50%);
+}
+
+input[type=checkbox] {
+  display: none;
+}
+
+#cb:checked ~ .bg .inner {
+  transform: scale(0.35);
+  background-color: #5fd17a;
+  box-shadow: none;
+}
+#cb:checked ~ .line-1 {
+  animation: line-1 0.3s ease-in-out both;
+}
+#cb:checked ~ .line-2 {
+  animation: line-2 0.3s ease-in-out both;
+}
+#cb:checked ~ .line-3 {
+  animation: line-3 0.3s ease-in-out both;
+}
+#cb:checked ~ .line-4 {
+  animation: line-4 0.3s ease-in-out both;
+}
+#cb:checked ~ .line-5 {
+  animation: line-5 0.3s ease-in-out both;
+}
+#cb:checked ~ .line-6 {
+  animation: line-6 0.3s ease-in-out both;
+}
+#cb:checked ~ .line-7 {
+  animation: line-7 0.3s ease-in-out both;
+}
+#cb:checked ~ .line-8 {
+  animation: line-8 0.3s ease-in-out both;
+}
+#cb:checked ~ .line-9 {
+  animation: line-9 0.3s ease-in-out both;
+}
+#cb:checked ~ .line-10 {
+  animation: line-10 0.3s ease-in-out both;
+}
+#cb:checked ~ .line-11 {
+  animation: line-11 0.3s ease-in-out both;
+}
+#cb:checked ~ .line-12 {
+  animation: line-12 0.3s ease-in-out both;
+}
+
+.bg {
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background-color: #fff;
+  cursor: pointer;
+}
+.bg .inner {
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  border-radius: 100%;
+  margin: 2px;
+  background-color: #5a717b;
+  box-shadow: inset 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+}
+
+.line {
+  position: absolute;
+  width: 2px;
+  height: 1px;
+  left: calc(50% - 1px);
+  top: -1px;
+  transform-origin: 50% 21px;
+  background-color: #fff;
+  opacity: 0;
+}
+
+.line-1 {
+  transform: rotate(0deg);
+}
+
+@keyframes line-1 {
+  from {
+    opacity: 1;
+    height: 1px;
+    transform: rotate(0deg) translateY(0);
+  }
+  to {
+    opacity: 0;
+    height: 15px;
+    transform: rotate(0deg) translateY(-30px);
+  }
+}
+.line-2 {
+  transform: rotate(30deg);
+}
+
+@keyframes line-2 {
+  from {
+    opacity: 1;
+    height: 1px;
+    transform: rotate(30deg) translateY(0);
+  }
+  to {
+    opacity: 0;
+    height: 15px;
+    transform: rotate(30deg) translateY(-30px);
+  }
+}
+.line-3 {
+  transform: rotate(60deg);
+}
+
+@keyframes line-3 {
+  from {
+    opacity: 1;
+    height: 1px;
+    transform: rotate(60deg) translateY(0);
+  }
+  to {
+    opacity: 0;
+    height: 15px;
+    transform: rotate(60deg) translateY(-30px);
+  }
+}
+.line-4 {
+  transform: rotate(90deg);
+}
+
+@keyframes line-4 {
+  from {
+    opacity: 1;
+    height: 1px;
+    transform: rotate(90deg) translateY(0);
+  }
+  to {
+    opacity: 0;
+    height: 15px;
+    transform: rotate(90deg) translateY(-30px);
+  }
+}
+.line-5 {
+  transform: rotate(120deg);
+}
+
+@keyframes line-5 {
+  from {
+    opacity: 1;
+    height: 1px;
+    transform: rotate(120deg) translateY(0);
+  }
+  to {
+    opacity: 0;
+    height: 15px;
+    transform: rotate(120deg) translateY(-30px);
+  }
+}
+.line-6 {
+  transform: rotate(150deg);
+}
+
+@keyframes line-6 {
+  from {
+    opacity: 1;
+    height: 1px;
+    transform: rotate(150deg) translateY(0);
+  }
+  to {
+    opacity: 0;
+    height: 15px;
+    transform: rotate(150deg) translateY(-30px);
+  }
+}
+.line-7 {
+  transform: rotate(180deg);
+}
+
+@keyframes line-7 {
+  from {
+    opacity: 1;
+    height: 1px;
+    transform: rotate(180deg) translateY(0);
+  }
+  to {
+    opacity: 0;
+    height: 15px;
+    transform: rotate(180deg) translateY(-30px);
+  }
+}
+.line-8 {
+  transform: rotate(210deg);
+}
+
+@keyframes line-8 {
+  from {
+    opacity: 1;
+    height: 1px;
+    transform: rotate(210deg) translateY(0);
+  }
+  to {
+    opacity: 0;
+    height: 15px;
+    transform: rotate(210deg) translateY(-30px);
+  }
+}
+.line-9 {
+  transform: rotate(240deg);
+}
+
+@keyframes line-9 {
+  from {
+    opacity: 1;
+    height: 1px;
+    transform: rotate(240deg) translateY(0);
+  }
+  to {
+    opacity: 0;
+    height: 15px;
+    transform: rotate(240deg) translateY(-30px);
+  }
+}
+.line-10 {
+  transform: rotate(270deg);
+}
+
+@keyframes line-10 {
+  from {
+    opacity: 1;
+    height: 1px;
+    transform: rotate(270deg) translateY(0);
+  }
+  to {
+    opacity: 0;
+    height: 15px;
+    transform: rotate(270deg) translateY(-30px);
+  }
+}
+.line-11 {
+  transform: rotate(300deg);
+}
+
+@keyframes line-11 {
+  from {
+    opacity: 1;
+    height: 1px;
+    transform: rotate(300deg) translateY(0);
+  }
+  to {
+    opacity: 0;
+    height: 15px;
+    transform: rotate(300deg) translateY(-30px);
+  }
+}
+.line-12 {
+  transform: rotate(330deg);
+}
+
+@keyframes line-12 {
+  from {
+    opacity: 1;
+    height: 1px;
+    transform: rotate(330deg) translateY(0);
+  }
+  to {
+    opacity: 0;
+    height: 15px;
+    transform: rotate(330deg) translateY(-30px);
+  }
+}/*# sourceMappingURL=index.css.map */

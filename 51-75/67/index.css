@@ -1,0 +1,400 @@
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 5px;
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+  background-color: #f5ce51;
+  perspective: 1000px;
+  overflow: hidden;
+}
+
+.center {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 400px;
+  height: 400px;
+  transform-style: preserve-3d;
+  transform: rotateX(-20deg) rotateZ(-10deg);
+}
+
+.handle {
+  position: absolute;
+  width: 5px;
+  height: 120px;
+  background-color: #888888;
+  top: calc(50% - 60px);
+  left: calc(50% - 2.5px);
+}
+
+.handle-shadow {
+  position: absolute;
+  height: 5px;
+  width: 100px;
+  left: 50%;
+  top: 257.5px;
+  background-color: #ab9038;
+  transform: rotateX(90deg);
+  filter: blur(1px);
+}
+
+.triangle {
+  position: absolute;
+  left: calc(50% - 24px);
+  top: 130px;
+  border-style: solid;
+  border-width: 0 24px 98px 24px;
+}
+
+.triangle-1 {
+  border-color: transparent transparent red transparent;
+  transform-origin: 24px 0;
+  transform: rotateY(0deg) rotateX(66deg);
+  animation: umb-1 3s linear infinite;
+}
+
+@keyframes umb-1 {
+  from {
+    transform: rotateY(0deg) rotateX(66deg);
+  }
+  to {
+    transform: rotateY(360deg) rotateX(66deg);
+  }
+}
+.triangle-2 {
+  border-color: transparent transparent white transparent;
+  transform-origin: 24px 0;
+  transform: rotateY(30deg) rotateX(66deg);
+  animation: umb-2 3s linear infinite;
+}
+
+@keyframes umb-2 {
+  from {
+    transform: rotateY(30deg) rotateX(66deg);
+  }
+  to {
+    transform: rotateY(390deg) rotateX(66deg);
+  }
+}
+.triangle-3 {
+  border-color: transparent transparent red transparent;
+  transform-origin: 24px 0;
+  transform: rotateY(60deg) rotateX(66deg);
+  animation: umb-3 3s linear infinite;
+}
+
+@keyframes umb-3 {
+  from {
+    transform: rotateY(60deg) rotateX(66deg);
+  }
+  to {
+    transform: rotateY(420deg) rotateX(66deg);
+  }
+}
+.triangle-4 {
+  border-color: transparent transparent white transparent;
+  transform-origin: 24px 0;
+  transform: rotateY(90deg) rotateX(66deg);
+  animation: umb-4 3s linear infinite;
+}
+
+@keyframes umb-4 {
+  from {
+    transform: rotateY(90deg) rotateX(66deg);
+  }
+  to {
+    transform: rotateY(450deg) rotateX(66deg);
+  }
+}
+.triangle-5 {
+  border-color: transparent transparent red transparent;
+  transform-origin: 24px 0;
+  transform: rotateY(120deg) rotateX(66deg);
+  animation: umb-5 3s linear infinite;
+}
+
+@keyframes umb-5 {
+  from {
+    transform: rotateY(120deg) rotateX(66deg);
+  }
+  to {
+    transform: rotateY(480deg) rotateX(66deg);
+  }
+}
+.triangle-6 {
+  border-color: transparent transparent white transparent;
+  transform-origin: 24px 0;
+  transform: rotateY(150deg) rotateX(66deg);
+  animation: umb-6 3s linear infinite;
+}
+
+@keyframes umb-6 {
+  from {
+    transform: rotateY(150deg) rotateX(66deg);
+  }
+  to {
+    transform: rotateY(510deg) rotateX(66deg);
+  }
+}
+.triangle-7 {
+  border-color: transparent transparent red transparent;
+  transform-origin: 24px 0;
+  transform: rotateY(180deg) rotateX(66deg);
+  animation: umb-7 3s linear infinite;
+}
+
+@keyframes umb-7 {
+  from {
+    transform: rotateY(180deg) rotateX(66deg);
+  }
+  to {
+    transform: rotateY(540deg) rotateX(66deg);
+  }
+}
+.triangle-8 {
+  border-color: transparent transparent white transparent;
+  transform-origin: 24px 0;
+  transform: rotateY(210deg) rotateX(66deg);
+  animation: umb-8 3s linear infinite;
+}
+
+@keyframes umb-8 {
+  from {
+    transform: rotateY(210deg) rotateX(66deg);
+  }
+  to {
+    transform: rotateY(570deg) rotateX(66deg);
+  }
+}
+.triangle-9 {
+  border-color: transparent transparent red transparent;
+  transform-origin: 24px 0;
+  transform: rotateY(240deg) rotateX(66deg);
+  animation: umb-9 3s linear infinite;
+}
+
+@keyframes umb-9 {
+  from {
+    transform: rotateY(240deg) rotateX(66deg);
+  }
+  to {
+    transform: rotateY(600deg) rotateX(66deg);
+  }
+}
+.triangle-10 {
+  border-color: transparent transparent white transparent;
+  transform-origin: 24px 0;
+  transform: rotateY(270deg) rotateX(66deg);
+  animation: umb-10 3s linear infinite;
+}
+
+@keyframes umb-10 {
+  from {
+    transform: rotateY(270deg) rotateX(66deg);
+  }
+  to {
+    transform: rotateY(630deg) rotateX(66deg);
+  }
+}
+.triangle-11 {
+  border-color: transparent transparent red transparent;
+  transform-origin: 24px 0;
+  transform: rotateY(300deg) rotateX(66deg);
+  animation: umb-11 3s linear infinite;
+}
+
+@keyframes umb-11 {
+  from {
+    transform: rotateY(300deg) rotateX(66deg);
+  }
+  to {
+    transform: rotateY(660deg) rotateX(66deg);
+  }
+}
+.triangle-12 {
+  border-color: transparent transparent white transparent;
+  transform-origin: 24px 0;
+  transform: rotateY(330deg) rotateX(66deg);
+  animation: umb-12 3s linear infinite;
+}
+
+@keyframes umb-12 {
+  from {
+    transform: rotateY(330deg) rotateX(66deg);
+  }
+  to {
+    transform: rotateY(690deg) rotateX(66deg);
+  }
+}
+.triangle-shadow {
+  position: absolute;
+  width: 48px;
+  height: 68px;
+  left: calc(50% - 24px + 100px);
+  top: 260px;
+  background-color: #aa8f37;
+  filter: blur(1px);
+  transform-origin: 50% 0;
+}
+
+.triangle-shadow-1 {
+  transform: rotateX(90deg) rotateZ(0deg);
+  animation: umb-s-1 3s linear infinite;
+}
+
+@keyframes umb-s-1 {
+  from {
+    transform: rotateX(90deg) rotateZ(0deg);
+  }
+  to {
+    transform: rotateX(90deg) rotateZ(-360deg);
+  }
+}
+.triangle-shadow-2 {
+  transform: rotateX(90deg) rotateZ(30deg);
+  animation: umb-s-2 3s linear infinite;
+}
+
+@keyframes umb-s-2 {
+  from {
+    transform: rotateX(90deg) rotateZ(30deg);
+  }
+  to {
+    transform: rotateX(90deg) rotateZ(-330deg);
+  }
+}
+.triangle-shadow-3 {
+  transform: rotateX(90deg) rotateZ(60deg);
+  animation: umb-s-3 3s linear infinite;
+}
+
+@keyframes umb-s-3 {
+  from {
+    transform: rotateX(90deg) rotateZ(60deg);
+  }
+  to {
+    transform: rotateX(90deg) rotateZ(-300deg);
+  }
+}
+.triangle-shadow-4 {
+  transform: rotateX(90deg) rotateZ(90deg);
+  animation: umb-s-4 3s linear infinite;
+}
+
+@keyframes umb-s-4 {
+  from {
+    transform: rotateX(90deg) rotateZ(90deg);
+  }
+  to {
+    transform: rotateX(90deg) rotateZ(-270deg);
+  }
+}
+.triangle-shadow-5 {
+  transform: rotateX(90deg) rotateZ(120deg);
+  animation: umb-s-5 3s linear infinite;
+}
+
+@keyframes umb-s-5 {
+  from {
+    transform: rotateX(90deg) rotateZ(120deg);
+  }
+  to {
+    transform: rotateX(90deg) rotateZ(-240deg);
+  }
+}
+.triangle-shadow-6 {
+  transform: rotateX(90deg) rotateZ(150deg);
+  animation: umb-s-6 3s linear infinite;
+}
+
+@keyframes umb-s-6 {
+  from {
+    transform: rotateX(90deg) rotateZ(150deg);
+  }
+  to {
+    transform: rotateX(90deg) rotateZ(-210deg);
+  }
+}
+.triangle-shadow-7 {
+  transform: rotateX(90deg) rotateZ(180deg);
+  animation: umb-s-7 3s linear infinite;
+}
+
+@keyframes umb-s-7 {
+  from {
+    transform: rotateX(90deg) rotateZ(180deg);
+  }
+  to {
+    transform: rotateX(90deg) rotateZ(-180deg);
+  }
+}
+.triangle-shadow-8 {
+  transform: rotateX(90deg) rotateZ(210deg);
+  animation: umb-s-8 3s linear infinite;
+}
+
+@keyframes umb-s-8 {
+  from {
+    transform: rotateX(90deg) rotateZ(210deg);
+  }
+  to {
+    transform: rotateX(90deg) rotateZ(-150deg);
+  }
+}
+.triangle-shadow-9 {
+  transform: rotateX(90deg) rotateZ(240deg);
+  animation: umb-s-9 3s linear infinite;
+}
+
+@keyframes umb-s-9 {
+  from {
+    transform: rotateX(90deg) rotateZ(240deg);
+  }
+  to {
+    transform: rotateX(90deg) rotateZ(-120deg);
+  }
+}
+.triangle-shadow-10 {
+  transform: rotateX(90deg) rotateZ(270deg);
+  animation: umb-s-10 3s linear infinite;
+}
+
+@keyframes umb-s-10 {
+  from {
+    transform: rotateX(90deg) rotateZ(270deg);
+  }
+  to {
+    transform: rotateX(90deg) rotateZ(-90deg);
+  }
+}
+.triangle-shadow-11 {
+  transform: rotateX(90deg) rotateZ(300deg);
+  animation: umb-s-11 3s linear infinite;
+}
+
+@keyframes umb-s-11 {
+  from {
+    transform: rotateX(90deg) rotateZ(300deg);
+  }
+  to {
+    transform: rotateX(90deg) rotateZ(-60deg);
+  }
+}
+.triangle-shadow-12 {
+  transform: rotateX(90deg) rotateZ(330deg);
+  animation: umb-s-12 3s linear infinite;
+}
+
+@keyframes umb-s-12 {
+  from {
+    transform: rotateX(90deg) rotateZ(330deg);
+  }
+  to {
+    transform: rotateX(90deg) rotateZ(-30deg);
+  }
+}/*# sourceMappingURL=index.css.map */

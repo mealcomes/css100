@@ -1,0 +1,91 @@
+.frame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -200px;
+    border-radius: 5px;
+    box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+    background-color: #5a717b;
+    overflow: hidden;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 40px;
+    height: 40px;
+    transform: translate(-50%, -50%);
+}
+
+input[type='checkbox'] {
+    display: none;
+}
+
+#cb:checked {
+    ~ .bg .inner {
+        transform: scale(0.35);
+        background-color: #5fd17a;
+        box-shadow: none;
+    }
+
+    @for $i from 1 through 12 {
+        ~ .line-#{$i} {
+            animation: line-#{$i} 0.3s ease-in-out both;
+        }
+    }
+}
+
+.bg {
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: #fff;
+    cursor: pointer;
+
+    .inner {
+        position: absolute;
+        width: 36px;
+        height: 36px;
+        border-radius: 100%;
+        margin: 2px;
+        background-color: #5a717b;
+        box-shadow: inset 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+        transition: all 0.3s ease-in-out;
+    }
+}
+
+.line {
+    position: absolute;
+    width: 2px;
+    height: 1px;
+    left: calc(50% - 1px);
+    top: -1px;
+    transform-origin: 50% 21px;
+    background-color: #fff;
+    opacity: 0;
+}
+
+@for $i from 1 through 12 {
+    .line-#{$i} {
+        transform: rotate(#{($i - 1) * 30}deg);
+    }
+
+    @keyframes line-#{$i} {
+        from {
+            opacity: 1;
+            height: 1px;
+            transform: rotate(#{($i - 1) * 30}deg) translateY(0);
+        }
+        to {
+            opacity: 0;
+            height: 15px;
+            transform: rotate(#{($i - 1) * 30}deg) translateY(-30px);
+        }
+    }
+}

@@ -1,0 +1,100 @@
+.frame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -200px;
+    border-radius: 5px;
+    box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+    background-color: #f5ce51;
+    perspective: 1000px;
+    overflow: hidden;
+}
+
+.center {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 400px;
+    height: 400px;
+    transform-style: preserve-3d;
+    transform: rotateX(-20deg) rotateZ(-10deg);
+}
+
+.handle {
+    position: absolute;
+    width: 5px;
+    height: 120px;
+    background-color: #888888;
+    top: calc(50% - 60px);
+    left: calc(50% - 2.5px);
+}
+
+.handle-shadow {
+    position: absolute;
+    height: 5px;
+    width: 100px;
+    left: 50%;
+    top: 257.5px;
+    background-color: #ab9038;
+    transform: rotateX(90deg);
+    filter: blur(1px);
+}
+
+.triangle {
+    position: absolute;
+    left: calc(50% - 24px);
+    top: 130px;
+    border-style: solid;
+    border-width: 0 24px 98px 24px;
+}
+
+@for $i from 1 through 12 {
+    .triangle-#{$i} {
+        border-color: if(
+            $i % 2 == 1,
+            transparent transparent red transparent,
+            transparent transparent white transparent
+        );
+        transform-origin: 24px 0;
+        transform: rotateY(#{($i - 1) * 30}deg) rotateX(66deg);
+        animation: umb-#{$i} 3s linear infinite;
+    }
+
+    @keyframes umb-#{$i} {
+        from {
+            transform: rotateY(#{($i - 1) * 30}deg) rotateX(66deg);
+        }
+        to {
+            transform: rotateY(#{($i - 1) * 30 + 360}deg) rotateX(66deg);
+        }
+    }
+}
+
+.triangle-shadow {
+    position: absolute;
+    width: 48px;
+    height: 68px;
+    left: calc(50% - 24px + 100px);
+    top: 260px;
+    background-color: #aa8f37;
+    filter: blur(1px);
+    transform-origin: 50% 0;
+}
+
+@for $i from 1 through 12 {
+    .triangle-shadow-#{$i} {
+        transform: rotateX(90deg) rotateZ(#{($i - 1) * 30}deg);
+        animation: umb-s-#{$i} 3s linear infinite;
+    }
+    @keyframes umb-s-#{$i} {
+        from {
+            transform: rotateX(90deg) rotateZ(#{($i - 1) * 30}deg);
+        }
+        to {
+            transform: rotateX(90deg) rotateZ(#{($i - 1) * 30 - 360}deg);
+        }
+    }
+}
