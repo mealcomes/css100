@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="./index.css" />
+        <script src="./index.js" type="module" defer></script>
+    </head>
+
+    <body>
+        <div class="frame">
+            <div class="title">
+                <div class="top">your daily</div>
+                <div class="bottom">progress</div>
+            </div>
+            <div class="kcal">
+                <div class="kcal-txt txt">
+                    <div class="data">2758</div>
+                    <div class="label">kcal</div>
+                </div>
+                <svg>
+                    <circle
+                        class="kcal-ring-bg"
+                        cx="55"
+                        cy="55"
+                        r="50"
+                    ></circle>
+                    <circle class="kcal-ring" cx="55" cy="55" r="50"></circle>
+                </svg>
+            </div>
+            <div class="steps">
+                <div class="txt">
+                    <div class="data">8563</div>
+                    <div class="label">steps</div>
+                </div>
+                <svg>
+                    <circle
+                        class="steps-ring-bg"
+                        cx="43"
+                        cy="43"
+                        r="40"
+                    ></circle>
+                    <circle class="steps-ring" cx="43" cy="43" r="40"></circle>
+                </svg>
+            </div>
+            <div class="km">
+                <div class="txt">
+                    <div class="data">6,2</div>
+                    <div class="label">km</div>
+                </div>
+                <svg>
+                    <circle class="km-ring-bg" cx="43" cy="43" r="40"></circle>
+                    <circle class="km-ring" cx="43" cy="43" r="40"></circle>
+                </svg>
+            </div>
+        </div>
+    </body>
+</html>

@@ -8,7 +8,8 @@
     margin-left: -200px;
     border-radius: 5px;
     box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
-    background-color: #75C1E8;
+    background-color: #75c1e8;
+    overflow: hidden;
 }
 
 .sun {
@@ -18,7 +19,7 @@
     left: 60px;
     top: 40px;
     border-radius: 100%;
-    background-color: #FFD93C;
+    background-color: #ffd93c;
     animation: moveRight 60s linear alternate infinite both;
 }
 
@@ -43,7 +44,8 @@
 }
 
 @keyframes move {
-    to {}
+    to {
+    }
 }
 
 @keyframes moveLeft {
