@@ -1,0 +1,109 @@
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 5px;
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+  background-color: #333333;
+  overflow: hidden;
+}
+
+.screen {
+  position: absolute;
+  width: 100%;
+  height: 240px;
+  top: 0;
+}
+.screen .item {
+  position: absolute;
+  color: #fff;
+  width: 50px;
+  height: 50px;
+  left: calc(50% - 25px);
+  top: calc(50% - 25px);
+  font-size: 50px;
+  opacity: 0;
+  text-align: center;
+  line-height: 50px;
+  transform: scale(0.8);
+}
+.screen .item.active-1 {
+  animation: active-1 0.3s linear both;
+}
+.screen .item.active-2 {
+  animation: active-2 0.3s linear both;
+}
+
+.keyboard {
+  position: absolute;
+  width: 100%;
+  height: 160px;
+  bottom: 0;
+  background-color: #666666;
+  border-top: #888888 solid 2px;
+}
+.keyboard .word {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 75%;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  place-items: center;
+}
+.keyboard .num {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 25%;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  place-items: center;
+}
+.keyboard .key {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+.keyboard .key:hover {
+  background-color: #999999;
+}
+
+@keyframes active-1 {
+  0% {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1.2);
+  }
+}
+@keyframes active-2 {
+  0% {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1.2);
+  }
+}/*# sourceMappingURL=index.css.map */

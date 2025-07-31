@@ -1,6 +1,6 @@
 const container = document.querySelector('body > div');
-const fileDir = ['1-25', '26-50', '51-75'];
-const maxLength = 70;
+const fileDir = ['1-25', '26-50', '51-75', '76-100'];
+const maxLength = 75;
 let cnt = 1;
 
 const observer = new IntersectionObserver(entries => {

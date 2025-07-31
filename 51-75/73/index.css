@@ -1,0 +1,63 @@
+.frame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -200px;
+    border-radius: 5px;
+    box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+    background-color: #eb9812;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 50px;
+    color: white;
+    font-size: 30px;
+    overflow: hidden;
+
+    .animal {
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 100%;
+        width: 120px;
+        animation: up 8s linear infinite both;
+
+        span {
+            display: block;
+            height: 100%;
+            font-weight: 600;
+            text-transform: capitalize;
+        }
+    }
+}
+
+@keyframes up {
+    0%,
+    10% {
+        transform: translateY(0);
+    }
+    15%,
+    35% {
+        transform: translateY(-50px);
+    }
+    40%,
+    60% {
+        transform: translateY(-100px);
+    }
+    65%,
+    85% {
+        transform: translateY(-150px);
+    }
+    90%,
+    100% {
+        transform: translateY(-200px);
+    }
+}
