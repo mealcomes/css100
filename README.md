@@ -3,7 +3,7 @@
 本仓库是我在 [100dayscss.com](https://100dayscss.com/) 网站进行 100 天 CSS 挑战的源码记录。该挑战旨在完成 100 个 CSS 示例，每个示例都展示了 CSS 的不同特性或技巧，非常有趣，也非常适合提升 CSS 水平！
 
 <p>
-  <a href="https://css.meal-comes.top/" target="_blank">
+  <a href="https://mealcomes.github.io/css100/" target="_blank">
     <img src="https://img.shields.io/badge/效果展示-DEMO-blue.svg?style=for-the-badge&logo=css3&logoColor=white&labelColor=blue&color=4F8EF7&borderRadius=12" alt="效果展示" style="border-radius:12px;">
   </a>
 </p>
