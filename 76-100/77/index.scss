@@ -1,0 +1,39 @@
+.frame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -200px;
+    border-radius: 5px;
+    box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+    background-color: #b979d6;
+}
+
+.ball {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    top: calc(50% - 25px);
+    left: 20px;
+    background-color: #fff;
+    border-radius: 100%;
+}
+
+@for $i from 1 through 6 {
+    .ball-#{$i} {
+        animation: move 1s ease-in-out #{($i - 1) * 0.01}s infinite alternate;
+        opacity: if($i == 1, 1, #{0.4 - ($i - 1) * 0.05});
+        filter: if($i == 1, none, blur(1px));
+    }
+}
+
+@keyframes move {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(320px);
+    }
+}

@@ -1,0 +1,241 @@
+.frame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -200px;
+    border-radius: 5px;
+    box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+    background-color: #ed8aea;
+    overflow: hidden;
+}
+
+$ad: 10s;
+
+.center {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: calc(50% - 20px);
+    left: calc(50% - 20px);
+}
+
+.square {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+}
+
+@for $i from 1 through 10 {
+    .square-#{$i} {
+        animation: change-#{$i} $ad ease-in-out infinite;
+    }
+
+    @keyframes change-#{$i} {
+        0% {
+            transform: scale(0);
+            opacity: 0;
+        }
+        5% {
+            transform: scale(1);
+            opacity: 1;
+        }
+        10% {
+            transform: rotate(#{($i - 1) * 36 + 18}deg) scale(1);
+            opacity: 1;
+        }
+        15% {
+            transform: rotate(#{($i - 1) * 36 + 18}deg) translateX(90px)
+                rotateX(30deg) scaleY(0.2);
+            opacity: 1;
+        }
+        20% {
+            transform: rotate(#{($i - 1) * 36 + 18}deg) translateX(90px)
+                rotateX(30deg) rotateZ(180deg) scale(0.2);
+            opacity: 1;
+        }
+        25% {
+            transform: rotate(#{($i - 1) * 36 + 18}deg) translateX(90px)
+                rotateX(30deg) rotateZ(180deg) scaleX(0.2);
+            opacity: 1;
+        }
+        30% {
+            transform: rotate(#{($i - 1) * 36 + 18}deg) translateX(50px)
+                rotateX(30deg) rotateZ(0) scaleX(0.2);
+            opacity: 1;
+        }
+        35% {
+            transform: rotate(#{($i - 1) * 36 + 18}deg) translateX(50px)
+                rotateX(30deg) rotateZ(0) scaleX(0.2) translateY(-50px);
+            opacity: 1;
+        }
+        40% {
+            transform: rotate(#{($i - 1) * 36 + 18}deg) translateX(50px)
+                rotateX(30deg) rotateZ(0) scaleX(0.2) translateY(50px);
+            opacity: 1;
+        }
+        45% {
+            transform: rotate(#{($i - 1) * 36 + 18}deg) translateX(50px)
+                rotateX(30deg) rotateZ(0) scaleX(0.2);
+            opacity: 1;
+        }
+        50% {
+            transform: rotate(#{($i - 1) * 36 + 18}deg) translateX(50px)
+                rotateX(30deg) rotateZ(0) scaleY(0.1) scaleX(0.5);
+            opacity: 1;
+            border-radius: 0;
+        }
+        55% {
+            transform: rotate(#{($i - 1) * 36 + 18}deg) translateX(90px)
+                rotateX(0) rotateZ(0) scale(0.5, 0.5);
+            opacity: 1;
+            border-radius: 100%;
+        }
+        60% {
+            transform: rotate(#{($i - 1) * 36 + 18}deg) translateX(0px)
+                rotateX(0) rotateZ(0) scale(0.3, 0.3);
+            opacity: 1;
+            border-radius: 100%;
+        }
+        65% {
+            transform: rotate(#{($i - 1) * 36 + 18}deg) translateX(90px)
+                rotateX(0) rotateZ(0) scale(1, 0.2);
+            opacity: 1;
+            border-radius: 0;
+        }
+        70% {
+            transform: rotate(#{($i - 1) * 36 + 18}deg) translateX(90px)
+                rotateX(0) rotateZ(0) scale(0.2, 0.2);
+            opacity: 1;
+            border-radius: 0;
+        }
+        75% {
+            transform: rotate(#{($i - 1) * 36 + 18}deg) translateX(50px)
+                rotateX(0) rotateZ(0) scale(0.5, 0.5);
+            opacity: 1;
+            border-radius: 0;
+        }
+        80% {
+            transform: rotate(#{($i - 1) * 36 + 18}deg) translateX(80px)
+                rotateX(0) rotateZ(180deg) scale(0.5, 0.5);
+            opacity: 1;
+            border-radius: 0;
+        }
+        85% {
+            transform: rotate(#{($i - 1) * 36 + 18}deg) translateX(30px)
+                rotateX(0) rotateZ(0) scale(0.2, 0.5);
+            opacity: 1;
+            border-radius: 0;
+        }
+        90% {
+            transform: rotate(#{($i - 1) * 36 + 18}deg) translateX(10px)
+                rotateX(0) rotateZ(0) scale(0.5, 0.1);
+            opacity: 1;
+            border-radius: 0;
+        }
+        95%,
+        100% {
+            transform: rotate(#{($i - 1) * 36 + 18}deg) translateX(400px)
+                rotateX(0) rotateZ(0) scale(0.5, 0.1);
+            opacity: 1;
+            border-radius: 0;
+        }
+    }
+}
+
+// @for $i from 1 through 10 {
+//     $nullBase: $i - 1;
+//     $degree: 360 / 10;
+
+//     .square-#{$i} {
+//         animation: line-#{$i} 10s ease-in-out infinite;
+//     }
+
+//     @keyframes line-#{$i} {
+//         0% {
+//             transform: rotate(0) translate(0, 0) scale(0.01);
+//         }
+//         5% {
+//             transform: rotate(0) translate(0, 0) scale(1);
+//         }
+//         15% {
+//             transform: rotate(($nullBase * $degree) + deg) translate(0, 0)
+//                 scale(1);
+//         }
+//         20% {
+//             transform: rotate(($nullBase * $degree) + deg) translate(0, -100px)
+//                 scale(0.25, 1);
+//         }
+//         25% {
+//             transform: rotate(($nullBase * $degree) + deg) translate(0, -100px)
+//                 scale(0.25, 0.25) rotate(179deg);
+//         }
+//         30% {
+//             transform: rotate(($nullBase * $degree) + deg) translate(0, -100px)
+//                 scale(1, 0.25) rotate(179deg);
+//         }
+//         35% {
+//             transform: rotate(($nullBase * $degree) + deg) translate(0, -60px)
+//                 scale(1, 0.1);
+//         }
+//         40% {
+//             transform: rotate(($nullBase * $degree) + deg) translate(0, -60px)
+//                 scale(1, 0.1) translate(-30px, 0);
+//         }
+//         45% {
+//             transform: rotate(($nullBase * $degree) + deg) translate(0, -60px)
+//                 scale(1, 0.1) translate(30px, 0);
+//         }
+//         50% {
+//             transform: rotate(($nullBase * $degree) + deg) translate(0, -60px)
+//                 scale(0.1, 1);
+//         }
+//         55% {
+//             transform: rotate(($nullBase * $degree) + deg) translate(0, -60px)
+//                 scale(0.5, 0.1);
+//             border-radius: 0;
+//         }
+//         60% {
+//             transform: rotate(($nullBase * $degree) + deg) translate(0, -80px)
+//                 scale(0.5, 0.5) rotate(179deg);
+//             border-radius: 50%;
+//         }
+//         65% {
+//             transform: rotate(($nullBase * $degree) + deg) translate(0, 0)
+//                 scale(0.2, 0.2);
+//             border-radius: 50%;
+//         }
+//         70% {
+//             transform: rotate(($nullBase * $degree) + deg) translate(0, -100px)
+//                 scale(0.25, 1);
+//             border-radius: 0;
+//         }
+//         75% {
+//             transform: rotate(($nullBase * $degree) + deg) translate(0, -100px)
+//                 scale(0.25, 0.25);
+//         }
+//         80% {
+//             transform: rotate(($nullBase * $degree) + deg) translate(0, -50px)
+//                 scale(0.5, 0.5);
+//         }
+//         85% {
+//             transform: rotate(($nullBase * $degree) + deg) translate(0, -50px)
+//                 scale(0.5, 0.5) rotate(179deg) translate(-50px, 50px);
+//         }
+//         90% {
+//             transform: rotate(($nullBase * $degree) + deg) translate(0, -30px)
+//                 scale(0.5, 0.1);
+//         }
+//         95% {
+//             transform: rotate(($nullBase * $degree) + deg) translate(0, -10px)
+//                 scale(0.1, 0.5);
+//         }
+//         100% {
+//             transform: rotate(($nullBase * $degree) + deg) translate(0, -300px)
+//                 scale(0.1, 0.5);
+//         }
+//     }
+// }

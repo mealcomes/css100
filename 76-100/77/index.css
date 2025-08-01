@@ -1,0 +1,67 @@
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 5px;
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+  background-color: #b979d6;
+}
+
+.ball {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  top: calc(50% - 25px);
+  left: 20px;
+  background-color: #fff;
+  border-radius: 100%;
+}
+
+.ball-1 {
+  animation: move 1s ease-in-out 0s infinite alternate;
+  opacity: 1;
+  filter: none;
+}
+
+.ball-2 {
+  animation: move 1s ease-in-out 0.01s infinite alternate;
+  opacity: 0.35;
+  filter: blur(1px);
+}
+
+.ball-3 {
+  animation: move 1s ease-in-out 0.02s infinite alternate;
+  opacity: 0.3;
+  filter: blur(1px);
+}
+
+.ball-4 {
+  animation: move 1s ease-in-out 0.03s infinite alternate;
+  opacity: 0.25;
+  filter: blur(1px);
+}
+
+.ball-5 {
+  animation: move 1s ease-in-out 0.04s infinite alternate;
+  opacity: 0.2;
+  filter: blur(1px);
+}
+
+.ball-6 {
+  animation: move 1s ease-in-out 0.05s infinite alternate;
+  opacity: 0.15;
+  filter: blur(1px);
+}
+
+@keyframes move {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(320px);
+  }
+}/*# sourceMappingURL=index.css.map */

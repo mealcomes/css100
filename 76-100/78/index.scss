@@ -1,0 +1,57 @@
+.frame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -200px;
+    border-radius: 5px;
+    box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+    background-color: #3498db;
+}
+
+$w: 200px;
+$h: 60px;
+
+.button {
+    position: absolute;
+    width: $w;
+    height: $h;
+    left: calc(50% - $w / 2);
+    background-color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: $h;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    transform: scale(1);
+    box-shadow: 2px 2px 0 0 rgba(0, 0, 0, 0);
+
+    &:hover {
+        transform: scale(1.05);
+    }
+
+    &.button-1 {
+        top: 80px;
+
+        &:hover {
+            box-shadow: 2px 2px 3px 0px rgba(0, 0, 0, 0.3);
+        }
+    }
+
+    &.button-2 {
+        top: 170px;
+
+        &:hover {
+            box-shadow: 3.5px 3.5px 7px 1.5px rgba(0, 0, 0, 0.3);
+        }
+    }
+
+    &.button-3 {
+        bottom: 80px;
+        &:hover {
+            box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.3);
+        }
+    }
+}
