@@ -1,0 +1,107 @@
+.frame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -200px;
+    border-radius: 5px;
+    box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+    background-color: #d2d7d9;
+}
+
+.book {
+    position: absolute;
+    --h: 280px;
+    --w: 200px;
+    height: var(--h);
+    width: var(--w);
+    top: calc(50% - var(--h) / 2);
+    left: calc(50% - var(--w) / 2);
+    border-radius: 3px;
+    background-color: #434444;
+    box-shadow: 0px 3px 5px 1px rgba(0, 0, 0, 0.3);
+
+    &::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 5px;
+        border-radius: 3px;
+        background: linear-gradient(to right, #272b2b, #424242);
+    }
+
+    .pages {
+        position: absolute;
+        height: 100%;
+        width: calc(var(--w) - 10px);
+        right: 0;
+        top: 0;
+        border-radius: 3px;
+        background: linear-gradient(to right top, #212121, #444444);
+
+        &::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            height: 100%;
+            width: 10px;
+            background: linear-gradient(to right top, #1d1d1d98, #2c2d2da4);
+            /* background-color: #1B1B1B; */
+            box-shadow: 1px 0 3px 1px rgba(0, 0, 0, 0.02);
+        }
+
+        &::after {
+            content: '';
+            position: absolute;
+            right: 20px;
+            top: -1px;
+            height: calc(var(--h) + 2px);
+            width: 10px;
+            background: linear-gradient(
+                to right,
+                #a90329 0%,
+                #8e0028 12%,
+                #a90329 25%,
+                #8e0028 37%,
+                #a90329 50%,
+                #8e0028 62%,
+                #a90329 75%,
+                #8e0028 87%,
+                #a90329 100%
+            );
+            box-shadow: -1px 0px 1px 0 rgba(0, 0, 0, 0.3);
+        }
+
+        .content {
+            position: absolute;
+            height: 100%;
+            width: calc(var(--w) - 50px);
+            right: 30px;
+            color: #fff;
+            box-sizing: border-box;
+            padding: 0 10px;
+
+            .title {
+                position: absolute;
+                top: 60px;
+                font-size: 35px;
+                font-weight: 800;
+                text-transform: uppercase;
+                line-height: 35px;
+
+            }
+            .author {
+                position: absolute;
+                top: 165px;
+                font-size: 13px;
+                color: #c9c3c3;
+                font-style: italic;
+            }
+        }
+    }
+}

@@ -1,0 +1,73 @@
+.frame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -200px;
+    border-radius: 5px;
+    box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+    background-color: #975fad;
+    overflow: hidden;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 2px;
+    transform: translate(-50%, -50%);
+}
+
+.ball {
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    border-radius: 100%;
+    background-color: #fff;
+}
+
+@for $i from 1 through 200 {
+    $index: $i - 1;
+    .ball-#{$i} {
+        left: #{$index * 2}px;
+    }
+}
+
+@for $i from 1 through 100 {
+    $index: $i - 1;
+    $offset: $index * $index / 70;
+    .ball-#{$i} {
+        transform: translateY(#{- $offset}px);
+        animation: move-#{$i} 3s ease-in-out infinite;
+    }
+    @keyframes move-#{$i} {
+        0%,
+        100% {
+            transform: translateY(#{-$offset}px);
+        }
+        50% {
+            transform: translateY(#{$offset}px);
+        }
+    }
+}
+
+@for $i from 200 through 101 {
+    $index: 201 - $i;
+    $offset: $index * $index / 70;
+    .ball-#{$i} {
+        transform: translateY(#{-$offset}px);
+        animation: move-#{$i} 3s ease-in-out infinite;
+    }
+    @keyframes move-#{$i} {
+        0%,
+        100% {
+            transform: translateY(#{-$offset}px);
+        }
+        50% {
+            transform: translateY(#{$offset}px);
+        }
+    }
+}

@@ -1,0 +1,58 @@
+.frame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -200px;
+    border-radius: 5px;
+    box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+    background-color: #c1ccf1;
+    perspective: 200px;
+}
+
+input[type='checkbox'] {
+    display: none;
+}
+
+#cb:checked {
+    ~ .button {
+        transform: rotateX(180deg);
+    }
+}
+
+.button {
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    top: calc(50% - 25px);
+    left: calc(50% - 50px);
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    transform-style: preserve-3d;
+
+    .face {
+        position: absolute;
+        width: 100px;
+        height: 50px;
+        background-color: #fff;
+        border-radius: 100px;
+        text-transform: uppercase;
+        text-align: center;
+        line-height: 48px;
+        font-weight: 500;
+        backface-visibility: hidden;
+        user-select: none;
+        box-shadow: 3px 6px 8px 1px rgba(0, 0, 0, 0.3);
+    }
+
+    .back {
+        transform: rotateX(180deg);
+        box-sizing: border-box;
+        border: #fff solid 2px;
+        background-color: #64c760;
+        color: #fff;
+        line-height: 46px;
+    }
+}
