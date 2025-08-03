@@ -8,8 +8,9 @@
     margin-left: -200px;
     border-radius: 5px;
     box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
-    background: #2C3E50;
+    background: #2c3e50;
     color: #000;
+    overflow: hidden;
 }
 
 .circle {
@@ -17,7 +18,7 @@
     width: 200px;
     height: 200px;
     border-radius: 100%;
-    background-color: #354A5F;
+    background-color: #354a5f;
     top: 60px;
     left: 100px;
 }
@@ -30,7 +31,7 @@
     border-radius: 100%;
     top: 60px;
     left: 100px;
-    border: #354A5F solid 4px;
+    border: #354a5f solid 4px;
 }
 
 input[type='checkbox'] {
@@ -53,7 +54,7 @@ input[type='checkbox'] {
 
     &:hover {
         color: white;
-        background-color: #1ABC9C;
+        background-color: #1abc9c;
     }
 }
 
@@ -85,30 +86,30 @@ input[type='checkbox'] {
 }
 
 #cb:checked {
-    ~.button {
+    ~ .button {
         animation: button 1.7s ease-in-out 2s both;
     }
 
-    ~.reset {
+    ~ .reset {
         pointer-events: auto;
         animation: reset 1.5s ease-in-out 4s both;
     }
 
-    ~.circle {
+    ~ .circle {
         animation: circle 1.2s ease-in-out both;
     }
 
-    ~.circle-outer {
+    ~ .circle-outer {
         animation: circle-outer 1.2s ease-in-out both;
     }
 
-    ~.mail {
+    ~ .mail {
         stroke-dashoffset: 325;
         transition: stroke-dashoffset 1s ease-in-out;
     }
 
-    ~.plane {
-        animation: plane 1.5s ease-in-out .8s;
+    ~ .plane {
+        animation: plane 1.5s ease-in-out 0.8s;
     }
 }
 
@@ -119,7 +120,7 @@ input[type='checkbox'] {
 
     30% {
         color: transparent;
-        background-color: #1ABC9C;
+        background-color: #1abc9c;
         left: 100px;
         width: 200px;
     }
@@ -138,7 +139,7 @@ input[type='checkbox'] {
     100% {
         transform: scale(0);
         color: transparent;
-        background-color: #1ABC9C;
+        background-color: #1abc9c;
         left: 180px;
         width: 40px;
     }
