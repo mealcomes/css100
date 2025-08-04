@@ -1,0 +1,130 @@
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 5px;
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+  background-color: black;
+  overflow: hidden;
+}
+
+.stick {
+  position: absolute;
+  width: 200px;
+  height: 6px;
+  left: calc(50% - 100px);
+  top: 140px;
+  background-color: #bdc3c7;
+  border-radius: 5px;
+}
+
+.wrap {
+  position: absolute;
+  width: 40px;
+  height: 140px;
+  left: calc(50% - 20px);
+  top: 143px;
+  transform-origin: 50% 0;
+}
+.wrap .line {
+  position: absolute;
+  height: 120px;
+  width: 1px;
+  left: calc(50% - 0.5px);
+  background-color: #bdc3c7;
+}
+.wrap .ball {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  bottom: 0;
+  border-radius: 100%;
+  background-color: #fff;
+}
+.wrap.wrap-1 {
+  animation: left 0.8s ease-out alternate infinite;
+}
+.wrap.wrap-1 .ball {
+  animation: ball-left 1.6s infinite;
+}
+.wrap.wrap-5 {
+  animation: right 0.8s ease-out 0.8s alternate infinite;
+}
+.wrap.wrap-5 .ball {
+  animation: ball-right 1.6s infinite 0.8s;
+}
+
+.wrap-1 {
+  left: 100px;
+}
+
+.wrap-2 {
+  left: 140px;
+}
+
+.wrap-3 {
+  left: 180px;
+}
+
+.wrap-4 {
+  left: 220px;
+}
+
+.wrap-5 {
+  left: 260px;
+}
+
+@keyframes left {
+  0%, 50% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(30deg);
+  }
+}
+@keyframes ball-left {
+  0%, 24% {
+    box-shadow: none;
+  }
+  30% {
+    box-shadow: 3px 0px rgba(255, 255, 255, 0.5), 6px 0px rgba(255, 255, 255, 0.45), 9px 0px rgba(255, 255, 255, 0.35), 12px 0px rgba(255, 255, 255, 0.2);
+  }
+  50% {
+    box-shadow: none;
+  }
+  74% {
+    box-shadow: -3px 0px rgba(255, 255, 255, 0.5), -6px 0px rgba(255, 255, 255, 0.45), -9px 0px rgba(255, 255, 255, 0.35), -12px 0px rgba(255, 255, 255, 0.2);
+  }
+  75%, 100% {
+    box-shadow: none;
+  }
+}
+@keyframes right {
+  0%, 50% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(-30deg);
+  }
+}
+@keyframes ball-right {
+  0%, 24% {
+    box-shadow: none;
+  }
+  30% {
+    box-shadow: -3px 0px rgba(255, 255, 255, 0.5), -6px 0px rgba(255, 255, 255, 0.45), -9px 0px rgba(255, 255, 255, 0.35), -12px 0px rgba(255, 255, 255, 0.2);
+  }
+  50% {
+    box-shadow: none;
+  }
+  74% {
+    box-shadow: 3px 0px rgba(255, 255, 255, 0.5), 6px 0px rgba(255, 255, 255, 0.45), 9px 0px rgba(255, 255, 255, 0.35), 12px 0px rgba(255, 255, 255, 0.2);
+  }
+  75%, 100% {
+    box-shadow: none;
+  }
+}/*# sourceMappingURL=index.css.map */

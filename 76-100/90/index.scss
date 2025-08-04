@@ -1,0 +1,97 @@
+.frame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -200px;
+    border-radius: 5px;
+    box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+    background-color: #2980b9;
+    overflow: hidden;
+}
+
+.trigger {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+@for $i from 0 through 379 {
+    .trigger-#{$i} {
+        $row: floor($i / 20);
+        $col: $i % 20;
+        $left: $col * 20px;
+        $top: 10px + $row * 20px;
+
+        left: $left;
+        top: $top;
+
+        &:hover {
+            ~ .lines {
+                .line-#{$row} {
+                    .left {
+                        transform: translateX(#{$left - 440px});
+                    }
+                    .right {
+                        transform: translateX(#{$left + 60px});
+                    }
+                }
+                .line-#{$row + 1},
+                .line-#{$row - 1} {
+                    .left {
+                        transform: translateX(#{$left - 420px});
+                    }
+                    .right {
+                        transform: translateX(#{$left + 40px});
+                    }
+                }
+                .line-#{$row + 2},
+                .line-#{$row - 2} {
+                    .left {
+                        transform: translateX(#{$left - 400px});
+                    }
+                    .right {
+                        transform: translateX(#{$left + 20px});
+                    }
+                }
+            }
+        }
+    }
+}
+
+.lines {
+    position: absolute;
+    width: 400px;
+    height: 380px;
+    top: 10px;
+    pointer-events: none;
+
+    @for $i from 0 through 18 {
+        .line-#{$i} {
+            position: relative;
+            width: 400px;
+            height: 20px;
+            overflow: hidden;
+
+            .inner {
+                position: absolute;
+                width: 400px;
+                height: 1px;
+                top: calc(50% - 0.5px);
+                background-color: #fff;
+                transition: all 0.3s ease-in-out;
+            }
+
+            .left {
+                transform: translateX(-100%);
+            }
+
+            .right {
+                transform: translateX(100%);
+            }
+        }
+    }
+}

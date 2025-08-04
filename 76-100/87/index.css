@@ -1,0 +1,121 @@
+.frame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -200px;
+    border-radius: 5px;
+    box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background-color: #ffc902;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 200px;
+    height: 130px;
+    transform: translate(-50%, -50%);
+    background-clip: content-box;
+    filter: drop-shadow(0 0 30px #d64949);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+
+    &:hover {
+        transform: translate(-50%, -50%) scale(1.1);
+        filter: drop-shadow(0 0 10px #d64949);
+    }
+}
+
+.part {
+    position: absolute;
+    height: 100%;
+}
+
+.top {
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    top: 0;
+
+    .left-1 {
+        width: 60px;
+        left: 0;
+        background-color: #9e0707;
+        clip-path: polygon(0 100%, 100% 100%, 60% 0);
+    }
+    .left-2 {
+        width: 64px;
+        left: 36px;
+        background-color: #dc2323;
+        clip-path: polygon(0 0, 100% 0, 37.5% 100%);
+    }
+    .mid {
+        width: 80px;
+        left: 60px;
+        background-color: #bc0e0e;
+        clip-path: polygon(0 100%, 100% 100%, 50% 0);
+    }
+    .right-2 {
+        width: 64px;
+        right: 36px;
+        background-color: #f58181;
+        clip-path: polygon(0 0, 100% 0, 62.5% 100%);
+
+        .light {
+            position: absolute;
+            width: 100px;
+            height: 8px;
+            transform: rotate(50deg);
+            background-color: #fff;
+            animation: light 4s infinite both;
+        }
+    }
+    .right-1 {
+        width: 60px;
+        right: 0;
+        background-color: #b90b0c;
+        clip-path: polygon(0 100%, 100% 100%, 40% 0);
+    }
+}
+
+.bottom {
+    position: absolute;
+    width: 200px;
+    height: 80px;
+    bottom: 0;
+
+    .left {
+        width: 100px;
+        left: 0;
+        background-color: #890505;
+        clip-path: polygon(0 0, 60% 0, 100% 100%);
+    }
+
+    .mid {
+        width: 80px;
+        left: 60px;
+        background-color: #a51012;
+        clip-path: polygon(0 0, 100% 0, 50% 100%);
+    }
+
+    .right {
+        width: 100px;
+        right: 0;
+        background-color: #890505;
+        clip-path: polygon(40% 0, 100% 0, 0 100%);
+    }
+}
+
+@keyframes light {
+    0% {
+        transform: rotate(50deg) translateY(100px);
+    }
+    25%,
+    100% {
+        transform: rotate(50deg) translateY(-100px);
+    }
+}
