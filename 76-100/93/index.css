@@ -1,0 +1,318 @@
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 5px;
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background-color: #f57e15;
+}
+
+.lock {
+  position: absolute;
+  width: 150px;
+  height: 220px;
+  left: calc(50% - 75px);
+  top: calc(50% - 110px);
+  cursor: pointer;
+}
+.lock:hover .bottom .round {
+  transform: rotate(360deg);
+}
+
+.top {
+  position: absolute;
+  width: 110px;
+  height: 120px;
+  background-color: #d1dde5;
+  left: calc(50% - 55px);
+  border-radius: 50% 50% 0 0;
+  box-shadow: inset 3px 5px #fff, inset -3px -3px rgba(0, 0, 0, 0.3);
+}
+.top .inner {
+  position: absolute;
+  width: 90px;
+  height: 100px;
+  left: calc(50% - 45px);
+  top: calc(50% - 50px);
+  border-radius: 50% 50% 0 0;
+  background-color: #f57e15;
+  box-shadow: inset 3px 3px 10px 1px rgba(0, 0, 0, 0.2), -3px -2px rgba(0, 0, 0, 0.3), 3px 2px #f6f8fa;
+}
+
+.bottom {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  bottom: 0;
+  border-radius: 100%;
+  background-color: #d1dde5;
+  box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.3), inset 2px 4px 1px 0 rgba(255, 255, 255, 0.8), inset -1px -2px 1px 0 rgba(0, 0, 0, 0.3);
+}
+.bottom .round {
+  position: absolute;
+  width: 140px;
+  height: 140px;
+  border-radius: 100%;
+  left: calc(50% - 70px);
+  top: calc(50% - 70px);
+  background-color: #333333;
+  transition: all 1s ease-in-out;
+}
+.bottom .round .line {
+  position: absolute;
+  width: 2px;
+  top: 5px;
+  left: calc(50% - 1px);
+  transform-origin: 50% 65px;
+}
+.bottom .round .line-0 {
+  height: 20px;
+  background-color: #ffffff;
+  transform: rotate(0deg);
+}
+.bottom .round .line-1 {
+  height: 10px;
+  background-color: #cccccc;
+  transform: rotate(9deg);
+}
+.bottom .round .line-2 {
+  height: 10px;
+  background-color: #cccccc;
+  transform: rotate(18deg);
+}
+.bottom .round .line-3 {
+  height: 10px;
+  background-color: #cccccc;
+  transform: rotate(27deg);
+}
+.bottom .round .line-4 {
+  height: 10px;
+  background-color: #cccccc;
+  transform: rotate(36deg);
+}
+.bottom .round .line-5 {
+  height: 20px;
+  background-color: #ffffff;
+  transform: rotate(45deg);
+}
+.bottom .round .line-6 {
+  height: 10px;
+  background-color: #cccccc;
+  transform: rotate(54deg);
+}
+.bottom .round .line-7 {
+  height: 10px;
+  background-color: #cccccc;
+  transform: rotate(63deg);
+}
+.bottom .round .line-8 {
+  height: 10px;
+  background-color: #cccccc;
+  transform: rotate(72deg);
+}
+.bottom .round .line-9 {
+  height: 10px;
+  background-color: #cccccc;
+  transform: rotate(81deg);
+}
+.bottom .round .line-10 {
+  height: 20px;
+  background-color: #ffffff;
+  transform: rotate(90deg);
+}
+.bottom .round .line-11 {
+  height: 10px;
+  background-color: #cccccc;
+  transform: rotate(99deg);
+}
+.bottom .round .line-12 {
+  height: 10px;
+  background-color: #cccccc;
+  transform: rotate(108deg);
+}
+.bottom .round .line-13 {
+  height: 10px;
+  background-color: #cccccc;
+  transform: rotate(117deg);
+}
+.bottom .round .line-14 {
+  height: 10px;
+  background-color: #cccccc;
+  transform: rotate(126deg);
+}
+.bottom .round .line-15 {
+  height: 20px;
+  background-color: #ffffff;
+  transform: rotate(135deg);
+}
+.bottom .round .line-16 {
+  height: 10px;
+  background-color: #cccccc;
+  transform: rotate(144deg);
+}
+.bottom .round .line-17 {
+  height: 10px;
+  background-color: #cccccc;
+  transform: rotate(153deg);
+}
+.bottom .round .line-18 {
+  height: 10px;
+  background-color: #cccccc;
+  transform: rotate(162deg);
+}
+.bottom .round .line-19 {
+  height: 10px;
+  background-color: #cccccc;
+  transform: rotate(171deg);
+}
+.bottom .round .line-20 {
+  height: 20px;
+  background-color: #ffffff;
+  transform: rotate(180deg);
+}
+.bottom .round .line-21 {
+  height: 10px;
+  background-color: #cccccc;
+  transform: rotate(189deg);
+}
+.bottom .round .line-22 {
+  height: 10px;
+  background-color: #cccccc;
+  transform: rotate(198deg);
+}
+.bottom .round .line-23 {
+  height: 10px;
+  background-color: #cccccc;
+  transform: rotate(207deg);
+}
+.bottom .round .line-24 {
+  height: 10px;
+  background-color: #cccccc;
+  transform: rotate(216deg);
+}
+.bottom .round .line-25 {
+  height: 20px;
+  background-color: #ffffff;
+  transform: rotate(225deg);
+}
+.bottom .round .line-26 {
+  height: 10px;
+  background-color: #cccccc;
+  transform: rotate(234deg);
+}
+.bottom .round .line-27 {
+  height: 10px;
+  background-color: #cccccc;
+  transform: rotate(243deg);
+}
+.bottom .round .line-28 {
+  height: 10px;
+  background-color: #cccccc;
+  transform: rotate(252deg);
+}
+.bottom .round .line-29 {
+  height: 10px;
+  background-color: #cccccc;
+  transform: rotate(261deg);
+}
+.bottom .round .line-30 {
+  height: 20px;
+  background-color: #ffffff;
+  transform: rotate(270deg);
+}
+.bottom .round .line-31 {
+  height: 10px;
+  background-color: #cccccc;
+  transform: rotate(279deg);
+}
+.bottom .round .line-32 {
+  height: 10px;
+  background-color: #cccccc;
+  transform: rotate(288deg);
+}
+.bottom .round .line-33 {
+  height: 10px;
+  background-color: #cccccc;
+  transform: rotate(297deg);
+}
+.bottom .round .line-34 {
+  height: 10px;
+  background-color: #cccccc;
+  transform: rotate(306deg);
+}
+.bottom .round .line-35 {
+  height: 20px;
+  background-color: #ffffff;
+  transform: rotate(315deg);
+}
+.bottom .round .line-36 {
+  height: 10px;
+  background-color: #cccccc;
+  transform: rotate(324deg);
+}
+.bottom .round .line-37 {
+  height: 10px;
+  background-color: #cccccc;
+  transform: rotate(333deg);
+}
+.bottom .round .line-38 {
+  height: 10px;
+  background-color: #cccccc;
+  transform: rotate(342deg);
+}
+.bottom .round .line-39 {
+  height: 10px;
+  background-color: #cccccc;
+  transform: rotate(351deg);
+}
+.bottom .round .num {
+  position: absolute;
+  color: #ffffff;
+  width: 20px;
+  height: 20px;
+  font-size: 13px;
+  line-height: 20px;
+  text-align: center;
+  left: calc(50% - 10px);
+  top: 25px;
+  transform-origin: 50% 45px;
+}
+.bottom .round .num-0 {
+  transform: rotate(0deg);
+}
+.bottom .round .num-1 {
+  transform: rotate(45deg);
+}
+.bottom .round .num-2 {
+  transform: rotate(90deg);
+}
+.bottom .round .num-3 {
+  transform: rotate(135deg);
+}
+.bottom .round .num-4 {
+  transform: rotate(180deg);
+}
+.bottom .round .num-5 {
+  transform: rotate(225deg);
+}
+.bottom .round .num-6 {
+  transform: rotate(270deg);
+}
+.bottom .round .num-7 {
+  transform: rotate(315deg);
+}
+.bottom .ball {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  left: calc(50% - 20px);
+  top: calc(50% - 20px);
+  background-color: #e7ecf0;
+  box-shadow: inset 2px 2px #fff, inset -1px -1px rgba(0, 0, 0, 0.2);
+}/*# sourceMappingURL=index.css.map */

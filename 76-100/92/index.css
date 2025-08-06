@@ -1,0 +1,245 @@
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 5px;
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background-color: rgb(8, 187, 14);
+}
+
+.ball {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: #fff;
+}
+
+.ball-0 {
+  left: 0;
+  top: 0;
+  animation: move-0 4s linear both alternate infinite;
+}
+@keyframes move-0 {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(400px, 200px);
+  }
+}
+
+.ball-1 {
+  right: 0;
+  top: 0;
+  animation: move-1 4s linear both alternate infinite;
+}
+@keyframes move-1 {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-200px, 400px);
+  }
+}
+
+.ball-2 {
+  left: 0;
+  bottom: 0;
+  animation: move-2 4s linear both alternate infinite;
+}
+@keyframes move-2 {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(200px, -400px);
+  }
+}
+
+.ball-3 {
+  right: 0;
+  bottom: 0;
+  animation: move-3 4s linear both alternate infinite;
+}
+@keyframes move-3 {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-400px, -200px);
+  }
+}
+
+.ball-4 {
+  left: 0;
+  top: 0;
+  animation: move-4 4s linear both alternate infinite;
+}
+@keyframes move-4 {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(200px, 400px);
+  }
+}
+
+.ball-5 {
+  right: 0;
+  top: 0;
+  animation: move-5 4s linear both alternate infinite;
+}
+@keyframes move-5 {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-400px, 200px);
+  }
+}
+
+.ball-6 {
+  left: 0;
+  bottom: 0;
+  animation: move-6 4s linear both alternate infinite;
+}
+@keyframes move-6 {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(400px, -200px);
+  }
+}
+
+.ball-7 {
+  right: 0;
+  bottom: 0;
+  animation: move-7 4s linear both alternate infinite;
+}
+@keyframes move-7 {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-200px, -400px);
+  }
+}
+
+.ball-8 {
+  left: calc(50% - 5px);
+  top: 0;
+  animation: move-8 2s linear both alternate infinite;
+}
+@keyframes move-8 {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(200px, 200px);
+  }
+}
+
+.ball-9 {
+  right: 0;
+  top: calc(50% - 5px);
+  animation: move-9 2s linear both alternate infinite;
+}
+@keyframes move-9 {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-200px, 200px);
+  }
+}
+
+.ball-10 {
+  left: calc(50% - 5px);
+  bottom: 0;
+  animation: move-10 2s linear both alternate infinite;
+}
+@keyframes move-10 {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-200px, -200px);
+  }
+}
+
+.ball-11 {
+  left: 0;
+  top: calc(50% - 5px);
+  animation: move-11 2s linear both alternate infinite;
+}
+@keyframes move-11 {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(200px, -200px);
+  }
+}
+
+.ball-12 {
+  left: calc(50% - 5px);
+  top: 0;
+  animation: move-12 2s linear both alternate infinite;
+}
+@keyframes move-12 {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-200px, 200px);
+  }
+}
+
+.ball-13 {
+  right: 0;
+  top: calc(50% - 5px);
+  animation: move-13 2s linear both alternate infinite;
+}
+@keyframes move-13 {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-200px, -200px);
+  }
+}
+
+.ball-14 {
+  left: calc(50% - 5px);
+  bottom: 0;
+  animation: move-14 2s linear both alternate infinite;
+}
+@keyframes move-14 {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(200px, -200px);
+  }
+}
+
+.ball-15 {
+  left: 0;
+  top: calc(50% - 5px);
+  animation: move-15 2s linear both alternate infinite;
+}
+@keyframes move-15 {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(200px, 200px);
+  }
+}/*# sourceMappingURL=index.css.map */

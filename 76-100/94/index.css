@@ -1,0 +1,124 @@
+.frame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -200px;
+    border-radius: 5px;
+    box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+    background-color: #e0f0e5;
+    overflow: hidden;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 120px;
+    height: 260px;
+    transform: translate(-50%, -50%);
+}
+
+.leaf {
+    position: absolute;
+    height: 200px;
+    width: 120px;
+    background: linear-gradient(to right, #ba381d 50%, #e84624 50%);
+    clip-path: polygon(0 100%, 100% 100%, 50% 0);
+    animation: appear-leaf 0.7s ease-in-out both 0.7s;
+}
+
+.branch {
+    position: absolute;
+    width: 120px;
+    height: 180px;
+    bottom: 0;
+    transform-origin: 50% 100%;
+    animation: appear-branch 0.7s ease-in-out;
+
+    .part {
+        position: absolute;
+        width: 4px;
+        background-color: #e8c87e;
+        border-radius: 10px;
+        left: calc(50% - 2px);
+
+        &:not(&.main) {
+            transform-origin: 50% 100%;
+        }
+    }
+
+    .main {
+        height: 200px;
+        bottom: 0;
+    }
+
+    .left-1 {
+        height: 60px;
+        bottom: 65px;
+        transform: rotate(-40deg);
+    }
+
+    .right-1 {
+        height: 50px;
+        bottom: 90px;
+        transform: rotate(40deg);
+    }
+
+    .left-2 {
+        height: 40px;
+        bottom: 115px;
+        transform: rotate(-40deg);
+    }
+
+    .right-2 {
+        height: 30px;
+        bottom: 140px;
+        transform: rotate(40deg);
+    }
+
+    .left-3 {
+        height: 20px;
+        bottom: 165px;
+        transform: rotate(-40deg);
+    }
+
+    .floor {
+        position: absolute;
+        width: 80px;
+        height: 4px;
+        border-radius: 10px;
+        bottom: 0;
+        left: calc(50% - 40px);
+        background-color: #b9d6c2;
+    }
+}
+
+@keyframes appear-branch {
+    0% {
+        transform: scale(0, 0);
+    }
+    60% {
+        transform: scale(1.05, 1.05);
+    }
+    80% {
+        transform: scale(0.95, 0.95);
+    }
+    100% {
+        transform: scale(1, 1);
+    }
+}
+
+@keyframes appear-leaf {
+    0% {
+        transform: rotateY(90deg);
+    }
+    70% {
+        transform: rotateY(-30deg);
+    }
+    100% {
+        transform: rotateY(0);
+    }
+}

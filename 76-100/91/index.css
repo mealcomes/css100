@@ -1,0 +1,116 @@
+.frame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -200px;
+    border-radius: 5px;
+    box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background-color: #34495e;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 140px;
+    height: 140px;
+    transform: translate(-50%, -50%);
+    perspective: 800px;
+}
+
+.square {
+    transform: rotateX(-20deg) rotateY(45deg);
+    transform-style: preserve-3d;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+
+    &:hover {
+        transform: rotateX(-20deg) rotateY(45deg) translateY(-20px);
+        .bottom {
+            box-shadow: -10px 10px 40px 2px rgba(0, 0, 0, 0.3);
+        }
+    }
+}
+
+.side {
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    background: rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+}
+
+.front {
+    transform: translateZ(70px);
+    &::after {
+        position: absolute;
+        content: '';
+        width: 100%;
+        height: 100%;
+        background-color: #2dc36e;
+        animation: fill 3s ease alternate both infinite;
+    }
+}
+
+.back {
+    transform: translateZ(-70px);
+}
+
+.left {
+    transform: rotateY(90deg) translateZ(-70px);
+    &::after {
+        position: absolute;
+        content: '';
+        width: 100%;
+        height: 100%;
+        background-color: #2dc36e;
+        animation: fill 3s ease alternate both infinite;
+    }
+}
+
+.right {
+    transform: rotateY(90deg) translateZ(70px);
+}
+
+.top {
+    opacity: 0.2;
+    transform: rotateX(90deg) translateZ(70px);
+}
+
+.fill-top {
+    background-color: #29b365;
+    transform: rotateX(90deg) translateZ(70px);
+    animation: fill-top 3s ease alternate both infinite;
+}
+
+.bottom {
+    transform: rotateX(90deg) translateZ(-70px);
+    box-shadow: -10px 10px 10px 2px rgba(0, 0, 0, 0.3);
+}
+
+@keyframes fill {
+    0%,
+    25% {
+        transform: translateY(100%);
+    }
+    75%,
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes fill-top {
+    0%,
+    25% {
+        transform: rotateX(90deg) translateZ(-70px);
+    }
+    75%,
+    100% {
+        transform: rotateX(90deg) translateZ(70px);
+    }
+}

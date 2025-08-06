@@ -1,0 +1,120 @@
+.frame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -200px;
+    border-radius: 5px;
+    box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background-color: #f83bb6;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 160px;
+    height: 160px;
+    transform: translate(-50%, -50%);
+}
+
+.pig {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    left: calc(50% - 75px);
+    bottom: 0;
+    background-color: #f7949a;
+
+    .ear {
+        position: absolute;
+        width: 70px;
+        height: 70px;
+        top: -8px;
+        border-radius: 20px;
+        background-color: #ffb7bc;
+        border: #f7949a solid 8px;
+        z-index: -1;
+    }
+
+    .ear-1 {
+        left: -5px;
+        transform: rotate3d(1, 1, 0, 50deg);
+    }
+
+    .ear-2 {
+        right: -5px;
+        transform: rotate3d(1, -1, 0, 50deg);
+    }
+
+    .eye {
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        border-radius: 100%;
+        background-color: #fff;
+        bottom: 70px;
+        animation: wink 5s ease-in-out infinite;
+
+        &::after {
+            content: '';
+            position: absolute;
+            width: 5px;
+            height: 5px;
+            border-radius: 100%;
+            background-color: #000;
+            left: calc(50% - 2.5px);
+            top: calc(50% - 2.5px);
+        }
+
+        &.eye-1 {
+            left: 35px;
+        }
+
+        &.eye-2 {
+            right: 35px;
+        }
+    }
+
+    .nose {
+        position: absolute;
+        width: 60px;
+        height: 50px;
+        border-radius: 100%;
+        background-color: #ffb7bc;
+        left: calc(50% - 30px);
+        bottom: 20px;
+        .nostril {
+            position: absolute;
+            width: 12px;
+            height: 12px;
+            border-radius: 100%;
+            background-color: #ce666d;
+            top: 15px;
+
+            &.nostril-1 {
+                left: 15px;
+            }
+
+            &.nostril-2 {
+                right: 15px;
+            }
+        }
+    }
+}
+
+@keyframes wink {
+    0%,
+    45%,
+    55%,
+    100% {
+        transform: rotateX(0);
+    }
+    50% {
+        transform: rotateX(90deg);
+    }
+}

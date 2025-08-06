@@ -1,0 +1,105 @@
+.frame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -200px;
+    border-radius: 5px;
+    box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background-color: rgb(8, 187, 14);
+}
+
+.ball {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: #fff;
+}
+
+@for $i from 0 through 7 {
+    .ball-#{$i} {
+        @if $i % 4 == 0 or $i % 4 == 2 {
+            left: 0;
+        } @else {
+            right: 0;
+        }
+        @if $i % 4 == 0 or $i % 4 == 1 {
+            top: 0;
+        } @else {
+            bottom: 0;
+        }
+        animation: move-#{$i} 4s linear both alternate infinite;
+        @keyframes move-#{$i} {
+            0% {
+                transform: translate(0, 0);
+            }
+            100% {
+                @if $i == 0 {
+                    transform: translate(400px, 200px);
+                } @else if $i == 1 {
+                    transform: translate(-200px, 400px);
+                } @else if $i == 2 {
+                    transform: translate(200px, -400px);
+                } @else if $i == 3 {
+                    transform: translate(-400px, -200px);
+                } @else if $i == 4 {
+                    transform: translate(200px, 400px);
+                } @else if $i == 5 {
+                    transform: translate(-400px, 200px);
+                } @else if $i == 6 {
+                    transform: translate(400px, -200px);
+                } @else if $i == 7 {
+                    transform: translate(-200px, -400px);
+                }
+            }
+        }
+    }
+}
+
+@for $i from 8 through 15 {
+    .ball-#{$i} {
+        @if $i % 4 == 0 or $i % 4 == 2 {
+            left: calc(50% - 5px);
+        } @else if ($i % 4 == 1) {
+            right: 0;
+        } @else {
+            left: 0;
+        }
+        @if $i % 4 == 1 or $i % 4 == 3 {
+            top: calc(50% - 5px);
+        } @else if($i % 4 == 0) {
+            top: 0;
+        } @else {
+            bottom: 0;
+        }
+        animation: move-#{$i} 2s linear both alternate infinite;
+        @keyframes move-#{$i} {
+            0% {
+                transform: translate(0, 0);
+            }
+            100% {
+                @if $i == 8 {
+                    transform: translate(200px, 200px);
+                } @else if $i == 9 {
+                    transform: translate(-200px, 200px);
+                } @else if $i == 10 {
+                    transform: translate(-200px, -200px);
+                } @else if $i == 11 {
+                    transform: translate(200px, -200px);
+                } @else if $i == 12 {
+                    transform: translate(-200px, 200px);
+                } @else if $i == 13 {
+                    transform: translate(-200px, -200px);
+                } @else if $i == 14 {
+                    transform: translate(200px, -200px);
+                } @else if $i == 15 {
+                    transform: translate(200px, 200px);
+                }
+            }
+        }
+    }
+}
