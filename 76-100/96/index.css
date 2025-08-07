@@ -1,0 +1,116 @@
+.frame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -200px;
+    border-radius: 5px;
+    box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background-color: #3498db;
+}
+
+.down {
+    position: absolute;
+    top: 80px;
+    left: calc(50% - 50px);
+    width: 100px;
+    height: 100px;
+    animation: down 2s ease-in-out infinite;
+    z-index: 1;
+}
+
+@keyframes down {
+    0% {
+        transform: translateY(0);
+    }
+    16%,
+    100% {
+        transform: translateY(90px);
+    }
+}
+
+.up {
+    animation: up 2s ease-in-out infinite;
+}
+
+@keyframes up {
+    0%,
+    80% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-90px);
+    }
+}
+
+.rotate-in {
+    animation: rotate-in 2s ease-out infinite;
+}
+
+@keyframes rotate-in {
+    0% {
+        transform: rotate(-135deg);
+    }
+    16%,
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+.rotate-out {
+    animation: rotate-out 2s ease-in infinite;
+}
+
+@keyframes rotate-out {
+    0%,
+    80% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(135deg);
+    }
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    transform-origin: 50% 100%;
+    background-color: #fff;
+    animation: square 2s ease-in-out infinite;
+}
+
+@keyframes square {
+    0%,
+    5%,
+    100% {
+        transform: scale(1, 1);
+    }
+    50% {
+        transform: scale(2, 0.5);
+    }
+}
+
+.floor {
+    position: absolute;
+    height: 20px;
+    width: 60px;
+    left: calc(50% - 30px);
+    top: 260px;
+    border-radius: 100% 100% / 6px 6px;
+    background-color: rgba(0, 0, 0, 0.2);
+    animation: floor 2s ease-in-out infinite;
+}
+
+@keyframes floor {
+    0%,
+    100% {
+        transform: scaleX(1);
+    }
+    45%,
+    65% {
+        transform: scaleX(4);
+    }
+}

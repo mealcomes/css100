@@ -29,1504 +29,1504 @@
   background-color: #fff;
 }
 .center .star-1 {
-  top: 242px;
-  left: 30px;
-  animation: 3.6s flicker -1.3s infinite;
-}
-.center .star-2 {
-  top: 67px;
-  left: 246px;
-  animation: 2.5s flicker -1.8s infinite;
-}
-.center .star-3 {
-  top: 244px;
-  left: 13px;
-  animation: 2.4s flicker -1.9s infinite;
-}
-.center .star-4 {
-  top: 92px;
-  left: 135px;
-  animation: 2.2s flicker -1.6s infinite;
-}
-.center .star-5 {
-  top: 266px;
-  left: 272px;
-  animation: 2.1s flicker -1.9s infinite;
-}
-.center .star-6 {
-  top: 39px;
-  left: 195px;
-  animation: 2.5s flicker -0.6s infinite;
-}
-.center .star-7 {
-  top: 212px;
-  left: 9px;
-  animation: 3.8s flicker -0.8s infinite;
-}
-.center .star-8 {
-  top: 113px;
-  left: 151px;
-  animation: 2.2s flicker -0.8s infinite;
-}
-.center .star-9 {
-  top: 174px;
-  left: 203px;
-  animation: 3s flicker -0.2s infinite;
-}
-.center .star-10 {
-  top: 75px;
-  left: 4px;
-  animation: 3.4s flicker -0.2s infinite;
-}
-.center .star-11 {
-  top: 148px;
-  left: 183px;
-  animation: 3.6s flicker -1.9s infinite;
-}
-.center .star-12 {
-  top: 242px;
-  left: 76px;
-  animation: 3.8s flicker -1.7s infinite;
-}
-.center .star-13 {
-  top: 10px;
-  left: 45px;
-  animation: 2.3s flicker -1.9s infinite;
-}
-.center .star-14 {
-  top: 193px;
-  left: 268px;
-  animation: 2.6s flicker -1.9s infinite;
-}
-.center .star-15 {
-  top: 52px;
-  left: 193px;
-  animation: 3s flicker -0.4s infinite;
-}
-.center .star-16 {
-  top: 133px;
-  left: 165px;
-  animation: 2.7s flicker -0.9s infinite;
-}
-.center .star-17 {
-  top: 221px;
-  left: 137px;
-  animation: 3s flicker -0.9s infinite;
-}
-.center .star-18 {
-  top: 175px;
-  left: 132px;
-  animation: 3.1s flicker -0.5s infinite;
-}
-.center .star-19 {
-  top: 22px;
-  left: 251px;
-  animation: 3.2s flicker -1s infinite;
-}
-.center .star-20 {
-  top: 291px;
-  left: 46px;
-  animation: 2.8s flicker -0.9s infinite;
-}
-.center .star-21 {
-  top: 288px;
-  left: 17px;
-  animation: 2.3s flicker -0.8s infinite;
-}
-.center .star-22 {
-  top: 6px;
-  left: 111px;
-  animation: 3s flicker -0.7s infinite;
-}
-.center .star-23 {
-  top: 145px;
-  left: 227px;
-  animation: 3.4s flicker -0.6s infinite;
-}
-.center .star-24 {
-  top: 126px;
-  left: 168px;
-  animation: 3.8s flicker -0.9s infinite;
-}
-.center .star-25 {
-  top: 145px;
-  left: 164px;
-  animation: 2.2s flicker -1.3s infinite;
-}
-.center .star-26 {
-  top: 250px;
-  left: 143px;
-  animation: 3.9s flicker -1.5s infinite;
-}
-.center .star-27 {
-  top: 52px;
-  left: 189px;
-  animation: 3.6s flicker -1.5s infinite;
-}
-.center .star-28 {
-  top: 244px;
-  left: 9px;
-  animation: 2.7s flicker -1.8s infinite;
-}
-.center .star-29 {
-  top: 62px;
-  left: 129px;
-  animation: 3.6s flicker -1.1s infinite;
-}
-.center .star-30 {
-  top: 219px;
-  left: 117px;
-  animation: 2.8s flicker -0.7s infinite;
-}
-.center .star-31 {
-  top: 284px;
-  left: 224px;
-  animation: 2.6s flicker -0.9s infinite;
-}
-.center .star-32 {
-  top: 144px;
-  left: 1px;
-  animation: 2.7s flicker -0.8s infinite;
-}
-.center .star-33 {
-  top: 44px;
-  left: 82px;
-  animation: 3.3s flicker -0.3s infinite;
-}
-.center .star-34 {
-  top: 295px;
-  left: 115px;
-  animation: 2.8s flicker -1.2s infinite;
-}
-.center .star-35 {
-  top: 198px;
-  left: 262px;
-  animation: 2.3s flicker -0.8s infinite;
-}
-.center .star-36 {
-  top: 170px;
-  left: 126px;
-  animation: 3s flicker -0.5s infinite;
-}
-.center .star-37 {
-  top: 45px;
-  left: 287px;
-  animation: 3.6s flicker -0.6s infinite;
-}
-.center .star-38 {
-  top: 213px;
-  left: 37px;
-  animation: 3s flicker -0.5s infinite;
-}
-.center .star-39 {
-  top: 284px;
-  left: 125px;
-  animation: 2.3s flicker -0.7s infinite;
-}
-.center .star-40 {
-  top: 11px;
-  left: 289px;
-  animation: 2.1s flicker -1.3s infinite;
-}
-.center .star-41 {
-  top: 228px;
-  left: 225px;
-  animation: 3.8s flicker -1.2s infinite;
-}
-.center .star-42 {
-  top: 66px;
-  left: 153px;
-  animation: 3.4s flicker -1.1s infinite;
-}
-.center .star-43 {
-  top: 195px;
-  left: 248px;
-  animation: 2.1s flicker -0.8s infinite;
-}
-.center .star-44 {
-  top: 91px;
-  left: 290px;
-  animation: 3.8s flicker -0.9s infinite;
-}
-.center .star-45 {
-  top: 30px;
-  left: 43px;
-  animation: 3.2s flicker -0.5s infinite;
-}
-.center .star-46 {
-  top: 101px;
-  left: 253px;
-  animation: 2.2s flicker -1.8s infinite;
-}
-.center .star-47 {
-  top: 159px;
-  left: 140px;
-  animation: 2.6s flicker -0.3s infinite;
-}
-.center .star-48 {
-  top: 108px;
-  left: 129px;
-  animation: 2.4s flicker -0.5s infinite;
-}
-.center .star-49 {
-  top: 173px;
-  left: 160px;
-  animation: 2.1s flicker -1.2s infinite;
-}
-.center .star-50 {
-  top: 191px;
-  left: 51px;
-  animation: 2.5s flicker -1.3s infinite;
-}
-.center .star-51 {
-  top: 3px;
-  left: 42px;
-  animation: 3.2s flicker -0.9s infinite;
-}
-.center .star-52 {
-  top: 15px;
-  left: 169px;
-  animation: 3s flicker -1.1s infinite;
-}
-.center .star-53 {
-  top: 68px;
-  left: 58px;
-  animation: 3s flicker -1.3s infinite;
-}
-.center .star-54 {
-  top: 71px;
-  left: 180px;
-  animation: 3.1s flicker -2s infinite;
-}
-.center .star-55 {
-  top: 216px;
-  left: 57px;
-  animation: 3.8s flicker -0.2s infinite;
-}
-.center .star-56 {
-  top: 10px;
-  left: 47px;
-  animation: 3.3s flicker -1.1s infinite;
-}
-.center .star-57 {
-  top: 195px;
-  left: 248px;
-  animation: 3.6s flicker -0.5s infinite;
-}
-.center .star-58 {
-  top: 116px;
-  left: 136px;
-  animation: 2.1s flicker -0.6s infinite;
-}
-.center .star-59 {
-  top: 286px;
-  left: 204px;
-  animation: 3.6s flicker -0.2s infinite;
-}
-.center .star-60 {
-  top: 192px;
-  left: 17px;
-  animation: 2.2s flicker -0.3s infinite;
-}
-.center .star-61 {
-  top: 210px;
-  left: 21px;
-  animation: 2.1s flicker -1.8s infinite;
-}
-.center .star-62 {
-  top: 198px;
-  left: 131px;
-  animation: 3.8s flicker -1.6s infinite;
-}
-.center .star-63 {
-  top: 143px;
-  left: 216px;
-  animation: 3.3s flicker -0.5s infinite;
-}
-.center .star-64 {
-  top: 192px;
-  left: 43px;
-  animation: 3.5s flicker -0.7s infinite;
-}
-.center .star-65 {
-  top: 108px;
-  left: 281px;
-  animation: 3s flicker -0.1s infinite;
-}
-.center .star-66 {
-  top: 224px;
-  left: 224px;
-  animation: 3.5s flicker -2s infinite;
-}
-.center .star-67 {
-  top: 92px;
-  left: 111px;
-  animation: 2.7s flicker -0.5s infinite;
-}
-.center .star-68 {
-  top: 244px;
-  left: 159px;
-  animation: 3.8s flicker -0.7s infinite;
-}
-.center .star-69 {
-  top: 22px;
-  left: 91px;
-  animation: 2.3s flicker -1.5s infinite;
-}
-.center .star-70 {
-  top: 219px;
-  left: 120px;
-  animation: 3.6s flicker -0.7s infinite;
-}
-.center .star-71 {
-  top: 53px;
-  left: 292px;
-  animation: 3.2s flicker -1s infinite;
-}
-.center .star-72 {
-  top: 104px;
-  left: 217px;
-  animation: 2.3s flicker -1.4s infinite;
-}
-.center .star-73 {
-  top: 299px;
-  left: 124px;
-  animation: 3.5s flicker -1s infinite;
-}
-.center .star-74 {
-  top: 209px;
-  left: 184px;
-  animation: 3.6s flicker -2s infinite;
-}
-.center .star-75 {
-  top: 275px;
-  left: 52px;
-  animation: 3.9s flicker -1.5s infinite;
-}
-.center .star-76 {
-  top: 214px;
-  left: 41px;
-  animation: 2.9s flicker -1.2s infinite;
-}
-.center .star-77 {
-  top: 175px;
-  left: 248px;
-  animation: 3.4s flicker -1.6s infinite;
-}
-.center .star-78 {
-  top: 126px;
-  left: 102px;
-  animation: 3.6s flicker -0.9s infinite;
-}
-.center .star-79 {
-  top: 187px;
-  left: 271px;
-  animation: 4s flicker -1.1s infinite;
-}
-.center .star-80 {
-  top: 260px;
-  left: 163px;
-  animation: 3.3s flicker -1s infinite;
-}
-.center .star-81 {
-  top: 168px;
-  left: 203px;
-  animation: 3.6s flicker -0.6s infinite;
-}
-.center .star-82 {
-  top: 147px;
-  left: 7px;
-  animation: 2.9s flicker -0.8s infinite;
-}
-.center .star-83 {
-  top: 263px;
-  left: 198px;
-  animation: 2.3s flicker -0.9s infinite;
-}
-.center .star-84 {
-  top: 13px;
-  left: 149px;
-  animation: 3.8s flicker -1s infinite;
-}
-.center .star-85 {
-  top: 6px;
-  left: 104px;
-  animation: 2.7s flicker -1.1s infinite;
-}
-.center .star-86 {
-  top: 39px;
-  left: 233px;
-  animation: 3s flicker -1s infinite;
-}
-.center .star-87 {
-  top: 118px;
-  left: 157px;
-  animation: 2.2s flicker -0.6s infinite;
-}
-.center .star-88 {
-  top: 61px;
-  left: 202px;
-  animation: 2.3s flicker -0.7s infinite;
-}
-.center .star-89 {
-  top: 109px;
-  left: 24px;
-  animation: 3.3s flicker -0.2s infinite;
-}
-.center .star-90 {
-  top: 140px;
-  left: 54px;
-  animation: 3.2s flicker -1.8s infinite;
-}
-.center .star-91 {
-  top: 38px;
-  left: 102px;
-  animation: 3.5s flicker -1s infinite;
-}
-.center .star-92 {
-  top: 141px;
-  left: 204px;
-  animation: 2.9s flicker -1.7s infinite;
-}
-.center .star-93 {
-  top: 20px;
-  left: 284px;
-  animation: 2.5s flicker -1.3s infinite;
-}
-.center .star-94 {
-  top: 217px;
-  left: 169px;
-  animation: 2.5s flicker -1.6s infinite;
-}
-.center .star-95 {
-  top: 8px;
-  left: 190px;
-  animation: 2.9s flicker -1.3s infinite;
-}
-.center .star-96 {
-  top: 38px;
-  left: 38px;
-  animation: 3.7s flicker -0.8s infinite;
-}
-.center .star-97 {
-  top: 170px;
-  left: 111px;
-  animation: 3.6s flicker -1.4s infinite;
-}
-.center .star-98 {
-  top: 131px;
-  left: 43px;
-  animation: 3.5s flicker -0.5s infinite;
-}
-.center .star-99 {
-  top: 75px;
-  left: 120px;
-  animation: 3.2s flicker -0.6s infinite;
-}
-.center .star-100 {
-  top: 36px;
-  left: 95px;
+  top: 31px;
+  left: 258px;
   animation: 2.3s flicker -2s infinite;
 }
-.center .star-101 {
-  top: 295px;
-  left: 73px;
-  animation: 2.1s flicker -0.3s infinite;
-}
-.center .star-102 {
-  top: 118px;
-  left: 181px;
-  animation: 2.8s flicker -0.6s infinite;
-}
-.center .star-103 {
-  top: 137px;
-  left: 85px;
-  animation: 3.5s flicker -0.3s infinite;
-}
-.center .star-104 {
-  top: 168px;
-  left: 17px;
-  animation: 2.6s flicker -1.2s infinite;
-}
-.center .star-105 {
-  top: 86px;
-  left: 71px;
-  animation: 2.8s flicker -0.5s infinite;
-}
-.center .star-106 {
-  top: 234px;
-  left: 66px;
-  animation: 3.8s flicker -0.6s infinite;
-}
-.center .star-107 {
-  top: 243px;
-  left: 152px;
-  animation: 2.4s flicker -1.1s infinite;
-}
-.center .star-108 {
-  top: 32px;
-  left: 113px;
-  animation: 2.2s flicker -1.1s infinite;
-}
-.center .star-109 {
-  top: 20px;
-  left: 72px;
-  animation: 2.1s flicker -2s infinite;
-}
-.center .star-110 {
-  top: 124px;
-  left: 215px;
-  animation: 3.1s flicker -0.8s infinite;
-}
-.center .star-111 {
-  top: 8px;
-  left: 162px;
-  animation: 2.8s flicker -0.2s infinite;
-}
-.center .star-112 {
-  top: 235px;
-  left: 44px;
-  animation: 2.8s flicker -0.9s infinite;
-}
-.center .star-113 {
-  top: 171px;
-  left: 228px;
-  animation: 3.5s flicker -1.6s infinite;
-}
-.center .star-114 {
-  top: 225px;
-  left: 63px;
-  animation: 3.9s flicker -0.9s infinite;
-}
-.center .star-115 {
-  top: 15px;
-  left: 76px;
-  animation: 3.7s flicker -0.5s infinite;
-}
-.center .star-116 {
-  top: 135px;
-  left: 203px;
-  animation: 2.1s flicker -0.6s infinite;
-}
-.center .star-117 {
-  top: 186px;
-  left: 139px;
-  animation: 2.4s flicker -1.4s infinite;
-}
-.center .star-118 {
-  top: 2px;
-  left: 92px;
-  animation: 3.8s flicker -2s infinite;
-}
-.center .star-119 {
-  top: 278px;
-  left: 158px;
-  animation: 2.5s flicker -1.7s infinite;
-}
-.center .star-120 {
-  top: 261px;
-  left: 85px;
-  animation: 4s flicker -0.4s infinite;
-}
-.center .star-121 {
-  top: 99px;
-  left: 217px;
-  animation: 2.2s flicker -0.5s infinite;
-}
-.center .star-122 {
-  top: 160px;
-  left: 83px;
-  animation: 3.9s flicker -1.3s infinite;
-}
-.center .star-123 {
-  top: 16px;
-  left: 147px;
-  animation: 3.2s flicker -0.7s infinite;
-}
-.center .star-124 {
-  top: 160px;
-  left: 9px;
-  animation: 2.1s flicker -0.2s infinite;
-}
-.center .star-125 {
-  top: 237px;
-  left: 248px;
-  animation: 3.6s flicker -0.5s infinite;
-}
-.center .star-126 {
-  top: 274px;
-  left: 144px;
-  animation: 3.8s flicker -2s infinite;
-}
-.center .star-127 {
-  top: 118px;
-  left: 46px;
-  animation: 2.4s flicker -1s infinite;
-}
-.center .star-128 {
-  top: 284px;
-  left: 279px;
-  animation: 2.6s flicker -1.5s infinite;
-}
-.center .star-129 {
-  top: 213px;
-  left: 163px;
-  animation: 2.9s flicker -0.9s infinite;
-}
-.center .star-130 {
-  top: 8px;
-  left: 19px;
-  animation: 2.5s flicker -1s infinite;
-}
-.center .star-131 {
-  top: 282px;
-  left: 172px;
-  animation: 3.9s flicker -0.9s infinite;
-}
-.center .star-132 {
-  top: 60px;
-  left: 81px;
-  animation: 2.7s flicker -1.8s infinite;
-}
-.center .star-133 {
-  top: 1px;
-  left: 5px;
-  animation: 2.2s flicker -0.7s infinite;
-}
-.center .star-134 {
-  top: 177px;
-  left: 135px;
-  animation: 2.6s flicker -0.7s infinite;
-}
-.center .star-135 {
-  top: 150px;
-  left: 206px;
-  animation: 2.5s flicker -0.2s infinite;
-}
-.center .star-136 {
-  top: 276px;
-  left: 206px;
-  animation: 3.9s flicker -0.4s infinite;
-}
-.center .star-137 {
-  top: 280px;
-  left: 29px;
-  animation: 3.5s flicker -1.1s infinite;
-}
-.center .star-138 {
-  top: 82px;
-  left: 45px;
-  animation: 2.1s flicker -1.3s infinite;
-}
-.center .star-139 {
-  top: 50px;
-  left: 22px;
-  animation: 3.3s flicker -1s infinite;
-}
-.center .star-140 {
-  top: 207px;
-  left: 254px;
-  animation: 2.4s flicker -1.9s infinite;
-}
-.center .star-141 {
-  top: 161px;
-  left: 16px;
-  animation: 3.9s flicker -0.3s infinite;
-}
-.center .star-142 {
-  top: 300px;
-  left: 109px;
-  animation: 2.8s flicker -1.6s infinite;
-}
-.center .star-143 {
-  top: 144px;
-  left: 3px;
-  animation: 3s flicker -1.1s infinite;
-}
-.center .star-144 {
-  top: 76px;
-  left: 86px;
-  animation: 3s flicker -0.5s infinite;
-}
-.center .star-145 {
-  top: 176px;
-  left: 207px;
-  animation: 2.6s flicker -1.6s infinite;
-}
-.center .star-146 {
-  top: 125px;
-  left: 13px;
-  animation: 2.1s flicker -0.3s infinite;
-}
-.center .star-147 {
-  top: 133px;
-  left: 236px;
-  animation: 3.6s flicker -1.5s infinite;
-}
-.center .star-148 {
-  top: 185px;
-  left: 198px;
-  animation: 3.2s flicker -1.6s infinite;
-}
-.center .star-149 {
-  top: 159px;
-  left: 245px;
-  animation: 3.1s flicker -0.2s infinite;
-}
-.center .star-150 {
-  top: 144px;
-  left: 17px;
-  animation: 2.8s flicker -0.5s infinite;
-}
-.center .star-151 {
-  top: 138px;
-  left: 34px;
-  animation: 3.4s flicker -0.3s infinite;
-}
-.center .star-152 {
-  top: 233px;
-  left: 181px;
-  animation: 2.1s flicker -1.2s infinite;
-}
-.center .star-153 {
-  top: 187px;
-  left: 272px;
-  animation: 3.3s flicker -0.5s infinite;
-}
-.center .star-154 {
-  top: 186px;
-  left: 2px;
-  animation: 3.6s flicker -1.2s infinite;
-}
-.center .star-155 {
-  top: 247px;
-  left: 97px;
-  animation: 2.6s flicker -0.1s infinite;
-}
-.center .star-156 {
-  top: 203px;
-  left: 34px;
-  animation: 2.1s flicker -2s infinite;
-}
-.center .star-157 {
-  top: 40px;
-  left: 198px;
-  animation: 3.4s flicker -1.6s infinite;
-}
-.center .star-158 {
-  top: 50px;
-  left: 104px;
-  animation: 2.9s flicker -1.9s infinite;
-}
-.center .star-159 {
-  top: 208px;
-  left: 237px;
-  animation: 3.8s flicker -0.5s infinite;
-}
-.center .star-160 {
-  top: 289px;
-  left: 93px;
-  animation: 2.9s flicker -0.1s infinite;
-}
-.center .star-161 {
-  top: 130px;
-  left: 119px;
-  animation: 3.9s flicker -1.6s infinite;
-}
-.center .star-162 {
-  top: 231px;
-  left: 228px;
-  animation: 2.1s flicker -0.3s infinite;
-}
-.center .star-163 {
-  top: 242px;
-  left: 74px;
-  animation: 3.1s flicker -0.5s infinite;
-}
-.center .star-164 {
-  top: 220px;
-  left: 39px;
-  animation: 2.4s flicker -0.6s infinite;
-}
-.center .star-165 {
-  top: 190px;
-  left: 291px;
-  animation: 3.3s flicker -0.2s infinite;
-}
-.center .star-166 {
-  top: 172px;
-  left: 226px;
-  animation: 3s flicker -2s infinite;
-}
-.center .star-167 {
-  top: 68px;
-  left: 47px;
-  animation: 3.6s flicker -0.1s infinite;
-}
-.center .star-168 {
-  top: 152px;
-  left: 19px;
-  animation: 3s flicker -0.4s infinite;
-}
-.center .star-169 {
-  top: 47px;
-  left: 36px;
-  animation: 3.6s flicker -1.3s infinite;
-}
-.center .star-170 {
-  top: 251px;
-  left: 287px;
-  animation: 3.2s flicker -1.8s infinite;
-}
-.center .star-171 {
-  top: 179px;
-  left: 19px;
-  animation: 2.2s flicker -0.6s infinite;
-}
-.center .star-172 {
-  top: 188px;
-  left: 174px;
-  animation: 3.9s flicker -1.8s infinite;
-}
-.center .star-173 {
-  top: 177px;
-  left: 134px;
-  animation: 2.1s flicker -1.8s infinite;
-}
-.center .star-174 {
-  top: 127px;
-  left: 50px;
-  animation: 2.4s flicker -1.9s infinite;
-}
-.center .star-175 {
-  top: 24px;
-  left: 120px;
-  animation: 3.7s flicker -1s infinite;
-}
-.center .star-176 {
-  top: 41px;
-  left: 154px;
-  animation: 3.2s flicker -1.2s infinite;
-}
-.center .star-177 {
-  top: 300px;
-  left: 212px;
-  animation: 3.6s flicker -0.8s infinite;
-}
-.center .star-178 {
-  top: 255px;
-  left: 80px;
-  animation: 4s flicker -1.1s infinite;
-}
-.center .star-179 {
-  top: 181px;
-  left: 104px;
-  animation: 2.7s flicker -1.6s infinite;
-}
-.center .star-180 {
-  top: 15px;
-  left: 80px;
-  animation: 2.1s flicker -1s infinite;
-}
-.center .star-181 {
-  top: 52px;
-  left: 195px;
-  animation: 3.7s flicker -1.8s infinite;
-}
-.center .star-182 {
-  top: 113px;
-  left: 9px;
-  animation: 2.2s flicker -0.6s infinite;
-}
-.center .star-183 {
-  top: 44px;
-  left: 93px;
-  animation: 3s flicker -1.5s infinite;
-}
-.center .star-184 {
-  top: 77px;
-  left: 115px;
-  animation: 3.4s flicker -2s infinite;
-}
-.center .star-185 {
-  top: 110px;
-  left: 55px;
-  animation: 3.4s flicker -0.4s infinite;
-}
-.center .star-186 {
-  top: 67px;
-  left: 228px;
-  animation: 2.8s flicker -0.5s infinite;
-}
-.center .star-187 {
-  top: 242px;
-  left: 139px;
-  animation: 4s flicker -1.2s infinite;
-}
-.center .star-188 {
-  top: 138px;
-  left: 212px;
-  animation: 3.6s flicker -1.4s infinite;
-}
-.center .star-189 {
-  top: 199px;
-  left: 291px;
-  animation: 3.4s flicker -0.2s infinite;
-}
-.center .star-190 {
-  top: 148px;
-  left: 241px;
-  animation: 3.6s flicker -2s infinite;
-}
-.center .star-191 {
-  top: 298px;
-  left: 1px;
-  animation: 2.3s flicker -0.2s infinite;
-}
-.center .star-192 {
-  top: 5px;
-  left: 228px;
-  animation: 3.9s flicker -0.5s infinite;
-}
-.center .star-193 {
-  top: 106px;
-  left: 119px;
-  animation: 3.8s flicker -1.5s infinite;
-}
-.center .star-194 {
-  top: 149px;
-  left: 230px;
-  animation: 2.8s flicker -0.2s infinite;
-}
-.center .star-195 {
-  top: 70px;
-  left: 202px;
-  animation: 2.4s flicker -1.4s infinite;
-}
-.center .star-196 {
-  top: 52px;
-  left: 266px;
-  animation: 3.2s flicker -1.8s infinite;
-}
-.center .star-197 {
-  top: 23px;
-  left: 205px;
-  animation: 3.8s flicker -0.6s infinite;
-}
-.center .star-198 {
-  top: 123px;
-  left: 132px;
-  animation: 3.1s flicker -1.4s infinite;
-}
-.center .star-199 {
-  top: 31px;
-  left: 209px;
-  animation: 2.2s flicker -0.1s infinite;
-}
-.center .star-200 {
-  top: 29px;
-  left: 38px;
-  animation: 3.1s flicker -1.3s infinite;
-}
-.center .star-201 {
-  top: 160px;
-  left: 213px;
-  animation: 3.1s flicker -0.3s infinite;
-}
-.center .star-202 {
-  top: 288px;
-  left: 270px;
-  animation: 4s flicker -0.6s infinite;
-}
-.center .star-203 {
-  top: 165px;
-  left: 295px;
-  animation: 3.1s flicker -0.6s infinite;
-}
-.center .star-204 {
-  top: 211px;
-  left: 220px;
-  animation: 3.8s flicker -0.2s infinite;
-}
-.center .star-205 {
-  top: 194px;
-  left: 170px;
-  animation: 3.5s flicker -1.3s infinite;
-}
-.center .star-206 {
-  top: 218px;
-  left: 268px;
-  animation: 3.6s flicker -2s infinite;
-}
-.center .star-207 {
-  top: 10px;
-  left: 133px;
-  animation: 3.6s flicker -1.4s infinite;
-}
-.center .star-208 {
-  top: 112px;
-  left: 37px;
-  animation: 3s flicker -1.2s infinite;
-}
-.center .star-209 {
-  top: 7px;
-  left: 37px;
-  animation: 3.8s flicker -0.8s infinite;
-}
-.center .star-210 {
-  top: 165px;
-  left: 145px;
-  animation: 3.2s flicker -1.6s infinite;
-}
-.center .star-211 {
-  top: 73px;
-  left: 264px;
-  animation: 2.1s flicker -2s infinite;
-}
-.center .star-212 {
-  top: 236px;
-  left: 233px;
-  animation: 3.1s flicker -0.6s infinite;
-}
-.center .star-213 {
-  top: 142px;
-  left: 48px;
-  animation: 3.8s flicker -0.6s infinite;
-}
-.center .star-214 {
-  top: 163px;
-  left: 298px;
-  animation: 3.3s flicker -1s infinite;
-}
-.center .star-215 {
-  top: 82px;
-  left: 18px;
-  animation: 3.2s flicker -0.6s infinite;
-}
-.center .star-216 {
-  top: 181px;
-  left: 272px;
-  animation: 3.1s flicker -1.8s infinite;
-}
-.center .star-217 {
-  top: 143px;
-  left: 12px;
-  animation: 3.3s flicker -1.7s infinite;
-}
-.center .star-218 {
-  top: 37px;
-  left: 130px;
-  animation: 2.8s flicker -1.8s infinite;
-}
-.center .star-219 {
-  top: 89px;
-  left: 273px;
-  animation: 2.4s flicker -1.5s infinite;
-}
-.center .star-220 {
-  top: 240px;
-  left: 116px;
-  animation: 4s flicker -1s infinite;
-}
-.center .star-221 {
-  top: 149px;
-  left: 190px;
-  animation: 3.7s flicker -0.5s infinite;
-}
-.center .star-222 {
-  top: 253px;
-  left: 288px;
-  animation: 3.4s flicker -0.6s infinite;
-}
-.center .star-223 {
-  top: 120px;
-  left: 291px;
-  animation: 3.9s flicker -2s infinite;
-}
-.center .star-224 {
-  top: 77px;
-  left: 32px;
-  animation: 3.1s flicker -0.6s infinite;
-}
-.center .star-225 {
-  top: 180px;
-  left: 167px;
-  animation: 3.5s flicker -0.4s infinite;
-}
-.center .star-226 {
-  top: 118px;
-  left: 297px;
-  animation: 2.8s flicker -0.5s infinite;
-}
-.center .star-227 {
-  top: 194px;
-  left: 238px;
-  animation: 2.6s flicker -1.8s infinite;
-}
-.center .star-228 {
-  top: 112px;
-  left: 199px;
-  animation: 2.4s flicker -1.7s infinite;
-}
-.center .star-229 {
-  top: 132px;
-  left: 299px;
-  animation: 3.5s flicker -1.5s infinite;
-}
-.center .star-230 {
-  top: 208px;
-  left: 125px;
-  animation: 3.2s flicker -1.5s infinite;
-}
-.center .star-231 {
-  top: 114px;
-  left: 200px;
-  animation: 2.9s flicker -1.3s infinite;
-}
-.center .star-232 {
-  top: 219px;
-  left: 230px;
-  animation: 3.9s flicker -1.8s infinite;
-}
-.center .star-233 {
-  top: 149px;
-  left: 25px;
-  animation: 2.8s flicker -1.7s infinite;
-}
-.center .star-234 {
-  top: 147px;
-  left: 112px;
-  animation: 3.1s flicker -1.1s infinite;
-}
-.center .star-235 {
-  top: 286px;
-  left: 275px;
-  animation: 2.8s flicker -1.7s infinite;
-}
-.center .star-236 {
-  top: 100px;
-  left: 226px;
-  animation: 3.6s flicker -1.7s infinite;
-}
-.center .star-237 {
-  top: 259px;
-  left: 39px;
-  animation: 2.4s flicker -0.3s infinite;
-}
-.center .star-238 {
-  top: 130px;
-  left: 80px;
-  animation: 2.7s flicker -0.7s infinite;
-}
-.center .star-239 {
-  top: 23px;
-  left: 205px;
-  animation: 2.8s flicker -0.8s infinite;
-}
-.center .star-240 {
-  top: 141px;
-  left: 289px;
-  animation: 3.9s flicker -0.7s infinite;
-}
-.center .star-241 {
-  top: 205px;
-  left: 86px;
-  animation: 2.7s flicker -0.2s infinite;
-}
-.center .star-242 {
-  top: 51px;
-  left: 280px;
-  animation: 3.9s flicker -1.1s infinite;
-}
-.center .star-243 {
-  top: 90px;
-  left: 239px;
-  animation: 3.8s flicker -1.6s infinite;
-}
-.center .star-244 {
-  top: 81px;
-  left: 197px;
-  animation: 3.1s flicker -0.3s infinite;
-}
-.center .star-245 {
-  top: 277px;
+.center .star-2 {
+  top: 119px;
   left: 214px;
-  animation: 3.2s flicker -0.4s infinite;
+  animation: 2.9s flicker -1.2s infinite;
 }
-.center .star-246 {
-  top: 169px;
-  left: 66px;
-  animation: 3.4s flicker -1.7s infinite;
+.center .star-3 {
+  top: 193px;
+  left: 245px;
+  animation: 3.7s flicker -0.7s infinite;
 }
-.center .star-247 {
-  top: 45px;
-  left: 210px;
-  animation: 3.3s flicker -0.1s infinite;
+.center .star-4 {
+  top: 260px;
+  left: 136px;
+  animation: 2.2s flicker -1s infinite;
 }
-.center .star-248 {
-  top: 25px;
-  left: 69px;
-  animation: 3.9s flicker -1.6s infinite;
-}
-.center .star-249 {
-  top: 293px;
-  left: 286px;
-  animation: 3.6s flicker -1.4s infinite;
-}
-.center .star-250 {
-  top: 1px;
-  left: 270px;
-  animation: 3.4s flicker -1.6s infinite;
-}
-.center .star-251 {
-  top: 148px;
-  left: 63px;
-  animation: 4s flicker -0.3s infinite;
-}
-.center .star-252 {
-  top: 89px;
-  left: 46px;
-  animation: 3.8s flicker -2s infinite;
-}
-.center .star-253 {
-  top: 80px;
-  left: 131px;
-  animation: 3.7s flicker -1.1s infinite;
-}
-.center .star-254 {
-  top: 142px;
-  left: 90px;
-  animation: 3.3s flicker -1s infinite;
-}
-.center .star-255 {
-  top: 177px;
-  left: 178px;
-  animation: 2.4s flicker -0.2s infinite;
-}
-.center .star-256 {
-  top: 237px;
-  left: 44px;
-  animation: 3.8s flicker -0.3s infinite;
-}
-.center .star-257 {
-  top: 44px;
-  left: 210px;
-  animation: 2.8s flicker -1s infinite;
-}
-.center .star-258 {
-  top: 130px;
-  left: 223px;
-  animation: 3s flicker -0.4s infinite;
-}
-.center .star-259 {
-  top: 98px;
-  left: 37px;
-  animation: 3.4s flicker -0.9s infinite;
-}
-.center .star-260 {
-  top: 92px;
-  left: 152px;
-  animation: 2.9s flicker -1.8s infinite;
-}
-.center .star-261 {
-  top: 155px;
-  left: 239px;
-  animation: 2.9s flicker -1.6s infinite;
-}
-.center .star-262 {
-  top: 189px;
-  left: 2px;
-  animation: 2.4s flicker -1.7s infinite;
-}
-.center .star-263 {
-  top: 107px;
-  left: 137px;
-  animation: 2.9s flicker -0.2s infinite;
-}
-.center .star-264 {
-  top: 126px;
-  left: 247px;
-  animation: 3s flicker -1.2s infinite;
-}
-.center .star-265 {
-  top: 160px;
-  left: 54px;
-  animation: 3.8s flicker -1.5s infinite;
-}
-.center .star-266 {
-  top: 6px;
-  left: 26px;
-  animation: 3.9s flicker -1.7s infinite;
-}
-.center .star-267 {
-  top: 58px;
-  left: 146px;
-  animation: 2.4s flicker -1.9s infinite;
-}
-.center .star-268 {
-  top: 150px;
-  left: 99px;
-  animation: 2.3s flicker -0.1s infinite;
-}
-.center .star-269 {
-  top: 147px;
-  left: 292px;
-  animation: 3.7s flicker -0.5s infinite;
-}
-.center .star-270 {
-  top: 209px;
-  left: 271px;
-  animation: 3.1s flicker -1.5s infinite;
-}
-.center .star-271 {
-  top: 228px;
-  left: 275px;
-  animation: 2.1s flicker -1.5s infinite;
-}
-.center .star-272 {
-  top: 107px;
-  left: 129px;
-  animation: 2.5s flicker -1.1s infinite;
-}
-.center .star-273 {
-  top: 58px;
-  left: 38px;
-  animation: 2.3s flicker -1.2s infinite;
-}
-.center .star-274 {
-  top: 89px;
-  left: 182px;
+.center .star-5 {
+  top: 202px;
+  left: 193px;
   animation: 2.9s flicker -1s infinite;
 }
-.center .star-275 {
-  top: 224px;
-  left: 3px;
-  animation: 3.4s flicker -0.9s infinite;
+.center .star-6 {
+  top: 228px;
+  left: 246px;
+  animation: 2.5s flicker -1.9s infinite;
 }
-.center .star-276 {
-  top: 282px;
-  left: 82px;
-  animation: 3.4s flicker -1.7s infinite;
+.center .star-7 {
+  top: 19px;
+  left: 72px;
+  animation: 2.1s flicker -1.9s infinite;
 }
-.center .star-277 {
-  top: 216px;
-  left: 297px;
-  animation: 3.8s flicker -1.3s infinite;
+.center .star-8 {
+  top: 187px;
+  left: 19px;
+  animation: 4s flicker -0.9s infinite;
 }
-.center .star-278 {
+.center .star-9 {
+  top: 55px;
+  left: 262px;
+  animation: 2.9s flicker -0.6s infinite;
+}
+.center .star-10 {
+  top: 43px;
+  left: 157px;
+  animation: 3.2s flicker -0.9s infinite;
+}
+.center .star-11 {
   top: 255px;
-  left: 219px;
-  animation: 2.4s flicker -1.4s infinite;
+  left: 33px;
+  animation: 3.2s flicker -0.2s infinite;
 }
-.center .star-279 {
-  top: 251px;
-  left: 292px;
-  animation: 2.9s flicker -0.5s infinite;
+.center .star-12 {
+  top: 269px;
+  left: 246px;
+  animation: 3.3s flicker -0.7s infinite;
 }
-.center .star-280 {
-  top: 36px;
-  left: 290px;
-  animation: 3.1s flicker -0.6s infinite;
+.center .star-13 {
+  top: 134px;
+  left: 213px;
+  animation: 3.3s flicker -0.2s infinite;
 }
-.center .star-281 {
-  top: 243px;
-  left: 53px;
+.center .star-14 {
+  top: 57px;
+  left: 78px;
+  animation: 2.4s flicker -1s infinite;
+}
+.center .star-15 {
+  top: 20px;
+  left: 247px;
+  animation: 3.2s flicker -0.4s infinite;
+}
+.center .star-16 {
+  top: 96px;
+  left: 135px;
+  animation: 3.3s flicker -1.6s infinite;
+}
+.center .star-17 {
+  top: 160px;
+  left: 245px;
+  animation: 2.6s flicker -1.9s infinite;
+}
+.center .star-18 {
+  top: 65px;
+  left: 206px;
+  animation: 3.8s flicker -1.2s infinite;
+}
+.center .star-19 {
+  top: 105px;
+  left: 2px;
+  animation: 3.7s flicker -0.4s infinite;
+}
+.center .star-20 {
+  top: 21px;
+  left: 60px;
   animation: 3.3s flicker -2s infinite;
 }
-.center .star-282 {
-  top: 1px;
-  left: 145px;
-  animation: 2.5s flicker -0.6s infinite;
+.center .star-21 {
+  top: 146px;
+  left: 266px;
+  animation: 3.2s flicker -1.3s infinite;
 }
-.center .star-283 {
-  top: 196px;
-  left: 124px;
-  animation: 2.8s flicker -0.2s infinite;
+.center .star-22 {
+  top: 94px;
+  left: 109px;
+  animation: 3.8s flicker -1.5s infinite;
 }
-.center .star-284 {
-  top: 100px;
-  left: 155px;
-  animation: 3.9s flicker -2s infinite;
+.center .star-23 {
+  top: 272px;
+  left: 232px;
+  animation: 3.4s flicker -1.2s infinite;
 }
-.center .star-285 {
-  top: 138px;
-  left: 163px;
-  animation: 2.9s flicker -1.7s infinite;
+.center .star-24 {
+  top: 201px;
+  left: 165px;
+  animation: 3.5s flicker -1.9s infinite;
 }
-.center .star-286 {
-  top: 157px;
-  left: 44px;
-  animation: 2.7s flicker -0.3s infinite;
+.center .star-25 {
+  top: 219px;
+  left: 231px;
+  animation: 4s flicker -0.2s infinite;
 }
-.center .star-287 {
-  top: 104px;
-  left: 64px;
-  animation: 2.6s flicker -0.3s infinite;
+.center .star-26 {
+  top: 132px;
+  left: 272px;
+  animation: 3.8s flicker -0.7s infinite;
 }
-.center .star-288 {
-  top: 231px;
-  left: 205px;
-  animation: 3.8s flicker -0.2s infinite;
+.center .star-27 {
+  top: 47px;
+  left: 69px;
+  animation: 2.3s flicker -1.7s infinite;
 }
-.center .star-289 {
-  top: 187px;
-  left: 289px;
+.center .star-28 {
+  top: 146px;
+  left: 278px;
+  animation: 2.7s flicker -0.6s infinite;
+}
+.center .star-29 {
+  top: 245px;
+  left: 267px;
+  animation: 3.4s flicker -1.6s infinite;
+}
+.center .star-30 {
+  top: 126px;
+  left: 245px;
+  animation: 3.2s flicker -1.9s infinite;
+}
+.center .star-31 {
+  top: 294px;
+  left: 235px;
+  animation: 2.6s flicker -1.6s infinite;
+}
+.center .star-32 {
+  top: 279px;
+  left: 290px;
+  animation: 4s flicker -0.2s infinite;
+}
+.center .star-33 {
+  top: 177px;
+  left: 36px;
+  animation: 3.8s flicker -1.7s infinite;
+}
+.center .star-34 {
+  top: 131px;
+  left: 255px;
+  animation: 3.2s flicker -0.9s infinite;
+}
+.center .star-35 {
+  top: 11px;
+  left: 154px;
+  animation: 2.6s flicker -1.4s infinite;
+}
+.center .star-36 {
+  top: 262px;
+  left: 6px;
+  animation: 3.8s flicker -0.1s infinite;
+}
+.center .star-37 {
+  top: 298px;
+  left: 38px;
+  animation: 3.9s flicker -1.2s infinite;
+}
+.center .star-38 {
+  top: 244px;
+  left: 295px;
+  animation: 3.1s flicker -0.7s infinite;
+}
+.center .star-39 {
+  top: 116px;
+  left: 16px;
+  animation: 2.3s flicker -1.3s infinite;
+}
+.center .star-40 {
+  top: 277px;
+  left: 131px;
+  animation: 2.6s flicker -1.9s infinite;
+}
+.center .star-41 {
+  top: 68px;
+  left: 162px;
+  animation: 3.4s flicker -1.5s infinite;
+}
+.center .star-42 {
+  top: 78px;
+  left: 152px;
+  animation: 3s flicker -1.5s infinite;
+}
+.center .star-43 {
+  top: 141px;
+  left: 295px;
   animation: 2.8s flicker -2s infinite;
 }
-.center .star-290 {
-  top: 11px;
-  left: 101px;
-  animation: 3.9s flicker -1.7s infinite;
+.center .star-44 {
+  top: 189px;
+  left: 116px;
+  animation: 3s flicker -1.3s infinite;
 }
-.center .star-291 {
-  top: 54px;
+.center .star-45 {
+  top: 299px;
+  left: 179px;
+  animation: 2.1s flicker -1.9s infinite;
+}
+.center .star-46 {
+  top: 90px;
+  left: 76px;
+  animation: 3.1s flicker -0.4s infinite;
+}
+.center .star-47 {
+  top: 112px;
+  left: 48px;
+  animation: 2.2s flicker -1.5s infinite;
+}
+.center .star-48 {
+  top: 66px;
+  left: 274px;
+  animation: 2.2s flicker -0.2s infinite;
+}
+.center .star-49 {
+  top: 232px;
+  left: 188px;
+  animation: 2.6s flicker -1.1s infinite;
+}
+.center .star-50 {
+  top: 22px;
+  left: 221px;
+  animation: 2.4s flicker -0.1s infinite;
+}
+.center .star-51 {
+  top: 212px;
+  left: 281px;
+  animation: 3.6s flicker -0.6s infinite;
+}
+.center .star-52 {
+  top: 285px;
+  left: 225px;
+  animation: 3.6s flicker -0.6s infinite;
+}
+.center .star-53 {
+  top: 80px;
+  left: 122px;
+  animation: 2.3s flicker -0.4s infinite;
+}
+.center .star-54 {
+  top: 23px;
+  left: 162px;
+  animation: 3s flicker -1s infinite;
+}
+.center .star-55 {
+  top: 290px;
+  left: 25px;
+  animation: 3.5s flicker -1.4s infinite;
+}
+.center .star-56 {
+  top: 6px;
+  left: 22px;
+  animation: 3.1s flicker -1.6s infinite;
+}
+.center .star-57 {
+  top: 100px;
+  left: 185px;
+  animation: 2.4s flicker -1.7s infinite;
+}
+.center .star-58 {
+  top: 75px;
+  left: 50px;
+  animation: 2.6s flicker -0.2s infinite;
+}
+.center .star-59 {
+  top: 78px;
+  left: 298px;
+  animation: 2.5s flicker -0.7s infinite;
+}
+.center .star-60 {
+  top: 58px;
+  left: 44px;
+  animation: 3.8s flicker -1.1s infinite;
+}
+.center .star-61 {
+  top: 39px;
+  left: 208px;
+  animation: 2.8s flicker -0.8s infinite;
+}
+.center .star-62 {
+  top: 122px;
+  left: 299px;
+  animation: 3.1s flicker -0.2s infinite;
+}
+.center .star-63 {
+  top: 6px;
+  left: 180px;
+  animation: 3.6s flicker -0.3s infinite;
+}
+.center .star-64 {
+  top: 181px;
+  left: 229px;
+  animation: 3s flicker -0.2s infinite;
+}
+.center .star-65 {
+  top: 68px;
+  left: 224px;
+  animation: 2.5s flicker -0.9s infinite;
+}
+.center .star-66 {
+  top: 214px;
+  left: 2px;
+  animation: 3.4s flicker -0.6s infinite;
+}
+.center .star-67 {
+  top: 8px;
+  left: 185px;
+  animation: 3.2s flicker -1.8s infinite;
+}
+.center .star-68 {
+  top: 77px;
+  left: 120px;
+  animation: 3.7s flicker -0.4s infinite;
+}
+.center .star-69 {
+  top: 284px;
+  left: 107px;
+  animation: 3.2s flicker -2s infinite;
+}
+.center .star-70 {
+  top: 35px;
+  left: 35px;
+  animation: 2.4s flicker -1.7s infinite;
+}
+.center .star-71 {
+  top: 110px;
+  left: 9px;
+  animation: 2.6s flicker -1.5s infinite;
+}
+.center .star-72 {
+  top: 231px;
+  left: 6px;
+  animation: 2.5s flicker -0.9s infinite;
+}
+.center .star-73 {
+  top: 255px;
+  left: 42px;
+  animation: 2.4s flicker -0.1s infinite;
+}
+.center .star-74 {
+  top: 137px;
+  left: 274px;
+  animation: 2.8s flicker -0.9s infinite;
+}
+.center .star-75 {
+  top: 141px;
+  left: 253px;
+  animation: 2.9s flicker -1.4s infinite;
+}
+.center .star-76 {
+  top: 130px;
+  left: 61px;
+  animation: 3.1s flicker -2s infinite;
+}
+.center .star-77 {
+  top: 67px;
+  left: 285px;
+  animation: 2.1s flicker -0.7s infinite;
+}
+.center .star-78 {
+  top: 205px;
+  left: 278px;
+  animation: 4s flicker -1.2s infinite;
+}
+.center .star-79 {
+  top: 198px;
+  left: 298px;
+  animation: 2.1s flicker -0.4s infinite;
+}
+.center .star-80 {
+  top: 59px;
+  left: 275px;
+  animation: 3s flicker -1.4s infinite;
+}
+.center .star-81 {
+  top: 279px;
+  left: 3px;
+  animation: 3.8s flicker -1.4s infinite;
+}
+.center .star-82 {
+  top: 74px;
+  left: 2px;
+  animation: 4s flicker -1.2s infinite;
+}
+.center .star-83 {
+  top: 214px;
+  left: 59px;
+  animation: 2.7s flicker -0.9s infinite;
+}
+.center .star-84 {
+  top: 60px;
+  left: 218px;
+  animation: 2.4s flicker -1s infinite;
+}
+.center .star-85 {
+  top: 295px;
+  left: 245px;
+  animation: 3.9s flicker -0.7s infinite;
+}
+.center .star-86 {
+  top: 131px;
+  left: 162px;
+  animation: 4s flicker -1.9s infinite;
+}
+.center .star-87 {
+  top: 190px;
+  left: 190px;
+  animation: 4s flicker -0.8s infinite;
+}
+.center .star-88 {
+  top: 59px;
+  left: 163px;
+  animation: 2.9s flicker -1.2s infinite;
+}
+.center .star-89 {
+  top: 32px;
+  left: 184px;
+  animation: 3.5s flicker -1s infinite;
+}
+.center .star-90 {
+  top: 229px;
+  left: 100px;
+  animation: 2.5s flicker -0.9s infinite;
+}
+.center .star-91 {
+  top: 63px;
+  left: 74px;
+  animation: 2.2s flicker -1s infinite;
+}
+.center .star-92 {
+  top: 291px;
+  left: 168px;
+  animation: 2.2s flicker -1.3s infinite;
+}
+.center .star-93 {
+  top: 275px;
+  left: 68px;
+  animation: 3s flicker -1.5s infinite;
+}
+.center .star-94 {
+  top: 117px;
+  left: 248px;
+  animation: 3.1s flicker -1.6s infinite;
+}
+.center .star-95 {
+  top: 121px;
+  left: 35px;
+  animation: 2.2s flicker -1.7s infinite;
+}
+.center .star-96 {
+  top: 291px;
+  left: 207px;
+  animation: 3.4s flicker -1s infinite;
+}
+.center .star-97 {
+  top: 207px;
+  left: 55px;
+  animation: 4s flicker -0.1s infinite;
+}
+.center .star-98 {
+  top: 272px;
+  left: 17px;
+  animation: 3s flicker -0.4s infinite;
+}
+.center .star-99 {
+  top: 297px;
+  left: 213px;
+  animation: 2.1s flicker -0.9s infinite;
+}
+.center .star-100 {
+  top: 38px;
+  left: 77px;
+  animation: 2.3s flicker -1.7s infinite;
+}
+.center .star-101 {
+  top: 134px;
+  left: 223px;
+  animation: 3.6s flicker -0.1s infinite;
+}
+.center .star-102 {
+  top: 67px;
+  left: 206px;
+  animation: 2.2s flicker -1.1s infinite;
+}
+.center .star-103 {
+  top: 95px;
+  left: 144px;
+  animation: 3.4s flicker -1.9s infinite;
+}
+.center .star-104 {
+  top: 117px;
+  left: 2px;
+  animation: 4s flicker -0.5s infinite;
+}
+.center .star-105 {
+  top: 132px;
+  left: 244px;
+  animation: 2.3s flicker -1.1s infinite;
+}
+.center .star-106 {
+  top: 143px;
+  left: 156px;
+  animation: 3.3s flicker -0.2s infinite;
+}
+.center .star-107 {
+  top: 64px;
+  left: 83px;
+  animation: 2.4s flicker -1.5s infinite;
+}
+.center .star-108 {
+  top: 154px;
+  left: 60px;
+  animation: 3.2s flicker -0.8s infinite;
+}
+.center .star-109 {
+  top: 3px;
+  left: 14px;
+  animation: 2.3s flicker -0.9s infinite;
+}
+.center .star-110 {
+  top: 220px;
+  left: 68px;
+  animation: 3.4s flicker -1.8s infinite;
+}
+.center .star-111 {
+  top: 181px;
+  left: 106px;
+  animation: 2.3s flicker -1.1s infinite;
+}
+.center .star-112 {
+  top: 1px;
+  left: 232px;
+  animation: 2.1s flicker -1.2s infinite;
+}
+.center .star-113 {
+  top: 31px;
+  left: 152px;
+  animation: 2.9s flicker -1.3s infinite;
+}
+.center .star-114 {
+  top: 81px;
+  left: 62px;
+  animation: 3.7s flicker -0.3s infinite;
+}
+.center .star-115 {
+  top: 160px;
+  left: 70px;
+  animation: 3s flicker -1.5s infinite;
+}
+.center .star-116 {
+  top: 279px;
+  left: 43px;
+  animation: 2.6s flicker -1.7s infinite;
+}
+.center .star-117 {
+  top: 126px;
+  left: 155px;
+  animation: 3.9s flicker -1.9s infinite;
+}
+.center .star-118 {
+  top: 243px;
+  left: 288px;
+  animation: 2.3s flicker -1.5s infinite;
+}
+.center .star-119 {
+  top: 14px;
+  left: 60px;
+  animation: 3.6s flicker -1s infinite;
+}
+.center .star-120 {
+  top: 195px;
+  left: 262px;
+  animation: 4s flicker -1.7s infinite;
+}
+.center .star-121 {
+  top: 243px;
+  left: 139px;
+  animation: 2.8s flicker -1.3s infinite;
+}
+.center .star-122 {
+  top: 287px;
+  left: 5px;
+  animation: 3.3s flicker -1.9s infinite;
+}
+.center .star-123 {
+  top: 58px;
+  left: 85px;
+  animation: 3.8s flicker -1.4s infinite;
+}
+.center .star-124 {
+  top: 129px;
+  left: 52px;
+  animation: 2.5s flicker -0.3s infinite;
+}
+.center .star-125 {
+  top: 243px;
+  left: 64px;
+  animation: 2.9s flicker -1s infinite;
+}
+.center .star-126 {
+  top: 88px;
+  left: 47px;
+  animation: 3.5s flicker -1.1s infinite;
+}
+.center .star-127 {
+  top: 15px;
+  left: 165px;
+  animation: 2.1s flicker -1.8s infinite;
+}
+.center .star-128 {
+  top: 150px;
+  left: 54px;
+  animation: 4s flicker -0.8s infinite;
+}
+.center .star-129 {
+  top: 130px;
+  left: 290px;
+  animation: 2.4s flicker -1.5s infinite;
+}
+.center .star-130 {
+  top: 261px;
+  left: 132px;
+  animation: 2.3s flicker -1.5s infinite;
+}
+.center .star-131 {
+  top: 66px;
+  left: 218px;
+  animation: 3.8s flicker -0.1s infinite;
+}
+.center .star-132 {
+  top: 197px;
+  left: 163px;
+  animation: 3.2s flicker -0.7s infinite;
+}
+.center .star-133 {
+  top: 292px;
+  left: 21px;
+  animation: 2.7s flicker -0.2s infinite;
+}
+.center .star-134 {
+  top: 270px;
+  left: 210px;
+  animation: 3.7s flicker -1s infinite;
+}
+.center .star-135 {
+  top: 198px;
+  left: 209px;
+  animation: 3.9s flicker -1.3s infinite;
+}
+.center .star-136 {
+  top: 227px;
+  left: 16px;
+  animation: 2.2s flicker -0.1s infinite;
+}
+.center .star-137 {
+  top: 75px;
+  left: 98px;
+  animation: 2.5s flicker -0.7s infinite;
+}
+.center .star-138 {
+  top: 221px;
+  left: 56px;
+  animation: 2.5s flicker -1.4s infinite;
+}
+.center .star-139 {
+  top: 158px;
+  left: 135px;
+  animation: 3.1s flicker -1.5s infinite;
+}
+.center .star-140 {
+  top: 57px;
+  left: 141px;
+  animation: 3.6s flicker -1.6s infinite;
+}
+.center .star-141 {
+  top: 53px;
+  left: 298px;
+  animation: 2.8s flicker -1.4s infinite;
+}
+.center .star-142 {
+  top: 5px;
+  left: 281px;
+  animation: 2.2s flicker -0.6s infinite;
+}
+.center .star-143 {
+  top: 80px;
+  left: 50px;
+  animation: 2.5s flicker -1.9s infinite;
+}
+.center .star-144 {
+  top: 104px;
+  left: 170px;
+  animation: 2.5s flicker -0.1s infinite;
+}
+.center .star-145 {
+  top: 233px;
+  left: 24px;
+  animation: 3.5s flicker -0.5s infinite;
+}
+.center .star-146 {
+  top: 68px;
+  left: 61px;
+  animation: 3s flicker -0.9s infinite;
+}
+.center .star-147 {
+  top: 265px;
+  left: 154px;
+  animation: 2.4s flicker -0.4s infinite;
+}
+.center .star-148 {
+  top: 272px;
+  left: 183px;
+  animation: 3s flicker -0.9s infinite;
+}
+.center .star-149 {
+  top: 207px;
+  left: 187px;
+  animation: 4s flicker -1.7s infinite;
+}
+.center .star-150 {
+  top: 36px;
+  left: 52px;
+  animation: 2.3s flicker -2s infinite;
+}
+.center .star-151 {
+  top: 83px;
+  left: 22px;
+  animation: 3.4s flicker -0.4s infinite;
+}
+.center .star-152 {
+  top: 65px;
+  left: 78px;
+  animation: 2.3s flicker -0.8s infinite;
+}
+.center .star-153 {
+  top: 29px;
+  left: 7px;
+  animation: 3.5s flicker -0.5s infinite;
+}
+.center .star-154 {
+  top: 98px;
+  left: 177px;
+  animation: 3.4s flicker -1.8s infinite;
+}
+.center .star-155 {
+  top: 42px;
+  left: 71px;
+  animation: 3s flicker -0.1s infinite;
+}
+.center .star-156 {
+  top: 64px;
+  left: 16px;
+  animation: 2.4s flicker -0.4s infinite;
+}
+.center .star-157 {
+  top: 281px;
+  left: 111px;
+  animation: 3.9s flicker -1.4s infinite;
+}
+.center .star-158 {
+  top: 141px;
+  left: 156px;
+  animation: 2.1s flicker -1.5s infinite;
+}
+.center .star-159 {
+  top: 114px;
+  left: 118px;
+  animation: 3.8s flicker -1.5s infinite;
+}
+.center .star-160 {
+  top: 237px;
+  left: 114px;
+  animation: 3.5s flicker -1.7s infinite;
+}
+.center .star-161 {
+  top: 95px;
+  left: 270px;
+  animation: 3s flicker -1s infinite;
+}
+.center .star-162 {
+  top: 19px;
+  left: 120px;
+  animation: 3.9s flicker -1.5s infinite;
+}
+.center .star-163 {
+  top: 189px;
+  left: 244px;
+  animation: 3.9s flicker -0.6s infinite;
+}
+.center .star-164 {
+  top: 48px;
+  left: 141px;
+  animation: 3.3s flicker -1.4s infinite;
+}
+.center .star-165 {
+  top: 73px;
+  left: 167px;
+  animation: 2.6s flicker -1.6s infinite;
+}
+.center .star-166 {
+  top: 68px;
+  left: 78px;
+  animation: 3.5s flicker -1.5s infinite;
+}
+.center .star-167 {
+  top: 248px;
+  left: 213px;
+  animation: 3.3s flicker -1.4s infinite;
+}
+.center .star-168 {
+  top: 161px;
+  left: 3px;
+  animation: 2.8s flicker -0.7s infinite;
+}
+.center .star-169 {
+  top: 114px;
+  left: 186px;
+  animation: 2.4s flicker -1.3s infinite;
+}
+.center .star-170 {
+  top: 162px;
+  left: 87px;
+  animation: 2.3s flicker -0.9s infinite;
+}
+.center .star-171 {
+  top: 184px;
+  left: 53px;
+  animation: 3.1s flicker -0.6s infinite;
+}
+.center .star-172 {
+  top: 246px;
+  left: 249px;
+  animation: 2.4s flicker -1.7s infinite;
+}
+.center .star-173 {
+  top: 229px;
+  left: 155px;
+  animation: 2.4s flicker -0.3s infinite;
+}
+.center .star-174 {
+  top: 118px;
   left: 159px;
+  animation: 3.9s flicker -1.1s infinite;
+}
+.center .star-175 {
+  top: 150px;
+  left: 47px;
+  animation: 3.9s flicker -0.8s infinite;
+}
+.center .star-176 {
+  top: 69px;
+  left: 77px;
+  animation: 3.1s flicker -1.4s infinite;
+}
+.center .star-177 {
+  top: 202px;
+  left: 175px;
+  animation: 3.5s flicker -1.7s infinite;
+}
+.center .star-178 {
+  top: 262px;
+  left: 62px;
+  animation: 3.2s flicker -1.9s infinite;
+}
+.center .star-179 {
+  top: 201px;
+  left: 124px;
+  animation: 4s flicker -1.8s infinite;
+}
+.center .star-180 {
+  top: 240px;
+  left: 113px;
+  animation: 3.8s flicker -0.3s infinite;
+}
+.center .star-181 {
+  top: 50px;
+  left: 167px;
   animation: 2.8s flicker -0.3s infinite;
 }
+.center .star-182 {
+  top: 102px;
+  left: 114px;
+  animation: 2.1s flicker -0.3s infinite;
+}
+.center .star-183 {
+  top: 174px;
+  left: 77px;
+  animation: 3.1s flicker -0.4s infinite;
+}
+.center .star-184 {
+  top: 7px;
+  left: 15px;
+  animation: 2.9s flicker -0.8s infinite;
+}
+.center .star-185 {
+  top: 24px;
+  left: 95px;
+  animation: 3.4s flicker -0.1s infinite;
+}
+.center .star-186 {
+  top: 123px;
+  left: 57px;
+  animation: 2.2s flicker -1.7s infinite;
+}
+.center .star-187 {
+  top: 220px;
+  left: 100px;
+  animation: 2.7s flicker -1.9s infinite;
+}
+.center .star-188 {
+  top: 75px;
+  left: 71px;
+  animation: 2.5s flicker -0.6s infinite;
+}
+.center .star-189 {
+  top: 224px;
+  left: 124px;
+  animation: 3.2s flicker -0.7s infinite;
+}
+.center .star-190 {
+  top: 241px;
+  left: 31px;
+  animation: 3.6s flicker -1.3s infinite;
+}
+.center .star-191 {
+  top: 105px;
+  left: 49px;
+  animation: 2.9s flicker -1s infinite;
+}
+.center .star-192 {
+  top: 51px;
+  left: 190px;
+  animation: 3.9s flicker -2s infinite;
+}
+.center .star-193 {
+  top: 110px;
+  left: 124px;
+  animation: 3.7s flicker -0.6s infinite;
+}
+.center .star-194 {
+  top: 295px;
+  left: 16px;
+  animation: 3.9s flicker -1.1s infinite;
+}
+.center .star-195 {
+  top: 253px;
+  left: 221px;
+  animation: 3.9s flicker -0.9s infinite;
+}
+.center .star-196 {
+  top: 162px;
+  left: 95px;
+  animation: 3.7s flicker -1.5s infinite;
+}
+.center .star-197 {
+  top: 107px;
+  left: 32px;
+  animation: 3.3s flicker -1.3s infinite;
+}
+.center .star-198 {
+  top: 295px;
+  left: 119px;
+  animation: 2.2s flicker -1.9s infinite;
+}
+.center .star-199 {
+  top: 196px;
+  left: 131px;
+  animation: 3.1s flicker -0.8s infinite;
+}
+.center .star-200 {
+  top: 192px;
+  left: 160px;
+  animation: 2.9s flicker -0.3s infinite;
+}
+.center .star-201 {
+  top: 284px;
+  left: 288px;
+  animation: 3.4s flicker -0.1s infinite;
+}
+.center .star-202 {
+  top: 51px;
+  left: 223px;
+  animation: 3.2s flicker -0.2s infinite;
+}
+.center .star-203 {
+  top: 83px;
+  left: 10px;
+  animation: 2.9s flicker -0.4s infinite;
+}
+.center .star-204 {
+  top: 3px;
+  left: 242px;
+  animation: 2.6s flicker -1s infinite;
+}
+.center .star-205 {
+  top: 11px;
+  left: 195px;
+  animation: 2.1s flicker -0.6s infinite;
+}
+.center .star-206 {
+  top: 30px;
+  left: 180px;
+  animation: 2.1s flicker -1.6s infinite;
+}
+.center .star-207 {
+  top: 161px;
+  left: 69px;
+  animation: 3.3s flicker -0.8s infinite;
+}
+.center .star-208 {
+  top: 207px;
+  left: 85px;
+  animation: 2.1s flicker -0.8s infinite;
+}
+.center .star-209 {
+  top: 185px;
+  left: 300px;
+  animation: 2.7s flicker -1s infinite;
+}
+.center .star-210 {
+  top: 181px;
+  left: 231px;
+  animation: 3.3s flicker -0.9s infinite;
+}
+.center .star-211 {
+  top: 65px;
+  left: 258px;
+  animation: 2.3s flicker -0.3s infinite;
+}
+.center .star-212 {
+  top: 114px;
+  left: 178px;
+  animation: 3.8s flicker -1.2s infinite;
+}
+.center .star-213 {
+  top: 36px;
+  left: 177px;
+  animation: 3.2s flicker -0.8s infinite;
+}
+.center .star-214 {
+  top: 185px;
+  left: 158px;
+  animation: 2.8s flicker -1.5s infinite;
+}
+.center .star-215 {
+  top: 184px;
+  left: 81px;
+  animation: 2.9s flicker -0.8s infinite;
+}
+.center .star-216 {
+  top: 39px;
+  left: 70px;
+  animation: 3.3s flicker -1.1s infinite;
+}
+.center .star-217 {
+  top: 251px;
+  left: 89px;
+  animation: 2.6s flicker -1.2s infinite;
+}
+.center .star-218 {
+  top: 97px;
+  left: 218px;
+  animation: 3s flicker -1s infinite;
+}
+.center .star-219 {
+  top: 216px;
+  left: 244px;
+  animation: 3.7s flicker -1.5s infinite;
+}
+.center .star-220 {
+  top: 191px;
+  left: 14px;
+  animation: 3.2s flicker -0.1s infinite;
+}
+.center .star-221 {
+  top: 291px;
+  left: 215px;
+  animation: 3.5s flicker -1.3s infinite;
+}
+.center .star-222 {
+  top: 29px;
+  left: 95px;
+  animation: 3.1s flicker -1.9s infinite;
+}
+.center .star-223 {
+  top: 257px;
+  left: 122px;
+  animation: 3s flicker -0.4s infinite;
+}
+.center .star-224 {
+  top: 135px;
+  left: 151px;
+  animation: 3.4s flicker -0.1s infinite;
+}
+.center .star-225 {
+  top: 84px;
+  left: 51px;
+  animation: 3.8s flicker -0.6s infinite;
+}
+.center .star-226 {
+  top: 20px;
+  left: 55px;
+  animation: 4s flicker -1.7s infinite;
+}
+.center .star-227 {
+  top: 117px;
+  left: 60px;
+  animation: 2.9s flicker -1.9s infinite;
+}
+.center .star-228 {
+  top: 219px;
+  left: 114px;
+  animation: 3.1s flicker -0.6s infinite;
+}
+.center .star-229 {
+  top: 172px;
+  left: 71px;
+  animation: 2.9s flicker -0.7s infinite;
+}
+.center .star-230 {
+  top: 282px;
+  left: 175px;
+  animation: 3.9s flicker -1.2s infinite;
+}
+.center .star-231 {
+  top: 104px;
+  left: 285px;
+  animation: 2.1s flicker -0.2s infinite;
+}
+.center .star-232 {
+  top: 94px;
+  left: 222px;
+  animation: 2.4s flicker -0.8s infinite;
+}
+.center .star-233 {
+  top: 22px;
+  left: 17px;
+  animation: 3.5s flicker -1.7s infinite;
+}
+.center .star-234 {
+  top: 269px;
+  left: 229px;
+  animation: 2.7s flicker -0.9s infinite;
+}
+.center .star-235 {
+  top: 118px;
+  left: 254px;
+  animation: 3.9s flicker -0.6s infinite;
+}
+.center .star-236 {
+  top: 221px;
+  left: 92px;
+  animation: 2.5s flicker -0.6s infinite;
+}
+.center .star-237 {
+  top: 240px;
+  left: 224px;
+  animation: 3.8s flicker -0.7s infinite;
+}
+.center .star-238 {
+  top: 288px;
+  left: 273px;
+  animation: 2.1s flicker -0.4s infinite;
+}
+.center .star-239 {
+  top: 11px;
+  left: 183px;
+  animation: 3.3s flicker -1.6s infinite;
+}
+.center .star-240 {
+  top: 278px;
+  left: 125px;
+  animation: 3.8s flicker -1.1s infinite;
+}
+.center .star-241 {
+  top: 250px;
+  left: 236px;
+  animation: 2.9s flicker -0.8s infinite;
+}
+.center .star-242 {
+  top: 76px;
+  left: 225px;
+  animation: 2.4s flicker -0.8s infinite;
+}
+.center .star-243 {
+  top: 246px;
+  left: 135px;
+  animation: 2.7s flicker -0.9s infinite;
+}
+.center .star-244 {
+  top: 58px;
+  left: 210px;
+  animation: 2.6s flicker -1.6s infinite;
+}
+.center .star-245 {
+  top: 163px;
+  left: 24px;
+  animation: 3.2s flicker -1s infinite;
+}
+.center .star-246 {
+  top: 180px;
+  left: 210px;
+  animation: 3.5s flicker -0.3s infinite;
+}
+.center .star-247 {
+  top: 171px;
+  left: 75px;
+  animation: 2.7s flicker -1.8s infinite;
+}
+.center .star-248 {
+  top: 186px;
+  left: 81px;
+  animation: 3.3s flicker -1.1s infinite;
+}
+.center .star-249 {
+  top: 252px;
+  left: 64px;
+  animation: 2.4s flicker -0.3s infinite;
+}
+.center .star-250 {
+  top: 133px;
+  left: 257px;
+  animation: 3.2s flicker -1s infinite;
+}
+.center .star-251 {
+  top: 291px;
+  left: 55px;
+  animation: 3.2s flicker -1.7s infinite;
+}
+.center .star-252 {
+  top: 124px;
+  left: 169px;
+  animation: 3.7s flicker -0.4s infinite;
+}
+.center .star-253 {
+  top: 275px;
+  left: 285px;
+  animation: 2.4s flicker -0.1s infinite;
+}
+.center .star-254 {
+  top: 182px;
+  left: 246px;
+  animation: 4s flicker -1.4s infinite;
+}
+.center .star-255 {
+  top: 184px;
+  left: 61px;
+  animation: 2.1s flicker -0.9s infinite;
+}
+.center .star-256 {
+  top: 232px;
+  left: 149px;
+  animation: 2.6s flicker -0.5s infinite;
+}
+.center .star-257 {
+  top: 41px;
+  left: 100px;
+  animation: 3.1s flicker -1.5s infinite;
+}
+.center .star-258 {
+  top: 267px;
+  left: 208px;
+  animation: 3.9s flicker -1.8s infinite;
+}
+.center .star-259 {
+  top: 236px;
+  left: 80px;
+  animation: 2.5s flicker -1.7s infinite;
+}
+.center .star-260 {
+  top: 281px;
+  left: 288px;
+  animation: 2.7s flicker -0.8s infinite;
+}
+.center .star-261 {
+  top: 175px;
+  left: 133px;
+  animation: 2.1s flicker -1.1s infinite;
+}
+.center .star-262 {
+  top: 99px;
+  left: 298px;
+  animation: 3.1s flicker -1s infinite;
+}
+.center .star-263 {
+  top: 1px;
+  left: 97px;
+  animation: 3.2s flicker -1.2s infinite;
+}
+.center .star-264 {
+  top: 8px;
+  left: 158px;
+  animation: 3.4s flicker -0.1s infinite;
+}
+.center .star-265 {
+  top: 174px;
+  left: 106px;
+  animation: 2.7s flicker -1.2s infinite;
+}
+.center .star-266 {
+  top: 182px;
+  left: 66px;
+  animation: 3.9s flicker -1.1s infinite;
+}
+.center .star-267 {
+  top: 253px;
+  left: 59px;
+  animation: 2.8s flicker -1.3s infinite;
+}
+.center .star-268 {
+  top: 81px;
+  left: 124px;
+  animation: 2.4s flicker -0.3s infinite;
+}
+.center .star-269 {
+  top: 96px;
+  left: 267px;
+  animation: 2.1s flicker -0.3s infinite;
+}
+.center .star-270 {
+  top: 180px;
+  left: 61px;
+  animation: 3.7s flicker -1.2s infinite;
+}
+.center .star-271 {
+  top: 63px;
+  left: 178px;
+  animation: 2.8s flicker -1.1s infinite;
+}
+.center .star-272 {
+  top: 86px;
+  left: 201px;
+  animation: 3.9s flicker -1.2s infinite;
+}
+.center .star-273 {
+  top: 11px;
+  left: 203px;
+  animation: 2.7s flicker -1.3s infinite;
+}
+.center .star-274 {
+  top: 264px;
+  left: 210px;
+  animation: 2.4s flicker -0.4s infinite;
+}
+.center .star-275 {
+  top: 46px;
+  left: 212px;
+  animation: 3.4s flicker -0.7s infinite;
+}
+.center .star-276 {
+  top: 190px;
+  left: 38px;
+  animation: 3.8s flicker -0.8s infinite;
+}
+.center .star-277 {
+  top: 199px;
+  left: 210px;
+  animation: 2.6s flicker -1.3s infinite;
+}
+.center .star-278 {
+  top: 189px;
+  left: 255px;
+  animation: 3.4s flicker -1.4s infinite;
+}
+.center .star-279 {
+  top: 187px;
+  left: 128px;
+  animation: 3.6s flicker -1.6s infinite;
+}
+.center .star-280 {
+  top: 151px;
+  left: 266px;
+  animation: 2.1s flicker -1.5s infinite;
+}
+.center .star-281 {
+  top: 140px;
+  left: 129px;
+  animation: 2.5s flicker -1.2s infinite;
+}
+.center .star-282 {
+  top: 105px;
+  left: 251px;
+  animation: 3.2s flicker -0.5s infinite;
+}
+.center .star-283 {
+  top: 87px;
+  left: 55px;
+  animation: 3.4s flicker -1.7s infinite;
+}
+.center .star-284 {
+  top: 294px;
+  left: 270px;
+  animation: 2.3s flicker -1.7s infinite;
+}
+.center .star-285 {
+  top: 140px;
+  left: 265px;
+  animation: 2.5s flicker -0.8s infinite;
+}
+.center .star-286 {
+  top: 8px;
+  left: 32px;
+  animation: 2.8s flicker -1.5s infinite;
+}
+.center .star-287 {
+  top: 193px;
+  left: 295px;
+  animation: 3.3s flicker -0.6s infinite;
+}
+.center .star-288 {
+  top: 88px;
+  left: 70px;
+  animation: 2.4s flicker -1.3s infinite;
+}
+.center .star-289 {
+  top: 162px;
+  left: 189px;
+  animation: 3.9s flicker -0.6s infinite;
+}
+.center .star-290 {
+  top: 25px;
+  left: 96px;
+  animation: 2.6s flicker -0.4s infinite;
+}
+.center .star-291 {
+  top: 43px;
+  left: 196px;
+  animation: 3.5s flicker -1s infinite;
+}
 .center .star-292 {
-  top: 141px;
-  left: 249px;
-  animation: 2.7s flicker -0.5s infinite;
+  top: 46px;
+  left: 140px;
+  animation: 3.7s flicker -0.5s infinite;
 }
 .center .star-293 {
-  top: 3px;
-  left: 129px;
-  animation: 2.5s flicker -1.1s infinite;
+  top: 145px;
+  left: 219px;
+  animation: 3.2s flicker -1.4s infinite;
 }
 .center .star-294 {
-  top: 50px;
-  left: 47px;
-  animation: 3.4s flicker -0.9s infinite;
+  top: 202px;
+  left: 296px;
+  animation: 2.2s flicker -0.2s infinite;
 }
 .center .star-295 {
-  top: 221px;
-  left: 145px;
-  animation: 3.9s flicker -1.7s infinite;
+  top: 138px;
+  left: 4px;
+  animation: 3.3s flicker -0.1s infinite;
 }
 .center .star-296 {
-  top: 278px;
-  left: 35px;
-  animation: 2.5s flicker -1.8s infinite;
+  top: 190px;
+  left: 200px;
+  animation: 2.2s flicker -0.9s infinite;
 }
 .center .star-297 {
-  top: 299px;
-  left: 266px;
-  animation: 3.8s flicker -1.6s infinite;
+  top: 45px;
+  left: 85px;
+  animation: 2.6s flicker -0.2s infinite;
 }
 .center .star-298 {
-  top: 86px;
-  left: 22px;
-  animation: 2.6s flicker -0.3s infinite;
+  top: 189px;
+  left: 280px;
+  animation: 2.2s flicker -0.5s infinite;
 }
 .center .star-299 {
-  top: 243px;
-  left: 28px;
-  animation: 2.6s flicker -2s infinite;
+  top: 272px;
+  left: 276px;
+  animation: 2.3s flicker -1.4s infinite;
 }
 .center .star-300 {
-  top: 29px;
-  left: 157px;
-  animation: 4s flicker -0.7s infinite;
+  top: 74px;
+  left: 293px;
+  animation: 3.1s flicker -0.9s infinite;
 }
 .center .shooting-star {
   position: absolute;
@@ -1538,34 +1538,34 @@
   clip-path: polygon(50% 0, 100% 100%, 0 100%);
 }
 .center .shooting-star-1 {
-  top: -8px;
-  left: -59px;
-  animation: 3s shooting-star 10.8s infinite;
+  top: -1px;
+  left: -23px;
+  animation: 2s shooting-star 7.2s infinite;
 }
 .center .shooting-star-2 {
-  top: -19px;
-  left: -71px;
-  animation: 4s shooting-star 49.6s infinite;
+  top: -55px;
+  left: -11px;
+  animation: 4s shooting-star 55.6s infinite;
 }
 .center .shooting-star-3 {
-  top: -13px;
-  left: -80px;
-  animation: 5s shooting-star 52.9s infinite;
+  top: -2px;
+  left: -70px;
+  animation: 7s shooting-star 30.8s infinite;
 }
 .center .shooting-star-4 {
-  top: -36px;
-  left: -23px;
-  animation: 3s shooting-star 50.3s infinite;
+  top: -25px;
+  left: -5px;
+  animation: 7s shooting-star 39.2s infinite;
 }
 .center .shooting-star-5 {
-  top: -56px;
-  left: -73px;
-  animation: 3s shooting-star 5.3s infinite;
+  top: -25px;
+  left: -41px;
+  animation: 5s shooting-star 31.9s infinite;
 }
 .center .shooting-star-6 {
-  top: -39px;
-  left: -41px;
-  animation: 5s shooting-star 16.1s infinite;
+  top: -5px;
+  left: -79px;
+  animation: 3s shooting-star 51.7s infinite;
 }
 
 @keyframes flicker {
